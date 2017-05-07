@@ -1,0 +1,1 @@
+<plugins><plugin name="com.xbox.sdk.UCUser" type="1" /><plugin name="com.xbox.sdk.UCPay" type="2" /><plugin name="com.xbox.sdk.UCAnalytics" type="3" /></plugins>

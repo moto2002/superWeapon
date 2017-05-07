@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" itemId="1" name="指挥官天赋" des="增加属性" level="1" commandlevel="1" costItems="" targetType="1" targetId="1" propertyID1="" powerType1="" power1="" propertyID2="" powerType2="" power2="" propertyID3="" powerType3="" power3="" icon="" />
+	<configure id="2" itemId="1" name="指挥官天赋" des="增加属性" level="2" commandlevel="2" costItems="1:10,2:10" targetType="1" targetId="1" propertyID1="" powerType1="" power1="" propertyID2="" powerType2="" power2="" propertyID3="" powerType3="" power3="" icon="" />
+	<configure id="3" itemId="1" name="指挥官天赋" des="增加属性" level="3" commandlevel="3" costItems="1:10,2:11" targetType="1" targetId="1" propertyID1="" powerType1="" power1="" propertyID2="" powerType2="" power2="" propertyID3="" powerType3="" power3="" icon="" />
+	<configure id="4" itemId="1" name="指挥官天赋" des="增加属性" level="4" commandlevel="4" costItems="1:10,2:12" targetType="1" targetId="1" propertyID1="" powerType1="" power1="" propertyID2="" powerType2="" power2="" propertyID3="" powerType3="" power3="" icon="" />
+	<configure id="5" itemId="1" name="指挥官天赋" des="增加属性" level="5" commandlevel="5" costItems="1:10,2:13" targetType="1" targetId="1" propertyID1="" powerType1="" power1="" propertyID2="" powerType2="" power2="" propertyID3="" powerType3="" power3="" icon="" />
+	<configure id="6" itemId="2" name="指挥官天赋" des="增加属性" level="1" commandlevel="1" costItems="1:10,2:14" targetType="1" targetId="1" propertyID1="" powerType1="" power1="" propertyID2="" powerType2="" power2="" propertyID3="" powerType3="" power3="" icon="" />
+	<configure id="7" itemId="2" name="指挥官天赋" des="增加属性" level="2" commandlevel="2" costItems="1:10,2:15" targetType="1" targetId="1" propertyID1="" powerType1="" power1="" propertyID2="" powerType2="" power2="" propertyID3="" powerType3="" power3="" icon="" />
+	<configure id="8" itemId="2" name="指挥官天赋" des="增加属性" level="3" commandlevel="3" costItems="1:10,2:16" targetType="1" targetId="1" propertyID1="" powerType1="" power1="" propertyID2="" powerType2="" power2="" propertyID3="" powerType3="" power3="" icon="" />
+	<configure id="9" itemId="2" name="指挥官天赋" des="增加属性" level="4" commandlevel="4" costItems="1:10,2:17" targetType="1" targetId="1" propertyID1="" powerType1="" power1="" propertyID2="" powerType2="" power2="" propertyID3="" powerType3="" power3="" icon="" />
+	<configure id="10" itemId="2" name="指挥官天赋" des="增加属性" level="5" commandlevel="5" costItems="1:10,2:18" targetType="1" targetId="1" propertyID1="" powerType1="" power1="" propertyID2="" powerType2="" power2="" propertyID3="" powerType3="" power3="" icon="" />
+</configures>

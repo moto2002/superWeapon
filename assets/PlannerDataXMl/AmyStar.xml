@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" level="1" num="5" needExp="50" />
+	<configure id="2" level="2" num="15" needExp="150" />
+	<configure id="3" level="3" num="30" needExp="300" />
+</configures>

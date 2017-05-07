@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" name="" description="" resType="1" resource="100000" money="24" />
+	<configure id="2" name="" description="" resType="1" resource="500000" money="48" />
+	<configure id="3" name="" description="" resType="1" resource="1000000" money="96" />
+	<configure id="4" name="" description="" resType="1" resource="2000000" money="192" />
+	<configure id="5" name="" description="" resType="1" resource="3000000" money="384" />
+	<configure id="6" name="" description="" resType="1" resource="4000000" money="768" />
+	<configure id="7" name="" description="" resType="1" resource="0" money="1536" />
+	<configure id="8" name="" description="" resType="2" resource="100000" money="36" />
+	<configure id="9" name="" description="" resType="2" resource="500000" money="72" />
+	<configure id="10" name="" description="" resType="2" resource="1000000" money="144" />
+	<configure id="11" name="" description="" resType="2" resource="2000000" money="288" />
+	<configure id="12" name="" description="" resType="2" resource="3000000" money="576" />
+	<configure id="13" name="" description="" resType="2" resource="0" money="1152" />
+	<configure id="14" name="" description="" resType="3" resource="100000" money="36" />
+	<configure id="15" name="" description="" resType="3" resource="500000" money="72" />
+	<configure id="16" name="" description="" resType="3" resource="1000000" money="144" />
+	<configure id="17" name="" description="" resType="3" resource="2000000" money="288" />
+	<configure id="18" name="" description="" resType="3" resource="3000000" money="576" />
+	<configure id="19" name="" description="" resType="3" resource="0" money="1152" />
+	<configure id="20" name="" description="" resType="4" resource="100000" money="50" />
+	<configure id="21" name="" description="" resType="4" resource="500000" money="150" />
+	<configure id="22" name="" description="" resType="4" resource="1000000" money="450" />
+	<configure id="23" name="" description="" resType="4" resource="2000000" money="1350" />
+	<configure id="24" name="" description="" resType="4" resource="0" money="4050" />
+</configures>

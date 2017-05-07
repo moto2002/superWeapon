@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" name="二等兵" description="" commondLevel="1" medal="0" resAward="1:1500,2:1500" itemAward="" diamondAward="" icon="rank1" addMedal="25" />
+	<configure id="2" name="一等兵" description="" commondLevel="2" medal="250" resAward="1:3000,2:3000" itemAward="" diamondAward="" icon="rank2" addMedal="25" />
+	<configure id="3" name="上等兵" description="" commondLevel="3" medal="325" resAward="1:6000,2:6000" itemAward="" diamondAward="" icon="rank3" addMedal="" />
+	<configure id="4" name="下士" description="" commondLevel="4" medal="450" resAward="1:10000,2:10000" itemAward="" diamondAward="" icon="rank4" addMedal="" />
+	<configure id="5" name="中士" description="" commondLevel="5" medal="650" resAward="1:15000,2:13300,3:28600" itemAward="" diamondAward="" icon="rank5" addMedal="" />
+	<configure id="6" name="上士" description="" commondLevel="6" medal="800" resAward="1:21500,2:17300,3:34600" itemAward="" diamondAward="" icon="rank6" addMedal="" />
+	<configure id="7" name="少尉" description="" commondLevel="7" medal="1000" resAward="1:25100,2:22100,3:44300,4:12900" itemAward="" diamondAward="20" icon="rank7" addMedal="" />
+	<configure id="8" name="中尉" description="" commondLevel="8" medal="1200" resAward="1:30000,2:27600,3:55300,4:26500" itemAward="" diamondAward="20" icon="rank8" addMedal="" />
+	<configure id="9" name="上尉" description="" commondLevel="9" medal="1500" resAward="1:35000,2:33800,3:67600,4:32500" itemAward="" diamondAward="20" icon="rank9" addMedal="" />
+	<configure id="10" name="少校" description="" commondLevel="10" medal="1800" resAward="1:43500,2:40700,3:81400,4:39100" itemAward="" diamondAward="50" icon="rank10" addMedal="" />
+	<configure id="11" name="中校" description="" commondLevel="11" medal="2200" resAward="1:52500,2:48300,3:96600,4:46400" itemAward="" diamondAward="50" icon="rank11" addMedal="" />
+	<configure id="12" name="上校" description="" commondLevel="12" medal="2600" resAward="1:61000,2:56700,3:113300,4:54400" itemAward="" diamondAward="50" icon="rank12" addMedal="" />
+	<configure id="13" name="大校" description="" commondLevel="13" medal="3000" resAward="1:70000,2:65800,3:131500,4:63200" itemAward="" diamondAward="50" icon="rank13" addMedal="" />
+	<configure id="14" name="少将" description="" commondLevel="14" medal="3500" resAward="1:80000,2:75700,3:151300,4:72700" itemAward="" diamondAward="80" icon="rank14" addMedal="" />
+	<configure id="15" name="中将" description="" commondLevel="15" medal="4000" resAward="1:90000,2:86400,3:172800,4:83000" itemAward="" diamondAward="80" icon="rank15" addMedal="" />
+	<configure id="16" name="上将" description="" commondLevel="16" medal="4500" resAward="1:100000,2:97900,3:195800,4:94100" itemAward="" diamondAward="80" icon="rank16" addMedal="" />
+	<configure id="17" name="五星上将" description="" commondLevel="17" medal="5000" resAward="1:135000,2:110300,3:220600,4:106000" itemAward="" diamondAward="80" icon="rank17" addMedal="" />
+	<configure id="18" name="元帅" description="" commondLevel="18" medal="6000" resAward="1:155000,2:123500,3:247100,4:118800" itemAward="" diamondAward="100" icon="rank18" addMedal="" />
+</configures>

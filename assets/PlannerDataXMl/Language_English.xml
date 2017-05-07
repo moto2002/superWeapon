@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="English" value="English_achieve" />
+	<configure id="English" value="English_Army" />
+	<configure id="English" value="English_Battle" />
+	<configure id="English" value="English_build" />
+	<configure id="English" value="English_item" />
+	<configure id="English" value="English_NPC" />
+	<configure id="English" value="English_others" />
+	<configure id="English" value="English_ResIsland" />
+	<configure id="English" value="English_skill" />
+	<configure id="English" value="English_Task" />
+	<configure id="English" value="English_technology" />
+	<configure id="English" value="English_ErrorMassage" />
+	<configure id="English" value="English_soldier" />
+	<configure id="English" value="English_BattleNotice" />
+	<configure id="English" value="English_Activities" />
+	<configure id="English" value="English_Client" />
+	<configure id="English" value="English_Halftalk" />
+</configures>

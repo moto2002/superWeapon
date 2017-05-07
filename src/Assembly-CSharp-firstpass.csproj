@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{ACBC332F-436C-48D4-9284-D4FEE5AC5E2D}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>..\assets\bin\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoClearRT.cs" />
+    <Compile Include="BetterList.cs" />
+    <Compile Include="BlurEffect.cs" />
+    <Compile Include="ColliderFogRect.cs" />
+    <Compile Include="ColliderFogRectList.cs" />
+    <Compile Include="ColorCorrectionEffect.cs" />
+    <Compile Include="ContinuousGesture.cs" />
+    <Compile Include="ContinuousGesturePhase.cs" />
+    <Compile Include="ContinuousGestureRecognizer.cs" />
+    <Compile Include="ContrastStretchEffect.cs" />
+    <Compile Include="DiscreteGesture.cs" />
+    <Compile Include="DiscreteGestureRecognizer.cs" />
+    <Compile Include="DragGesture.cs" />
+    <Compile Include="DragRecognizer.cs" />
+    <Compile Include="FGInputProvider.cs" />
+    <Compile Include="FGMouseInputProvider.cs" />
+    <Compile Include="FGTouchInputProvider.cs" />
+    <Compile Include="FingerClusterManager.cs" />
+    <Compile Include="FingerDownDetector.cs" />
+    <Compile Include="FingerDownEvent.cs" />
+    <Compile Include="FingerEvent.cs" />
+    <Compile Include="FingerEventDetector.cs" />
+    <Compile Include="FingerGestures.cs" />
+    <Compile Include="FingerHoverDetector.cs" />
+    <Compile Include="FingerHoverEvent.cs" />
+    <Compile Include="FingerHoverPhase.cs" />
+    <Compile Include="FingerMotionDetector.cs" />
+    <Compile Include="FingerMotionEvent.cs" />
+    <Compile Include="FingerMotionPhase.cs" />
+    <Compile Include="FingerUpDetector.cs" />
+    <Compile Include="FingerUpEvent.cs" />
+    <Compile Include="FogFill.cs" />
+    <Compile Include="FogOfWar.cs" />
+    <Compile Include="FogOfWarPlayer.cs" />
+    <Compile Include="FogOfWarUnit.cs" />
+    <Compile Include="FOWEffect.cs" />
+    <Compile Include="FOWRenderers.cs" />
+    <Compile Include="FOWRevealer.cs" />
+    <Compile Include="FOWSystem.cs" />
+    <Compile Include="Gesture.cs" />
+    <Compile Include="GestureRecognitionState.cs" />
+    <Compile Include="GestureRecognizer.cs" />
+    <Compile Include="GestureRecognizerDelegate.cs" />
+    <Compile Include="GestureResetMode.cs" />
+    <Compile Include="GlowEffect.cs" />
+    <Compile Include="GrayscaleEffect.cs" />
+    <Compile Include="ImageEffectBase.cs" />
+    <Compile Include="ImageEffects.cs" />
+    <Compile Include="LongPressGesture.cs" />
+    <Compile Include="LongPressRecognizer.cs" />
+    <Compile Include="MiPush.cs" />
+    <Compile Include="MotionBlur.cs" />
+    <Compile Include="NoiseEffect.cs" />
+    <Compile Include="PinchGesture.cs" />
+    <Compile Include="PinchRecognizer.cs" />
+    <Compile Include="PointCloudGesture.cs" />
+    <Compile Include="PointCloudGestureTemplate.cs" />
+    <Compile Include="PointCloudRegognizer.cs" />
+    <Compile Include="PoolManager.cs" />
+    <Compile Include="PrefabPool.cs" />
+    <Compile Include="PrefabsDict.cs" />
+    <Compile Include="PreRuntimePoolItem.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScreenRaycaster.cs" />
+    <Compile Include="SepiaToneEffect.cs" />
+    <Compile Include="SpawnPool.cs" />
+    <Compile Include="SpawnPoolsDict.cs" />
+    <Compile Include="SSAOEffect.cs" />
+    <Compile Include="SwipeGesture.cs" />
+    <Compile Include="SwipeRecognizer.cs" />
+    <Compile Include="TapGesture.cs" />
+    <Compile Include="TapRecognizer.cs" />
+    <Compile Include="TBDragToMove.cs" />
+    <Compile Include="TBDragView.cs" />
+    <Compile Include="TBHoverChangeMaterial.cs" />
+    <Compile Include="TBHoverChangeScale.cs" />
+    <Compile Include="TBLookAtTap.cs" />
+    <Compile Include="TBOrbit.cs" />
+    <Compile Include="TBPan.cs" />
+    <Compile Include="TBPinchToScale.cs" />
+    <Compile Include="TBPinchZoom.cs" />
+    <Compile Include="TBQuickSetup.cs" />
+    <Compile Include="TBTwistToRotate.cs" />
+    <Compile Include="TwirlEffect.cs" />
+    <Compile Include="TwistGesture.cs" />
+    <Compile Include="TwistRecognizer.cs" />
+    <Compile Include="Vector2i.cs" />
+    <Compile Include="VortexEffect.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

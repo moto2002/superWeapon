@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" flag="1" />
+	<configure id="2" flag="2" />
+	<configure id="3" flag="3" />
+	<configure id="4" flag="4" />
+	<configure id="5" flag="5" />
+	<configure id="6" flag="6" />
+	<configure id="7" flag="7" />
+	<configure id="8" flag="8" />
+	<configure id="9" flag="9" />
+	<configure id="10" flag="10" />
+</configures>

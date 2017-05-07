@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" btnId="1" type="2" conditionType="5" conditionId="2" conditionId2="" desciption="功能狂/聊天框" effect="btn_jihuo" />
+	<configure id="3" btnId="3" type="2" conditionType="3" conditionId="90103" conditionId2="" desciption="技能icon1" effect="btn_jihuo" />
+	<configure id="4" btnId="4" type="2" conditionType="3" conditionId="90106" conditionId2="" desciption="技能icon2" effect="btn_jihuo" />
+	<configure id="5" btnId="5" type="2" conditionType="3" conditionId="90109" conditionId2="" desciption="技能icon3" effect="btn_jihuo" />
+	<configure id="6" btnId="6" type="2" conditionType="5" conditionId="1" conditionId2="" desciption="石油资源" effect="btn_jihuo" />
+	<configure id="7" btnId="7" type="2" conditionType="5" conditionId="6" conditionId2="" desciption="钢铁资源" effect="btn_jihuo" />
+	<configure id="8" btnId="8" type="2" conditionType="5" conditionId="8" conditionId2="" desciption="稀矿资源" effect="btn_jihuo" />
+	<configure id="9" btnId="9" type="2" conditionType="1" conditionId="10" conditionId2="2" desciption="征战" effect="btn_jihuo" />
+	<configure id="10" btnId="10" type="2" conditionType="1" conditionId="10" conditionId2="1" desciption="副本" effect="btn_jihuo" />
+	<configure id="13" btnId="13" type="2" conditionType="5" conditionId="2" conditionId2="" desciption="7日连续登录" effect="btn_jihuo" />
+	<configure id="14" btnId="14" type="2" conditionType="2" conditionId="9" conditionId2="" desciption="撤退按钮" effect="btn_jihuo" />
+	<configure id="15" btnId="15" type="2" conditionType="1" conditionId="11" conditionId2="4" desciption="科技按钮" effect="btn_jihuo" />
+</configures>

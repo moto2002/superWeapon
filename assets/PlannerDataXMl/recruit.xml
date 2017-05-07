@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" name="" des="" level="1" fangshi="1" zuidi="1" zuigao="3" lingpai="10" zuanshi="2" />
+	<configure id="2" name="" des="" level="2" fangshi="1" zuidi="1" zuigao="4" lingpai="10" zuanshi="2" />
+	<configure id="3" name="" des="" level="2" fangshi="2" zuidi="2" zuigao="4" lingpai="20" zuanshi="10" />
+	<configure id="4" name="" des="" level="3" fangshi="1" zuidi="1" zuigao="5" lingpai="10" zuanshi="2" />
+	<configure id="5" name="" des="" level="3" fangshi="2" zuidi="2" zuigao="5" lingpai="20" zuanshi="10" />
+	<configure id="6" name="" des="" level="3" fangshi="3" zuidi="3" zuigao="5" lingpai="200" zuanshi="100" />
+	<configure id="7" name="" des="" level="4" fangshi="1" zuidi="1" zuigao="6" lingpai="10" zuanshi="2" />
+	<configure id="8" name="" des="" level="4" fangshi="2" zuidi="2" zuigao="6" lingpai="20" zuanshi="10" />
+	<configure id="9" name="" des="" level="4" fangshi="3" zuidi="4" zuigao="6" lingpai="200" zuanshi="100" />
+	<configure id="10" name="" des="" level="5" fangshi="1" zuidi="1" zuigao="7" lingpai="10" zuanshi="2" />
+	<configure id="11" name="" des="" level="5" fangshi="2" zuidi="3" zuigao="7" lingpai="20" zuanshi="10" />
+	<configure id="12" name="" des="" level="5" fangshi="3" zuidi="5" zuigao="7" lingpai="200" zuanshi="100" />
+	<configure id="13" name="" des="" level="6" fangshi="1" zuidi="1" zuigao="8" lingpai="10" zuanshi="2" />
+	<configure id="14" name="" des="" level="6" fangshi="2" zuidi="3" zuigao="8" lingpai="20" zuanshi="10" />
+	<configure id="15" name="" des="" level="6" fangshi="3" zuidi="6" zuigao="8" lingpai="200" zuanshi="100" />
+	<configure id="16" name="" des="" level="7" fangshi="1" zuidi="1" zuigao="9" lingpai="10" zuanshi="2" />
+	<configure id="17" name="" des="" level="7" fangshi="2" zuidi="3" zuigao="9" lingpai="20" zuanshi="10" />
+	<configure id="18" name="" des="" level="7" fangshi="3" zuidi="7" zuigao="9" lingpai="200" zuanshi="100" />
+	<configure id="19" name="" des="" level="8" fangshi="1" zuidi="1" zuigao="10" lingpai="10" zuanshi="2" />
+	<configure id="20" name="" des="" level="8" fangshi="2" zuidi="4" zuigao="10" lingpai="20" zuanshi="10" />
+	<configure id="21" name="" des="" level="8" fangshi="3" zuidi="8" zuigao="10" lingpai="200" zuanshi="100" />
+	<configure id="22" name="" des="" level="9" fangshi="1" zuidi="1" zuigao="11" lingpai="10" zuanshi="2" />
+	<configure id="23" name="" des="" level="9" fangshi="2" zuidi="4" zuigao="11" lingpai="20" zuanshi="10" />
+	<configure id="24" name="" des="" level="9" fangshi="3" zuidi="9" zuigao="11" lingpai="200" zuanshi="100" />
+	<configure id="25" name="" des="" level="10" fangshi="1" zuidi="1" zuigao="12" lingpai="10" zuanshi="2" />
+	<configure id="26" name="" des="" level="10" fangshi="2" zuidi="4" zuigao="12" lingpai="20" zuanshi="10" />
+	<configure id="27" name="" des="" level="10" fangshi="3" zuidi="10" zuigao="12" lingpai="200" zuanshi="100" />
+</configures>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" name="狙击塔" type="2" militaryId="16" iconId="b_juji" presence="1" />
+	<configure id="2" name="机枪塔" type="2" militaryId="17" iconId="b_gaite" presence="1" />
+	<configure id="3" name="巨炮" type="2" militaryId="18" iconId="b_jupao" presence="1" />
+	<configure id="4" name="光棱塔" type="2" militaryId="19" iconId="b_guangleng" presence="1" />
+	<configure id="5" name="地雷" type="2" militaryId="20" iconId="b_dilei" presence="1" />
+	<configure id="6" name="榴弹炮" type="2" militaryId="22" iconId="b_liudan" presence="1" />
+	<configure id="7" name="磁能塔" type="2" militaryId="23" iconId="b_dianci" presence="1" />
+	<configure id="8" name="多功能步兵车" type="1" militaryId="1" iconId="a_xiniu" presence="1" />
+	<configure id="9" name="灰熊坦克" type="1" militaryId="2" iconId="a_huixiong" presence="1" />
+	<configure id="10" name="天启坦克" type="1" militaryId="3" iconId="a_tianqi" presence="1" />
+	<configure id="11" name="火箭炮" type="1" militaryId="4" iconId="a_huojianpao" presence="1" />
+	<configure id="12" name="光棱坦克" type="1" militaryId="5" iconId="a_guangleng" presence="1" />
+	<configure id="13" name="磁能坦克" type="1" militaryId="6" iconId="a_dianci" presence="1" />
+	<configure id="14" name="伞兵" type="3" militaryId="1" iconId="bs_skill_4" presence="1" />
+	<configure id="15" name="精准炮击" type="3" militaryId="2" iconId="bs_skill_3" presence="1" />
+	<configure id="16" name="基洛夫空艇" type="3" militaryId="3" iconId="bs_skill_5" presence="1" />
+	<configure id="17" name="核弹" type="3" militaryId="4" iconId="bs_skill_1" presence="1" />
+	<configure id="18" name="铁幕" type="3" militaryId="5" iconId="bs_skill_2" presence="1" />
+	<configure id="19" name="闪电风暴" type="3" militaryId="6" iconId="bs_skill_6" presence="1" />
+	<configure id="20" name="阿帕奇直升机" type="1" militaryId="20" iconId="ari_apache" presence="1" />
+	<configure id="21" name="世纪轰炸机" type="1" militaryId="16" iconId="a_feiji" presence="1" />
+	<configure id="22" name="阿波罗战斗机" type="1" militaryId="17" iconId="ari_appollo" presence="0" />
+	<configure id="23" name="米格战斗机" type="1" militaryId="18" iconId="ari_mige" presence="0" />
+	<configure id="24" name="冰冻直升机" type="1" militaryId="19" iconId="ari_icehel" presence="1" />
+	<configure id="25" name="保险库" type="4" militaryId="15" iconId="b_baoxian" presence="1" />
+	<configure id="26" name="爱国者导弹" type="2" militaryId="94" iconId="b_duoguan" presence="1" />
+	<configure id="27" name="基洛夫空艇" type="1" militaryId="15" iconId="a_kongting" presence="1" />
+</configures>

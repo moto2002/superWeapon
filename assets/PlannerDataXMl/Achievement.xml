@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" name="大富翁" description="收集金币总量" conditionId="30" secondConditionId="1" values="10000,100000,1000000,5000000,50000000" prizes="5,15,30,70,150" icon="chengjiu1" />
+	<configure id="2" name="石油大亨" description="收集石油总量" conditionId="30" secondConditionId="2" values="10000,100000,1000000,5000000,50000000" prizes="5,15,30,70,150" icon="chengjiu1" />
+	<configure id="3" name="钢铁大亨" description="收集钢铁总量" conditionId="30" secondConditionId="3" values="10000,100000,1000000,5000000,50000000" prizes="5,15,30,70,150" icon="chengjiu1" />
+	<configure id="4" name="矿产大亨" description="收集稀矿总量" conditionId="30" secondConditionId="4" values="10000,100000,1000000,5000000,50000000" prizes="5,15,30,70,150" icon="chengjiu1" />
+	<configure id="5" name="就是任性" description="消耗金币总量" conditionId="34" secondConditionId="1" values="10000,100000,1000000,5000000,50000000" prizes="5,15,30,70,150" icon="chengjiu2" />
+	<configure id="6" name="能源危机" description="消耗石油总量" conditionId="34" secondConditionId="2" values="10000,100000,1000000,5000000,50000000" prizes="5,15,30,70,150" icon="chengjiu2" />
+	<configure id="7" name="钢铁危机" description="消耗钢铁总量" conditionId="34" secondConditionId="3" values="10000,100000,1000000,5000000,50000000" prizes="5,15,30,70,150" icon="chengjiu2" />
+	<configure id="8" name="资源危机" description="消耗稀矿总量" conditionId="34" secondConditionId="4" values="10000,100000,1000000,5000000,50000000" prizes="5,15,30,70,150" icon="chengjiu2" />
+	<configure id="9" name="大建筑师" description="升级建筑总次数" conditionId="33" secondConditionId="0" values="100,200,300,400,500" prizes="5,15,30,70,150" icon="chengjiu3" />
+	<configure id="10" name="大部队集结" description="升级兵种总次数" conditionId="29" secondConditionId="0" values="100,200,300,400,500" prizes="5,15,30,70,150" icon="chengjiu4" />
+	<configure id="11" name="征服者" description="击毁玩家基地总次数" conditionId="25" secondConditionId="0" values="100,200,300,400,500" prizes="5,15,30,70,150" icon="chengjiu4" />
+	<configure id="12" name="大冲锋" description="击毁NPC据点总次数" conditionId="26" secondConditionId="1" values="100,200,300,400,500" prizes="5,15,30,70,150" icon="chengjiu5" />
+	<configure id="13" name="防守大师" description="基地成功防御次数" conditionId="10" secondConditionId="0" values="100,200,300,400,500" prizes="5,15,30,70,150" icon="chengjiu6" />
+</configures>

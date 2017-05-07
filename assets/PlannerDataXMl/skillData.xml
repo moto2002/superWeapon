@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure skillId="0" skillType="4" targetType="10"  hitType="21" name="测试调试专用" icon="" actionId="attack1" fightEffect="hitEffect2Base_fg" bodyEffect="arrowBase_gj" damageEffect="lightningExplosionBase_xw" fightSound="" damageSound="" waitAct="0" waitSpawn="0" waitHit="0"  freeTalk="0" spawnPoint="0" ejection="60"  bulletSpeed="16"  size="0.5" life="0.7" special="0">
+		<lv lv="1" distance="20"  hitCount="5"  amount="1"  angle="3"  renju="7" renjuFrequency="0.02" angSpeed="0" hitEffectId="-1" suddenDieType="1"  skillDesc="1" cdTime="1" damage="1"  hurtRadius="8" buffIdx="-1"  />
+	</configure>
+	<configure skillId="1" skillType="0" targetType="10"  hitType="0" name="单发-普通直射目标" icon="" actionId="attack1" fightEffect="hitEffect2Base_fg" bodyEffect="arrowBase_gj" damageEffect="lightningExplosionBase_xw" fightSound="" damageSound="" waitAct="0" waitSpawn="0" waitHit="0"  freeTalk="0" spawnPoint="0" ejection="60"  bulletSpeed="16"  size="0.5" life="0.7" special="0">
+		<lv lv="1" distance="20"  hitCount="1"  amount="1"  angle="0"  renju="1" renjuFrequency="0.5" angSpeed="0" hitEffectId="-1" suddenDieType="1"  skillDesc="打击前方目标" cdTime="1" damage="1"  hurtRadius="1" buffIdx="-1"  />
+	</configure>
+	<configure skillId="2" skillType="6" targetType="10"  hitType="0" name="单发-面向目标(只能单发直射)" icon="" actionId="attack1" fightEffect="hitEffect2Base_fg" bodyEffect="arrowBase_gj" damageEffect="lightningExplosionBase_xw" fightSound="" damageSound="" waitAct="0" waitSpawn="0" waitHit="0"  freeTalk="0" spawnPoint="0" ejection="60"  bulletSpeed="16"  size="0.5" life="0.7" special="0">
+		<lv lv="1" distance="20"  hitCount="1"  amount="1"  angle="0"  renju="1" renjuFrequency="0.5" angSpeed="0" hitEffectId="-1" suddenDieType="1"  skillDesc="打击前方目标" cdTime="1" damage="1"  hurtRadius="1" buffIdx="-1"  />
+	</configure>
+	<configure skillId="3" skillType="4" targetType="12"  hitType="20" name="单发-逐个打击(精确抛射)" icon="" actionId="attack1" fightEffect="hitEffect2Base_fg" bodyEffect="arrowBase_gj" damageEffect="lightningExplosionBase_xw" fightSound="" damageSound="" waitAct="0" waitSpawn="0" waitHit="0"  freeTalk="0" spawnPoint="0" ejection="60"  bulletSpeed="16"  size="0.5" life="0.7" special="0">
+		<lv lv="1" distance="20"  hitCount="1"  amount="1"  angle="0"  renju="1" renjuFrequency="0.5" angSpeed="0" hitEffectId="-1" suddenDieType="1"  skillDesc="1" cdTime="1" damage="1"  hurtRadius="1" buffIdx="-1"  />
+	</configure>
+	<configure skillId="4" skillType="4" targetType="13"  hitType="20" name="单发-打击最近(精确抛射)" icon="" actionId="attack1" fightEffect="hitEffect2Base_fg" bodyEffect="arrowBase_gj" damageEffect="lightningExplosionBase_xw" fightSound="" damageSound="" waitAct="0" waitSpawn="0" waitHit="0"  freeTalk="0" spawnPoint="0" ejection="60"  bulletSpeed="16"  size="0.5" life="0.7" special="0">
+		<lv lv="1" distance="20"  hitCount="1"  amount="1"  angle="2"  renju="1" renjuFrequency="0.5" angSpeed="0" hitEffectId="-1" suddenDieType="1"  skillDesc="1" cdTime="1" damage="1"  hurtRadius="1" buffIdx="-1"  />
+	</configure>
+	<configure skillId="10" skillType="4" targetType="10"  hitType="21" name="单发-抛射电磁(地面抛射)" icon="" actionId="attack1" fightEffect="jiguang_fg" bodyEffect="lightningBallBase_gj" damageEffect="lightningExplosionBase_xw" fightSound="" damageSound="" waitAct="0" waitSpawn="0" waitHit="0"  freeTalk="0" spawnPoint="0" ejection="60"  bulletSpeed="8"  size="0.5" life="0.7" special="1">
+		<lv lv="1" distance="20"  hitCount="5"  amount="1" angle="0"  renju="1" renjuFrequency="0.5" angSpeed="0" hitEffectId="-1" suddenDieType="1"  skillDesc="1" cdTime="1" damage="1"  hurtRadius="8" buffIdx="-1"  />
+	</configure>
+	<configure skillId="11" skillType="4" targetType="10"  hitType="21" name="连珠-乱投抛射(地面分散)" icon="" actionId="attack1" fightEffect="jiguang_fg" bodyEffect="jupao_gj" damageEffect="jupao_xw" fightSound="" damageSound="" waitAct="0" waitSpawn="0" waitHit="0"  freeTalk="0" spawnPoint="0" ejection="60"  bulletSpeed="8"  size="0.5" life="0.7" special="0">
+		<lv lv="1" distance="20"  hitCount="5"  amount="1" angle="5"  renju="5" renjuFrequency="0.1" angSpeed="0" hitEffectId="-1" suddenDieType="1"  skillDesc="1" cdTime="1" damage="1"  hurtRadius="3" buffIdx="-1"  />
+	</configure>
+	<configure skillId="12" skillType="4" targetType="10"  hitType="21" name="散弹-乱投散弹(地面分散)" icon="" actionId="attack1" fightEffect="jiguang_fg" bodyEffect="jupao_gj" damageEffect="jupao_xw" fightSound="" damageSound="" waitAct="0" waitSpawn="0" waitHit="0"  freeTalk="0" spawnPoint="0" ejection="60"  bulletSpeed="8"  size="0.5" life="0.7" special="0">
+		<lv lv="1" distance="20"  hitCount="5"  amount="5" angle="5"  renju="1" renjuFrequency="0.5" angSpeed="0" hitEffectId="-1" suddenDieType="1"  skillDesc="1" cdTime="1" damage="1"  hurtRadius="1" buffIdx="-1"  />
+	</configure>
+	
+	<configure skillId="20" skillType="0" targetType="10"  hitType="0" name="常规散射" icon="" actionId="attack1" fightEffect="jiqiang_fg" bodyEffect="jiqiang_gj 1" damageEffect="jiqiang_xw" fightSound="" damageSound="" waitAct="0" waitSpawn="0" waitHit="0"  freeTalk="0" spawnPoint="0" ejection="0"  bulletSpeed="24"  size="0.5" life="0.7" special="0">
+		<lv lv="1" distance="30"  hitCount="1"  amount="5" angle="20"  renju="3" renjuFrequency="0.12" angSpeed="0" hitEffectId="-1" suddenDieType="1"  skillDesc="1" cdTime="1" damage="1"  hurtRadius="1" buffIdx="-1"  />
+	</configure>
+	<configure skillId="21" skillType="0" targetType="10"  hitType="5" name="机枪乱散" icon="" actionId="attack1" fightEffect="jiqiang_fg" bodyEffect="jiqiang_gj 1" damageEffect="jiqiang_xw" fightSound="" damageSound="" waitAct="0" waitSpawn="0" waitHit="0"  freeTalk="0" spawnPoint="0" ejection="0"  bulletSpeed="24"  size="0.5" life="0.7" special="0">
+		<lv lv="1" distance="30"  hitCount="1"  amount="2" angle="20"  renju="8" renjuFrequency="0.12" angSpeed="0" hitEffectId="-1" suddenDieType="1"  skillDesc="1" cdTime="1" damage="1"  hurtRadius="1" buffIdx="-1"  />
+	</configure>
+	
+	<configure skillId="50" skillType="5" targetType="10"  hitType="0" name="锁定跟踪(锁定跟踪)" icon="" actionId="attack1" fightEffect="jiguang_fg" bodyEffect="jupao_gj" damageEffect="lightningExplosionBase_xw" fightSound="" damageSound="" waitAct="0" waitSpawn="0" waitHit="0"  freeTalk="0" spawnPoint="4" ejection="0"  bulletSpeed="20"  size="0.5" life="0.7" special="0">
+		<lv lv="1" distance="20"  hitCount="5"  amount="7" angle="60"  renju="1" renjuFrequency="0.5" angSpeed="3" hitEffectId="-1" suddenDieType="1"  skillDesc="1" cdTime="1" damage="1"  hurtRadius="1" buffIdx="-1"  />
+	</configure>
+	<configure skillId="51" skillType="0" targetType="10"  hitType="3" name="寻径跟踪(寻找目标)" icon="" actionId="attack1" fightEffect="jiguang_fg" bodyEffect="jupao_gj" damageEffect="dianci_xw" fightSound="" damageSound="" waitAct="0" waitSpawn="0" waitHit="0"  freeTalk="0" spawnPoint="3" ejection="10"  bulletSpeed="24"  size="0.5" life="0.7" special="0">
+		<lv lv="1" distance="30"  hitCount="1"  amount="2" angle="20"  renju="5" renjuFrequency="0.10" angSpeed="5" hitEffectId="-1" suddenDieType="1"  skillDesc="1" cdTime="1" damage="1"  hurtRadius="1" buffIdx="-1"  />
+	</configure>
+	
+	<configure skillId="100" skillType="1" targetType="10"  hitType="202" name="电磁光束" icon="soldier_1" actionId="attack1" fightEffect="jiguang_fg" bodyEffect="EffectTest" damageEffect="jiguang_xw" fightSound="" damageSound="" waitAct="0" waitSpawn="0" waitHit="0"  freeTalk="0" spawnPoint="0" ejection="0"  bulletSpeed="20"  size="0.5" life="1.5"  special="0">
+		<lv lv="1" distance="5"  hitCount="5"  amount="1"  angle="0"  renju="1" renjuFrequency="1" angSpeed="0" hitEffectId="-1" suddenDieType="1"  skillDesc="1" cdTime="1" damage="1"  hurtRadius="40" buffIdx="-1"  />
+	</configure>
+	<configure skillId="101" skillType="1" targetType="10"  hitType="200" name="测试-链" icon="soldier_1" actionId="attack1" fightEffect="jiguang_fg" bodyEffect="EffectTest" damageEffect="lightningExplosionBase_xw" fightSound="" damageSound="" waitAct="0" waitSpawn="0" waitHit="0"  freeTalk="0" spawnPoint="0" ejection="0"  bulletSpeed="20"  size="0.5" life="0.5"  special="0">
+		<lv lv="1" distance="5"  hitCount="5"  amount="1"  angle="0"  renju="1" renjuFrequency="1" angSpeed="0" hitEffectId="-1" suddenDieType="1"  skillDesc="1" cdTime="1" damage="1"  hurtRadius="20" buffIdx="-1"  />
+	</configure>
+	<configure skillId="102" skillType="1" targetType="10"  hitType="201" name="测试-光棱光束" icon="" actionId="attack1" fightEffect="jiguang_fg" bodyEffect="EffectTest2" damageEffect="jiguang_xw" fightSound="" damageSound="" waitAct="0" waitSpawn="0" waitHit="0"  freeTalk="0" spawnPoint="0" ejection="0"  bulletSpeed="20"  size="0.5" life="0.7"  special="0">
+		<lv lv="1" distance="5"  hitCount="6"  amount="1"  angle="0"  renju="1" renjuFrequency="1" angSpeed="0" hitEffectId="-1" suddenDieType="1"  skillDesc="1" cdTime="1" damage="1"  hurtRadius="30" buffIdx="-1"  />
+	</configure>
+	
+	
+	
+
+	
+
+	
+	<configure skillId="10000" skillType="0" targetType="10"  hitType="0" name="犀牛坦克" icon="soldier_1" actionId="attack1" fightEffect="xiniu_fg" bodyEffect="xiniu_gj" damageEffect="xiniu_xw" fightSound="" damageSound="" waitAct="0" waitSpawn="0" waitHit="0"  freeTalk="0" spawnPoint="0" ejection="0"  bulletSpeed="30"  size="1" life="1" special="0">
+		<lv lv="1" distance="20"  hitCount="1"  amount="1"  angle="0"  renju="5" renjuFrequency="0.5" angSpeed="0" hitEffectId="-1" suddenDieType="1"  skillDesc="1" cdTime="1" damage="1"  hurtRadius="-1" buffIdx="-1"  />
+	</configure>
+	<configure skillId="10001" skillType="0" targetType="10"  hitType="0" name="天启坦克" icon="soldier_1" actionId="attack1" fightEffect="tianqi_fg" bodyEffect="tianqi_gj 1" damageEffect="tianqi_xw" fightSound="" damageSound="" waitAct="0" waitSpawn="0" waitHit="0"  freeTalk="0" spawnPoint="0" ejection="0"  bulletSpeed="24"  size="1" life="1" special="0">
+		<lv lv="1" distance="20"  hitCount="1"  amount="1"  angle="0"  renju="2" renjuFrequency="0.2" angSpeed="0" hitEffectId="-1" suddenDieType="1"  skillDesc="1" cdTime="4.5" damage="1"  hurtRadius="-1" buffIdx="-1"  />
+	</configure>
+	<configure skillId="10002" skillType="4" targetType="10"  hitType="21" name="火箭炮" icon="soldier_1" actionId="attack1" fightEffect="huojian_fg" bodyEffect="huojian_gj 1" damageEffect="huojian_xw" fightSound="jupao_xw" damageSound="" waitAct="0" waitSpawn="0" waitHit="0"  freeTalk="0" spawnPoint="0" ejection="60"  bulletSpeed="6"  size="1" life="1" special="0">
+		<lv lv="1" distance="20"  hitCount="1"  amount="1"  angle="3"  renju="1" renjuFrequency="0.1" angSpeed="0" hitEffectId="-1" suddenDieType="1"  skillDesc="1" cdTime="1.8" damage="1"  hurtRadius="-1" buffIdx="-1"  />
+	</configure>
+	<configure skillId="10003" skillType="4" targetType="10"  hitType="20" name="灰熊坦克" icon="soldier_1" actionId="attack1" fightEffect="huixiong_fg" bodyEffect="huixiong_gj 1" damageEffect="huixiong_xw" fightSound="jupao_xw" damageSound="" waitAct="0" waitSpawn="0" waitHit="0"  freeTalk="0" spawnPoint="0" ejection="30"  bulletSpeed="12"  size="1" life="1" special="0">
+		<lv lv="1" distance="20"  hitCount="1"  amount="1"  angle="0"  renju="1" renjuFrequency="0.5" angSpeed="0" hitEffectId="-1" suddenDieType="1"  skillDesc="1" cdTime="1.8" damage="1"  hurtRadius="-1" buffIdx="-1"  />
+	</configure>
+	<configure skillId="10004" skillType="1" targetType="10"  hitType="201" name="光棱坦克" icon="soldier_1" actionId="attack1" fightEffect="jiguang_fg" bodyEffect="jiguang_gj" damageEffect="tanke_xw" fightSound="" damageSound="" waitAct="0" waitSpawn="0" waitHit="0"  freeTalk="0" spawnPoint="0" ejection="0"  bulletSpeed="24"  size="1" life="1.5"  special="0">
+		<lv lv="1" distance="5"  hitCount="6"  amount="1"  angle="0"  renju="1" renjuFrequency="1" angSpeed="0" hitEffectId="-1" suddenDieType="1"  skillDesc="1" cdTime="1" damage="1"  hurtRadius="25" buffIdx="-1"  />
+	</configure>
+	<configure skillId="10005" skillType="4" targetType="10"  hitType="21" name="磁能坦克" icon="soldier_1" actionId="attack1" fightEffect="dianci_fg" bodyEffect="" damageEffect="tanke_xw" fightSound="jupao_xw" damageSound="" waitAct="0" waitSpawn="0" waitHit="0"  freeTalk="0" spawnPoint="0" ejection="60"  bulletSpeed="24"  size="1" life="1" special="0">
+		<lv lv="1" distance="20"  hitCount="10"  amount="1"  angle="0"  renju="1" renjuFrequency="0.5" angSpeed="0" hitEffectId="-1" suddenDieType="1"  skillDesc="1" cdTime="2.2" damage="1"  hurtRadius="-1" buffIdx="-1"  />
+	</configure>
+	<configure skillId="10006" skillType="6" targetType="10"  hitType="0" name="狙击塔" icon="soldier_1" actionId="attack1" fightEffect="juji_fg" bodyEffect="juji_gj" damageEffect="juji_xw" fightSound="" damageSound="" waitAct="0" waitSpawn="0" waitHit="0"  freeTalk="0" spawnPoint="0" ejection="0"  bulletSpeed="48"  size="1" life="1.5" special="0">
+		<lv lv="1" distance="20"  hitCount="1"  amount="1"  angle="0"  renju="1" renjuFrequency="0.5" angSpeed="0" hitEffectId="-1" suddenDieType="1"  skillDesc="1" cdTime="1" damage="5"  hurtRadius="-1" buffIdx="-1"  />
+	</configure>
+	<configure skillId="10007" skillType="6" targetType="10"  hitType="0" name="巨炮" icon="soldier_1" actionId="attack1" fightEffect="jupao_fg" bodyEffect="jupao_gj" damageEffect="jupao_xw" fightSound="" damageSound="" waitAct="0" waitSpawn="0" waitHit="0"  freeTalk="0" spawnPoint="0" ejection="0"  bulletSpeed="36"  size="1.2" life="1.5" special="0">
+		<lv lv="1" distance="20"  hitCount="1"  amount="1"  angle="0"  renju="1" renjuFrequency="0.5" angSpeed="0" hitEffectId="-1" suddenDieType="1"  skillDesc="1" cdTime="1" damage="5"  hurtRadius="-1" buffIdx="-1"  />
+	</configure>
+	<configure skillId="10008" skillType="0" targetType="10"  hitType="5" name="盖特机炮" icon="soldier_1" actionId="attack1" fightEffect="jiqiang_fg" bodyEffect="jiqiang_gj" damageEffect="jiqiang_xw" fightSound="" damageSound="" waitAct="0" waitSpawn="0" waitHit="0"  freeTalk="0" spawnPoint="0" ejection="0"  bulletSpeed="32"  size="0.5" life="1.5" special="0">
+		<lv lv="1" distance="30"  hitCount="1"  amount="2" angle="30"  renju="10" renjuFrequency="0.12" angSpeed="0" hitEffectId="-1" suddenDieType="1"  skillDesc="1" cdTime="1" damage="5"  hurtRadius="-1" buffIdx="-1"  />
+	</configure>
+	<configure skillId="10009" skillType="1" targetType="10"  hitType="201" name="光棱塔" icon="soldier_1" actionId="attack1" fightEffect="jiguang_fg" bodyEffect="jiguang_gj" damageEffect="jiguang_xw" fightSound="" damageSound="" waitAct="0" waitSpawn="0" waitHit="0"  freeTalk="0" spawnPoint="0" ejection="0"  bulletSpeed="24"  size="1" life="1.5"  special="0">
+		<lv lv="1" distance="5"  hitCount="6"  amount="1"  angle="0"  renju="1" renjuFrequency="1" angSpeed="0" hitEffectId="-1" suddenDieType="1"  skillDesc="1" cdTime="1" damage="5"  hurtRadius="50" buffIdx="-1"  />
+	</configure>
+	<configure skillId="10010" skillType="4" targetType="10"  hitType="21" name="多管火箭炮" icon="soldier_1" actionId="attack1" fightEffect="t_huojian_fg" bodyEffect="t_huojian_gj 1" damageEffect="t_huojian_xw" fightSound="" damageSound="" waitAct="0" waitSpawn="0" waitHit="0"  freeTalk="0" spawnPoint="0" ejection="60"  bulletSpeed="8"  size="2" life="1.5" special="0">
+		<lv lv="1" distance="20"  hitCount="1"  amount="1"  angle="1"  renju="5" renjuFrequency="0.1" angSpeed="0" hitEffectId="-1" suddenDieType="1"  skillDesc="1" cdTime="1.8" damage="5"  hurtRadius="2" buffIdx="-1"  />
+	</configure>
+	<configure skillId="10011" skillType="4" targetType="10"  hitType="21" name="磁能塔" icon="soldier_1" actionId="attack1" fightEffect="dianci_fg" bodyEffect="" damageEffect="dianci_xw" fightSound="jupao_xw" damageSound="" waitAct="0" waitSpawn="0" waitHit="0"  freeTalk="0" spawnPoint="0" ejection="60"  bulletSpeed="12"  size="1" life="1.5" special="0">
+		<lv lv="1" distance="20"  hitCount="10"  amount="1"  angle="0"  renju="1" renjuFrequency="0.5" angSpeed="0" hitEffectId="-1" suddenDieType="1"  skillDesc="1" cdTime="2.2" damage="5"  hurtRadius="-1" buffIdx="-1"  />
+	</configure>
+
+
+</configures>

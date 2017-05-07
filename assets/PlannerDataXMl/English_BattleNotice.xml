@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="PVP内容" value="Congratulations to all take the first [FF0000]{1}[-] [00FF00]{0}[-] times PVP combat, become the lucky players and get lucky awards!" />
+	<configure id="PVE内容" value="Congratulations to all take the first [FF0000]{1}[-] [00FF00]{0}[-] times PVE combat, become the lucky players and get lucky awards!" />
+	<configure id="PVP统计" value="Combat notice: PVP combat statistics [00FF00]{0}[-]." />
+	<configure id="PVE统计" value="Combat notice: PVE combat statistics [00FF00]{0}[-]." />
+	<configure id="fight_prize_1" value="PVP combat lucky prize" />
+	<configure id="fight_prize_2" value="PVE combat lucky prize" />
+</configures>

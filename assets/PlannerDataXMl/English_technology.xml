@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="狙击塔" value="Sniper Tower" />
+	<configure id="机枪塔" value="Machine Gun Tower" />
+	<configure id="巨炮" value="Grand Cannon" />
+	<configure id="光棱塔" value="Prism Tower" />
+	<configure id="地雷" value="Mine" />
+	<configure id="多管火箭炮" value="Multiple Rockets" />
+	<configure id="磁能塔" value="Mag-Tower" />
+	<configure id="多功能步兵车" value="IFV" />
+	<configure id="灰熊坦克" value="Bear Tank" />
+	<configure id="天启坦克" value="Apocalypse" />
+	<configure id="火箭炮" value="Rocket" />
+	<configure id="光棱坦克" value="Prism Tank" />
+	<configure id="磁能坦克" value="Magnetron" />
+	<configure id="世纪轰炸机" value="Century Bomber" />
+	<configure id="伞兵" value="Paratrooper" />
+	<configure id="精准炮击" value="Accurate Shot" />
+	<configure id="基洛夫空艇" value="Kirov Airship" />
+	<configure id="核弹" value="Nuclear Bomb" />
+	<configure id="铁木" value="Ironwood" />
+	<configure id="闪电风暴" value="Lightning Storm" />
+	<configure id="单体飞弹" value="Missile" />
+	<configure id="乱射飞弹" value="Scattering Missile" />
+	<configure id="加速" value="Speedup" />
+	<configure id="隐身" value="Stealth" />
+	<configure id="攻击" value="Attack" />
+	<configure id="护盾" value="Shield" />
+	<configure id="护甲" value="Armor" />
+	<configure id="麻痹" value="Paralysis" />
+	<configure id="持续减血" value="Damage Over Time" />
+	<configure id="移动速度提升" value="Move Faster" />
+	<configure id="无法被敌人攻击" value="Can not be attacked" />
+	<configure id="一定时间内攻击提升" value="Damage enhanced for a while" />
+	<configure id="一定时间内吸收伤害" value="Absorb Damage for a while" />
+	<configure id="一定时间内护甲提升" value="Armor enhanced for a while" />
+	<configure id="一定时间内无法移动攻击" value="Can not attack for a while" />
+	<configure id="美妙造成X点伤害，持续5秒" value="Cause X damage for 5 seconds" />
+	<configure id="铁幕" value="Iron Curtain" />
+	<configure id="科技" value="Tech" />
+	<configure id="升级成功" value="Successful!" />
+	<configure id="将" value="General" />
+	<configure id="科技升级到" value="Tech upgrade to" />
+	<configure id="已满级" value="Reached the level cap" />
+	<configure id="科技升级" value="Upgrade Tech." />
+	<configure id="防御塔" value="Tower" />
+	<configure id="兵种" value="Unit" />
+	<configure id="技能" value="Skill" />
+	<configure id="科研中心需要达到" value="Research Centre need to reach Lv." />
+	<configure id="级" value="" />
+	<configure id="升级" value="Upgrade" />
+	<configure id="生命值" value="HP" />
+	<configure id="防御" value="Armor" />
+	<configure id="阿帕奇直升机" value="Apache Helicopter" />
+	<configure id="阿波罗战斗机" value="Apollo Fighter" />
+	<configure id="米格战斗机" value="MIG Fighter" />
+	<configure id="冰冻直升机" value="Cryocopter" />
+	<configure id="立即结束" value="End Now" />
+</configures>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="掠夺玩家基地" value="Plunder players on the battle map" />
+	<configure id="掠夺资源岛" value="Plunder Resources Island" />
+	<configure id="攻击据点" value="Attack Spots" />
+	<configure id="征战副本" value="Attack Battle Island" />
+	<configure id="兵种等级提升" value="Upgrade Army" />
+	<configure id="科技升级" value="Upgrade Tech." />
+	<configure id="收集资源" value="Collect Resources" />
+	<configure id="建造狙击塔" value="Build Sniper Tower" />
+	<configure id="建造储油罐" value="Build Oil Tank" />
+	<configure id="建造科技钻油井" value="Build Oil Derrick" />
+	<configure id="建造雷达" value="Build Radar" />
+	<configure id="司令部升到2级" value="Upgrade Headquarters to Lv. 2" />
+	<configure id="建造战车工厂" value="Build War Factory" />
+	<configure id="建造多管火箭炮" value="Build Rocket Sled" />
+	<configure id="升级储油罐到2级" value="Upgrade Oil Tank to Lv. 2" />
+	<configure id="升级金库到2级" value="Upgrade Treasury to Lv. 2" />
+	<configure id="司令部升到3级" value="Upgrade Headquarters to Lv. 3" />
+	<configure id="升级储油罐到3级" value="Upgrade Oil Tank to Lv. 3" />
+	<configure id="升级金库到3级" value="Upgrade Treasury to Lv. 3" />
+	<configure id="司令部升到4级" value="Upgrade Headquarters to Lv. 4" />
+	<configure id="建造炼钢厂" value="Build Steel Works" />
+	<configure id="建造科技中心" value="Build Tech Center" />
+	<configure id="建造钢铁仓库" value="Build Steel House" />
+	<configure id="升级矿石精炼厂到2级" value="Upgrade Mineral Refinery to Lv. 2" />
+	<configure id="升级科技钻油井到2级" value="Upgrade Oil Derrick to Lv. 2" />
+	<configure id="建造机枪塔x2" value="Build Machine Gun Tower x2" />
+	<configure id="司令部升到5级" value="Upgrade Headquarters to Lv. 5" />
+	<configure id="建造狙击塔" value="Build Sniper Tower" />
+	<configure id="升级金库到5级" value="Upgrade Treasury to Lv. 5" />
+	<configure id="升级储油罐到5级" value="Upgrade Oil Tank to Lv. 5" />
+	<configure id="升级钢铁仓库到5级" value="Upgrade Steel House to Lv. 5" />
+	<configure id="司令部升到6级" value="Upgrade Headquarters to Lv. 6" />
+	<configure id="升级狙击塔到6级" value="Upgrade Sniper Tower to Lv. 6" />
+	<configure id="升级机枪塔到6级" value="Upgrade Machine Gun Tower to Lv. 6" />
+	<configure id="升级多管火箭炮到6级" value="Upgrade Multiple Rockets to Lv. 6" />
+	<configure id="司令部升到7级" value="Upgrade Headquarters to Lv. 7" />
+	<configure id="建造巨炮" value="Build Grand Cannon" />
+	<configure id="升级矿石精炼厂到7级" value="Upgrade Mineral Refinery to Lv. 7" />
+	<configure id="升级科技钻油井到7级" value="Upgrade Oil Derrick to Lv. 7" />
+	<configure id="通关第一章第1关" value="Pass Chapter One, Stage 1" />
+	<configure id="通关第一章第2关" value="Pass Chapter One, Stage 2" />
+	<configure id="通关第一章第3关" value="Pass Chapter One, Stage 3" />
+	<configure id="通关第一章第4关" value="Pass Chapter One, Stage 4" />
+	<configure id="通关第一章第5关" value="Pass Chapter One, Stage 5" />
+	<configure id="通关第一章第6关" value="Pass Chapter One, Stage 6" />
+	<configure id="通关第二章第3关" value="Pass Chapter Two, Stage 3" />
+	<configure id="通关第二章第6关" value="Pass Chapter Two, Stage 6" />
+	<configure id="通关第二章第9关" value="Pass Chapter Two, Stage 9" />
+	<configure id="通关第二章第10关" value="Pass Chapter Two, Stage 10" />
+	<configure id="通关第三章第3关" value="Pass Chapter Three, Stage 3" />
+	<configure id="通关第三章第6关" value="Pass Chapter Three, Stage 6" />
+	<configure id="通关第三章第8关" value="Pass Chapter Three, Stage 8" />
+	<configure id="通关第三章第9关" value="Pass Chapter Three, Stage 9" />
+	<configure id="通关第三章第10关" value="Pass Chapter Three, Stage 10" />
+	<configure id="通关第四章第3关" value="Pass Chapter Four, Stage 3" />
+	<configure id="通关第四章第6关" value="Pass Chapter Four, Stage 6" />
+	<configure id="通关第四章第8关" value="Pass Chapter Four, Stage 8" />
+	<configure id="通关第四章第9关" value="Pass Chapter Four, Stage 9" />
+	<configure id="通关第四章第10关" value="Pass Chapter Four, Stage 10" />
+	<configure id="通关第五章第3关" value="Pass Chapter Five, Stage 3" />
+	<configure id="通关第五章第6关" value="Pass Chapter Five, Stage 6" />
+	<configure id="通关第五章第8关" value="Pass Chapter Five, Stage 8" />
+	<configure id="通关第五章第9关" value="Pass Chapter Five, Stage 9" />
+	<configure id="通关第五章第10关" value="Pass Chapter Five, Stage 10" />
+	<configure id="通关第六章第3关" value="Pass Chapter Six, Stage 3" />
+	<configure id="通关第六章第6关" value="Pass Chapter Six, Stage 6" />
+	<configure id="通关第六章第8关" value="Pass Chapter Six, Stage 8" />
+	<configure id="通关第六章第9关" value="Pass Chapter Six, Stage 9" />
+	<configure id="通关第六章第10关" value="Pass Chapter Six, Stage 10" />
+	<configure id="通关第七章第3关" value="Pass Chapter Seven, Stage 3" />
+	<configure id="通关第七章第6关" value="Pass Chapter Seven, Stage 6" />
+	<configure id="通关第七章第8关" value="Pass Chapter Seven, Stage 8" />
+	<configure id="通关第七章第9关" value="Pass Chapter Seven, Stage 9" />
+	<configure id="通关第七章第10关" value="Pass Chapter Seven, Stage 10" />
+	<configure id="通关第八章第3关" value="Pass Chapter Eight, Stage 3" />
+	<configure id="通关第八章第6关" value="Pass Chapter Eight, Stage 6" />
+	<configure id="通关第八章第8关" value="Pass Chapter Eight, Stage 8" />
+	<configure id="灰熊坦克升到3级" value="Upgrade Bear Tank to Lv. 3" />
+	<configure id="多功能步兵车升到3级" value="Upgrade IFV to Lv. 3" />
+	<configure id="灰熊坦克升到5级" value="Upgrade Bear Tank to Lv. 5" />
+	<configure id="多功能步兵车升到5级" value="Upgrade IFV to Lv. 5" />
+	<configure id="天启升到5级" value="Upgrade Apocalypse to Lv. 5" />
+	<configure id="灰熊坦克升到10级" value="Upgrade Bear Tank to Lv. 10" />
+	<configure id="多功能步兵车升到10级" value="Upgrade IFV to Lv. 10" />
+	<configure id="天启升到10级" value="Upgrade Apocalypse to Lv. 10" />
+	<configure id="火箭炮升到10级" value="Upgrade Rocket Sled to Lv. 10" />
+	<configure id="世纪轰炸机升到10级" value="Upgrade Century Bomber to Lv. 10" />
+	<configure id="灰熊坦克升到20级" value="Upgrade Bear Tank to Lv. 20" />
+	<configure id="多功能步兵车升到20级" value="Upgrade IFV to Lv. 20" />
+	<configure id="天启升到20级" value="Upgrade Apocalypse to Lv. 20" />
+	<configure id="火箭炮升到20级" value="Upgrade Rocket Sled to Lv. 20" />
+	<configure id="光棱坦克升到20级" value="Upgrade Prism Tank to Lv. 20" />
+	<configure id="世纪轰炸机升到20级" value="Upgrade Century Bomber to Lv. 20" />
+	<configure id="灰熊坦克升到30级" value="Upgrade Bear Tank to Lv. 30" />
+	<configure id="多功能步兵车升到30级" value="Upgrade IFV to Lv. 30" />
+	<configure id="天启升到30级" value="Upgrade Apocalypse to Lv. 30" />
+	<configure id="火箭炮升到30级" value="Upgrade Rocket Sled to Lv. 30" />
+	<configure id="光棱坦克升到30级" value="Upgrade Prism Tank to Lv. 30" />
+	<configure id="电磁坦克升到30级" value="Upgrade Magnetron to Lv. 30" />
+	<configure id="世纪轰炸机升到30级" value="Upgrade Century Bomber to Lv. 30" />
+	<configure id="灰熊坦克升到40级" value="Upgrade Bear Tank to Lv. 40" />
+	<configure id="多功能步兵车升到40级" value="Upgrade IFV to Lv. 40" />
+	<configure id="天启升到40级" value="Upgrade Apocalypse to Lv. 40" />
+	<configure id="火箭炮升到40级" value="Upgrade Rocket Sled to Lv. 40" />
+	<configure id="光棱坦克升到40级" value="Upgrade Prism Tank to Lv. 40" />
+	<configure id="电磁坦克升到40级" value="Upgrade Magnetron to Lv. 40" />
+	<configure id="世纪轰炸机升到40级" value="Upgrade Century Bomber to Lv. 40" />
+	<configure id="灰熊坦克升到50级" value="Upgrade Bear Tank to Lv. 50" />
+	<configure id="多功能步兵车升到50级" value="Upgrade IFV to Lv. 50" />
+	<configure id="天启升到50级" value="Upgrade Apocalypse to Lv. 50" />
+	<configure id="火箭炮升到50级" value="Upgrade Rocket Sled to Lv. 50" />
+	<configure id="光棱坦克升到50级" value="Upgrade Prism Tank to Lv. 50" />
+	<configure id="电磁坦克升到50级" value="Upgrade Magnetron to Lv. 50" />
+	<configure id="世纪轰炸机升到50级" value="Upgrade Century Bomber to Lv. 50" />
+	<configure id="灰熊坦克升到60级" value="Upgrade Bear Tank to Lv. 60" />
+	<configure id="多功能步兵车升到60级" value="Upgrade IFV to Lv. 60" />
+	<configure id="天启升到60级" value="Upgrade Apocalypse to Lv. 60" />
+	<configure id="火箭炮升到60级" value="Upgrade Rocket Sled to Lv. 60" />
+	<configure id="光棱坦克升到60级" value="Upgrade Prism Tank to Lv. 60" />
+	<configure id="电磁坦克升到60级" value="Upgrade Magnetron to Lv. 60" />
+	<configure id="世纪轰炸机升到60级" value="Upgrade Century Bomber to Lv. 60" />
+	<configure id="主线任务" value="Main Quests" />
+	<configure id="每日任务" value="Daily" />
+	<configure id="剧情任务" value="Plot Quest" />
+	<configure id="当前没有可进行的任务" value="No quest available now" />
+	<configure id="任务目标" value="Quest Target" />
+	<configure id="任务奖励" value="Quest Reward" />
+	<configure id="领取奖励" value="Collect" />
+	<configure id="任务" value="Quest" />
+	<configure id="次" value="Times" />
+	<configure id="跳转" value="Jump" />
+</configures>

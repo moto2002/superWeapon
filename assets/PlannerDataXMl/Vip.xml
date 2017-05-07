@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" num="60" resReward="" itemReward="124:1" skillReward="4:1" vipRight="1,2" />
+	<configure id="2" num="300" resReward="" itemReward="124:2" skillReward="5:1" vipRight="5,6" />
+	<configure id="3" num="500" resReward="" itemReward="124:3,125:1" skillReward="6:1" vipRight="9,10,11,12" />
+	<configure id="4" num="680" resReward="" itemReward="124:4,125:2" skillReward="61:1" vipRight="13,14,14,16,41" />
+	<configure id="5" num="1280" resReward="" itemReward="132:1,125:3" skillReward="62:1" vipRight="17,18,19,20,46,42" />
+	<configure id="6" num="5000" resReward="" itemReward="132:2,125:4,126:1" skillReward="63:1" vipRight="21,22,23,24,51,47,43" />
+	<configure id="7" num="8000" resReward="" itemReward="132:3,133:1,126:2" skillReward="64:1" vipRight="25,26,27,28,56,52,48,44" />
+	<configure id="8" num="12800" resReward="" itemReward="132:4,133:2,126:3" skillReward="65:1" vipRight="29,30,31,32,61,57,53,49,45" />
+	<configure id="9" num="16800" resReward="" itemReward="132:5,133:3,126:4" skillReward="66:1" vipRight="33,34,35,36,66,62,58,54,50" />
+	<configure id="10" num="20000" resReward="" itemReward="132:6,133:4,134:1" skillReward="67:1" vipRight="37,38,39,40,71,67,63,59,55" />
+</configures>

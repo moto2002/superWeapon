@@ -1,0 +1,2844 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="账号" value="username" />
+	<configure id="服务器" value="sever" />
+	<configure id="登陆" value="play" />
+	<configure id="建造时间" value="construction time" />
+	<configure id="已建造" value="hasbuilt" />
+	<configure id="防御建筑" value="defence attack" />
+	<configure id="经济建筑" value="economic construction" />
+	<configure id="支持建筑" value="support type building" />
+	<configure id="点击空白区域可关闭页面" value="click on the blank area can close the page" />
+	<configure id="下一级解锁" value="at the next lower level to unlock" />
+	<configure id="道具不足且不可购买" value="lack of props and purchase" />
+	<configure id="升级提示" value="upgrade prompt" />
+	<configure id="玩家需要" value="player need" />
+	<configure id="需要" value="need" />
+	<configure id="金币不足" value="gold lack" />
+	<configure id="石油不足" value="petroleum lack" />
+	<configure id="钢铁不足" value="steel lack" />
+	<configure id="稀矿不足" value="tombar thite lack" />
+	<configure id="金币产量" value="gold production" />
+	<configure id="金币存储" value="gold capacity" />
+	<configure id="石油产量" value="petroleum production" />
+	<configure id="石油存储" value="petroleum capacity" />
+	<configure id="钢铁产量" value="steel production" />
+	<configure id="钢铁存储" value="steel capacity" />
+	<configure id="稀土产量" value="tombar thite production" />
+	<configure id="稀土存储" value="tombar thite capacity" />
+	<configure id="生命值" value="health" />
+	<configure id="攻击值" value="attack" />
+	<configure id="防御值" value="defence" />
+	<configure id="受保护百分比" value="the protected percentage" />
+	<configure id="伤害值" value="damage" />
+	<configure id="最大容量" value="max capacity" />
+	<configure id="经验增加" value="exp" />
+	<configure id="金库" value="gold warehouse" />
+	<configure id="提升黄金存储能力" value="increasing gold storage capacity" />
+	<configure id="油库" value="oil warehouse" />
+	<configure id="提升石油存储能力" value="increasing oil storage capacity" />
+	<configure id="钢铁仓库" value="steel warehouse" />
+	<configure id="提升钢铁存储能力" value="increasing steel storage capacity" />
+	<configure id="稀矿仓库" value="tombar thite warehouse" />
+	<configure id="提升稀矿存储能力" value="increasing tombar thite storage capacity" />
+	<configure id="矿石精炼厂" value="ore Refinery" />
+	<configure id="生产黄金" value="gold production" />
+	<configure id="科技钻油井" value="caoild" />
+	<configure id="生产石油" value="producing oil" />
+	<configure id="炼钢厂" value="steelify" />
+	<configure id="生产钢铁" value="steel Production" />
+	<configure id="生化反应炉" value="yuri bio reactor" />
+	<configure id="生产稀矿" value="tombar thite production" />
+	<configure id="间谍卫星" value="spy satellite uplink" />
+	<configure id="用于发现更多的地区" value="to find more areas" />
+	<configure id="科技中心" value="science and technology center" />
+	<configure id="提升兵种、防塔和科技的能力" value="science promotion" />
+	<configure id="战车工厂" value="war factory" />
+	<configure id="升级兵种" value="army upgrade" />
+	<configure id="情报分析室" value="intelligence analysis room" />
+	<configure id="合成和派遣副官" value="synthetic sent aide" />
+	<configure id="保险库" value="vault" />
+	<configure id="用于保护一部分资源不被掠夺" value="protect part of resources" />
+	<configure id="狙击塔" value="sniper tower" />
+	<configure id="射程远伤害高" value="range of much damage" />
+	<configure id="盖特机炮" value="yaggun" />
+	<configure id="中程火力较强" value="medium-range strong firepower" />
+	<configure id="巨炮" value="gtgcan" />
+	<configure id="对天启坦克有很强的杀伤力" value="have a very strong lethality of apocalypse tanks" />
+	<configure id="光棱塔" value="patriot Missle System " />
+	<configure id="能够折射伤害攻击多个目标" value="can refraction damage multiple goals" />
+	<configure id="地雷" value="mine" />
+	<configure id="伤害附近的敌人" value="damage nearby enemies" />
+	<configure id="多管火箭炮" value="multiple rocket launcher" />
+	<configure id="远程火炮" value="artillery cannons" />
+	<configure id="电磁塔" value="hidden tesla" />
+	<configure id="能够麻痹敌人" value="Chance of paralysing enemies for a few seconds" />
+	<configure id="超时空传送仪" value="chronosphering instrument" />
+	<configure id="招募指挥官" value="recruitment commander" />
+	<configure id="信息" value="message" />
+	<configure id="司令部" value="command" />
+	<configure id="战争学院" value="institute of war" />
+	<configure id="提升兵种、防塔和技能的能力" value="ascension loadout, towers and skill ability" />
+	<configure id="钢铁产出" value="steel output" />
+	<configure id="自动登录" value="automatic login" />
+	<configure id="记住密码" value="remember" />
+	<configure id="获取黄金" value="obtain gold" />
+	<configure id="获取石油" value="obtain oil" />
+	<configure id="获取钢铁" value="obtain steel" />
+	<configure id="获取稀矿" value="obtain tombar thite" />
+	<configure id="在作战图区域可以发现更多的地区" value="more areas can be found in operational picture area" />
+	<configure id="研发兵种、防塔和技能科技，提升战斗能力" value="skills of science and technology,to improve combat capability" />
+	<configure id="升级兵种，提高兵种单位的战斗力" value="upgraded units" />
+	<configure id="获得情报官，并派遣情报官可以获得更多的资源" value="gain intelligence officers,and sent to you can get more resources" />
+	<configure id="在高塔上有狙击武器，可以对远处的敌人造成大量伤害。" value="on the tower have sniper weapons,can cause a lot of damage to the enemy in the distance." />
+	<configure id="机枪塔" value="machine-gun turret" />
+	<configure id="对中程范围内的敌人进行扫射，面对集群部队有很大优势" value="shooting the intermediate range of the enemy,in the face of the cluster forces has great advantage" />
+	<configure id="对坦克兵种有很大的杀伤力，特别是天启坦克" value="for the apocalypse tanks caused great damage." />
+	<configure id="高科技的激光武器，有折射效果，可以伤害多个目标" value="high-tech laser weapon,has the refraction effect,can damage multiple targets" />
+	<configure id="敌人靠近时会引爆" value="the enemy will detonate near" />
+	<configure id="对超远目标发射多枚飞弹，面对集群单位有很大优势" value="on buzzer-beaters target to launch rockets,in the face of the cluster unit has great advantage" />
+	<configure id="高科技的电磁武器，能使对方在一定时间内无法进行任何行动" value="high-tech electromagnetic weapons,can make each other during a certain period of time can't take any action" />
+	<configure id="爱因斯坦发明的未来科技，可以通过超时空传送仪招募到心仪的指挥官到你的麾下。" value="einstein invented the future of science and technology,can pass chronosphering instrument recruit to the commander of the right to you." />
+	<configure id="恭喜您 狙击塔升到" value="congratulations sniper tower microsoft update" />
+	<configure id="获得金币" value="receive gold" />
+	<configure id="恭喜您 机枪塔升到" value="congratulations yaggun microsoft update" />
+	<configure id="指挥官背包已满" value="the commander backpack is full" />
+	<configure id="金币仓库已满" value="gold warehouse is full" />
+	<configure id="石油仓库已满" value="oil warehouse is full" />
+	<configure id="钢铁仓库已满" value="steel warehouse is full" />
+	<configure id="稀土仓库已满" value="tombar thite warehouse is full" />
+	<configure id="指挥官等级不能超过角色等级" value="commander level cannot exceed character level" />
+	<configure id="金币购买次数不足" value="purchase of insufficient number of gold COINS" />
+	<configure id="资源领取后会超出仓库上限，请预留出足够的空间再来领取。" value="resources beyond the warehouse after receive limit, please reserve enough space to pick up again." />
+	<configure id="包含非法字符" value="contains illegal characters" />
+	<configure id="领取时间未到，请耐心等候" value="pick up yet, please wait patiently" />
+	<configure id="探索令或军令不足" value="explore or military orders insufficient" />
+	<configure id="今天次数已满··" value="today the number is full··" />
+	<configure id="钻石不够··" value="the diamond is not enough··" />
+	<configure id="奖牌积分不够··" value="not enough MEDALS integral··" />
+	<configure id="商品售完请等待下次刷新提示··" value="goods sold out, please wait for the next refresh··" />
+	<configure id="军令不足" value="lack of military" />
+	<configure id="司令部等级不够" value="command level is not enough" />
+	<configure id="扫荡令不足" value="swept to less than" />
+	<configure id="请先开通VIP" value="please open the VIP" />
+	<configure id="道具不足~~" value="lack of props~~" />
+	<configure id="可派遣副官已达到上限" value="can send aide has reached the upper limit" />
+	<configure id="您的招募到的指挥官已达到数量上限" value="your recruitment to the commander has reached the upper limit" />
+	<configure id="鲍里斯" value="Boris" />
+	<configure id="欧列格" value="Oleg Menshikov" />
+	<configure id="吕超然" value="Kurt chew-een lee" />
+	<configure id="疯狂伊文" value="Crazy evan" />
+	<configure id="托恩斯将军" value="Joe, general" />
+	<configure id="朱可夫" value="Zhukov" />
+	<configure id="指挥官已经进入您的麾下" value="the commander has entered into under the authority of your" />
+	<configure id="科技" value="science and technology" />
+	<configure id="升级成功" value="Upgrade success" />
+	<configure id="鲍里斯指挥官已经被您遣散了" value="Boris commander has been you sent" />
+	<configure id="欧列格指挥官已经被您遣散了" value="Oleg Menshikov commander has been you sent" />
+	<configure id="吕超然指挥官已经被您遣散了" value="Kurt chew-een lee commander has been you sent" />
+	<configure id="疯狂伊文指挥官已经被您遣散了" value="Crazy evan commander has been you sent" />
+	<configure id="托恩斯将军指挥官已经被您遣散了" value="Joe, general commander has been you sent" />
+	<configure id="朱可夫指挥官已经被您遣散了" value="Zhukov commander has been you sent" />
+	<configure id="恭喜您" value="congratulations to you" />
+	<configure id="建造成功" value="build a successful" />
+	<configure id="升到" value=" ascend to" />
+	<configure id="获得石油" value="receive petroleum" />
+	<configure id="获得稀矿" value="receive tombar thite" />
+	<configure id="获得钢铁" value="receive steel" />
+	<configure id="点击建筑不放可移动建筑" value="click don't put mobile buildings" />
+	<configure id="获得钻石" value="get the diamond" />
+	<configure id="恭喜！您的角色等级已升到LV." value="congratulations!Your character level has risen to LV." />
+	<configure id="角色经验" value="role experience" />
+	<configure id="使用" value="use" />
+	<configure id="您对副官" value="you to aide" />
+	<configure id="使用了强化剂 资源加成效果加强" value="use the enhancer bonus resources to strengthen effect" />
+	<configure id="谭亚" value="Ttypea" />
+	<configure id="左菲亚" value="Zophia" />
+	<configure id="恭喜， 您获得副官" value="congratulations,you get aide" />
+	<configure id="芸茹" value="Yunru" />
+	<configure id="火箭炮兵种升级成功" value="rocket upgrade success" />
+	<configure id="多功能步兵车兵种升级成功" value="Multi-functional infantry vehicle upgrade success" />
+	<configure id="灰熊坦克兵种升级成功" value="the grizzlies tank upgrade success" />
+	<configure id="天启坦克兵种升级成功" value="apocalypse tanks upgrade success" />
+	<configure id="光棱坦克兵种升级成功" value="edge light tank upgrade success" />
+	<configure id="电磁坦克兵种升级成功" value="electromagnetic tank upgrade success" />
+	<configure id="招募令" value="Order Recruitment" />
+	<configure id="扫荡令" value="Make raids" />
+	<configure id="冻结令" value="Freeze order" />
+	<configure id="小能量药剂" value="Small Energy Potion" />
+	<configure id="中能量药剂" value="Medium Energy Potion" />
+	<configure id="大能量药剂" value="Large Energy Potion" />
+	<configure id="超级能量药剂" value="Super Energy Potion" />
+	<configure id="兵种科技图纸" value="Technology blueprint arms" />
+	<configure id="防御塔科技图纸" value="Drawing towers Technology" />
+	<configure id="技能科技图纸" value="Skills Technology drawings" />
+	<configure id="1级泰矿蓝晶" value="Level 1 titanium aquamarine" />
+	<configure id="2级泰矿蓝晶" value="Level 2 titanium aquamarine" />
+	<configure id="3级泰矿蓝晶" value="Level 3 titanium aquamarine" />
+	<configure id="4级泰矿蓝晶" value="Level 4 titanium aquamarine" />
+	<configure id="5级泰矿蓝晶" value="Level 5 titanium aquamarine" />
+	<configure id="6级泰矿蓝晶" value="Level 6 titanium aquamarine" />
+	<configure id="7级泰矿蓝晶" value="Level 7 titanium aquamarine" />
+	<configure id="8级泰矿蓝晶" value="Level 8 titanium aquamarine" />
+	<configure id="9级泰矿蓝晶" value="Level 9 titanium aquamarine" />
+	<configure id="10级泰矿蓝晶" value="Level 10 titanium aquamarine" />
+	<configure id="11级泰矿蓝晶" value="Level 11 titanium aquamarine" />
+	<configure id="12级泰矿蓝晶" value="Level 12 titanium aquamarine" />
+	<configure id="1级泰矿绿晶" value="Level 1 titanium green crystal" />
+	<configure id="2级泰矿绿晶" value="Level 2 titanium green crystal" />
+	<configure id="3级泰矿绿晶" value="Level 3 titanium green crystal" />
+	<configure id="4级泰矿绿晶" value="Level 4 titanium green crystal" />
+	<configure id="5级泰矿绿晶" value="Level 5 titanium green crystal" />
+	<configure id="6级泰矿绿晶" value="Level 6 titanium green crystal" />
+	<configure id="7级泰矿绿晶" value="Level 7 titanium green crystal" />
+	<configure id="8级泰矿绿晶" value="Level 8 titanium green crystal" />
+	<configure id="9级泰矿绿晶" value="Level 9 titanium green crystal" />
+	<configure id="10级泰矿绿晶" value="Level 10 titanium green crystal" />
+	<configure id="11级泰矿绿晶" value="Level 11 titanium green crystal" />
+	<configure id="12级泰矿绿晶" value="Level 12 titanium green crystal" />
+	<configure id="普通谭娅基因体" value="Ordinary Tanya crystals" />
+	<configure id="普通佐菲亚基因体" value="Ordinary Zophia crystals" />
+	<configure id="普通芸茹基因体" value="Ordinary Yunru crystals" />
+	<configure id="优秀谭娅基因体" value="Excellent Tanya crystal" />
+	<configure id="优秀佐菲亚基因体" value="Excellent Zophia crystal" />
+	<configure id="优秀芸茹灵基因体" value="Excellent Yunru crystal" />
+	<configure id="精英谭娅灵基因体" value="Elite Tanya crystal" />
+	<configure id="精英佐菲亚基因体" value="Elite Zophia crystal" />
+	<configure id="精英芸茹灵基因体" value="Elite Yunru crystal" />
+	<configure id="传奇谭娅灵基因体" value="Legend Tanya crystal" />
+	<configure id="传奇佐菲亚基因体" value="Legend Zophia crystal" />
+	<configure id="传奇芸茹灵基因体" value="Legend Yunru crystal" />
+	<configure id="手枪" value="gun" />
+	<configure id="突击步枪" value="assault rifle" />
+	<configure id="冲锋枪" value="submachine gun" />
+	<configure id="霰弹枪" value="shotgun" />
+	<configure id="轻机枪" value="light machine gun" />
+	<configure id="狙击枪" value="sniper rifle" />
+	<configure id="掷弹筒" value="grenade-thrower" />
+	<configure id="发射器" value="ejector" />
+	<configure id="重机枪" value="heavy machine gun" />
+	<configure id="破片手雷" value="Frag Grenade" />
+	<configure id="闪光弹" value="flashbomb" />
+	<configure id="白磷弹" value="white phosphorus bomb" />
+	<configure id="粘性手雷" value="Head Start" />
+	<configure id="C4炸药" value="Composition C-4 " />
+	<configure id="电磁脉冲手雷" value="EMP grenade" />
+	<configure id="TNT" value="TNT" />
+	<configure id="震撼弹" value="STUN GRENADE" />
+	<configure id="强炸雷管" value="Strong thunder tube" />
+	<configure id="遥控无人机" value="remote-controlled unmanned vehicle" />
+	<configure id="爆破无人机" value="Blasting unmanned aerial vehicle" />
+	<configure id="追踪无人机" value="Track the unmanned aerial vehicle " />
+	<configure id="钉刺无人机" value="Stud unmanned aerial vehicle" />
+	<configure id="无人轰炸机" value="pilotless bomber" />
+	<configure id="突击无人机" value="Assault drone" />
+	<configure id="火箭无人机" value="The rockets unmanned aerial vehicle" />
+	<configure id="作战无人机" value="combat UAV" />
+	<configure id="超音速无人机" value="The supersonic drones" />
+	<configure id="光学准镜" value="Optical must mirror" />
+	<configure id="红点准镜" value="reflex" />
+	<configure id="混合准镜" value="Mixed quasi mirror" />
+	<configure id="自动瞄准准镜" value="Automatic aiming mirror" />
+	<configure id="侦测目标准镜" value="To detect target mirror" />
+	<configure id="热能探测准镜" value="Thermal detection mirror" />
+	<configure id="夜视镜" value="night vision goggles" />
+	<configure id="镭射准镜" value="Laser must mirror" />
+	<configure id="远程激光准镜" value="Remote laser lens" />
+	<configure id="防弹背心" value="bulletproof vest" />
+	<configure id="战术侦察胸挂" value="Tactical reconnaissance breastplate" />
+	<configure id="战术快拆背心" value="Tactical quick release vest" />
+	<configure id="基础战术背心" value="Based on the tactical vest" />
+	<configure id="盟军徽章" value="The allied badge" />
+	<configure id="苏军徽章" value="The Soviet badge" />
+	<configure id="银鹰徽章" value="Silver eagle emblem" />
+	<configure id="尤里徽章" value="Yuri badge" />
+	<configure id="紫心徽章" value="Purple heart" />
+	<configure id="防弹背心1" value="bulletproof vest 1" />
+	<configure id="战术侦察胸挂1" value="Tactical reconnaissance chest hang 1" />
+	<configure id="战术快拆背心1" value="Tactical quick release vest 1" />
+	<configure id="基础战术背心1" value="Based on the tactical vest 1" />
+	<configure id="盟军徽章1" value="The allied badge 1" />
+	<configure id="苏军徽章1" value="The Soviet badge 1" />
+	<configure id="银鹰徽章1" value="Silver eagle emblem 1" />
+	<configure id="尤里徽章1" value="Yuri badge 1" />
+	<configure id="紫心徽章1" value="Purple heart 1" />
+	<configure id="基因强化剂" value="Gene enhancer" />
+	<configure id="立即结束冷却" value="An immediate end to the cooling" />
+	<configure id="集结点" value="Rally Point" />
+	<configure id="收集金币总量" value="Collecting gold coin total number" />
+	<configure id="收集石油总量" value="Collecting petroleum total number" />
+	<configure id="收集钢铁总量" value="Collecting steel total number" />
+	<configure id="收集稀矿总量" value="Collecting tombar thite number" />
+	<configure id="消耗金币总量" value="Consumption of gold total number" />
+	<configure id="消耗石油总量" value="xiao hao shiyou zong liang" />
+	<configure id="消耗钢铁总量" value="xiao hao gangtie zong liang" />
+	<configure id="消耗稀矿总量" value="xiao hao xikuang zong liang" />
+	<configure id="升级建筑总次数" value="sheng  ji   ji an zhu zong ci shu" />
+	<configure id="升级兵种总次数" value="sheng  ji  bing zhong zong ci shu" />
+	<configure id="击毁玩家基地总次数" value=" ji  hui wan  ji a  ji  di zong ci shu" />
+	<configure id="击毁NPC据点总次数" value=" ji  hui NPC ju dian zong ci shu" />
+	<configure id="攻占资源岛总次数" value="gong zhan zi yuan dao zong ci shu" />
+	<configure id="基地成功防御次数" value=" ji  di cheng gong fang yu ci shu" />
+	<configure id="大富翁" value="da fu weng" />
+	<configure id="石油大亨" value="shi you da heng" />
+	<configure id="钢铁大亨" value="gang tie da heng" />
+	<configure id="矿产大亨" value="kuang chan da heng" />
+	<configure id="就是任性" value=" ji u shi ren xing" />
+	<configure id="能源危机" value="neng yuan wei  ji " />
+	<configure id="钢铁危机" value="gang tei wei  ji " />
+	<configure id="资源危机" value="zi yuan wei  ji " />
+	<configure id="大建筑师" value="da  ji an zhu shi" />
+	<configure id="大部队集结" value="da bu dui  ji   ji e" />
+	<configure id="征服者" value="zheng fu zhe" />
+	<configure id="大冲锋" value="da chong feng" />
+	<configure id="宝藏的秘密" value="bao zang de mi mi" />
+	<configure id="防守大师" value="fang shou da shi" />
+	<configure id="成就" value="cheng  ji u" />
+	<configure id="任务" value="ren wu" />
+	<configure id="进度" value=" ji n du" />
+	<configure id="掠夺玩家基地次数" value="lue duo wan  ji a  ji  di ci shu" />
+	<configure id="掠夺资源岛次数" value="luo duo zi yuan dao ci shu" />
+	<configure id="攻击据点次数" value="gong  ji  ju dian ci shu" />
+	<configure id="攻击活动岛屿次数" value="gong  ji  huo dong dao yu ci shu" />
+	<configure id="攻击boss岛屿次数" value="gong  ji  boss dao yu ci shu" />
+	<configure id="攻击战役岛屿次数" value="gong  ji  zhan yi dao yu ci shu" />
+	<configure id="指挥官升级次数" value="zhi hui guan sheng  ji  ci shu" />
+	<configure id="兵种等级提升次数" value="bing zhong deng  ji  ti sheng ci shu" />
+	<configure id="科技升级次数" value="ke  ji  sheng  ji  ci shu" />
+	<configure id="收集资源（操作）次数" value="shou  ji  zi yuan (cao zuo)ci shu" />
+	<configure id="指挥官招募次数" value="zhi hui guan zhao mu ci shu" />
+	<configure id="购买体力次数" value="gou mai ti li ci shu" />
+	<configure id="每日任务" value="mei ri ren wu" />
+	<configure id="主线任务" value="zhu xian ren wu" />
+	<configure id="任务奖励：" value="ren wu jaing li:" />
+	<configure id="司令部升到LV.2" value="si ling bu sheng dao LV.2" />
+	<configure id="点击配兵" value="dian  ji  pei bing" />
+	<configure id="通关第1关" value="tong guan di 1 guan" />
+	<configure id="建造油库" value=" ji an zao you ku" />
+	<configure id="建造科技钻油井" value=" ji an zao ke  ji  zuan you  ji ng" />
+	<configure id="通关第2关" value="tong guan di 2 guan" />
+	<configure id="通关第3关" value="tong guan di 3 guan" />
+	<configure id="司令升到LV.3" value="si ling bu sheng  ji  dao LV.3" />
+	<configure id="建筑战车工厂" value=" ji an zhu zhan che gong chang" />
+	<configure id="通关第9关" value="tong guan di 9 guan" />
+	<configure id="建造机枪" value=" ji an zao  ji  qiang" />
+	<configure id="司令部升到LV.4" value="si ling bu sheng  ji  dao LV.4" />
+	<configure id="通关第6关" value="tong guan di 6 guan" />
+	<configure id="领取金币" value="ling qu  ji n bi" />
+	<configure id="领取石油" value="ling qu shi you" />
+	<configure id="建造狙击塔" value=" ji an zao ju  ji  ta" />
+	<configure id="司令部升到LV.5" value="si ling bu sheng  ji  dao LV.5" />
+	<configure id="建造超时空传送仪" value=" ji an zao chao shi kong chuan song yi" />
+	<configure id="通关第12关" value="tong guan di 12 guan" />
+	<configure id="建造钢铁仓库" value=" ji an zao gang tie cang ku" />
+	<configure id="建造炼钢厂" value=" ji an zao lian gang chang" />
+	<configure id="司令部升到LV.6" value="si ling bu sheng  ji  dao LV.6" />
+	<configure id="建造间谍卫星" value=" ji an zao  ji an die wei xing" />
+	<configure id="建造保险库" value=" ji an zao bao xian ku" />
+	<configure id="探索云层" value="tan suo yun ceng" />
+	<configure id="攻击据点*1" value="gong  ji  ju dian * 1" />
+	<configure id="掠夺玩家" value="lue duo wan  ji a" />
+	<configure id="占领资源岛" value="zhan ling zi yuan dao" />
+	<configure id="通关三章3关" value="tong guan san zhang 3 guan" />
+	<configure id="通关三章6关" value="tong guan san zhang 6 guan" />
+	<configure id="通关三章9关" value="tong guan san zhang 9 guan" />
+	<configure id="通关三章12关" value="tong guan san zhang 12 guan" />
+	<configure id="通关三章15关" value="tong guan san zhang 15 guan" />
+	<configure id="通关四章3关" value="tong guan si zhang 3 guan" />
+	<configure id="通关四章6关" value="tong guan si zhang 6 guan" />
+	<configure id="通关四章9关" value="tong guan si zhang 9 guan" />
+	<configure id="通关四章12关" value="tong guan si zhang 12 guan" />
+	<configure id="通关四章15关" value="tong guan si zhang 15 guan" />
+	<configure id="通关五章3关" value="tong guan wu zhang 3 guan" />
+	<configure id="通关五章6关" value="tong guan wu zhang 6 guan" />
+	<configure id="通关五章9关" value="tong guan wu zhang 9 guan" />
+	<configure id="通关五章12关" value="tong guan wu zhang 12 guan" />
+	<configure id="通关五章15关" value="tong guan wu zhang 15 guan" />
+	<configure id="通关六章3关" value="tong guan liu zhang 3 guan" />
+	<configure id="通关六章6关" value="tong guan liu zhang 6 guan" />
+	<configure id="通关六章9关" value="tong guan liu zhang 9 guan" />
+	<configure id="通关六章12关" value="tong guan liu zhang 12 guan" />
+	<configure id="通关六章15关" value="tong guan liu zhang 15 guan" />
+	<configure id="通关七章3关" value="tong guan qi zhang 3 guan" />
+	<configure id="通关七章6关" value="tong guan qi zhang 6 guan" />
+	<configure id="通关七章9关" value="tong guan qi zhang 9 guan" />
+	<configure id="通关七章12关" value="tong guan qi zhang 12 guan" />
+	<configure id="通关七章15关" value="tong guan qi zhang 15 guan" />
+	<configure id="通关八章3关" value="tong guan ba zhang 3 guan" />
+	<configure id="通关八章6关" value="tong guan ba zhang 6 guan" />
+	<configure id="通关八章9关" value="tong guan ba zhang 9 guan" />
+	<configure id="通关八章12关" value="tong guan ba zhang 12 guan" />
+	<configure id="通关八章15关" value="tong guan ba zhang 15 guan" />
+	<configure id="通关九章3关" value="tong guan  ji u zhang 3 guan" />
+	<configure id="通关九章6关" value="tong guan  ji u zhang 6 guan" />
+	<configure id="通关九章9关" value="tong guan  ji u zhang 9 guan" />
+	<configure id="通关九章12关" value="tong guan  ji u zhang 12 guan" />
+	<configure id="通关九章15关" value="tong guan  ji u zhang 15 guan" />
+	<configure id="通关十章3关" value="tong guan shi zhang 3 guan" />
+	<configure id="通关十章6关" value="tong guan shi zhang 6 guan" />
+	<configure id="通关十章9关" value="tong guan shi zhang 9 guan" />
+	<configure id="通关十章12关" value="tong guan shi zhang 12 guan" />
+	<configure id="通关十章15关" value="tong guan shi zhang 15 guan" />
+	<configure id="通关十一章3关" value="tong guan shi yi zhang 3 guan" />
+	<configure id="通关十一章6关" value="tong guan shi yi zhang 6 guan" />
+	<configure id="通关十一章9关" value="tong guan shi yi zhang 9 guan" />
+	<configure id="通关十一章12关" value="tong guan shi yi zhang 12 guan" />
+	<configure id="通关十一章15关" value="tong guan shi yi zhang 15 guan" />
+	<configure id="通关十二章3关" value="tong guan shi er zhang 3 guan" />
+	<configure id="通关十二章6关" value="tong guan shi er zhang 6 guan" />
+	<configure id="通关十二章9关" value="tong guan shi er zhang 9 guan" />
+	<configure id="通关十二章12关" value="tong guan shi er zhang 12 guan" />
+	<configure id="通关十二章15关" value="tong guan shi er zhang 15 guan" />
+	<configure id="通关十三章3关" value="tong guan shi san zhang 3 guan" />
+	<configure id="通关十三章6关" value="tong guan shi san zhang 6 guan" />
+	<configure id="通关十三章9关" value="tong guan shi san zhang 9 guan" />
+	<configure id="通关十三章12关" value="tong guan shi san zhang 12 guan" />
+	<configure id="通关十三章15关" value="tong guan shi san zhang 15 guan" />
+	<configure id="通关十四章3关" value="tong guan shi si zhang 3 guan" />
+	<configure id="通关十四章6关" value="tong guan shi si zhang 6 guan" />
+	<configure id="通关十四章9关" value="tong guan shi si zhang 9 guan" />
+	<configure id="通关十四章12关" value="tong guan shi si zhang 12 guan" />
+	<configure id="通关十四章15关" value="tong guan shi si zhang 15 guan" />
+	<configure id="通关十五章3关" value="tong guan shi wu zhang 3 guan" />
+	<configure id="通关十五章6关" value="tong guan shi wu zhang 6 guan" />
+	<configure id="通关十五章9关" value="tong guan shi wu zhang 9 guan" />
+	<configure id="通关十五章12关" value="tong guan shi wu zhang 12 guan" />
+	<configure id="通关十五章15关" value="tong guan shi wu zhang 15 guan" />
+	<configure id="通关十六章3关" value="tong guan shi liu zhang 3 guan" />
+	<configure id="通关十六章6关" value="tong guan shi liu zhang 6 guan" />
+	<configure id="通关十六章9关" value="tong guan shi liu zhang 9 guan" />
+	<configure id="通关十六章12关" value="tong guan shi liu zhang 12 guan" />
+	<configure id="通关十六章15关" value="tong guan shi liu zhang 15 guan" />
+	<configure id="通关十七章3关" value="tong guan shi qi zhang 3 guan" />
+	<configure id="通关十七章6关" value="tong guan shi qi zhang 6 guan" />
+	<configure id="通关十七章9关" value="tong guan shi qi zhang 9 guan" />
+	<configure id="通关十七章12关" value="tong guan shi qi zhang 12 guan" />
+	<configure id="通关十七章15关" value="tong guan shi qi zhang 15 guan" />
+	<configure id="通关十八章3关" value="tong guan shi ba zhang 3 guan" />
+	<configure id="通关十八章6关" value="tong guan shi ba zhang 6 guan" />
+	<configure id="通关十八章9关" value="tong guan shi ba zhang 9 guan" />
+	<configure id="通关十八章12关" value="tong guan shi ba zhang 12 guan" />
+	<configure id="通关十八章15关" value="tong guan shi ba zhang 15 guan" />
+	<configure id="通关十九章3关" value="tong guan shi  ji u zhang 3 guan" />
+	<configure id="通关十九章6关" value="tong guan shi  ji u zhang 6 guan" />
+	<configure id="通关十九章9关" value="tong guan shi  ji u zhang 9 guan" />
+	<configure id="通关十九章12关" value="tong guan shi  ji u zhang 12 guan" />
+	<configure id="通关十九章15关" value="tong guan shi  ji u zhang 15 guan" />
+	<configure id="通关二十章3关" value="tong guan er shi zhang 3 guan" />
+	<configure id="通关二十章6关" value="tong guan er shi zhang 6 guan" />
+	<configure id="通关二十章9关" value="tong guan er shi zhang 9 guan" />
+	<configure id="通关二十章12关" value="tong guan er shi zhang 12 guan" />
+	<configure id="通关二十章15关" value="tong guan er shi zhang 15 guan" />
+	<configure id="您的多功能步兵车战车部队已经整装待发" value="nin de duo gong neng bu bing zhan che yi  ji ng zheng zhuang dai fa" />
+	<configure id="您的灰熊坦克战车部队已经整装待发" value="nin de hui xiong tan ke zhan che bu dui yi  ji ng zheng zhuang dai fa" />
+	<configure id="您的天启坦克战车部队已经整装待发" value="nin de tian qi tan ke zhan che bu dui yi  ji ng zheng zhuang dai fa" />
+	<configure id="您的火箭炮战车部队已经整装待发" value="nin de huo  ji an pao zhan che yi  ji ng zheng zhuang dai fa" />
+	<configure id="您的光棱坦克战车部队已经整装待发" value="nin de guang leng tan ke zhan che bu dui yi  ji ng zheng zhuang dai fa" />
+	<configure id="您的电磁坦克战车部队已经整装待发" value="nin de dian ci tan ke zhan che bu dui yi  ji ng zheng zhuang dai fa" />
+	<configure id="奖励" value=" ji ang li" />
+	<configure id="金币产出" value="gold output" />
+	<configure id="石油产出" value="petroleum output" />
+	<configure id="稀矿产出" value="tombar thite output" />
+	<configure id="招募指挥官使用" value="zhao mu zhi hui guan shi yong" />
+	<configure id="扫荡战役关卡使用" value="sao dang zhan yi guan ka shi yong" />
+	<configure id="延长指挥官停留时间" value="yan chang zhi hui guan ting liu shi  ji an" />
+	<configure id="小型指挥官经验药剂" value="xiao xing zhi hui guan  ji ng yan yao  ji " />
+	<configure id="中型指挥官经验药剂" value="zhong xing zhi hui guan  ji ng yan yao  ji " />
+	<configure id="大型指挥官经验药剂" value="da xing zhi hui guan  ji ng yan yao  ji " />
+	<configure id="超级指挥官经验药剂" value="chao  ji  zhi hui guan  ji ng yan yao  ji " />
+	<configure id="记录着提升兵种能力方法的图纸" value=" ji  lu zhe ti sheng bing zhong neng li fang fa de tu zhi" />
+	<configure id="记录着提升防御塔能力方法的图纸" value=" ji  lu zhe ti sheng fang yu ta neng li fang fa de tu zhi" />
+	<configure id="记录着提升技能能力方法的图纸" value=" ji  lu zhe ti sheng  ji  neng neng li fang fa de tu zhi" />
+	<configure id="用于提升科研中心等级" value="yong yu ti sheng ke yan zhong xin deng  ji " />
+	<configure id="用于提升超时空传送仪等级" value="yong yu ti sheng chao shi kong chuan song yi deng  ji " />
+	<configure id="可以合成普通谭娅" value="ke yi he cheng pu tong tan ya" />
+	<configure id="可以合成普通佐菲亚" value="ke yi ke cheng pu tong zuo fei ya" />
+	<configure id="可以合成普通芸茹" value="ke yi he cheng pu tong yun ru" />
+	<configure id="可以合成优秀谭娅" value="ke yi he cheng you xiu tan ya" />
+	<configure id="可以合成优秀佐菲亚" value="ke yi he cheng you xiu zuo fei ya" />
+	<configure id="可以合成优秀芸茹" value="ke yi he cheng you xiu yun ru" />
+	<configure id="可以合成精英谭娅" value="ke yi he cheng  ji ng ying tan ya" />
+	<configure id="可以合成精英佐菲亚" value="ke yi he cheng  ji ng ying zuo fei ya" />
+	<configure id="可以合成精英芸茹" value="ke yi he cheng  ji ng ying yun ru" />
+	<configure id="可以合成传奇谭娅" value="ke yi he cheng chuan qi tan ya" />
+	<configure id="可以合成传奇佐菲亚" value="ke yi he cheng chuan qi zuo fei ya" />
+	<configure id="可以合成传奇芸茹" value="ke yi he cheng cuuan qi yun ru" />
+	<configure id="雇佣一阶指挥官使用" value="gu yong 1  ji e zhi hui guan shi yong" />
+	<configure id="雇佣二阶指挥官使用" value="gu yong 3  ji e zhi hui guan shi yong" />
+	<configure id="雇佣三阶指挥官使用" value="gu yong 4  ji e zhi hui guan shi yong" />
+	<configure id="雇佣四阶指挥官使用" value="gu yong 6  ji e zhi hui guan shi yong" />
+	<configure id="雇佣五阶指挥官使用" value="gu yong 8  ji e zhi hui guan shi yong" />
+	<configure id="一段时间内提升副官加成效果" value="yi duan shi  ji an nei ti sheng fu guan  ji a cheng xiao guo" />
+	<configure id="仓库" value="cang ku" />
+	<configure id="物品数量" value="wu pi shu liang" />
+	<configure id="签到" value="qian dao" />
+	<configure id="未达成" value="wei da cheng" />
+	<configure id="领取" value="ling qu" />
+	<configure id="已领取" value="yi ling qu" />
+	<configure id="双倍" value="shuang bei" />
+	<configure id="第" value="di" />
+	<configure id="天" value="tian" />
+	<configure id="物品不足" value="wu pin bu zu" />
+	<configure id="刚刚" value="gang gang" />
+	<configure id="小时前" value="xiao shi qian" />
+	<configure id="天前" value="tian qian" />
+	<configure id="收件箱" value="shou  ji an xiang" />
+	<configure id="可领取" value="ke ling qu" />
+	<configure id="领取奖励" value="ling qu  ji ang li" />
+	<configure id="排行榜" value="pai hang bang" />
+	<configure id="顶级排行" value="ding  ji  pai hang" />
+	<configure id="排行奖励" value="pai hang  ji ang li" />
+	<configure id="荣誉" value="rong yu" />
+	<configure id="访问" value="fang wen" />
+	<configure id="您" value="your" />
+	<configure id="军火商" value="jun huo shang" />
+	<configure id="购买" value="gou mai" />
+	<configure id="系统消息" value="xi tong xiao xi" />
+	<configure id="刷新" value="shua xin" />
+	<configure id="下次刷新倒计时:" value="xia ci shua xin dao  ji  shi:" />
+	<configure id="系统" value="xi tong" />
+	<configure id="世界" value="shi  ji e" />
+	<configure id="军团" value="jun tuan" />
+	<configure id="请点击输入" value="qing dian  ji  shu ru" />
+	<configure id="已满级" value="yi man  ji " />
+	<configure id="磁能塔" value="ci neng ta" />
+	<configure id="科技升级" value="ke  ji  sheng  ji " />
+	<configure id="防御塔" value="fang yu ta" />
+	<configure id="兵种" value="army" />
+	<configure id="技能" value="skill" />
+	<configure id="将" value=" ji ang" />
+	<configure id="科技升级到" value="ke  ji  sheng  ji  dao" />
+	<configure id="升级" value="sheng  ji  " />
+	<configure id="角色等级达到LV" value="jue se deng  ji  da dao LV" />
+	<configure id="防御" value="fang yu" />
+	<configure id="攻击" value="gong  ji " />
+	<configure id="多功能步兵车" value="duo gong neng bu bing che" />
+	<configure id="犀牛坦克" value="xi niu tan ke" />
+	<configure id="磁能坦克" value="ci neng tan ke" />
+	<configure id="灰熊坦克" value="hui xiong tan ke" />
+	<configure id="天启坦克" value="tian qi tan ke" />
+	<configure id="火箭车" value="huo  ji an che" />
+	<configure id="光棱坦克" value="guang leng tan ke" />
+	<configure id="电磁坦克" value="dian ci tan ke" />
+	<configure id="单体飞弹" value="dan ti fei dan" />
+	<configure id="乱射飞弹" value="luan she fei dan" />
+	<configure id="科研中心需要达到" value="ke yan zhong xin xu yao da dao" />
+	<configure id="该防御建筑需要达到" value="gai fang yu  ji an zhu xu yao da dao" />
+	<configure id="该兵种需要达到" value="gai bing zhong xu yao da dao" />
+	<configure id="道具不足" value="dao ju bu zu" />
+	<configure id="级" value=" ji " />
+	<configure id="等级进度:" value="deng ji   ji ndu:" />
+	<configure id="火箭炮" value="huo  ji an pao" />
+	<configure id="磁能坦克没用" value="ci neng tan ke mei yong" />
+	<configure id="排雷车" value="pai lei che" />
+	<configure id="谭雅" value="tan ya" />
+	<configure id="伞兵" value="san bing" />
+	<configure id="爆破兵" value="bao po bing" />
+	<configure id="兵种升级条件:" value="army upgrade conditions:" />
+	<configure id="正在冷却:" value="zheng zai leng que:" />
+	<configure id="本次升级冷却时间：" value="cooling time:" />
+	<configure id="升级后" value="after the upgrade" />
+	<configure id="升级到" value="sheng  ji  dao" />
+	<configure id="经验值" value="EXP" />
+	<configure id="暴击率" value="bao  ji  lv" />
+	<configure id="暴击抵抗" value="bao  ji  di kang" />
+	<configure id="溅射伤害" value=" ji an she shang hai" />
+	<configure id="穿甲" value="chuan  ji a" />
+	<configure id="破甲" value="po  ji a" />
+	<configure id="干扰效果" value="gan rao xiao guo" />
+	<configure id="生命回复" value="sheng ming hui fu" />
+	<configure id="持续伤害" value="chi xu shang hai" />
+	<configure id="攻速" value="gong su" />
+	<configure id="伤害" value="shang hai" />
+	<configure id="探索3块云层" value="tan suo 3 kuai yun ceng" />
+	<configure id="免费次数" value="mian fei ci shu" />
+	<configure id="星" value="xing" />
+	<configure id="自动遣散倒计时" value="qian san dao ji shi" />
+	<configure id="免费招募" value="mian fei zhao mu" />
+	<configure id="增加buff" value="zeng ji a buff" />
+	<configure id="遣散" value="qian san" />
+	<configure id="生命" value="sheng ming" />
+	<configure id="1-3星指挥官" value="1-3 officer" />
+	<configure id="1-4星指挥官" value="1-4 officer" />
+	<configure id="3-4星指挥官" value="3-4 officer" />
+	<configure id="1-5星指挥官" value="1-5 officer" />
+	<configure id="4-5星指挥官" value="4-5 officer" />
+	<configure id="5星指挥官" value="5 officer" />
+	<configure id="2-6星指挥官" value="2-6 officer" />
+	<configure id="4-6星指挥官" value="4-6 officer" />
+	<configure id="5-6星指挥官" value="5-6 officer" />
+	<configure id="3-7星指挥官" value="3-7 officer" />
+	<configure id="5-7星指挥官" value="5-7 officer" />
+	<configure id="6-7星指挥官" value="6-7 officer" />
+	<configure id="4-8星指挥官" value="4-8 officer" />
+	<configure id="5-8星指挥官" value="5-8 officer" />
+	<configure id="6-8星指挥官" value="6-8 officer" />
+	<configure id="4-9星指挥官" value="4-9 officer" />
+	<configure id="6-9星指挥官" value="6-9 officer" />
+	<configure id="7-9星指挥官" value="7-9 officer" />
+	<configure id="5-10星指挥官" value="5-10 officer" />
+	<configure id="6-10星指挥官" value="6-10 officer" />
+	<configure id="8-10星指挥官" value="8-10 officer" />
+	<configure id="5-11星指挥官" value="5-11 officer" />
+	<configure id="7-11星指挥官" value="7-11 officer" />
+	<configure id="9-11星指挥官" value="9-11 officer" />
+	<configure id="6-12星指挥官" value="6-12 officer" />
+	<configure id="7-12星指挥官" value="7-12 officer" />
+	<configure id="10-12星指挥官" value="10-12 officer" />
+	<configure id="超时空传送仪2级开放" value="chao shi kong chuan song yi 2  ji  kai fang" />
+	<configure id="超时空传送仪3级开放" value="chao shi kong chuan song yi 3  ji  kai fang" />
+	<configure id="您的主基地" value="nin de zhu  ji  di" />
+	<configure id="您的资源岛" value="nin de gang tie dao" />
+	<configure id="您的石油岛" value="nin de shi you dao" />
+	<configure id="我方资源岛" value="nin de xi kuang dao" />
+	<configure id="的石油岛" value="de shi you dao" />
+	<configure id="的稀矿岛" value="de xi kuang dao" />
+	<configure id="的钢铁岛" value="de gang tie dao" />
+	<configure id="活动关卡1" value="huo dong huan ka 1" />
+	<configure id="活动关卡2" value="huo dong huan ka 2" />
+	<configure id="活动关卡3" value="huo dong huan ka 3" />
+	<configure id="活动关卡4" value="huo dong huan ka 4" />
+	<configure id="活动关卡5" value="huo dong huan ka 5" />
+	<configure id="活动关卡6" value="huo dong huan ka 6" />
+	<configure id="活动关卡7" value="huo dong huan ka 7" />
+	<configure id="活动关卡8" value="huo dong huan ka 8" />
+	<configure id="活动关卡9" value="huo dong huan ka 9" />
+	<configure id="活动关卡10" value="huo dong huan ka 10" />
+	<configure id="活动关卡11" value="huo dong huan ka 11" />
+	<configure id="活动关卡12" value="huo dong huan ka 12" />
+	<configure id="活动关卡13" value="huo dong huan ka 13" />
+	<configure id="活动关卡14" value="huo dong huan ka 14" />
+	<configure id="活动关卡15" value="huo dong huan ka 15" />
+	<configure id="活动关卡16" value="huo dong huan ka 16" />
+	<configure id="活动关卡17" value="huo dong huan ka 17" />
+	<configure id="活动关卡18" value="huo dong huan ka 18" />
+	<configure id="活动关卡19" value="huo dong huan ka 19" />
+	<configure id="活动关卡20" value="huo dong huan ka 20" />
+	<configure id="活动关卡21" value="huo dong huan ka 21" />
+	<configure id="活动关卡22" value="huo dong huan ka 22" />
+	<configure id="活动关卡23" value="huo dong huan ka 23" />
+	<configure id="活动关卡24" value="huo dong huan ka 24" />
+	<configure id="活动关卡25" value="huo dong huan ka 25" />
+	<configure id="活动关卡26" value="huo dong huan ka 26" />
+	<configure id="活动关卡27" value="huo dong huan ka 27" />
+	<configure id="活动关卡28" value="huo dong huan ka 28" />
+	<configure id="活动关卡29" value="huo dong huan ka 29" />
+	<configure id="活动关卡30" value="huo dong huan ka 30" />
+	<configure id="活动关卡31" value="huo dong huan ka 31" />
+	<configure id="活动关卡32" value="huo dong huan ka 32" />
+	<configure id="活动关卡33" value="huo dong huan ka 33" />
+	<configure id="活动关卡34" value="huo dong huan ka 34" />
+	<configure id="活动关卡35" value="huo dong huan ka 35" />
+	<configure id="活动关卡36" value="huo dong huan ka 36" />
+	<configure id="活动关卡37" value="huo dong huan ka 37" />
+	<configure id="活动关卡38" value="huo dong huan ka 38" />
+	<configure id="活动关卡39" value="huo dong huan ka 39" />
+	<configure id="活动关卡40" value="huo dong huan ka 40" />
+	<configure id="活动关卡41" value="huo dong huan ka 41" />
+	<configure id="活动关卡42" value="huo dong huan ka 42" />
+	<configure id="活动关卡43" value="huo dong huan ka 43" />
+	<configure id="活动关卡44" value="huo dong huan ka 44" />
+	<configure id="活动关卡45" value="huo dong huan ka 45" />
+	<configure id="活动关卡46" value="huo dong huan ka 46" />
+	<configure id="活动关卡47" value="huo dong huan ka 47" />
+	<configure id="活动关卡48" value="huo dong huan ka 48" />
+	<configure id="活动关卡49" value="huo dong huan ka 49" />
+	<configure id="活动关卡50" value="huo dong huan ka 50" />
+	<configure id="活动关卡51" value="huo dong huan ka 51" />
+	<configure id="活动关卡52" value="huo dong huan ka 52" />
+	<configure id="活动关卡53" value="huo dong huan ka 53" />
+	<configure id="活动关卡54" value="huo dong huan ka 54" />
+	<configure id="活动关卡55" value="huo dong huan ka 55" />
+	<configure id="活动关卡56" value="huo dong huan ka 56" />
+	<configure id="活动关卡57" value="huo dong huan ka 57" />
+	<configure id="活动关卡58" value="huo dong huan ka 58" />
+	<configure id="活动关卡59" value="huo dong huan ka 59" />
+	<configure id="活动关卡60" value="huo dong huan ka 60" />
+	<configure id="活动关卡61" value="huo dong huan ka 61" />
+	<configure id="活动关卡62" value="huo dong huan ka 62" />
+	<configure id="活动关卡63" value="huo dong huan ka 63" />
+	<configure id="活动关卡64" value="huo dong huan ka 64" />
+	<configure id="活动关卡65" value="huo dong huan ka 65" />
+	<configure id="活动关卡66" value="huo dong huan ka 66" />
+	<configure id="活动关卡67" value="huo dong huan ka 67" />
+	<configure id="活动关卡68" value="huo dong huan ka 68" />
+	<configure id="活动关卡69" value="huo dong huan ka 69" />
+	<configure id="活动关卡70" value="huo dong huan ka 70" />
+	<configure id="活动关卡71" value="huo dong huan ka 71" />
+	<configure id="活动关卡72" value="huo dong huan ka 72" />
+	<configure id="活动关卡73" value="huo dong huan ka 73" />
+	<configure id="活动关卡74" value="huo dong huan ka 74" />
+	<configure id="石油资源岛1" value="shiyou dao 1" />
+	<configure id="石油资源岛2" value="shiyou dao 2" />
+	<configure id="石油资源岛3" value="shiyou dao 3" />
+	<configure id="石油资源岛4" value="shiyou dao 4" />
+	<configure id="石油资源岛5" value="shiyou dao 5" />
+	<configure id="石油资源岛6" value="shiyou dao 6" />
+	<configure id="石油资源岛7" value="shiyou dao 7" />
+	<configure id="石油资源岛8" value="shiyou dao 8" />
+	<configure id="石油资源岛9" value="shiyou dao 9" />
+	<configure id="石油资源岛10" value="shiyou dao 10" />
+	<configure id="石油资源岛11" value="shiyou dao 11" />
+	<configure id="石油资源岛12" value="shiyou dao 12" />
+	<configure id="石油资源岛13" value="shiyou dao 13" />
+	<configure id="石油资源岛14" value="shiyou dao 14" />
+	<configure id="石油资源岛15" value="shiyou dao 15" />
+	<configure id="钢铁资源岛1" value="gangtei dao 1" />
+	<configure id="钢铁资源岛2" value="gangtei dao 2" />
+	<configure id="钢铁资源岛3" value="gangtei dao 3" />
+	<configure id="钢铁资源岛4" value="gangtei dao 4" />
+	<configure id="钢铁资源岛5" value="gangtei dao 5" />
+	<configure id="钢铁资源岛6" value="gangtei dao 6" />
+	<configure id="钢铁资源岛7" value="gangtei dao 7" />
+	<configure id="钢铁资源岛8" value="gangtei dao 8" />
+	<configure id="钢铁资源岛9" value="gangtei dao 9" />
+	<configure id="钢铁资源岛10" value="gangtei dao 10" />
+	<configure id="钢铁资源岛11" value="gangtei dao 11" />
+	<configure id="钢铁资源岛12" value="gangtei dao 12" />
+	<configure id="钢铁资源岛13" value="gangtei dao 13" />
+	<configure id="钢铁资源岛14" value="gangtei dao 14" />
+	<configure id="钢铁资源岛15" value="gangtei dao 15" />
+	<configure id="稀矿资源岛1" value="xikuang dao 1" />
+	<configure id="稀矿资源岛2" value="xikuang dao 2" />
+	<configure id="稀矿资源岛3" value="xikuang dao 3" />
+	<configure id="稀矿资源岛4" value="xikuang dao 4" />
+	<configure id="稀矿资源岛5" value="xikuang dao 5" />
+	<configure id="稀矿资源岛6" value="xikuang dao 6" />
+	<configure id="孤独的哨塔111" value="gudu de shaota " />
+	<configure id="浪人112" value="lang ren112" />
+	<configure id="有效打法113" value="you xiao da fa113" />
+	<configure id="红色黎明114" value="hong se li ming114" />
+	<configure id="使命115" value="shi ming115" />
+	<configure id="侵略与反抗116" value="qin lue yu fan kang116" />
+	<configure id="孤独的哨塔117" value="gu du shao ta117" />
+	<configure id="科技站118" value="ke  ji  zhan118" />
+	<configure id="敢死队119" value="gan si dui119" />
+	<configure id="危险丛林120" value="wei xian cong lin120" />
+	<configure id="激光陷阱121" value=" ji  guang xian  ji ng121" />
+	<configure id="八方122" value="ba fang122" />
+	<configure id="诱饵123" value="you er123" />
+	<configure id="激光危险124" value=" ji  guang wei xian124" />
+	<configure id="双管齐下125" value="shuang guan qi xia125" />
+	<configure id="演习场126" value="yan xi chang126" />
+	<configure id="丛林之狼127" value="cong lin zhi lang127" />
+	<configure id="常规战术128" value="chang gui zhan shu128" />
+	<configure id="声东击西129" value="sheng dong  ji  xi129" />
+	<configure id="清场130" value="qing chang130" />
+	<configure id="出其不意131" value="chu qi bu yi131" />
+	<configure id="快攻132" value="kuai gong132" />
+	<configure id="误区133" value="wu qu133" />
+	<configure id="零伤亡134" value="ling shang wang134" />
+	<configure id="三军135" value="san jun135" />
+	<configure id="三岔口136" value="san cha kou136" />
+	<configure id="威胁137" value="wei xie137" />
+	<configure id="孤独守卫138" value="gu du shou wei138" />
+	<configure id="边缘待命139" value="bian yuan dai ming139" />
+	<configure id="出其不意140" value="chu qi bu yi140" />
+	<configure id="线攻击141" value="xian gong  ji 141" />
+	<configure id="指挥官的考验142" value="zhi hui guan de kao yan142" />
+	<configure id="孤独的哨塔143" value="gu du shao ta143" />
+	<configure id="浪人144" value="lang ren144" />
+	<configure id="有效打法145" value="you xiao da fa145" />
+	<configure id="红色黎明146" value="hong se li ming146" />
+	<configure id="使命147" value="shi ming147" />
+	<configure id="侵略与反抗148" value="qin lue yu fan kang148" />
+	<configure id="孤独的哨塔149" value="gu du shao ta149" />
+	<configure id="科技站150" value="ke  ji  zhan150" />
+	<configure id="敢死队151" value="gan si dui151" />
+	<configure id="危险丛林152" value="wei xian cong lin152" />
+	<configure id="激光陷阱153" value=" ji  guang xian  ji ng153" />
+	<configure id="八方154" value="ba fang154" />
+	<configure id="诱饵155" value="you er155" />
+	<configure id="激光危险156" value=" ji  guang wei xian156" />
+	<configure id="双管齐下157" value="shuang guan qi xia157" />
+	<configure id="演习场158" value="yan xi chang158" />
+	<configure id="丛林之狼159" value="cong lin zhi lang159" />
+	<configure id="常规战术160" value="chang gui zhan shu160" />
+	<configure id="声东击西161" value="sheng dong  ji  xi161" />
+	<configure id="清场162" value="qing chang162" />
+	<configure id="出其不意163" value="chu qi bu yi163" />
+	<configure id="快攻164" value="kuai gong164" />
+	<configure id="误区165" value="wu qu165" />
+	<configure id="零伤亡166" value="ling shang wang166" />
+	<configure id="三军167" value="san jun167" />
+	<configure id="三岔口168" value="san cha kou168" />
+	<configure id="威胁169" value="wei xie169" />
+	<configure id="孤独守卫170" value="gu du shou wei170" />
+	<configure id="边缘待命171" value="bian yuan dai ming171" />
+	<configure id="出其不意172" value="chu qi bu yi172" />
+	<configure id="线攻击173" value="xian gong  ji 173" />
+	<configure id="指挥官的考验174" value="zhi hui guan de kao yan174" />
+	<configure id="孤独的哨塔175" value="gu du shao ta175" />
+	<configure id="浪人176" value="lang ren176" />
+	<configure id="有效打法177" value="you xiao da fa177" />
+	<configure id="红色黎明178" value="hong se li ming178" />
+	<configure id="使命179" value="shi ming179" />
+	<configure id="侵略与反抗180" value="qin lue yu fan kang180" />
+	<configure id="孤独的哨塔181" value="gu du shao ta181" />
+	<configure id="科技站182" value="ke  ji  zhan182" />
+	<configure id="敢死队183" value="gan si dui183" />
+	<configure id="危险丛林184" value="wei xian cong lin184" />
+	<configure id="激光陷阱185" value=" ji  guang xian  ji ng185" />
+	<configure id="八方186" value="ba fang186" />
+	<configure id="诱饵187" value="you er187" />
+	<configure id="激光危险188" value=" ji  guang wei xian188" />
+	<configure id="双管齐下189" value="shuang guan qi xia189" />
+	<configure id="演习场190" value="yan xi chang190" />
+	<configure id="丛林之狼191" value="cong lin zhi lang191" />
+	<configure id="常规战术192" value="chang gui zhan shu192" />
+	<configure id="声东击西193" value="sheng dong  ji  xi193" />
+	<configure id="清场194" value="qing chang194" />
+	<configure id="出其不意195" value="chu qi bu yi195" />
+	<configure id="快攻196" value="kuai gong196" />
+	<configure id="误区197" value="wu qu197" />
+	<configure id="零伤亡198" value="ling shang wang198" />
+	<configure id="三军199" value="san jun199" />
+	<configure id="三岔口200" value="san cha kou200" />
+	<configure id="威胁201" value="wei xie201" />
+	<configure id="孤独守卫202" value="gu du shou wei202" />
+	<configure id="边缘待命203" value="bian yuan dai ming203" />
+	<configure id="出其不意204" value="chu qi bu yi204" />
+	<configure id="线攻击205" value="xian gong  ji 205" />
+	<configure id="指挥官的考验206" value="zhi hui guan de kao yan206" />
+	<configure id="孤独的哨塔207" value="gu du shao ta207" />
+	<configure id="浪人208" value="lang ren208" />
+	<configure id="有效打法209" value="you xiao da fa209" />
+	<configure id="红色黎明210" value="hong se li ming210" />
+	<configure id="使命211" value="shi ming211" />
+	<configure id="侵略与反抗212" value="qin lue yu fan kang212" />
+	<configure id="孤独的哨塔213" value="gu du shao ta213" />
+	<configure id="科技站214" value="ke  ji  zhan214" />
+	<configure id="敢死队215" value="gan si dui215" />
+	<configure id="危险丛林216" value="wei xian cong lin216" />
+	<configure id="激光陷阱217" value=" ji  guang xian  ji ng217" />
+	<configure id="八方218" value="ba fang218" />
+	<configure id="诱饵219" value="you er219" />
+	<configure id="激光危险220" value=" ji  guang wei xian220" />
+	<configure id="双管齐下221" value="shuang guan qi xia221" />
+	<configure id="演习场222" value="yan xi chang222" />
+	<configure id="丛林之狼223" value="cong lin zhi lang223" />
+	<configure id="常规战术224" value="chang gui zhan shu224" />
+	<configure id="声东击西225" value="sheng dong  ji  xi225" />
+	<configure id="清场226" value="qing chang226" />
+	<configure id="出其不意227" value="chu qi bu yi227" />
+	<configure id="快攻228" value="kuai gong228" />
+	<configure id="误区229" value="wu qu229" />
+	<configure id="零伤亡230" value="ling shang wang230" />
+	<configure id="三军231" value="san jun231" />
+	<configure id="三岔口232" value="san cha kou232" />
+	<configure id="威胁233" value="wei xie233" />
+	<configure id="孤独守卫234" value="gu du shou wei234" />
+	<configure id="边缘待命235" value="bian yuan dai ming235" />
+	<configure id="出其不意236" value="chu qi bu yi236" />
+	<configure id="线攻击237" value="xian gong  ji 237" />
+	<configure id="指挥官的考验238" value="zhi hui guan de kao yan238" />
+	<configure id="孤独的哨塔239" value="gu du shao ta239" />
+	<configure id="浪人240" value="lang ren240" />
+	<configure id="有效打法241" value="you xiao da fa241" />
+	<configure id="红色黎明242" value="hong se li ming242" />
+	<configure id="使命243" value="shi ming243" />
+	<configure id="侵略与反抗244" value="qin lue yu fan kang244" />
+	<configure id="孤独的哨塔245" value="gu du shao ta245" />
+	<configure id="科技站246" value="ke  ji  zhan246" />
+	<configure id="敢死队247" value="gan si dui247" />
+	<configure id="危险丛林248" value="wei xian cong lin248" />
+	<configure id="激光陷阱249" value=" ji  guang xian  ji ng249" />
+	<configure id="八方250" value="ba fang250" />
+	<configure id="诱饵251" value="you er251" />
+	<configure id="激光危险252" value=" ji  guang wei xian252" />
+	<configure id="双管齐下253" value="shuang guan qi xia253" />
+	<configure id="演习场254" value="yan xi chang254" />
+	<configure id="丛林之狼255" value="cong lin zhi lang255" />
+	<configure id="常规战术256" value="chang gui zhan shu256" />
+	<configure id="声东击西257" value="sheng dong  ji  xi257" />
+	<configure id="清场258" value="qing chang258" />
+	<configure id="出其不意259" value="chu qi bu yi259" />
+	<configure id="快攻260" value="kuai gong260" />
+	<configure id="误区261" value="wu qu261" />
+	<configure id="零伤亡262" value="ling shang wang262" />
+	<configure id="三军263" value="san jun263" />
+	<configure id="三岔口264" value="san cha kou264" />
+	<configure id="威胁265" value="wei xie265" />
+	<configure id="孤独守卫266" value="gu du shou wei266" />
+	<configure id="边缘待命267" value="bian yuan dai ming267" />
+	<configure id="出其不意268" value="chu qi bu yi268" />
+	<configure id="线攻击269" value="xian gong  ji 269" />
+	<configure id="指挥官的考验270" value="zhi hui guan de kao yan270" />
+	<configure id="孤独的哨塔271" value="gu du shao ta271" />
+	<configure id="浪人272" value="lang ren272" />
+	<configure id="有效打法273" value="you xiao da fa273" />
+	<configure id="红色黎明274" value="hong se li ming274" />
+	<configure id="使命275" value="shi ming275" />
+	<configure id="侵略与反抗276" value="qin lue yu fan kang276" />
+	<configure id="孤独的哨塔277" value="gu du shao ta277" />
+	<configure id="科技站278" value="ke  ji  zhan278" />
+	<configure id="敢死队279" value="gan si dui279" />
+	<configure id="危险丛林280" value="wei xian cong lin280" />
+	<configure id="激光陷阱281" value=" ji  guang xian  ji ng281" />
+	<configure id="八方282" value="ba fang282" />
+	<configure id="诱饵283" value="you er283" />
+	<configure id="激光危险284" value=" ji  guang wei xian284" />
+	<configure id="双管齐下285" value="shuang guan qi xia285" />
+	<configure id="演习场286" value="yan xi chang286" />
+	<configure id="丛林之狼287" value="cong lin zhi lang287" />
+	<configure id="常规战术288" value="chang gui zhan shu288" />
+	<configure id="声东击西289" value="sheng dong  ji  xi289" />
+	<configure id="清场290" value="qing chang290" />
+	<configure id="出其不意291" value="chu qi bu yi291" />
+	<configure id="快攻292" value="kuai gong292" />
+	<configure id="误区293" value="wu qu293" />
+	<configure id="零伤亡294" value="ling shang wang294" />
+	<configure id="三军295" value="san jun295" />
+	<configure id="三岔口296" value="san cha kou296" />
+	<configure id="威胁297" value="wei xie297" />
+	<configure id="孤独守卫298" value="gu du shou wei298" />
+	<configure id="边缘待命299" value="bian yuan dai ming299" />
+	<configure id="出其不意300" value="chu qi bu yi300" />
+	<configure id="线攻击301" value="xian gong  ji 301" />
+	<configure id="指挥官的考验302" value="zhi hui guan de kao yan302" />
+	<configure id="孤独的哨塔303" value="gu du shao ta303" />
+	<configure id="浪人304" value="lang ren304" />
+	<configure id="有效打法305" value="you xiao da fa305" />
+	<configure id="红色黎明306" value="hong se li ming306" />
+	<configure id="使命307" value="shi ming307" />
+	<configure id="侵略与反抗308" value="qin lue yu fan kang308" />
+	<configure id="孤独的哨塔309" value="gu du shao ta309" />
+	<configure id="科技站310" value="ke  ji  zhan310" />
+	<configure id="敢死队311" value="gan si dui311" />
+	<configure id="危险丛林312" value="wei xian cong lin312" />
+	<configure id="激光陷阱313" value=" ji  guang xian  ji ng313" />
+	<configure id="八方314" value="ba fang314" />
+	<configure id="诱饵315" value="you er315" />
+	<configure id="激光危险316" value=" ji  guang wei xian316" />
+	<configure id="双管齐下317" value="shuang guan qi xia317" />
+	<configure id="演习场318" value="yan xi chang318" />
+	<configure id="丛林之狼319" value="cong lin zhi lang319" />
+	<configure id="常规战术320" value="chang gui zhan shu320" />
+	<configure id="声东击西321" value="sheng dong  ji  xi321" />
+	<configure id="清场322" value="qing chang322" />
+	<configure id="出其不意323" value="chu qi bu yi323" />
+	<configure id="快攻324" value="kuai gong324" />
+	<configure id="误区325" value="wu qu325" />
+	<configure id="零伤亡326" value="ling shang wang326" />
+	<configure id="三军327" value="san jun327" />
+	<configure id="三岔口328" value="san cha kou328" />
+	<configure id="威胁329" value="wei xie329" />
+	<configure id="孤独守卫330" value="gu du shou wei330" />
+	<configure id="边缘待命331" value="bian yuan dai ming331" />
+	<configure id="出其不意332" value="chu qi bu yi332" />
+	<configure id="线攻击333" value="xian gong  ji 333" />
+	<configure id="指挥官的考验334" value="zhi hui guan de kao yan334" />
+	<configure id="孤独的哨塔335" value="gu du shao ta335" />
+	<configure id="浪人336" value="lang ren336" />
+	<configure id="有效打法337" value="you xiao da fa337" />
+	<configure id="红色黎明338" value="hong se li ming338" />
+	<configure id="使命339" value="shi ming339" />
+	<configure id="侵略与反抗340" value="qin lue yu fan kang340" />
+	<configure id="孤独的哨塔341" value="gu du shao ta341" />
+	<configure id="科技站342" value="ke  ji  zhan342" />
+	<configure id="敢死队343" value="gan si dui343" />
+	<configure id="危险丛林344" value="wei xian cong lin344" />
+	<configure id="激光陷阱345" value=" ji  guang xian  ji ng345" />
+	<configure id="八方346" value="ba fang346" />
+	<configure id="诱饵347" value="you er347" />
+	<configure id="激光危险348" value=" ji  guang wei xian348" />
+	<configure id="双管齐下349" value="shuang guan qi xia349" />
+	<configure id="演习场350" value="yan xi chang350" />
+	<configure id="丛林之狼351" value="cong lin zhi lang351" />
+	<configure id="常规战术352" value="chang gui zhan shu352" />
+	<configure id="声东击西353" value="sheng dong  ji  xi353" />
+	<configure id="清场354" value="qing chang354" />
+	<configure id="出其不意355" value="chu qi bu yi355" />
+	<configure id="快攻356" value="kuai gong356" />
+	<configure id="误区357" value="wu qu357" />
+	<configure id="零伤亡358" value="ling shang wang358" />
+	<configure id="三军359" value="san jun359" />
+	<configure id="三岔口360" value="san cha kou360" />
+	<configure id="威胁361" value="wei xie361" />
+	<configure id="孤独守卫362" value="gu du shou wei362" />
+	<configure id="边缘待命363" value="bian yuan dai ming363" />
+	<configure id="出其不意364" value="chu qi bu yi364" />
+	<configure id="线攻击365" value="xian gong  ji 365" />
+	<configure id="指挥官的考验366" value="zhi hui guan de kao yan366" />
+	<configure id="孤独的哨塔367" value="gu du shao ta367" />
+	<configure id="浪人368" value="lang ren368" />
+	<configure id="有效打法369" value="you xiao da fa369" />
+	<configure id="红色黎明370" value="hong se li ming370" />
+	<configure id="使命371" value="shi ming371" />
+	<configure id="侵略与反抗372" value="qin lue yu fan kang372" />
+	<configure id="孤独的哨塔373" value="gu du shao ta373" />
+	<configure id="科技站374" value="ke  ji  zhan374" />
+	<configure id="敢死队375" value="gan si dui375" />
+	<configure id="危险丛林376" value="wei xian cong lin376" />
+	<configure id="激光陷阱377" value=" ji  guang xian  ji ng377" />
+	<configure id="八方378" value="ba fang378" />
+	<configure id="诱饵379" value="you er379" />
+	<configure id="激光危险380" value=" ji  guang wei xian380" />
+	<configure id="双管齐下381" value="shuang guan qi xia381" />
+	<configure id="演习场382" value="yan xi chang382" />
+	<configure id="丛林之狼383" value="cong lin zhi lang383" />
+	<configure id="常规战术384" value="chang gui zhan shu384" />
+	<configure id="声东击西385" value="sheng dong  ji  xi385" />
+	<configure id="清场386" value="qing chang386" />
+	<configure id="出其不意387" value="chu qi bu yi387" />
+	<configure id="快攻388" value="kuai gong388" />
+	<configure id="误区389" value="wu qu389" />
+	<configure id="零伤亡390" value="ling shang wang390" />
+	<configure id="三军391" value="san jun391" />
+	<configure id="三岔口392" value="san cha kou392" />
+	<configure id="威胁393" value="wei xie393" />
+	<configure id="孤独守卫394" value="gu du shou wei394" />
+	<configure id="边缘待命395" value="bian yuan dai ming395" />
+	<configure id="出其不意396" value="chu qi bu yi396" />
+	<configure id="线攻击397" value="xian gong  ji 397" />
+	<configure id="指挥官的考验398" value="zhi hui guan de kao yan398" />
+	<configure id="孤独的哨塔399" value="gu du shao ta399" />
+	<configure id="浪人400" value="lang ren400" />
+	<configure id="有效打法401" value="you xiao da fa401" />
+	<configure id="红色黎明402" value="hong se li ming402" />
+	<configure id="使命403" value="shi ming403" />
+	<configure id="侵略与反抗404" value="qin lue yu fan kang404" />
+	<configure id="孤独的哨塔405" value="gu du shao ta405" />
+	<configure id="科技站406" value="ke  ji  zhan406" />
+	<configure id="敢死队407" value="gan si dui407" />
+	<configure id="危险丛林408" value="wei xian cong lin408" />
+	<configure id="激光陷阱409" value=" ji  guang xian  ji ng409" />
+	<configure id="八方410" value="ba fang410" />
+	<configure id="诱饵411" value="you er411" />
+	<configure id="激光危险412" value=" ji  guang wei xian412" />
+	<configure id="双管齐下413" value="shuang guan qi xia413" />
+	<configure id="演习场414" value="yan xi chang414" />
+	<configure id="丛林之狼415" value="cong lin zhi lang415" />
+	<configure id="常规战术416" value="chang gui zhan shu416" />
+	<configure id="声东击西417" value="sheng dong  ji  xi417" />
+	<configure id="清场418" value="qing chang418" />
+	<configure id="出其不意419" value="chu qi bu yi419" />
+	<configure id="快攻420" value="kuai gong420" />
+	<configure id="误区421" value="wu qu421" />
+	<configure id="零伤亡422" value="ling shang wang422" />
+	<configure id="三军423" value="san jun423" />
+	<configure id="三岔口424" value="san cha kou424" />
+	<configure id="威胁425" value="wei xie425" />
+	<configure id="孤独守卫426" value="gu du shou wei426" />
+	<configure id="边缘待命427" value="bian yuan dai ming427" />
+	<configure id="出其不意428" value="chu qi bu yi428" />
+	<configure id="线攻击429" value="xian gong  ji 429" />
+	<configure id="指挥官的考验430" value="zhi hui guan de kao yan430" />
+	<configure id="孤独的哨塔431" value="gu du shao ta431" />
+	<configure id="浪人432" value="lang ren432" />
+	<configure id="有效打法433" value="you xiao da fa433" />
+	<configure id="红色黎明434" value="hong se li ming434" />
+	<configure id="使命435" value="shi ming435" />
+	<configure id="侵略与反抗436" value="qin lue yu fan kang436" />
+	<configure id="孤独的哨塔437" value="gu du shao ta437" />
+	<configure id="科技站438" value="ke  ji  zhan438" />
+	<configure id="敢死队439" value="gan si dui439" />
+	<configure id="危险丛林440" value="wei xian cong lin440" />
+	<configure id="激光陷阱441" value=" ji  guang xian  ji ng441" />
+	<configure id="八方442" value="ba fang442" />
+	<configure id="诱饵443" value="you er443" />
+	<configure id="激光危险444" value=" ji  guang wei xian444" />
+	<configure id="双管齐下445" value="shuang guan qi xia445" />
+	<configure id="演习场446" value="yan xi chang446" />
+	<configure id="丛林之狼447" value="cong lin zhi lang447" />
+	<configure id="常规战术448" value="chang gui zhan shu448" />
+	<configure id="声东击西449" value="sheng dong  ji  xi449" />
+	<configure id="清场450" value="qing chang450" />
+	<configure id="出其不意451" value="chu qi bu yi451" />
+	<configure id="快攻452" value="kuai gong452" />
+	<configure id="误区453" value="wu qu453" />
+	<configure id="零伤亡454" value="ling shang wang454" />
+	<configure id="三军455" value="san jun455" />
+	<configure id="三岔口456" value="san cha kou456" />
+	<configure id="威胁457" value="wei xie457" />
+	<configure id="孤独守卫458" value="gu du shou wei458" />
+	<configure id="边缘待命459" value="bian yuan dai ming459" />
+	<configure id="出其不意460" value="chu qi bu yi460" />
+	<configure id="线攻击461" value="xian gong  ji 461" />
+	<configure id="指挥官的考验462" value="zhi hui guan de kao yan462" />
+	<configure id="孤独的哨塔463" value="gu du shao ta463" />
+	<configure id="浪人464" value="lang ren464" />
+	<configure id="有效打法465" value="you xiao da fa465" />
+	<configure id="红色黎明466" value="hong se li ming466" />
+	<configure id="使命467" value="shi ming467" />
+	<configure id="侵略与反抗468" value="qin lue yu fan kang468" />
+	<configure id="孤独的哨塔469" value="gu du shao ta469" />
+	<configure id="科技站470" value="ke  ji  zhan470" />
+	<configure id="敢死队471" value="gan si dui471" />
+	<configure id="危险丛林472" value="wei xian cong lin472" />
+	<configure id="激光陷阱473" value=" ji  guang xian  ji ng473" />
+	<configure id="八方474" value="ba fang474" />
+	<configure id="诱饵475" value="you er475" />
+	<configure id="激光危险476" value=" ji  guang wei xian476" />
+	<configure id="双管齐下477" value="shuang guan qi xia477" />
+	<configure id="演习场478" value="yan xi chang478" />
+	<configure id="丛林之狼479" value="cong lin zhi lang479" />
+	<configure id="常规战术480" value="chang gui zhan shu480" />
+	<configure id="声东击西481" value="sheng dong  ji  xi481" />
+	<configure id="清场482" value="qing chang482" />
+	<configure id="出其不意483" value="chu qi bu yi483" />
+	<configure id="快攻484" value="kuai gong484" />
+	<configure id="误区485" value="wu qu485" />
+	<configure id="零伤亡486" value="ling shang wang486" />
+	<configure id="三军487" value="san jun487" />
+	<configure id="三岔口488" value="san cha kou488" />
+	<configure id="威胁489" value="wei xie489" />
+	<configure id="孤独守卫490" value="gu du shou wei490" />
+	<configure id="边缘待命491" value="bian yuan dai ming491" />
+	<configure id="出其不意492" value="chu qi bu yi492" />
+	<configure id="线攻击493" value="xian gong  ji 493" />
+	<configure id="指挥官的考验494" value="zhi hui guan de kao yan494" />
+	<configure id="孤独的哨塔495" value="gu du shao ta495" />
+	<configure id="浪人496" value="lang ren496" />
+	<configure id="有效打法497" value="you xiao da fa497" />
+	<configure id="红色黎明498" value="hong se li ming498" />
+	<configure id="使命499" value="shi ming499" />
+	<configure id="侵略与反抗500" value="qin lue yu fan kang500" />
+	<configure id="孤独的哨塔501" value="gu du shao ta501" />
+	<configure id="科技站502" value="ke  ji  zhan502" />
+	<configure id="敢死队503" value="gan si dui503" />
+	<configure id="危险丛林504" value="wei xian cong lin504" />
+	<configure id="激光陷阱505" value=" ji  guang xian  ji ng505" />
+	<configure id="八方506" value="ba fang506" />
+	<configure id="诱饵507" value="you er507" />
+	<configure id="激光危险508" value=" ji  guang wei xian508" />
+	<configure id="双管齐下509" value="shuang guan qi xia509" />
+	<configure id="演习场510" value="yan xi chang510" />
+	<configure id="丛林之狼511" value="cong lin zhi lang511" />
+	<configure id="常规战术512" value="chang gui zhan shu512" />
+	<configure id="声东击西513" value="sheng dong  ji  xi513" />
+	<configure id="清场514" value="qing chang514" />
+	<configure id="出其不意515" value="chu qi bu yi515" />
+	<configure id="快攻516" value="kuai gong516" />
+	<configure id="误区517" value="wu qu517" />
+	<configure id="零伤亡518" value="ling shang wang518" />
+	<configure id="三军519" value="san jun519" />
+	<configure id="三岔口520" value="san cha kou520" />
+	<configure id="威胁521" value="wei xie521" />
+	<configure id="孤独守卫522" value="gu du shou wei522" />
+	<configure id="边缘待命523" value="bian yuan dai ming523" />
+	<configure id="出其不意524" value="chu qi bu yi524" />
+	<configure id="线攻击525" value="xian gong  ji 525" />
+	<configure id="指挥官的考验526" value="zhi hui guan de kao yan526" />
+	<configure id="孤独的哨塔527" value="gu du shao ta527" />
+	<configure id="浪人528" value="lang ren528" />
+	<configure id="有效打法529" value="you xiao da fa529" />
+	<configure id="红色黎明530" value="hong se li ming530" />
+	<configure id="使命531" value="shi ming531" />
+	<configure id="侵略与反抗532" value="qin lue yu fan kang532" />
+	<configure id="孤独的哨塔533" value="gu du shao ta533" />
+	<configure id="科技站534" value="ke  ji  zhan534" />
+	<configure id="敢死队535" value="gan si dui535" />
+	<configure id="危险丛林536" value="wei xian cong lin536" />
+	<configure id="激光陷阱537" value=" ji  guang xian  ji ng537" />
+	<configure id="八方538" value="ba fang538" />
+	<configure id="诱饵539" value="you er539" />
+	<configure id="激光危险540" value=" ji  guang wei xian540" />
+	<configure id="双管齐下541" value="shuang guan qi xia541" />
+	<configure id="演习场542" value="yan xi chang542" />
+	<configure id="丛林之狼543" value="cong lin zhi lang543" />
+	<configure id="常规战术544" value="chang gui zhan shu544" />
+	<configure id="声东击西545" value="sheng dong  ji  xi545" />
+	<configure id="清场546" value="qing chang546" />
+	<configure id="出其不意547" value="chu qi bu yi547" />
+	<configure id="快攻548" value="kuai gong548" />
+	<configure id="误区549" value="wu qu549" />
+	<configure id="零伤亡550" value="ling shang wang550" />
+	<configure id="三军551" value="san jun551" />
+	<configure id="三岔口552" value="san cha kou552" />
+	<configure id="威胁553" value="wei xie553" />
+	<configure id="孤独守卫554" value="gu du shou wei554" />
+	<configure id="边缘待命555" value="bian yuan dai ming555" />
+	<configure id="出其不意556" value="chu qi bu yi556" />
+	<configure id="线攻击557" value="xian gong  ji 557" />
+	<configure id="指挥官的考验558" value="zhi hui guan de kao yan558" />
+	<configure id="孤独的哨塔559" value="gu du shao ta559" />
+	<configure id="浪人560" value="lang ren560" />
+	<configure id="有效打法561" value="you xiao da fa561" />
+	<configure id="红色黎明562" value="hong se li ming562" />
+	<configure id="使命563" value="shi ming563" />
+	<configure id="侵略与反抗564" value="qin lue yu fan kang564" />
+	<configure id="孤独的哨塔565" value="gu du shao ta565" />
+	<configure id="科技站566" value="ke  ji  zhan566" />
+	<configure id="敢死队567" value="gan si dui567" />
+	<configure id="危险丛林568" value="wei xian cong lin568" />
+	<configure id="激光陷阱569" value=" ji  guang xian  ji ng569" />
+	<configure id="八方570" value="ba fang570" />
+	<configure id="诱饵571" value="you er571" />
+	<configure id="激光危险572" value=" ji  guang wei xian572" />
+	<configure id="双管齐下573" value="shuang guan qi xia573" />
+	<configure id="演习场574" value="yan xi chang574" />
+	<configure id="丛林之狼575" value="cong lin zhi lang575" />
+	<configure id="常规战术576" value="chang gui zhan shu576" />
+	<configure id="声东击西577" value="sheng dong  ji  xi577" />
+	<configure id="清场578" value="qing chang578" />
+	<configure id="出其不意579" value="chu qi bu yi579" />
+	<configure id="快攻580" value="kuai gong580" />
+	<configure id="误区581" value="wu qu581" />
+	<configure id="零伤亡582" value="ling shang wang582" />
+	<configure id="三军583" value="san jun583" />
+	<configure id="三岔口584" value="san cha kou584" />
+	<configure id="威胁585" value="wei xie585" />
+	<configure id="孤独守卫586" value="gu du shou wei586" />
+	<configure id="边缘待命587" value="bian yuan dai ming587" />
+	<configure id="出其不意588" value="chu qi bu yi588" />
+	<configure id="线攻击589" value="xian gong  ji 589" />
+	<configure id="指挥官的考验590" value="zhi hui guan de kao yan590" />
+	<configure id="孤独的哨塔591" value="gu du shao ta591" />
+	<configure id="浪人592" value="lang ren592" />
+	<configure id="有效打法593" value="you xiao da fa593" />
+	<configure id="红色黎明594" value="hong se li ming594" />
+	<configure id="使命595" value="shi ming595" />
+	<configure id="侵略与反抗596" value="qin lue yu fan kang596" />
+	<configure id="孤独的哨塔597" value="gu du shao ta597" />
+	<configure id="科技站598" value="ke  ji  zhan598" />
+	<configure id="敢死队599" value="gan si dui599" />
+	<configure id="危险丛林600" value="wei xian cong lin600" />
+	<configure id="激光陷阱601" value=" ji  guang xian  ji ng601" />
+	<configure id="八方602" value="ba fang602" />
+	<configure id="诱饵603" value="you er603" />
+	<configure id="激光危险604" value=" ji  guang wei xian604" />
+	<configure id="双管齐下605" value="shuang guan qi xia605" />
+	<configure id="演习场606" value="yan xi chang606" />
+	<configure id="丛林之狼607" value="cong lin zhi lang607" />
+	<configure id="常规战术608" value="chang gui zhan shu608" />
+	<configure id="声东击西609" value="sheng dong  ji  xi609" />
+	<configure id="清场610" value="qing chang610" />
+	<configure id="出其不意611" value="chu qi bu yi611" />
+	<configure id="快攻612" value="kuai gong612" />
+	<configure id="误区613" value="wu qu613" />
+	<configure id="零伤亡614" value="ling shang wang614" />
+	<configure id="三军615" value="san jun615" />
+	<configure id="三岔口616" value="san cha kou616" />
+	<configure id="威胁617" value="wei xie617" />
+	<configure id="孤独守卫618" value="gu du shou wei618" />
+	<configure id="边缘待命619" value="bian yuan dai ming619" />
+	<configure id="出其不意620" value="chu qi bu yi620" />
+	<configure id="线攻击621" value="xian gong  ji 621" />
+	<configure id="指挥官的考验622" value="zhi hui guan de kao yan622" />
+	<configure id="孤独的哨塔623" value="gu du shao ta623" />
+	<configure id="浪人624" value="lang ren624" />
+	<configure id="有效打法625" value="you xiao da fa625" />
+	<configure id="红色黎明626" value="hong se li ming626" />
+	<configure id="使命627" value="shi ming627" />
+	<configure id="侵略与反抗628" value="qin lue yu fan kang628" />
+	<configure id="孤独的哨塔629" value="gu du shao ta629" />
+	<configure id="科技站630" value="ke  ji  zhan630" />
+	<configure id="敢死队631" value="gan si dui631" />
+	<configure id="危险丛林632" value="wei xian cong lin632" />
+	<configure id="激光陷阱633" value=" ji  guang xian  ji ng633" />
+	<configure id="八方634" value="ba fang634" />
+	<configure id="诱饵635" value="you er635" />
+	<configure id="激光危险636" value=" ji  guang wei xian636" />
+	<configure id="双管齐下637" value="shuang guan qi xia637" />
+	<configure id="演习场638" value="yan xi chang638" />
+	<configure id="丛林之狼639" value="cong lin zhi lang639" />
+	<configure id="常规战术640" value="chang gui zhan shu640" />
+	<configure id="声东击西641" value="sheng dong  ji  xi641" />
+	<configure id="清场642" value="qing chang642" />
+	<configure id="出其不意643" value="chu qi bu yi643" />
+	<configure id="快攻644" value="kuai gong644" />
+	<configure id="误区645" value="wu qu645" />
+	<configure id="零伤亡646" value="ling shang wang646" />
+	<configure id="三军647" value="san jun647" />
+	<configure id="三岔口648" value="san cha kou648" />
+	<configure id="威胁649" value="wei xie649" />
+	<configure id="孤独守卫650" value="gu du shou wei650" />
+	<configure id="边缘待命651" value="bian yuan dai ming651" />
+	<configure id="出其不意652" value="chu qi bu yi652" />
+	<configure id="线攻击653" value="xian gong  ji 653" />
+	<configure id="指挥官的考验654" value="zhi hui guan de kao yan654" />
+	<configure id="孤独的哨塔655" value="gu du shao ta655" />
+	<configure id="浪人656" value="lang ren656" />
+	<configure id="有效打法657" value="you xiao da fa657" />
+	<configure id="红色黎明658" value="hong se li ming658" />
+	<configure id="使命659" value="shi ming659" />
+	<configure id="侵略与反抗660" value="qin lue yu fan kang660" />
+	<configure id="孤独的哨塔661" value="gu du shao ta661" />
+	<configure id="科技站662" value="ke  ji  zhan662" />
+	<configure id="敢死队663" value="gan si dui663" />
+	<configure id="危险丛林664" value="wei xian cong lin664" />
+	<configure id="激光陷阱665" value=" ji  guang xian  ji ng665" />
+	<configure id="八方666" value="ba fang666" />
+	<configure id="诱饵667" value="you er667" />
+	<configure id="激光危险668" value=" ji  guang wei xian668" />
+	<configure id="双管齐下669" value="shuang guan qi xia669" />
+	<configure id="演习场670" value="yan xi chang670" />
+	<configure id="丛林之狼671" value="cong lin zhi lang671" />
+	<configure id="常规战术672" value="chang gui zhan shu672" />
+	<configure id="声东击西673" value="sheng dong  ji  xi673" />
+	<configure id="清场674" value="qing chang674" />
+	<configure id="出其不意675" value="chu qi bu yi675" />
+	<configure id="快攻676" value="kuai gong676" />
+	<configure id="误区677" value="wu qu677" />
+	<configure id="零伤亡678" value="ling shang wang678" />
+	<configure id="三军679" value="san jun679" />
+	<configure id="三岔口680" value="san cha kou680" />
+	<configure id="威胁681" value="wei xie681" />
+	<configure id="孤独守卫682" value="gu du shou wei682" />
+	<configure id="边缘待命683" value="bian yuan dai ming683" />
+	<configure id="出其不意684" value="chu qi bu yi684" />
+	<configure id="线攻击685" value="xian gong  ji 685" />
+	<configure id="指挥官的考验686" value="zhi hui guan de kao yan686" />
+	<configure id="孤独的哨塔687" value="gu du shao ta687" />
+	<configure id="浪人688" value="lang ren688" />
+	<configure id="有效打法689" value="you xiao da fa689" />
+	<configure id="红色黎明690" value="hong se li ming690" />
+	<configure id="使命691" value="shi ming691" />
+	<configure id="侵略与反抗692" value="qin lue yu fan kang692" />
+	<configure id="孤独的哨塔693" value="gu du shao ta693" />
+	<configure id="科技站694" value="ke  ji  zhan694" />
+	<configure id="敢死队695" value="gan si dui695" />
+	<configure id="危险丛林696" value="wei xian cong lin696" />
+	<configure id="激光陷阱697" value=" ji  guang xian  ji ng697" />
+	<configure id="八方698" value="ba fang698" />
+	<configure id="诱饵699" value="you er699" />
+	<configure id="激光危险700" value=" ji  guang wei xian700" />
+	<configure id="双管齐下701" value="shuang guan qi xia701" />
+	<configure id="演习场702" value="yan xi chang702" />
+	<configure id="丛林之狼703" value="cong lin zhi lang703" />
+	<configure id="常规战术704" value="chang gui zhan shu704" />
+	<configure id="声东击西705" value="sheng dong  ji  xi705" />
+	<configure id="清场706" value="qing chang706" />
+	<configure id="出其不意707" value="chu qi bu yi707" />
+	<configure id="快攻708" value="kuai gong708" />
+	<configure id="误区709" value="wu qu709" />
+	<configure id="零伤亡710" value="ling shang wang710" />
+	<configure id="三军711" value="san jun711" />
+	<configure id="三岔口712" value="san cha kou712" />
+	<configure id="威胁713" value="wei xie713" />
+	<configure id="孤独守卫714" value="gu du shou wei714" />
+	<configure id="边缘待命715" value="bian yuan dai ming715" />
+	<configure id="出其不意716" value="chu qi bu yi716" />
+	<configure id="线攻击717" value="xian gong  ji 717" />
+	<configure id="指挥官的考验718" value="zhi hui guan de kao yan718" />
+	<configure id="孤独的哨塔719" value="gu du shao ta719" />
+	<configure id="浪人720" value="lang ren720" />
+	<configure id="有效打法721" value="you xiao da fa721" />
+	<configure id="红色黎明722" value="hong se li ming722" />
+	<configure id="使命723" value="shi ming723" />
+	<configure id="侵略与反抗724" value="qin lue yu fan kang724" />
+	<configure id="孤独的哨塔725" value="gu du shao ta725" />
+	<configure id="科技站726" value="ke  ji  zhan726" />
+	<configure id="敢死队727" value="gan si dui727" />
+	<configure id="危险丛林728" value="wei xian cong lin728" />
+	<configure id="激光陷阱729" value=" ji  guang xian  ji ng729" />
+	<configure id="八方730" value="ba fang730" />
+	<configure id="诱饵731" value="you er731" />
+	<configure id="激光危险732" value=" ji  guang wei xian732" />
+	<configure id="双管齐下733" value="shuang guan qi xia733" />
+	<configure id="演习场734" value="yan xi chang734" />
+	<configure id="丛林之狼735" value="cong lin zhi lang735" />
+	<configure id="常规战术736" value="chang gui zhan shu736" />
+	<configure id="声东击西737" value="sheng dong  ji  xi737" />
+	<configure id="清场738" value="qing chang738" />
+	<configure id="出其不意739" value="chu qi bu yi739" />
+	<configure id="快攻740" value="kuai gong740" />
+	<configure id="误区741" value="wu qu741" />
+	<configure id="零伤亡742" value="ling shang wang742" />
+	<configure id="三军743" value="san jun743" />
+	<configure id="三岔口744" value="san cha kou744" />
+	<configure id="威胁745" value="wei xie745" />
+	<configure id="孤独守卫746" value="gu du shou wei746" />
+	<configure id="边缘待命747" value="bian yuan dai ming747" />
+	<configure id="出其不意748" value="chu qi bu yi748" />
+	<configure id="线攻击749" value="xian gong  ji 749" />
+	<configure id="指挥官的考验750" value="zhi hui guan de kao yan750" />
+	<configure id="孤独的哨塔751" value="gu du shao ta751" />
+	<configure id="浪人752" value="lang ren752" />
+	<configure id="有效打法753" value="you xiao da fa753" />
+	<configure id="红色黎明754" value="hong se li ming754" />
+	<configure id="使命755" value="shi ming755" />
+	<configure id="侵略与反抗756" value="qin lue yu fan kang756" />
+	<configure id="孤独的哨塔757" value="gu du shao ta757" />
+	<configure id="科技站758" value="ke  ji  zhan758" />
+	<configure id="敢死队759" value="gan si dui759" />
+	<configure id="危险丛林760" value="wei xian cong lin760" />
+	<configure id="激光陷阱761" value=" ji  guang xian  ji ng761" />
+	<configure id="八方762" value="ba fang762" />
+	<configure id="诱饵763" value="you er763" />
+	<configure id="激光危险764" value=" ji  guang wei xian764" />
+	<configure id="双管齐下765" value="shuang guan qi xia765" />
+	<configure id="演习场766" value="yan xi chang766" />
+	<configure id="丛林之狼767" value="cong lin zhi lang767" />
+	<configure id="常规战术768" value="chang gui zhan shu768" />
+	<configure id="声东击西769" value="sheng dong  ji  xi769" />
+	<configure id="清场770" value="qing chang770" />
+	<configure id="出其不意771" value="chu qi bu yi771" />
+	<configure id="快攻772" value="kuai gong772" />
+	<configure id="误区773" value="wu qu773" />
+	<configure id="零伤亡774" value="ling shang wang774" />
+	<configure id="三军775" value="san jun775" />
+	<configure id="三岔口776" value="san cha kou776" />
+	<configure id="威胁777" value="wei xie777" />
+	<configure id="孤独守卫778" value="gu du shou wei778" />
+	<configure id="边缘待命779" value="bian yuan dai ming779" />
+	<configure id="出其不意780" value="chu qi bu yi780" />
+	<configure id="线攻击781" value="xian gong  ji 781" />
+	<configure id="指挥官的考验782" value="zhi hui guan de kao yan782" />
+	<configure id="孤独的哨塔783" value="gu du shao ta783" />
+	<configure id="浪人784" value="lang ren784" />
+	<configure id="有效打法785" value="you xiao da fa785" />
+	<configure id="红色黎明786" value="hong se li ming786" />
+	<configure id="使命787" value="shi ming787" />
+	<configure id="侵略与反抗788" value="qin lue yu fan kang788" />
+	<configure id="孤独的哨塔789" value="gu du shao ta789" />
+	<configure id="科技站790" value="ke  ji  zhan790" />
+	<configure id="敢死队791" value="gan si dui791" />
+	<configure id="危险丛林792" value="wei xian cong lin792" />
+	<configure id="激光陷阱793" value=" ji  guang xian  ji ng793" />
+	<configure id="八方794" value="ba fang794" />
+	<configure id="诱饵795" value="you er795" />
+	<configure id="激光危险796" value=" ji  guang wei xian796" />
+	<configure id="双管齐下797" value="shuang guan qi xia797" />
+	<configure id="演习场798" value="yan xi chang798" />
+	<configure id="丛林之狼799" value="cong lin zhi lang799" />
+	<configure id="常规战术800" value="chang gui zhan shu800" />
+	<configure id="声东击西801" value="sheng dong  ji  xi801" />
+	<configure id="清场802" value="qing chang802" />
+	<configure id="出其不意803" value="chu qi bu yi803" />
+	<configure id="快攻804" value="kuai gong804" />
+	<configure id="误区805" value="wu qu805" />
+	<configure id="零伤亡806" value="ling shang wang806" />
+	<configure id="三军807" value="san jun807" />
+	<configure id="三岔口808" value="san cha kou808" />
+	<configure id="威胁809" value="wei xie809" />
+	<configure id="孤独守卫810" value="gu du shou wei810" />
+	<configure id="边缘待命811" value="bian yuan dai ming811" />
+	<configure id="出其不意812" value="chu qi bu yi812" />
+	<configure id="线攻击813" value="xian gong  ji 813" />
+	<configure id="指挥官的考验814" value="zhi hui guan de kao yan814" />
+	<configure id="孤独的哨塔815" value="gu du shao ta815" />
+	<configure id="浪人816" value="lang ren816" />
+	<configure id="有效打法817" value="you xiao da fa817" />
+	<configure id="红色黎明818" value="hong se li ming818" />
+	<configure id="使命819" value="shi ming819" />
+	<configure id="侵略与反抗820" value="qin lue yu fan kang820" />
+	<configure id="孤独的哨塔821" value="gu du shao ta821" />
+	<configure id="科技站822" value="ke  ji  zhan822" />
+	<configure id="敢死队823" value="gan si dui823" />
+	<configure id="危险丛林824" value="wei xian cong lin824" />
+	<configure id="激光陷阱825" value=" ji  guang xian  ji ng825" />
+	<configure id="八方826" value="ba fang826" />
+	<configure id="诱饵827" value="you er827" />
+	<configure id="激光危险828" value=" ji  guang wei xian828" />
+	<configure id="双管齐下829" value="shuang guan qi xia829" />
+	<configure id="演习场830" value="yan xi chang830" />
+	<configure id="丛林之狼831" value="cong lin zhi lang831" />
+	<configure id="常规战术832" value="chang gui zhan shu832" />
+	<configure id="声东击西833" value="sheng dong  ji  xi833" />
+	<configure id="清场834" value="qing chang834" />
+	<configure id="出其不意835" value="chu qi bu yi835" />
+	<configure id="快攻836" value="kuai gong836" />
+	<configure id="误区837" value="wu qu837" />
+	<configure id="零伤亡838" value="ling shang wang838" />
+	<configure id="三军839" value="san jun839" />
+	<configure id="三岔口840" value="san cha kou840" />
+	<configure id="威胁841" value="wei xie841" />
+	<configure id="孤独守卫842" value="gu du shou wei842" />
+	<configure id="边缘待命843" value="bian yuan dai ming843" />
+	<configure id="出其不意844" value="chu qi bu yi844" />
+	<configure id="线攻击845" value="xian gong  ji 845" />
+	<configure id="指挥官的考验846" value="zhi hui guan de kao yan846" />
+	<configure id="孤独的哨塔847" value="gu du shao ta847" />
+	<configure id="浪人848" value="lang ren848" />
+	<configure id="有效打法849" value="you xiao da fa849" />
+	<configure id="红色黎明850" value="hong se li ming850" />
+	<configure id="使命851" value="shi ming851" />
+	<configure id="侵略与反抗852" value="qin lue yu fan kang852" />
+	<configure id="孤独的哨塔853" value="gu du shao ta853" />
+	<configure id="科技站854" value="ke  ji  zhan854" />
+	<configure id="敢死队855" value="gan si dui855" />
+	<configure id="危险丛林856" value="wei xian cong lin856" />
+	<configure id="激光陷阱857" value=" ji  guang xian  ji ng857" />
+	<configure id="八方858" value="ba fang858" />
+	<configure id="诱饵859" value="you er859" />
+	<configure id="激光危险860" value=" ji  guang wei xian860" />
+	<configure id="双管齐下861" value="shuang guan qi xia861" />
+	<configure id="演习场862" value="yan xi chang862" />
+	<configure id="丛林之狼863" value="cong lin zhi lang863" />
+	<configure id="常规战术864" value="chang gui zhan shu864" />
+	<configure id="声东击西865" value="sheng dong  ji  xi865" />
+	<configure id="清场866" value="qing chang866" />
+	<configure id="出其不意867" value="chu qi bu yi867" />
+	<configure id="快攻868" value="kuai gong868" />
+	<configure id="误区869" value="wu qu869" />
+	<configure id="零伤亡870" value="ling shang wang870" />
+	<configure id="三军871" value="san jun871" />
+	<configure id="三岔口872" value="san cha kou872" />
+	<configure id="威胁873" value="wei xie873" />
+	<configure id="孤独守卫874" value="gu du shou wei874" />
+	<configure id="边缘待命875" value="bian yuan dai ming875" />
+	<configure id="出其不意876" value="chu qi bu yi876" />
+	<configure id="线攻击877" value="xian gong  ji 877" />
+	<configure id="指挥官的考验878" value="zhi hui guan de kao yan878" />
+	<configure id="孤独的哨塔879" value="gu du shao ta879" />
+	<configure id="浪人880" value="lang ren880" />
+	<configure id="有效打法881" value="you xiao da fa881" />
+	<configure id="红色黎明882" value="hong se li ming882" />
+	<configure id="使命883" value="shi ming883" />
+	<configure id="侵略与反抗884" value="qin lue yu fan kang884" />
+	<configure id="孤独的哨塔885" value="gu du shao ta885" />
+	<configure id="科技站886" value="ke  ji  zhan886" />
+	<configure id="敢死队887" value="gan si dui887" />
+	<configure id="危险丛林888" value="wei xian cong lin888" />
+	<configure id="激光陷阱889" value=" ji  guang xian  ji ng889" />
+	<configure id="八方890" value="ba fang890" />
+	<configure id="诱饵891" value="you er891" />
+	<configure id="激光危险892" value=" ji  guang wei xian892" />
+	<configure id="双管齐下893" value="shuang guan qi xia893" />
+	<configure id="演习场894" value="yan xi chang894" />
+	<configure id="丛林之狼895" value="cong lin zhi lang895" />
+	<configure id="常规战术896" value="chang gui zhan shu896" />
+	<configure id="声东击西897" value="sheng dong  ji  xi897" />
+	<configure id="清场898" value="qing chang898" />
+	<configure id="出其不意899" value="chu qi bu yi899" />
+	<configure id="快攻900" value="kuai gong900" />
+	<configure id="误区901" value="wu qu901" />
+	<configure id="零伤亡902" value="ling shang wang902" />
+	<configure id="三军903" value="san jun903" />
+	<configure id="三岔口904" value="san cha kou904" />
+	<configure id="威胁905" value="wei xie905" />
+	<configure id="孤独守卫906" value="gu du shou wei906" />
+	<configure id="边缘待命907" value="bian yuan dai ming907" />
+	<configure id="出其不意908" value="chu qi bu yi908" />
+	<configure id="线攻击909" value="xian gong  ji 909" />
+	<configure id="指挥官的考验910" value="zhi hui guan de kao yan910" />
+	<configure id="孤独的哨塔911" value="gu du shao ta911" />
+	<configure id="浪人912" value="lang ren912" />
+	<configure id="有效打法913" value="you xiao da fa913" />
+	<configure id="红色黎明914" value="hong se li ming914" />
+	<configure id="使命915" value="shi ming915" />
+	<configure id="侵略与反抗916" value="qin lue yu fan kang916" />
+	<configure id="孤独的哨塔917" value="gu du shao ta917" />
+	<configure id="科技站918" value="ke  ji  zhan918" />
+	<configure id="敢死队919" value="gan si dui919" />
+	<configure id="危险丛林920" value="wei xian cong lin920" />
+	<configure id="激光陷阱921" value=" ji  guang xian  ji ng921" />
+	<configure id="八方922" value="ba fang922" />
+	<configure id="诱饵923" value="you er923" />
+	<configure id="激光危险924" value=" ji  guang wei xian924" />
+	<configure id="双管齐下925" value="shuang guan qi xia925" />
+	<configure id="演习场926" value="yan xi chang926" />
+	<configure id="丛林之狼927" value="cong lin zhi lang927" />
+	<configure id="常规战术928" value="chang gui zhan shu928" />
+	<configure id="声东击西929" value="sheng dong  ji  xi929" />
+	<configure id="清场930" value="qing chang930" />
+	<configure id="出其不意931" value="chu qi bu yi931" />
+	<configure id="快攻932" value="kuai gong932" />
+	<configure id="误区933" value="wu qu933" />
+	<configure id="零伤亡934" value="ling shang wang934" />
+	<configure id="三军935" value="san jun935" />
+	<configure id="三岔口936" value="san cha kou936" />
+	<configure id="威胁937" value="wei xie937" />
+	<configure id="孤独守卫938" value="gu du shou wei938" />
+	<configure id="边缘待命939" value="bian yuan dai ming939" />
+	<configure id="出其不意940" value="chu qi bu yi940" />
+	<configure id="线攻击941" value="xian gong  ji 941" />
+	<configure id="指挥官的考验942" value="zhi hui guan de kao yan942" />
+	<configure id="孤独的哨塔943" value="gu du shao ta943" />
+	<configure id="浪人944" value="lang ren944" />
+	<configure id="有效打法945" value="you xiao da fa945" />
+	<configure id="红色黎明946" value="hong se li ming946" />
+	<configure id="使命947" value="shi ming947" />
+	<configure id="侵略与反抗948" value="qin lue yu fan kang948" />
+	<configure id="孤独的哨塔949" value="gu du shao ta949" />
+	<configure id="科技站950" value="ke  ji  zhan950" />
+	<configure id="敢死队951" value="gan si dui951" />
+	<configure id="危险丛林952" value="wei xian cong lin952" />
+	<configure id="激光陷阱953" value=" ji  guang xian  ji ng953" />
+	<configure id="八方954" value="ba fang954" />
+	<configure id="诱饵955" value="you er955" />
+	<configure id="激光危险956" value=" ji  guang wei xian956" />
+	<configure id="双管齐下957" value="shuang guan qi xia957" />
+	<configure id="演习场958" value="yan xi chang958" />
+	<configure id="丛林之狼959" value="cong lin zhi lang959" />
+	<configure id="常规战术960" value="chang gui zhan shu960" />
+	<configure id="声东击西961" value="sheng dong  ji  xi961" />
+	<configure id="清场962" value="qing chang962" />
+	<configure id="出其不意963" value="chu qi bu yi963" />
+	<configure id="快攻964" value="kuai gong964" />
+	<configure id="误区965" value="wu qu965" />
+	<configure id="零伤亡966" value="ling shang wang966" />
+	<configure id="三军967" value="san jun967" />
+	<configure id="三岔口968" value="san cha kou968" />
+	<configure id="威胁969" value="wei xie969" />
+	<configure id="孤独守卫970" value="gu du shou wei970" />
+	<configure id="边缘待命971" value="bian yuan dai ming971" />
+	<configure id="出其不意972" value="chu qi bu yi972" />
+	<configure id="线攻击973" value="xian gong  ji 973" />
+	<configure id="指挥官的考验974" value="zhi hui guan de kao yan974" />
+	<configure id="孤独的哨塔975" value="gu du shao ta975" />
+	<configure id="浪人976" value="lang ren976" />
+	<configure id="有效打法977" value="you xiao da fa977" />
+	<configure id="红色黎明978" value="hong se li ming978" />
+	<configure id="使命979" value="shi ming979" />
+	<configure id="侵略与反抗980" value="qin lue yu fan kang980" />
+	<configure id="孤独的哨塔981" value="gu du shao ta981" />
+	<configure id="科技站982" value="ke  ji  zhan982" />
+	<configure id="敢死队983" value="gan si dui983" />
+	<configure id="危险丛林984" value="wei xian cong lin984" />
+	<configure id="激光陷阱985" value=" ji  guang xian  ji ng985" />
+	<configure id="八方986" value="ba fang986" />
+	<configure id="诱饵987" value="you er987" />
+	<configure id="激光危险988" value=" ji  guang wei xian988" />
+	<configure id="双管齐下989" value="shuang guan qi xia989" />
+	<configure id="演习场990" value="yan xi chang990" />
+	<configure id="丛林之狼991" value="cong lin zhi lang991" />
+	<configure id="常规战术992" value="chang gui zhan shu992" />
+	<configure id="声东击西993" value="sheng dong  ji  xi993" />
+	<configure id="清场994" value="qing chang994" />
+	<configure id="出其不意995" value="chu qi bu yi995" />
+	<configure id="快攻996" value="kuai gong996" />
+	<configure id="误区997" value="wu qu997" />
+	<configure id="零伤亡998" value="ling shang wang998" />
+	<configure id="三军999" value="san jun999" />
+	<configure id="三岔口1000" value="san cha kou1000" />
+	<configure id="威胁1001" value="wei xie1001" />
+	<configure id="孤独守卫1002" value="gu du shou wei1002" />
+	<configure id="边缘待命1003" value="bian yuan dai ming1003" />
+	<configure id="出其不意1004" value="chu qi bu yi1004" />
+	<configure id="线攻击1005" value="xian gong  ji 1005" />
+	<configure id="指挥官的考验1006" value="zhi hui guan de kao yan1006" />
+	<configure id="孤独的哨塔1007" value="gu du shao ta1007" />
+	<configure id="浪人1008" value="lang ren1008" />
+	<configure id="有效打法1009" value="you xiao da fa1009" />
+	<configure id="红色黎明1010" value="hong se li ming1010" />
+	<configure id="使命1011" value="shi ming1011" />
+	<configure id="侵略与反抗1012" value="qin lue yu fan kang1012" />
+	<configure id="孤独的哨塔1013" value="gu du shao ta1013" />
+	<configure id="科技站1014" value="ke  ji  zhan1014" />
+	<configure id="敢死队1015" value="gan si dui1015" />
+	<configure id="危险丛林1016" value="wei xian cong lin1016" />
+	<configure id="激光陷阱1017" value=" ji  guang xian  ji ng1017" />
+	<configure id="八方1018" value="ba fang1018" />
+	<configure id="诱饵1019" value="you er1019" />
+	<configure id="激光危险1020" value=" ji  guang wei xian1020" />
+	<configure id="双管齐下1021" value="shuang guan qi xia1021" />
+	<configure id="演习场1022" value="yan xi chang1022" />
+	<configure id="丛林之狼1023" value="cong lin zhi lang1023" />
+	<configure id="常规战术1024" value="chang gui zhan shu1024" />
+	<configure id="声东击西1025" value="sheng dong  ji  xi1025" />
+	<configure id="清场1026" value="qing chang1026" />
+	<configure id="出其不意1027" value="chu qi bu yi1027" />
+	<configure id="快攻1028" value="kuai gong1028" />
+	<configure id="误区1029" value="wu qu1029" />
+	<configure id="零伤亡1030" value="ling shang wang1030" />
+	<configure id="三军1031" value="san jun1031" />
+	<configure id="三岔口1032" value="san cha kou1032" />
+	<configure id="威胁1033" value="wei xie1033" />
+	<configure id="孤独守卫1034" value="gu du shou wei1034" />
+	<configure id="边缘待命1035" value="bian yuan dai ming1035" />
+	<configure id="出其不意1036" value="chu qi bu yi1036" />
+	<configure id="线攻击1037" value="xian gong  ji 1037" />
+	<configure id="指挥官的考验1038" value="zhi hui guan de kao yan1038" />
+	<configure id="孤独的哨塔1039" value="gu du shao ta1039" />
+	<configure id="浪人1040" value="lang ren1040" />
+	<configure id="有效打法1041" value="you xiao da fa1041" />
+	<configure id="红色黎明1042" value="hong se li ming1042" />
+	<configure id="使命1043" value="shi ming1043" />
+	<configure id="侵略与反抗1044" value="qin lue yu fan kang1044" />
+	<configure id="孤独的哨塔1045" value="gu du shao ta1045" />
+	<configure id="科技站1046" value="ke  ji  zhan1046" />
+	<configure id="敢死队1047" value="gan si dui1047" />
+	<configure id="危险丛林1048" value="wei xian cong lin1048" />
+	<configure id="激光陷阱1049" value=" ji  guang xian  ji ng1049" />
+	<configure id="八方1050" value="ba fang1050" />
+	<configure id="诱饵1051" value="you er1051" />
+	<configure id="激光危险1052" value=" ji  guang wei xian1052" />
+	<configure id="双管齐下1053" value="shuang guan qi xia1053" />
+	<configure id="演习场1054" value="yan xi chang1054" />
+	<configure id="丛林之狼1055" value="cong lin zhi lang1055" />
+	<configure id="常规战术1056" value="chang gui zhan shu1056" />
+	<configure id="声东击西1057" value="sheng dong  ji  xi1057" />
+	<configure id="清场1058" value="qing chang1058" />
+	<configure id="出其不意1059" value="chu qi bu yi1059" />
+	<configure id="快攻1060" value="kuai gong1060" />
+	<configure id="误区1061" value="wu qu1061" />
+	<configure id="零伤亡1062" value="ling shang wang1062" />
+	<configure id="三军1063" value="san jun1063" />
+	<configure id="三岔口1064" value="san cha kou1064" />
+	<configure id="威胁1065" value="wei xie1065" />
+	<configure id="孤独守卫1066" value="gu du shou wei1066" />
+	<configure id="边缘待命1067" value="bian yuan dai ming1067" />
+	<configure id="出其不意1068" value="chu qi bu yi1068" />
+	<configure id="线攻击1069" value="xian gong  ji 1069" />
+	<configure id="指挥官的考验1070" value="zhi hui guan de kao yan1070" />
+	<configure id="敢死队1071" value="gan si dui1071" />
+	<configure id="危险丛林1072" value="wei xian cong lin1072" />
+	<configure id="激光陷阱1073" value=" ji  guang xian  ji ng1073" />
+	<configure id="八方1074" value="ba fang1074" />
+	<configure id="诱饵1075" value="you er1075" />
+	<configure id="激光危险1076" value=" ji  guang wei xian1076" />
+	<configure id="双管齐下1077" value="shuang guan qi xia1077" />
+	<configure id="演习场1078" value="yan xi chang1078" />
+	<configure id="丛林之狼1079" value="cong lin zhi lang1079" />
+	<configure id="常规战术1080" value="chang gui zhan shu1080" />
+	<configure id="声东击西1081" value="sheng dong  ji  xi1081" />
+	<configure id="清场1082" value="qing chang1082" />
+	<configure id="出其不意1083" value="chu qi bu yi1083" />
+	<configure id="快攻1084" value="kuai gong1084" />
+	<configure id="误区1085" value="wu qu1085" />
+	<configure id="零伤亡1086" value="ling shang wang1086" />
+	<configure id="三军1087" value="san jun1087" />
+	<configure id="三岔口1088" value="san cha kou1088" />
+	<configure id="威胁1089" value="wei xie1089" />
+	<configure id="孤独守卫1090" value="gu du shou wei1090" />
+	<configure id="边缘待命1091" value="bian yuan dai ming1091" />
+	<configure id="出其不意1092" value="chu qi bu yi1092" />
+	<configure id="线攻击1093" value="xian gong  ji 1093" />
+	<configure id="指挥官的考验1094" value="zhi hui guan de kao yan1094" />
+	<configure id="全是植被的关卡1095" value="quan shi zhi bei de guan qia1095" />
+	<configure id="全是植被的关卡1096" value="quan shi zhi bei de guan qia1096" />
+	<configure id="孤独的哨塔1097" value="gu du shao ta1097" />
+	<configure id="浪人1098" value="lang ren1098" />
+	<configure id="有效打法1099" value="you xiao da fa1099" />
+	<configure id="红色黎明1100" value="hong se li ming1100" />
+	<configure id="使命1101" value="shi ming1101" />
+	<configure id="侵略与反抗1102" value="qin lue yu fan kang1102" />
+	<configure id="孤独的哨塔1103" value="gu du shao ta1103" />
+	<configure id="科技站1104" value="ke  ji  zhan1104" />
+	<configure id="敢死队1105" value="gan si dui1105" />
+	<configure id="危险丛林1106" value="wei xian cong lin1106" />
+	<configure id="激光陷阱1107" value=" ji  guang xian  ji ng1107" />
+	<configure id="八方1108" value="ba fang1108" />
+	<configure id="诱饵1109" value="you er1109" />
+	<configure id="激光危险1110" value=" ji  guang wei xian1110" />
+	<configure id="双管齐下1111" value="shuang guan qi xia1111" />
+	<configure id="演习场1112" value="yan xi chang1112" />
+	<configure id="丛林之狼1113" value="cong lin zhi lang1113" />
+	<configure id="常规战术1114" value="chang gui zhan shu1114" />
+	<configure id="声东击西1115" value="sheng dong  ji  xi1115" />
+	<configure id="清场1116" value="qing chang1116" />
+	<configure id="出其不意1117" value="chu qi bu yi1117" />
+	<configure id="快攻1118" value="kuai gong1118" />
+	<configure id="误区1119" value="wu qu1119" />
+	<configure id="零伤亡1120" value="ling shang wang1120" />
+	<configure id="三军1121" value="san jun1121" />
+	<configure id="三岔口1122" value="san cha kou1122" />
+	<configure id="威胁1123" value="wei xie1123" />
+	<configure id="孤独守卫1124" value="gu du shou wei1124" />
+	<configure id="海滨城市1465" value="hai bin cheng shi1465" />
+	<configure id="急速运兵1466" value=" ji  su yun bing1466" />
+	<configure id="大军突击1467" value="da jun tu  ji 1467" />
+	<configure id="漂亮音符1468" value="piao liang de yin fu1468" />
+	<configure id="阿尔法的爱1469" value="a er fa de ai1469" />
+	<configure id="寻找目标1470" value="xun zhao mu biao1470" />
+	<configure id="坦克的无奈1471" value="tan ke de wu nai1471" />
+	<configure id="士兵训练1472" value="shi bing xun lian1472" />
+	<configure id="毕业典礼1473" value="bi ye dian li1473" />
+	<configure id="亡命的时间1474" value="wang ming de shi  ji an1474" />
+	<configure id="吹鼓手1475" value="chui gu shou1475" />
+	<configure id="狡猾的兔子1476" value=" ji ao hua de tu zi1476" />
+	<configure id="等比缩放1477" value="deng bi suo fang1477" />
+	<configure id="大大的战场1478" value="da da de zhan chang1478" />
+	<configure id="火山爆发1479" value="huo shan bao fa1479" />
+	<configure id="炮管生锈1480" value="pao guan sheng xiu1480" />
+	<configure id="比赛时间1481" value="bi sai shi  ji an1481" />
+	<configure id="山洪暴发1482" value="shan hong bao fa1482" />
+	<configure id="地裂1483" value="di lie1483" />
+	<configure id="冰雹1484" value="bing bao1484" />
+	<configure id="暴风雪1485" value="bao feng xue1485" />
+	<configure id="寻找卡尔德1486" value="xun zhao ka er de1486" />
+	<configure id="爱吃菠菜1487" value="ai chi bo cai1487" />
+	<configure id="脖子痛1488" value="bo zi tong1488" />
+	<configure id="ben pao de wu gui1489" value="ben pao de wu gui1489" />
+	<configure id="舔舐伤口1490" value="tian shi shang kou1490" />
+	<configure id="血流成河1491" value="xue liu cheng he1491" />
+	<configure id="满满的爱1492" value="man man de ai1492" />
+	<configure id="包扎伤口1493" value="bao zha shang kou1493" />
+	<configure id="疼痛1494" value="teng tong1494" />
+	<configure id="荆棘之地1495" value=" ji ng  ji  zhi di1495" />
+	<configure id="亡命之徒1496" value="wang ming zhi tu1496" />
+	<configure id="可怜的羊羔1497" value="ke lian de yang gao1497" />
+	<configure id="美餐1498" value="mei can1498" />
+	<configure id="无尽的杀戮1499" value="wu  ji n de sha lu1499" />
+	<configure id="敬畏神明1500" value=" ji ng wei shen ming1500" />
+	<configure id="列阵1501" value="lie zhen1501" />
+	<configure id="一排排的炮1502" value="yi pai pai de pao1502" />
+	<configure id="有利地带1503" value="you li di dai1503" />
+	<configure id="战士的墓地1504" value="zhan shi demu di1504" />
+	<configure id="头疼1505" value="tou teng1505" />
+	<configure id="边缘地带1506" value="bian yuan di dai1506" />
+	<configure id="霹雳闪电1507" value="pi li shan dian1507" />
+	<configure id="荣耀1508" value="rong yao1508" />
+	<configure id="防火区1509" value="fang huo qu1509" />
+	<configure id="快速打击1510" value="kuai su da  ji 1510" />
+	<configure id="野人1511" value="ye ren1511" />
+	<configure id="装甲车1512" value="zhuang  ji a che1512" />
+	<configure id="快速射击1513" value="kuai su she  ji 1513" />
+	<configure id="完美配置1514" value="wan mei pei zhi1514" />
+	<configure id="破甲弹1515" value="po  ji a dan1515" />
+	<configure id="侵略者1516" value="qin lue zhe1516" />
+	<configure id="高速公路1517" value="gao su gong lu1517" />
+	<configure id="运兵的秘密1518" value="yun bing de mi mi1518" />
+	<configure id="天敌1519" value="tian di1519" />
+	<configure id="公平交易1520" value="gong ping  ji ao yi1520" />
+	<configure id="花瓶1521" value="hua ping1521" />
+	<configure id="双管齐下1522" value="shuang guan qi xia1522" />
+	<configure id="积尸1523" value=" ji  shi1523" />
+	<configure id="打劫1524" value="da  ji e1524" />
+	<configure id="塔楼1525" value="ta lou1525" />
+	<configure id="美酒成河1526" value="mei  ji u cheng he1526" />
+	<configure id="石林1527" value="shi lin1527" />
+	<configure id="伤害制造1528" value="shang hai zhi zao1528" />
+	<configure id="世界杯1529" value="shi  ji e bei1529" />
+	<configure id="棘刺1530" value=" ji  ci1530" />
+	<configure id="盐湖1531" value="yan hu1531" />
+	<configure id="白色巨轮1532" value="bai se ju lun1532" />
+	<configure id="糟糕的牧场1533" value="zao gao de muc hang1533" />
+	<configure id="城市废墟1534" value="cheng shi fei xu1534" />
+	<configure id="垃圾场1535" value="la  ji  chang1535" />
+	<configure id="高原1536" value="gao yuan1536" />
+	<configure id="形式主义1537" value="xing shi zhu yi1537" />
+	<configure id="炮火宠爱1538" value="pao huo chong ai1538" />
+	<configure id="痢疾1539" value="li  ji 1539" />
+	<configure id="不安的快乐1540" value="bu an de kuai le1540" />
+	<configure id="是与不是1541" value="shi yu bu shi1541" />
+	<configure id="你想不到的1542" value="ni xiang bu dao de1542" />
+	<configure id="可惜罪过1543" value="ke xi zui guo1543" />
+	<configure id="慈悲1544" value="ci bei1544" />
+	<configure id="战与和1545" value="zhan yu he1545" />
+	<configure id="大地的愤怒1546" value="da di de fen nu1546" />
+	<configure id="折煞1547" value="zhe sha1547" />
+	<configure id="纯系谱1548" value="chun xi pu1548" />
+	<configure id="爆走主义1549" value="bao zou zhu yi1549" />
+	<configure id="大扫荡1550" value="da sao dang1550" />
+	<configure id="松鼠与野兽1551" value="song shu yu ye shou1551" />
+	<configure id="赵司令1552" value="zhao si ling1552" />
+	<configure id="眼睛疼1553" value="yan  ji ng teng1553" />
+	<configure id="藕断丝连1554" value="ou duan si lian1554" />
+	<configure id="逃亡1555" value="tao wang1555" />
+	<configure id="迁徙1556" value="qian xi1556" />
+	<configure id="不安分1557" value="bu an fen1557" />
+	<configure id="不是观光1558" value="bu shi guan guang1558" />
+	<configure id="荆棘1559" value=" ji ng  ji 1559" />
+	<configure id="土匪之家1560" value="tu fei zhi  ji a1560" />
+	<configure id="沦陷1561" value="lun xian1561" />
+	<configure id="敌后方1562" value="di hou fang1562" />
+	<configure id="最后时间1563" value="zui hou shi  ji an1563" />
+	<configure id="合金弹头1564" value="he  ji n dan tou1564" />
+	<configure id="噼噼啪啪1565" value="pi pi pa pa1565" />
+	<configure id="大量运兵1566" value="da liang yun bing1566" />
+	<configure id="战车故事1567" value="zhan che gu shi1567" />
+	<configure id="41区1568" value="41qu1568" />
+	<configure id="乱葬岗1569" value="luan zang gang1569" />
+	<configure id="冲动的后果1570" value="chong dong de hou guo1570" />
+	<configure id="易守难攻1571" value="yi shou nan gong1571" />
+	<configure id="宝藏1572" value="bao zang1572" />
+	<configure id="火力送葬1573" value="huo li song zang1573" />
+	<configure id="美餐享用1574" value="mei can xiang yong1574" />
+	<configure id="松林1575" value="song lin1575" />
+	<configure id="地下城堡1576" value="di xia cheng bao1576" />
+	<configure id="天启1577" value="tian qi1577" />
+	<configure id="童谣1578" value="tong yao1578" />
+	<configure id="王者复仇1579" value="wang zhe fu chou1579" />
+	<configure id="秘密基地1580" value="mi mi  ji  di1580" />
+	<configure id="粮仓1581" value="liang cang1581" />
+	<configure id="屯兵站1582" value="tun bing zhan1582" />
+	<configure id="超级能量基地1583" value="chao  ji  neng liang  ji  di1583" />
+	<configure id="眼镜蛇1584" value="yan  ji ng she1584" />
+	<configure id="毒蝎1585" value="du xie1585" />
+	<configure id="红色警报1586" value="hong se  ji ng bao1586" />
+	<configure id="全军覆没1587" value="quan jun fu mo1587" />
+	<configure id="各种打法1588" value="ge zhong da fa1588" />
+	<configure id="VS前线1589" value="VS qian xian1589" />
+	<configure id="粮道1590" value="liang dao1590" />
+	<configure id="地下金矿1591" value="di xia  ji n kuang1591" />
+	<configure id="秘密仓库1592" value="mi mi cang ku1592" />
+	<configure id="集结号1593" value=" ji   ji e hao1593" />
+	<configure id="磁场1594" value="ci chang1594" />
+	<configure id="万有引力1595" value="wan you yin li1595" />
+	<configure id="孤独冲锋1596" value="gu du chong feng1596" />
+	<configure id="曙光1597" value="shu guang1597" />
+	<configure id="科学怪人1598" value="ke xue guai ren1598" />
+	<configure id="脑死亡1599" value="nao si wang1599" />
+	<configure id="小平锅1600" value="xiao ping guo1600" />
+	<configure id="石灰1601" value="shi hui1601" />
+	<configure id="红烧坦克1602" value="hong shao tan ke1602" />
+	<configure id="钻石坑1603" value="zuan shi keng1603" />
+	<configure id="弹雨1604" value="dan yu1604" />
+	<configure id="风声1605" value="feng sheng1605" />
+	<configure id="统一战线1606" value="tong yi zhan xian1606" />
+	<configure id="子弹壳1607" value="zi dan ke1607" />
+	<configure id="热浪1608" value="re lang1608" />
+	<configure id="昔日繁华1609" value="xi ri fan hua1609" />
+	<configure id="反抗军1610" value="fan kang jun1610" />
+	<configure id="科技较量1611" value="ke  ji   ji ao liang1611" />
+	<configure id="暴发户1612" value="bao fa hu1612" />
+	<configure id="火舞1613" value="huo wu1613" />
+	<configure id="白色恐怖1614" value="bai se kong bu1614" />
+	<configure id="弹药库1615" value="dan yao ku1615" />
+	<configure id="巨塔1616" value="ju ta1616" />
+	<configure id="丛林战1617" value="cong lin zhan1617" />
+	<configure id="不是boss1618" value="bu shi boss1618" />
+	<configure id="石油库1619" value="shi you ku1619" />
+	<configure id="重金属1620" value="zhong  ji n shu1620" />
+	<configure id="盐田1621" value="yan tian1621" />
+	<configure id="军事基地1622" value="jun shi  ji  di1622" />
+	<configure id="大冲锋1623" value="da chong feng1623" />
+	<configure id="炮弹做花瓶1624" value="pao dan zuo hua ping1624" />
+	<configure id="瓷娃娃1625" value="ci wa wa1625" />
+	<configure id="闪光弹1626" value="shan guang dan1626" />
+	<configure id="孤山1627" value="gu shan1627" />
+	<configure id="亡命1628" value="wang ming1628" />
+	<configure id="电磁1629" value="dian ci1629" />
+	<configure id="煤矿1630" value="mei kuang1630" />
+	<configure id="金矿1631" value=" ji n kuang1631" />
+	<configure id="核弹之密1632" value="he dan zhi mi1632" />
+	<configure id="大逃亡1633" value="da tao wang1633" />
+	<configure id="元素1634" value="yuan su1634" />
+	<configure id="火花1635" value="huo hua1635" />
+	<configure id="战车工厂1636" value="zhan che gong chang1636" />
+	<configure id="岔路1637" value="cha lu1637" />
+	<configure id="沙漠之狐1638" value="sha mo zhi hu1638" />
+	<configure id="秘密教会1639" value="mi mi  ji ao hui1639" />
+	<configure id="鲨鱼脊1640" value="sha yu  ji 1640" />
+	<configure id="运兵车1641" value="yun bing che1641" />
+	<configure id="倒计时1642" value="dao  ji  shi1642" />
+	<configure id="日出1643" value="ri chu1643" />
+	<configure id="稀矿1644" value="xi kuang1644" />
+	<configure id="大祸临头1645" value="da huo lin tou1645" />
+	<configure id="密集火力1646" value="mi  ji  huo li1646" />
+	<configure id="边陲重镇1647" value="bian chui zhong zhen1647" />
+	<configure id="闪电突击1648" value="shan dian tu  ji 1648" />
+	<configure id="地毯式轰炸1649" value="di tan shi hong zha1649" />
+	<configure id="化石1650" value="hua shi1650" />
+	<configure id="刑场1651" value="xing chang1651" />
+	<configure id="监视器1652" value=" ji an shi qi1652" />
+	<configure id="折射原理1653" value="zhe she yuan li1653" />
+	<configure id="炮楼1654" value="pao lou1654" />
+	<configure id="弹片1655" value="dan pian1655" />
+	<configure id="军旅1656" value="jun lu1656" />
+	<configure id="黎明1657" value="li ming1657" />
+	<configure id="指挥车1658" value="zhi hui che1658" />
+	<configure id="军事地带1659" value="jun shi di dai1659" />
+	<configure id="底壳运动1660" value="di qiao yun dong1660" />
+	<configure id="屠宰场1661" value="tu zai chang1661" />
+	<configure id="边界1662" value="bian  ji e1662" />
+	<configure id="敌占区1663" value="di zhan qu1663" />
+	<configure id="不是陷阱1664" value="bu shi xian  ji ng1664" />
+	<configure id="细胞分裂1665" value="xi bao fen lie1665" />
+	<configure id="大炮飞弹1666" value="da pao fei dan1666" />
+	<configure id="坑1667" value="keng1667" />
+	<configure id="海滨城市1668" value="hai bin cheng shi1668" />
+	<configure id="急速运兵1669" value=" ji  su yun bing1669" />
+	<configure id="大军突击1670" value="da jun tu  ji 1670" />
+	<configure id="漂亮音符1671" value="piao liang de yin fu1671" />
+	<configure id="阿尔法的爱1672" value="a er fa de ai1672" />
+	<configure id="寻找目标1673" value="xun zhao mu biao1673" />
+	<configure id="坦克的无奈1674" value="tan ke de wu nai1674" />
+	<configure id="士兵训练1675" value="shi bing xun lian1675" />
+	<configure id="毕业典礼1676" value="bi ye dian li1676" />
+	<configure id="亡命的时间1677" value="wang ming de shi  ji an1677" />
+	<configure id="吹鼓手1678" value="chui gu shou1678" />
+	<configure id="狡猾的兔子1679" value=" ji ao hua de tu zi1679" />
+	<configure id="等比缩放1680" value="deng bi suo fang1680" />
+	<configure id="大大的战场1681" value="da da de zhan chang1681" />
+	<configure id="火山爆发1682" value="huo shan bao fa1682" />
+	<configure id="炮管生锈1683" value="pao guan sheng xiu1683" />
+	<configure id="比赛时间1684" value="bi sai shi  ji an1684" />
+	<configure id="山洪暴发1685" value="shan hong bao fa1685" />
+	<configure id="地裂1686" value="di lie1686" />
+	<configure id="冰雹1687" value="bing bao1687" />
+	<configure id="暴风雪1688" value="bao feng xue1688" />
+	<configure id="寻找卡尔德1689" value="xun zhao ka er de1689" />
+	<configure id="爱吃菠菜1690" value="ai chi bo cai1690" />
+	<configure id="脖子痛1691" value="bo zi tong1691" />
+	<configure id="ben pao de wu gui1692" value="ben pao de wu gui1692" />
+	<configure id="舔舐伤口1693" value="tian shi shang kou1693" />
+	<configure id="血流成河1694" value="xue liu cheng he1694" />
+	<configure id="满满的爱1695" value="man man de ai1695" />
+	<configure id="包扎伤口1696" value="bao zha shang kou1696" />
+	<configure id="疼痛1697" value="teng tong1697" />
+	<configure id="荆棘之地1698" value=" ji ng  ji  zhi di1698" />
+	<configure id="亡命之徒1699" value="wang ming zhi tu1699" />
+	<configure id="可怜的羊羔1700" value="ke lian de yang gao1700" />
+	<configure id="美餐1701" value="mei can1701" />
+	<configure id="无尽的杀戮1702" value="wu  ji n de sha lu1702" />
+	<configure id="敬畏神明1703" value=" ji ng wei shen ming1703" />
+	<configure id="列阵1704" value="lie zhen1704" />
+	<configure id="一排排的炮1705" value="yi pai pai de pao1705" />
+	<configure id="有利地带1706" value="you li di dai1706" />
+	<configure id="战士的墓地1707" value="zhan shi demu di1707" />
+	<configure id="头疼1708" value="tou teng1708" />
+	<configure id="边缘地带1709" value="bian yuan di dai1709" />
+	<configure id="霹雳闪电1710" value="pi li shan dian1710" />
+	<configure id="荣耀1711" value="rong yao1711" />
+	<configure id="防火区1712" value="fang huo qu1712" />
+	<configure id="快速打击1713" value="kuai su da  ji 1713" />
+	<configure id="野人1714" value="ye ren1714" />
+	<configure id="装甲车1715" value="zhuang  ji a che1715" />
+	<configure id="快速射击1716" value="kuai su she  ji 1716" />
+	<configure id="完美配置1717" value="wan mei pei zhi1717" />
+	<configure id="破甲弹1718" value="po  ji a dan1718" />
+	<configure id="侵略者1719" value="qin lue zhe1719" />
+	<configure id="高速公路1720" value="gao su gong lu1720" />
+	<configure id="运兵的秘密1721" value="yun bing de mi mi1721" />
+	<configure id="天敌1722" value="tian di1722" />
+	<configure id="公平交易1723" value="gong ping  ji ao yi1723" />
+	<configure id="花瓶1724" value="hua ping1724" />
+	<configure id="双管齐下1725" value="shuang guan qi xia1725" />
+	<configure id="积尸1726" value=" ji  shi1726" />
+	<configure id="打劫1727" value="da  ji e1727" />
+	<configure id="塔楼1728" value="ta lou1728" />
+	<configure id="美酒成河1729" value="mei  ji u cheng he1729" />
+	<configure id="石林1730" value="shi lin1730" />
+	<configure id="伤害制造1731" value="shang hai zhi zao1731" />
+	<configure id="世界杯1732" value="shi  ji e bei1732" />
+	<configure id="棘刺1733" value=" ji  ci1733" />
+	<configure id="盐湖1734" value="yan hu1734" />
+	<configure id="白色巨轮1735" value="bai se ju lun1735" />
+	<configure id="糟糕的牧场1736" value="zao gao de muc hang1736" />
+	<configure id="城市废墟1737" value="cheng shi fei xu1737" />
+	<configure id="垃圾场1738" value="la  ji  chang1738" />
+	<configure id="高原1739" value="gao yuan1739" />
+	<configure id="形式主义1740" value="xing shi zhu yi1740" />
+	<configure id="炮火宠爱1741" value="pao huo chong ai1741" />
+	<configure id="痢疾1742" value="li  ji 1742" />
+	<configure id="不安的快乐1743" value="bu an de kuai le1743" />
+	<configure id="是与不是1744" value="shi yu bu shi1744" />
+	<configure id="你想不到的1745" value="ni xiang bu dao de1745" />
+	<configure id="可惜罪过1746" value="ke xi zui guo1746" />
+	<configure id="慈悲1747" value="ci bei1747" />
+	<configure id="战与和1748" value="zhan yu he1748" />
+	<configure id="大地的愤怒1749" value="da di de fen nu1749" />
+	<configure id="折煞1750" value="zhe sha1750" />
+	<configure id="纯系谱1751" value="chun xi pu1751" />
+	<configure id="爆走主义1752" value="bao zou zhu yi1752" />
+	<configure id="大扫荡1753" value="da sao dang1753" />
+	<configure id="松鼠与野兽1754" value="song shu yu ye shou1754" />
+	<configure id="赵司令1755" value="zhao si ling1755" />
+	<configure id="眼睛疼1756" value="yan  ji ng teng1756" />
+	<configure id="藕断丝连1757" value="ou duan si lian1757" />
+	<configure id="逃亡1758" value="tao wang1758" />
+	<configure id="迁徙1759" value="qian xi1759" />
+	<configure id="不安分1760" value="bu an fen1760" />
+	<configure id="不是观光1761" value="bu shi guan guang1761" />
+	<configure id="荆棘1762" value=" ji ng  ji 1762" />
+	<configure id="土匪之家1763" value="tu fei zhi  ji a1763" />
+	<configure id="沦陷1764" value="lun xian1764" />
+	<configure id="敌后方1765" value="di hou fang1765" />
+	<configure id="最后时间1766" value="zui hou shi  ji an1766" />
+	<configure id="合金弹头1767" value="he  ji n dan tou1767" />
+	<configure id="噼噼啪啪1768" value="pi pi pa pa1768" />
+	<configure id="大量运兵1769" value="da liang yun bing1769" />
+	<configure id="战车故事1770" value="zhan che gu shi1770" />
+	<configure id="41区1771" value="41qu1771" />
+	<configure id="乱葬岗1772" value="luan zang gang1772" />
+	<configure id="冲动的后果1773" value="chong dong de hou guo1773" />
+	<configure id="易守难攻1774" value="yi shou nan gong1774" />
+	<configure id="宝藏1775" value="bao zang1775" />
+	<configure id="火力送葬1776" value="huo li song zang1776" />
+	<configure id="美餐享用1777" value="mei can xiang yong1777" />
+	<configure id="松林1778" value="song lin1778" />
+	<configure id="地下城堡1779" value="di xia cheng bao1779" />
+	<configure id="天启1780" value="tian qi1780" />
+	<configure id="童谣1781" value="tong yao1781" />
+	<configure id="王者复仇1782" value="wang zhe fu chou1782" />
+	<configure id="秘密基地1783" value="mi mi  ji  di1783" />
+	<configure id="粮仓1784" value="liang cang1784" />
+	<configure id="屯兵站1785" value="tun bing zhan1785" />
+	<configure id="超级能量基地1786" value="chao  ji  neng liang  ji  di1786" />
+	<configure id="眼镜蛇1787" value="yan  ji ng she1787" />
+	<configure id="毒蝎1788" value="du xie1788" />
+	<configure id="红色警报1789" value="hong se  ji ng bao1789" />
+	<configure id="全军覆没1790" value="quan jun fu mo1790" />
+	<configure id="各种打法1791" value="ge zhong da fa1791" />
+	<configure id="VS前线1792" value="VS qian xian1792" />
+	<configure id="粮道1793" value="liang dao1793" />
+	<configure id="地下金矿1794" value="di xia  ji n kuang1794" />
+	<configure id="秘密仓库1795" value="mi mi cang ku1795" />
+	<configure id="集结号1796" value=" ji   ji e hao1796" />
+	<configure id="磁场1797" value="ci chang1797" />
+	<configure id="万有引力1798" value="wan you yin li1798" />
+	<configure id="孤独冲锋1799" value="gu du chong feng1799" />
+	<configure id="曙光1800" value="shu guang1800" />
+	<configure id="科学怪人1801" value="ke xue guai ren1801" />
+	<configure id="脑死亡1802" value="nao si wang1802" />
+	<configure id="小平锅1803" value="xiao ping guo1803" />
+	<configure id="石灰1804" value="shi hui1804" />
+	<configure id="红烧坦克1805" value="hong shao tan ke1805" />
+	<configure id="钻石坑1806" value="zuan shi keng1806" />
+	<configure id="弹雨1807" value="dan yu1807" />
+	<configure id="风声1808" value="feng sheng1808" />
+	<configure id="统一战线1809" value="tong yi zhan xian1809" />
+	<configure id="子弹壳1810" value="zi dan ke1810" />
+	<configure id="热浪1811" value="re lang1811" />
+	<configure id="昔日繁华1812" value="xi ri fan hua1812" />
+	<configure id="反抗军1813" value="fan kang jun1813" />
+	<configure id="科技较量1814" value="ke  ji   ji ao liang1814" />
+	<configure id="暴发户1815" value="bao fa hu1815" />
+	<configure id="火舞1816" value="huo wu1816" />
+	<configure id="白色恐怖1817" value="bai se kong bu1817" />
+	<configure id="弹药库1818" value="dan yao ku1818" />
+	<configure id="巨塔1819" value="ju ta1819" />
+	<configure id="丛林战1820" value="cong lin zhan1820" />
+	<configure id="不是boss1821" value="bu shi boss1821" />
+	<configure id="石油库1822" value="shi you ku1822" />
+	<configure id="重金属1823" value="zhong  ji n shu1823" />
+	<configure id="盐田1824" value="yan tian1824" />
+	<configure id="军事基地1825" value="jun shi  ji  di1825" />
+	<configure id="大冲锋1826" value="da chong feng1826" />
+	<configure id="炮弹做花瓶1827" value="pao dan zuo hua ping1827" />
+	<configure id="瓷娃娃1828" value="ci wa wa1828" />
+	<configure id="闪光弹1829" value="shan guang dan1829" />
+	<configure id="孤山1830" value="gu shan1830" />
+	<configure id="亡命1831" value="wang ming1831" />
+	<configure id="电磁1832" value="dian ci1832" />
+	<configure id="煤矿1833" value="mei kuang1833" />
+	<configure id="金矿1834" value=" ji n kuang1834" />
+	<configure id="核弹之密1835" value="he dan zhi mi1835" />
+	<configure id="大逃亡1836" value="da tao wang1836" />
+	<configure id="元素1837" value="yuan su1837" />
+	<configure id="火花1838" value="huo hua1838" />
+	<configure id="战车工厂1839" value="zhan che gong chang1839" />
+	<configure id="岔路1840" value="cha lu1840" />
+	<configure id="沙漠之狐1841" value="sha mo zhi hu1841" />
+	<configure id="秘密教会1842" value="mi mi  ji ao hui1842" />
+	<configure id="鲨鱼脊1843" value="sha yu  ji 1843" />
+	<configure id="运兵车1844" value="yun bing che1844" />
+	<configure id="倒计时1845" value="dao  ji  shi1845" />
+	<configure id="日出1846" value="ri chu1846" />
+	<configure id="稀矿1847" value="xi kuang1847" />
+	<configure id="大祸临头1848" value="da huo lin tou1848" />
+	<configure id="密集火力1849" value="mi  ji  huo li1849" />
+	<configure id="边陲重镇1850" value="bian chui zhong zhen1850" />
+	<configure id="闪电突击1851" value="shan dian tu  ji 1851" />
+	<configure id="地毯式轰炸1852" value="di tan shi hong zha1852" />
+	<configure id="化石1853" value="hua shi1853" />
+	<configure id="刑场1854" value="xing chang1854" />
+	<configure id="监视器1855" value=" ji an shi qi1855" />
+	<configure id="折射原理1856" value="zhe she yuan li1856" />
+	<configure id="炮楼1857" value="pao lou1857" />
+	<configure id="弹片1858" value="dan pian1858" />
+	<configure id="军旅1859" value="jun lu1859" />
+	<configure id="黎明1860" value="li ming1860" />
+	<configure id="指挥车1861" value="zhi hui che1861" />
+	<configure id="军事地带1862" value="jun shi di dai1862" />
+	<configure id="底壳运动1863" value="di qiao yun dong1863" />
+	<configure id="屠宰场1864" value="tu zai chang1864" />
+	<configure id="边界1865" value="bian  ji e1865" />
+	<configure id="敌占区1866" value="di zhan qu1866" />
+	<configure id="不是陷阱1867" value="bu shi xian  ji ng1867" />
+	<configure id="细胞分裂1868" value="xi bao fen lie1868" />
+	<configure id="大炮飞弹1869" value="da pao fei dan1869" />
+	<configure id="坑1870" value="keng1870" />
+	<configure id="海滨城市1871" value="hai bin cheng shi1871" />
+	<configure id="急速运兵1872" value=" ji  su yun bing1872" />
+	<configure id="大军突击1873" value="da jun tu  ji 1873" />
+	<configure id="漂亮音符1874" value="piao liang de yin fu1874" />
+	<configure id="阿尔法的爱1875" value="a er fa de ai1875" />
+	<configure id="寻找目标1876" value="xun zhao mu biao1876" />
+	<configure id="坦克的无奈1877" value="tan ke de wu nai1877" />
+	<configure id="士兵训练1878" value="shi bing xun lian1878" />
+	<configure id="毕业典礼1879" value="bi ye dian li1879" />
+	<configure id="亡命的时间1880" value="wang ming de shi  ji an1880" />
+	<configure id="吹鼓手1881" value="chui gu shou1881" />
+	<configure id="狡猾的兔子1882" value=" ji ao hua de tu zi1882" />
+	<configure id="等比缩放1883" value="deng bi suo fang1883" />
+	<configure id="大大的战场1884" value="da da de zhan chang1884" />
+	<configure id="火山爆发1885" value="huo shan bao fa1885" />
+	<configure id="炮管生锈1886" value="pao guan sheng xiu1886" />
+	<configure id="比赛时间1887" value="bi sai shi  ji an1887" />
+	<configure id="山洪暴发1888" value="shan hong bao fa1888" />
+	<configure id="地裂1889" value="di lie1889" />
+	<configure id="冰雹1890" value="bing bao1890" />
+	<configure id="暴风雪1891" value="bao feng xue1891" />
+	<configure id="寻找卡尔德1892" value="xun zhao ka er de1892" />
+	<configure id="爱吃菠菜1893" value="ai chi bo cai1893" />
+	<configure id="脖子痛1894" value="bo zi tong1894" />
+	<configure id="ben pao de wu gui1895" value="ben pao de wu gui1895" />
+	<configure id="舔舐伤口1896" value="tian shi shang kou1896" />
+	<configure id="血流成河1897" value="xue liu cheng he1897" />
+	<configure id="满满的爱1898" value="man man de ai1898" />
+	<configure id="包扎伤口1899" value="bao zha shang kou1899" />
+	<configure id="疼痛1900" value="teng tong1900" />
+	<configure id="荆棘之地1901" value=" ji ng  ji  zhi di1901" />
+	<configure id="亡命之徒1902" value="wang ming zhi tu1902" />
+	<configure id="可怜的羊羔1903" value="ke lian de yang gao1903" />
+	<configure id="美餐1904" value="mei can1904" />
+	<configure id="无尽的杀戮1905" value="wu  ji n de sha lu1905" />
+	<configure id="敬畏神明1906" value=" ji ng wei shen ming1906" />
+	<configure id="列阵1907" value="lie zhen1907" />
+	<configure id="一排排的炮1908" value="yi pai pai de pao1908" />
+	<configure id="有利地带1909" value="you li di dai1909" />
+	<configure id="战士的墓地1910" value="zhan shi demu di1910" />
+	<configure id="头疼1911" value="tou teng1911" />
+	<configure id="边缘地带1912" value="bian yuan di dai1912" />
+	<configure id="霹雳闪电1913" value="pi li shan dian1913" />
+	<configure id="荣耀1914" value="rong yao1914" />
+	<configure id="防火区1915" value="fang huo qu1915" />
+	<configure id="快速打击1916" value="kuai su da  ji 1916" />
+	<configure id="野人1917" value="ye ren1917" />
+	<configure id="装甲车1918" value="zhuang  ji a che1918" />
+	<configure id="快速射击1919" value="kuai su she  ji 1919" />
+	<configure id="完美配置1920" value="wan mei pei zhi1920" />
+	<configure id="破甲弹1921" value="po  ji a dan1921" />
+	<configure id="侵略者1922" value="qin lue zhe1922" />
+	<configure id="高速公路1923" value="gao su gong lu1923" />
+	<configure id="运兵的秘密1924" value="yun bing de mi mi1924" />
+	<configure id="天敌1925" value="tian di1925" />
+	<configure id="公平交易1926" value="gong ping  ji ao yi1926" />
+	<configure id="花瓶1927" value="hua ping1927" />
+	<configure id="双管齐下1928" value="shuang guan qi xia1928" />
+	<configure id="积尸1929" value=" ji  shi1929" />
+	<configure id="打劫1930" value="da  ji e1930" />
+	<configure id="塔楼1931" value="ta lou1931" />
+	<configure id="美酒成河1932" value="mei  ji u cheng he1932" />
+	<configure id="石林1933" value="shi lin1933" />
+	<configure id="伤害制造1934" value="shang hai zhi zao1934" />
+	<configure id="世界杯1935" value="shi  ji e bei1935" />
+	<configure id="棘刺1936" value=" ji  ci1936" />
+	<configure id="盐湖1937" value="yan hu1937" />
+	<configure id="白色巨轮1938" value="bai se ju lun1938" />
+	<configure id="糟糕的牧场1939" value="zao gao de muc hang1939" />
+	<configure id="城市废墟1940" value="cheng shi fei xu1940" />
+	<configure id="垃圾场1941" value="la  ji  chang1941" />
+	<configure id="高原1942" value="gao yuan1942" />
+	<configure id="形式主义1943" value="xing shi zhu yi1943" />
+	<configure id="炮火宠爱1944" value="pao huo chong ai1944" />
+	<configure id="痢疾1945" value="li  ji 1945" />
+	<configure id="不安的快乐1946" value="bu an de kuai le1946" />
+	<configure id="是与不是1947" value="shi yu bu shi1947" />
+	<configure id="你想不到的1948" value="ni xiang bu dao de1948" />
+	<configure id="可惜罪过1949" value="ke xi zui guo1949" />
+	<configure id="慈悲1950" value="ci bei1950" />
+	<configure id="战与和1951" value="zhan yu he1951" />
+	<configure id="大地的愤怒1952" value="da di de fen nu1952" />
+	<configure id="折煞1953" value="zhe sha1953" />
+	<configure id="纯系谱1954" value="chun xi pu1954" />
+	<configure id="爆走主义1955" value="bao zou zhu yi1955" />
+	<configure id="大扫荡1956" value="da sao dang1956" />
+	<configure id="松鼠与野兽1957" value="song shu yu ye shou1957" />
+	<configure id="赵司令1958" value="zhao si ling1958" />
+	<configure id="眼睛疼1959" value="yan  ji ng teng1959" />
+	<configure id="藕断丝连1960" value="ou duan si lian1960" />
+	<configure id="逃亡1961" value="tao wang1961" />
+	<configure id="迁徙1962" value="qian xi1962" />
+	<configure id="不安分1963" value="bu an fen1963" />
+	<configure id="不是观光1964" value="bu shi guan guang1964" />
+	<configure id="荆棘1965" value=" ji ng  ji 1965" />
+	<configure id="土匪之家1966" value="tu fei zhi  ji a1966" />
+	<configure id="沦陷1967" value="lun xian1967" />
+	<configure id="敌后方1968" value="di hou fang1968" />
+	<configure id="最后时间1969" value="zui hou shi  ji an1969" />
+	<configure id="合金弹头1970" value="he  ji n dan tou1970" />
+	<configure id="噼噼啪啪1971" value="pi pi pa pa1971" />
+	<configure id="大量运兵1972" value="da liang yun bing1972" />
+	<configure id="战车故事1973" value="zhan che gu shi1973" />
+	<configure id="41区1974" value="41qu1974" />
+	<configure id="乱葬岗1975" value="luan zang gang1975" />
+	<configure id="冲动的后果1976" value="chong dong de hou guo1976" />
+	<configure id="易守难攻1977" value="yi shou nan gong1977" />
+	<configure id="宝藏1978" value="bao zang1978" />
+	<configure id="火力送葬1979" value="huo li song zang1979" />
+	<configure id="美餐享用1980" value="mei can xiang yong1980" />
+	<configure id="松林1981" value="song lin1981" />
+	<configure id="地下城堡1982" value="di xia cheng bao1982" />
+	<configure id="天启1983" value="tian qi1983" />
+	<configure id="童谣1984" value="tong yao1984" />
+	<configure id="王者复仇1985" value="wang zhe fu chou1985" />
+	<configure id="秘密基地1986" value="mi mi  ji  di1986" />
+	<configure id="粮仓1987" value="liang cang1987" />
+	<configure id="屯兵站1988" value="tun bing zhan1988" />
+	<configure id="超级能量基地1989" value="chao  ji  neng liang  ji  di1989" />
+	<configure id="眼镜蛇1990" value="yan  ji ng she1990" />
+	<configure id="毒蝎1991" value="du xie1991" />
+	<configure id="红色警报1992" value="hong se  ji ng bao1992" />
+	<configure id="全军覆没1993" value="quan jun fu mo1993" />
+	<configure id="各种打法1994" value="ge zhong da fa1994" />
+	<configure id="VS前线1995" value="VS qian xian1995" />
+	<configure id="粮道1996" value="liang dao1996" />
+	<configure id="地下金矿1997" value="di xia  ji n kuang1997" />
+	<configure id="秘密仓库1998" value="mi mi cang ku1998" />
+	<configure id="集结号1999" value=" ji   ji e hao1999" />
+	<configure id="磁场2000" value="ci chang2000" />
+	<configure id="万有引力2001" value="wan you yin li2001" />
+	<configure id="孤独冲锋2002" value="gu du chong feng2002" />
+	<configure id="曙光2003" value="shu guang2003" />
+	<configure id="科学怪人2004" value="ke xue guai ren2004" />
+	<configure id="脑死亡2005" value="nao si wang2005" />
+	<configure id="小平锅2006" value="xiao ping guo2006" />
+	<configure id="石灰2007" value="shi hui2007" />
+	<configure id="红烧坦克2008" value="hong shao tan ke2008" />
+	<configure id="钻石坑2009" value="zuan shi keng2009" />
+	<configure id="弹雨2010" value="dan yu2010" />
+	<configure id="风声2011" value="feng sheng2011" />
+	<configure id="统一战线2012" value="tong yi zhan xian2012" />
+	<configure id="子弹壳2013" value="zi dan ke2013" />
+	<configure id="热浪2014" value="re lang2014" />
+	<configure id="昔日繁华2015" value="xi ri fan hua2015" />
+	<configure id="反抗军2016" value="fan kang jun2016" />
+	<configure id="科技较量2017" value="ke  ji   ji ao liang2017" />
+	<configure id="暴发户2018" value="bao fa hu2018" />
+	<configure id="火舞2019" value="huo wu2019" />
+	<configure id="白色恐怖2020" value="bai se kong bu2020" />
+	<configure id="弹药库2021" value="dan yao ku2021" />
+	<configure id="巨塔2022" value="ju ta2022" />
+	<configure id="丛林战2023" value="cong lin zhan2023" />
+	<configure id="不是boss2024" value="bu shi boss2024" />
+	<configure id="石油库2025" value="shi you ku2025" />
+	<configure id="重金属2026" value="zhong  ji n shu2026" />
+	<configure id="盐田2027" value="yan tian2027" />
+	<configure id="军事基地2028" value="jun shi  ji  di2028" />
+	<configure id="大冲锋2029" value="da chong feng2029" />
+	<configure id="炮弹做花瓶2030" value="pao dan zuo hua ping2030" />
+	<configure id="瓷娃娃2031" value="ci wa wa2031" />
+	<configure id="闪光弹2032" value="shan guang dan2032" />
+	<configure id="孤山2033" value="gu shan2033" />
+	<configure id="亡命2034" value="wang ming2034" />
+	<configure id="电磁2035" value="dian ci2035" />
+	<configure id="煤矿2036" value="mei kuang2036" />
+	<configure id="金矿2037" value=" ji n kuang2037" />
+	<configure id="核弹之密2038" value="he dan zhi mi2038" />
+	<configure id="大逃亡2039" value="da tao wang2039" />
+	<configure id="元素2040" value="yuan su2040" />
+	<configure id="火花2041" value="huo hua2041" />
+	<configure id="战车工厂2042" value="zhan che gong chang2042" />
+	<configure id="岔路2043" value="cha lu2043" />
+	<configure id="沙漠之狐2044" value="sha mo zhi hu2044" />
+	<configure id="秘密教会2045" value="mi mi  ji ao hui2045" />
+	<configure id="鲨鱼脊2046" value="sha yu  ji 2046" />
+	<configure id="运兵车2047" value="yun bing che2047" />
+	<configure id="倒计时2048" value="dao  ji  shi2048" />
+	<configure id="日出2049" value="ri chu2049" />
+	<configure id="稀矿2050" value="xi kuang2050" />
+	<configure id="大祸临头2051" value="da huo lin tou2051" />
+	<configure id="密集火力2052" value="mi  ji  huo li2052" />
+	<configure id="边陲重镇2053" value="bian chui zhong zhen2053" />
+	<configure id="闪电突击2054" value="shan dian tu  ji 2054" />
+	<configure id="地毯式轰炸2055" value="di tan shi hong zha2055" />
+	<configure id="化石2056" value="hua shi2056" />
+	<configure id="刑场2057" value="xing chang2057" />
+	<configure id="监视器2058" value=" ji an shi qi2058" />
+	<configure id="折射原理2059" value="zhe she yuan li2059" />
+	<configure id="炮楼2060" value="pao lou2060" />
+	<configure id="弹片2061" value="dan pian2061" />
+	<configure id="军旅2062" value="jun lu2062" />
+	<configure id="黎明2063" value="li ming2063" />
+	<configure id="指挥车2064" value="zhi hui che2064" />
+	<configure id="军事地带2065" value="jun shi di dai2065" />
+	<configure id="底壳运动2066" value="di qiao yun dong2066" />
+	<configure id="屠宰场2067" value="tu zai chang2067" />
+	<configure id="边界2068" value="bian  ji e2068" />
+	<configure id="敌占区2069" value="di zhan qu2069" />
+	<configure id="不是陷阱2070" value="bu shi xian  ji ng2070" />
+	<configure id="细胞分裂2071" value="xi bao fen lie2071" />
+	<configure id="大炮飞弹2072" value="da pao fei dan2072" />
+	<configure id="坑2073" value="keng2073" />
+	<configure id="前线2074" value="qian xian2074" />
+	<configure id="封锁线2075" value="feng suo xian2075" />
+	<configure id="铁丝网2076" value="tie si wang2076" />
+	<configure id="阵地2077" value="zhen di2077" />
+	<configure id="对抗2078" value="dui kang2078" />
+	<configure id="战争游戏2079" value="zhan zheng you xi2079" />
+	<configure id="残肢2080" value="can zhi2080" />
+	<configure id="高地2081" value="gao di2081" />
+	<configure id="血肉横飞2082" value="xue rou heng fei2082" />
+	<configure id="断壁残垣2083" value="duan bi can yuan2083" />
+	<configure id="战线延伸2084" value="zhan xian yan shen2084" />
+	<configure id="阵亡2085" value="zhen wang2085" />
+	<configure id="你死我活2086" value="ni si wo huo2086" />
+	<configure id="演习场2087" value="yan xi chang2087" />
+	<configure id="血肉模糊2088" value="xue rou mo hu2088" />
+	<configure id="前线2089" value="qian xian2089" />
+	<configure id="封锁线2090" value="feng suo xian2090" />
+	<configure id="铁丝网2091" value="tie si wang2091" />
+	<configure id="阵地2092" value="zhen di2092" />
+	<configure id="对抗2093" value="dui kang2093" />
+	<configure id="战争游戏2094" value="zhan zheng you xi2094" />
+	<configure id="残肢2095" value="can zhi2095" />
+	<configure id="高地2096" value="gao di2096" />
+	<configure id="血肉横飞2097" value="xue rou heng fei2097" />
+	<configure id="断壁残垣2098" value="duan bi can yuan2098" />
+	<configure id="战线延伸2099" value="zhan xian yan shen2099" />
+	<configure id="阵亡2100" value="zhen wang2100" />
+	<configure id="你死我活2101" value="ni si wo huo2101" />
+	<configure id="演习场2102" value="yan xi chang2102" />
+	<configure id="血肉模糊2103" value="xue rou mo hu2103" />
+	<configure id="前线2104" value="qian xian2104" />
+	<configure id="封锁线2105" value="feng suo xian2105" />
+	<configure id="铁丝网2106" value="tie si wang2106" />
+	<configure id="阵地2107" value="zhen di2107" />
+	<configure id="对抗2108" value="dui kang2108" />
+	<configure id="战争游戏2109" value="zhan zheng you xi2109" />
+	<configure id="残肢2110" value="can zhi2110" />
+	<configure id="高地2111" value="gao di2111" />
+	<configure id="血肉横飞2112" value="xue rou heng fei2112" />
+	<configure id="断壁残垣2113" value="duan bi can yuan2113" />
+	<configure id="战线延伸2114" value="zhan xian yan shen2114" />
+	<configure id="阵亡2115" value="zhen wang2115" />
+	<configure id="你死我活2116" value="ni si wo huo2116" />
+	<configure id="演习场2117" value="yan xi chang2117" />
+	<configure id="血肉模糊2118" value="xue rou mo hu2118" />
+	<configure id="前线2119" value="qian xian2119" />
+	<configure id="封锁线2120" value="feng suo xian2120" />
+	<configure id="铁丝网2121" value="tie si wang2121" />
+	<configure id="阵地2122" value="zhen di2122" />
+	<configure id="对抗2123" value="dui kang2123" />
+	<configure id="战争游戏2124" value="zhan zheng you xi2124" />
+	<configure id="残肢2125" value="can zhi2125" />
+	<configure id="高地2126" value="gao di2126" />
+	<configure id="血肉横飞2127" value="xue rou heng fei2127" />
+	<configure id="断壁残垣2128" value="duan bi can yuan2128" />
+	<configure id="战线延伸2129" value="zhan xian yan shen2129" />
+	<configure id="阵亡2130" value="zhen wang2130" />
+	<configure id="你死我活2131" value="ni si wo huo2131" />
+	<configure id="演习场2132" value="yan xi chang2132" />
+	<configure id="血肉模糊2133" value="xue rou mo hu2133" />
+	<configure id="前线2134" value="qian xian2134" />
+	<configure id="封锁线2135" value="feng suo xian2135" />
+	<configure id="铁丝网2136" value="tie si wang2136" />
+	<configure id="阵地2137" value="zhen di2137" />
+	<configure id="对抗2138" value="dui kang2138" />
+	<configure id="战争游戏2139" value="zhan zheng you xi2139" />
+	<configure id="残肢2140" value="can zhi2140" />
+	<configure id="高地2141" value="gao di2141" />
+	<configure id="血肉横飞2142" value="xue rou heng fei2142" />
+	<configure id="断壁残垣2143" value="duan bi can yuan2143" />
+	<configure id="战线延伸2144" value="zhan xian yan shen2144" />
+	<configure id="阵亡2145" value="zhen wang2145" />
+	<configure id="你死我活2146" value="ni si wo huo2146" />
+	<configure id="演习场2147" value="yan xi chang2147" />
+	<configure id="血肉模糊2148" value="xue rou mo hu2148" />
+	<configure id="前线2149" value="qian xian2149" />
+	<configure id="封锁线2150" value="feng suo xian2150" />
+	<configure id="铁丝网2151" value="tie si wang2151" />
+	<configure id="阵地2152" value="zhen di2152" />
+	<configure id="对抗2153" value="dui kang2153" />
+	<configure id="战争游戏2154" value="zhan zheng you xi2154" />
+	<configure id="残肢2155" value="can zhi2155" />
+	<configure id="高地2156" value="gao di2156" />
+	<configure id="血肉横飞2157" value="xue rou heng fei2157" />
+	<configure id="断壁残垣2158" value="duan bi can yuan2158" />
+	<configure id="战线延伸2159" value="zhan xian yan shen2159" />
+	<configure id="阵亡2160" value="zhen wang2160" />
+	<configure id="你死我活2161" value="ni si wo huo2161" />
+	<configure id="演习场2162" value="yan xi chang2162" />
+	<configure id="血肉模糊2163" value="xue rou mo hu2163" />
+	<configure id="前线2164" value="qian xian2164" />
+	<configure id="封锁线2165" value="feng suo xian2165" />
+	<configure id="铁丝网2166" value="tie si wang2166" />
+	<configure id="阵地2167" value="zhen di2167" />
+	<configure id="对抗2168" value="dui kang2168" />
+	<configure id="战争游戏2169" value="zhan zheng you xi2169" />
+	<configure id="残肢2170" value="can zhi2170" />
+	<configure id="高地2171" value="gao di2171" />
+	<configure id="血肉横飞2172" value="xue rou heng fei2172" />
+	<configure id="断壁残垣2173" value="duan bi can yuan2173" />
+	<configure id="战线延伸2174" value="zhan xian yan shen2174" />
+	<configure id="阵亡2175" value="zhen wang2175" />
+	<configure id="你死我活2176" value="ni si wo huo2176" />
+	<configure id="演习场2177" value="yan xi chang2177" />
+	<configure id="血肉模糊2178" value="xue rou mo hu2178" />
+	<configure id="前线2179" value="qian xian2179" />
+	<configure id="封锁线2180" value="feng suo xian2180" />
+	<configure id="铁丝网2181" value="tie si wang2181" />
+	<configure id="阵地2182" value="zhen di2182" />
+	<configure id="对抗2183" value="dui kang2183" />
+	<configure id="战争游戏2184" value="zhan zheng you xi2184" />
+	<configure id="残肢2185" value="can zhi2185" />
+	<configure id="高地2186" value="gao di2186" />
+	<configure id="血肉横飞2187" value="xue rou heng fei2187" />
+	<configure id="断壁残垣2188" value="duan bi can yuan2188" />
+	<configure id="战线延伸2189" value="zhan xian yan shen2189" />
+	<configure id="阵亡2190" value="zhen wang2190" />
+	<configure id="你死我活2191" value="ni si wo huo2191" />
+	<configure id="演习场2192" value="yan xi chang2192" />
+	<configure id="血肉模糊2193" value="xue rou mo hu2193" />
+	<configure id="前线2194" value="qian xian2194" />
+	<configure id="封锁线2195" value="feng suo xian2195" />
+	<configure id="铁丝网2196" value="tie si wang2196" />
+	<configure id="阵地2197" value="zhen di2197" />
+	<configure id="对抗2198" value="dui kang2198" />
+	<configure id="战争游戏2199" value="zhan zheng you xi2199" />
+	<configure id="残肢2200" value="can zhi2200" />
+	<configure id="高地2201" value="gao di2201" />
+	<configure id="血肉横飞2202" value="xue rou heng fei2202" />
+	<configure id="断壁残垣2203" value="duan bi can yuan2203" />
+	<configure id="战线延伸2204" value="zhan xian yan shen2204" />
+	<configure id="阵亡2205" value="zhen wang2205" />
+	<configure id="你死我活2206" value="ni si wo huo2206" />
+	<configure id="演习场2207" value="yan xi chang2207" />
+	<configure id="血肉模糊2208" value="xue rou mo hu2208" />
+	<configure id="前线2209" value="qian xian2209" />
+	<configure id="封锁线2210" value="feng suo xian2210" />
+	<configure id="铁丝网2211" value="tie si wang2211" />
+	<configure id="阵地2212" value="zhen di2212" />
+	<configure id="对抗2213" value="dui kang2213" />
+	<configure id="战争游戏2214" value="zhan zheng you xi2214" />
+	<configure id="残肢2215" value="can zhi2215" />
+	<configure id="高地2216" value="gao di2216" />
+	<configure id="血肉横飞2217" value="xue rou heng fei2217" />
+	<configure id="断壁残垣2218" value="duan bi can yuan2218" />
+	<configure id="战线延伸2219" value="zhan xian yan shen2219" />
+	<configure id="阵亡2220" value="zhen wang2220" />
+	<configure id="你死我活2221" value="ni si wo huo2221" />
+	<configure id="演习场2222" value="yan xi chang2222" />
+	<configure id="血肉模糊2223" value="xue rou mo hu2223" />
+	<configure id="前线2224" value="qian xian2224" />
+	<configure id="封锁线2225" value="feng suo xian2225" />
+	<configure id="铁丝网2226" value="tie si wang2226" />
+	<configure id="阵地2227" value="zhen di2227" />
+	<configure id="对抗2228" value="dui kang2228" />
+	<configure id="战争游戏2229" value="zhan zheng you xi2229" />
+	<configure id="残肢2230" value="can zhi2230" />
+	<configure id="高地2231" value="gao di2231" />
+	<configure id="血肉横飞2232" value="xue rou heng fei2232" />
+	<configure id="断壁残垣2233" value="duan bi can yuan2233" />
+	<configure id="战线延伸2234" value="zhan xian yan shen2234" />
+	<configure id="阵亡2235" value="zhen wang2235" />
+	<configure id="你死我活2236" value="ni si wo huo2236" />
+	<configure id="演习场2237" value="yan xi chang2237" />
+	<configure id="血肉模糊2238" value="xue rou mo hu2238" />
+	<configure id="前线2239" value="qian xian2239" />
+	<configure id="封锁线2240" value="feng suo xian2240" />
+	<configure id="铁丝网2241" value="tie si wang2241" />
+	<configure id="阵地2242" value="zhen di2242" />
+	<configure id="对抗2243" value="dui kang2243" />
+	<configure id="战争游戏2244" value="zhan zheng you xi2244" />
+	<configure id="残肢2245" value="can zhi2245" />
+	<configure id="高地2246" value="gao di2246" />
+	<configure id="血肉横飞2247" value="xue rou heng fei2247" />
+	<configure id="断壁残垣2248" value="duan bi can yuan2248" />
+	<configure id="战线延伸2249" value="zhan xian yan shen2249" />
+	<configure id="阵亡2250" value="zhen wang2250" />
+	<configure id="你死我活2251" value="ni si wo huo2251" />
+	<configure id="演习场2252" value="yan xi chang2252" />
+	<configure id="血肉模糊2253" value="xue rou mo hu2253" />
+	<configure id="前线2254" value="qian xian2254" />
+	<configure id="封锁线2255" value="feng suo xian2255" />
+	<configure id="铁丝网2256" value="tie si wang2256" />
+	<configure id="阵地2257" value="zhen di2257" />
+	<configure id="对抗2258" value="dui kang2258" />
+	<configure id="战争游戏2259" value="zhan zheng you xi2259" />
+	<configure id="残肢2260" value="can zhi2260" />
+	<configure id="高地2261" value="gao di2261" />
+	<configure id="血肉横飞2262" value="xue rou heng fei2262" />
+	<configure id="断壁残垣2263" value="duan bi can yuan2263" />
+	<configure id="战线延伸2264" value="zhan xian yan shen2264" />
+	<configure id="阵亡2265" value="zhen wang2265" />
+	<configure id="你死我活2266" value="ni si wo huo2266" />
+	<configure id="演习场2267" value="yan xi chang2267" />
+	<configure id="血肉模糊2268" value="xue rou mo hu2268" />
+	<configure id="前线2269" value="qian xian2269" />
+	<configure id="封锁线2270" value="feng suo xian2270" />
+	<configure id="铁丝网2271" value="tie si wang2271" />
+	<configure id="阵地2272" value="zhen di2272" />
+	<configure id="对抗2273" value="dui kang2273" />
+	<configure id="战争游戏2274" value="zhan zheng you xi2274" />
+	<configure id="残肢2275" value="can zhi2275" />
+	<configure id="高地2276" value="gao di2276" />
+	<configure id="血肉横飞2277" value="xue rou heng fei2277" />
+	<configure id="断壁残垣2278" value="duan bi can yuan2278" />
+	<configure id="战线延伸2279" value="zhan xian yan shen2279" />
+	<configure id="阵亡2280" value="zhen wang2280" />
+	<configure id="你死我活2281" value="ni si wo huo2281" />
+	<configure id="演习场2282" value="yan xi chang2282" />
+	<configure id="血肉模糊2283" value="xue rou mo hu2283" />
+	<configure id="前线2284" value="qian xian2284" />
+	<configure id="封锁线2285" value="feng suo xian2285" />
+	<configure id="铁丝网2286" value="tie si wang2286" />
+	<configure id="阵地2287" value="zhen di2287" />
+	<configure id="对抗2288" value="dui kang2288" />
+	<configure id="战争游戏2289" value="zhan zheng you xi2289" />
+	<configure id="残肢2290" value="can zhi2290" />
+	<configure id="高地2291" value="gao di2291" />
+	<configure id="血肉横飞2292" value="xue rou heng fei2292" />
+	<configure id="断壁残垣2293" value="duan bi can yuan2293" />
+	<configure id="战线延伸2294" value="zhan xian yan shen2294" />
+	<configure id="阵亡2295" value="zhen wang2295" />
+	<configure id="你死我活2296" value="ni si wo huo2296" />
+	<configure id="演习场2297" value="yan xi chang2297" />
+	<configure id="血肉模糊2298" value="xue rou mo hu2298" />
+	<configure id="前线2299" value="qian xian2299" />
+	<configure id="封锁线2300" value="feng suo xian2300" />
+	<configure id="铁丝网2301" value="tie si wang2301" />
+	<configure id="阵地2302" value="zhen di2302" />
+	<configure id="对抗2303" value="dui kang2303" />
+	<configure id="战争游戏2304" value="zhan zheng you xi2304" />
+	<configure id="残肢2305" value="can zhi2305" />
+	<configure id="高地2306" value="gao di2306" />
+	<configure id="血肉横飞2307" value="xue rou heng fei2307" />
+	<configure id="断壁残垣2308" value="duan bi can yuan2308" />
+	<configure id="战线延伸2309" value="zhan xian yan shen2309" />
+	<configure id="阵亡2310" value="zhen wang2310" />
+	<configure id="你死我活2311" value="ni si wo huo2311" />
+	<configure id="演习场2312" value="yan xi chang2312" />
+	<configure id="血肉模糊2313" value="xue rou mo hu2313" />
+	<configure id="前线2314" value="qian xian2314" />
+	<configure id="封锁线2315" value="feng suo xian2315" />
+	<configure id="铁丝网2316" value="tie si wang2316" />
+	<configure id="阵地2317" value="zhen di2317" />
+	<configure id="对抗2318" value="dui kang2318" />
+	<configure id="战争游戏2319" value="zhan zheng you xi2319" />
+	<configure id="残肢2320" value="can zhi2320" />
+	<configure id="高地2321" value="gao di2321" />
+	<configure id="血肉横飞2322" value="xue rou heng fei2322" />
+	<configure id="断壁残垣2323" value="duan bi can yuan2323" />
+	<configure id="战线延伸2324" value="zhan xian yan shen2324" />
+	<configure id="阵亡2325" value="zhen wang2325" />
+	<configure id="你死我活2326" value="ni si wo huo2326" />
+	<configure id="演习场2327" value="yan xi chang2327" />
+	<configure id="血肉模糊2328" value="xue rou mo hu2328" />
+	<configure id="前线2329" value="qian xian2329" />
+	<configure id="封锁线2330" value="feng suo xian2330" />
+	<configure id="铁丝网2331" value="tie si wang2331" />
+	<configure id="阵地2332" value="zhen di2332" />
+	<configure id="对抗2333" value="dui kang2333" />
+	<configure id="战争游戏2334" value="zhan zheng you xi2334" />
+	<configure id="残肢2335" value="can zhi2335" />
+	<configure id="高地2336" value="gao di2336" />
+	<configure id="血肉横飞2337" value="xue rou heng fei2337" />
+	<configure id="断壁残垣2338" value="duan bi can yuan2338" />
+	<configure id="战线延伸2339" value="zhan xian yan shen2339" />
+	<configure id="阵亡2340" value="zhen wang2340" />
+	<configure id="你死我活2341" value="ni si wo huo2341" />
+	<configure id="演习场2342" value="yan xi chang2342" />
+	<configure id="血肉模糊2343" value="xue rou mo hu2343" />
+	<configure id="前线2344" value="qian xian2344" />
+	<configure id="封锁线2345" value="feng suo xian2345" />
+	<configure id="铁丝网2346" value="tie si wang2346" />
+	<configure id="阵地2347" value="zhen di2347" />
+	<configure id="对抗2348" value="dui kang2348" />
+	<configure id="战争游戏2349" value="zhan zheng you xi2349" />
+	<configure id="残肢2350" value="can zhi2350" />
+	<configure id="高地2351" value="gao di2351" />
+	<configure id="血肉横飞2352" value="xue rou heng fei2352" />
+	<configure id="断壁残垣2353" value="duan bi can yuan2353" />
+	<configure id="战线延伸2354" value="zhan xian yan shen2354" />
+	<configure id="阵亡2355" value="zhen wang2355" />
+	<configure id="你死我活2356" value="ni si wo huo2356" />
+	<configure id="演习场2357" value="yan xi chang2357" />
+	<configure id="血肉模糊2358" value="xue rou mo hu2358" />
+	<configure id="前线2359" value="qian xian2359" />
+	<configure id="封锁线2360" value="feng suo xian2360" />
+	<configure id="铁丝网2361" value="tie si wang2361" />
+	<configure id="阵地2362" value="zhen di2362" />
+	<configure id="对抗2363" value="dui kang2363" />
+	<configure id="战争游戏2364" value="zhan zheng you xi2364" />
+	<configure id="残肢2365" value="can zhi2365" />
+	<configure id="高地2366" value="gao di2366" />
+	<configure id="血肉横飞2367" value="xue rou heng fei2367" />
+	<configure id="断壁残垣2368" value="duan bi can yuan2368" />
+	<configure id="战线延伸2369" value="zhan xian yan shen2369" />
+	<configure id="阵亡2370" value="zhen wang2370" />
+	<configure id="你死我活2371" value="ni si wo huo2371" />
+	<configure id="演习场2372" value="yan xi chang2372" />
+	<configure id="血肉模糊2373" value="xue rou mo hu2373" />
+	<configure id="狂野战区1级1" value="kuang ye zhan qu 1 ji 1" />
+	<configure id="狂野战区1级2" value="kuang ye zhan qu 1 ji 2" />
+	<configure id="狂野战区1级3" value="kuang ye zhan qu 1 ji 3" />
+	<configure id="狂野战区1级4" value="kuang ye zhan qu 1 ji 4" />
+	<configure id="狂野战区1级5" value="kuang ye zhan qu 1 ji 5" />
+	<configure id="狂野战区1级6" value="kuang ye zhan qu 1 ji 6" />
+	<configure id="狂野战区1级7" value="kuang ye zhan qu 1 ji 7" />
+	<configure id="狂野战区1级8" value="kuang ye zhan qu 1 ji 8" />
+	<configure id="狂野战区1级9" value="kuang ye zhan qu 1 ji 9" />
+	<configure id="狂野战区1级0" value="kuang ye zhan qu 1 ji 0" />
+	<configure id="狂野战区2级6" value="kuang ye zhan qu 2 ji 6" />
+	<configure id="狂野战区2级7" value="kuang ye zhan qu 2 ji 7" />
+	<configure id="狂野战区2级8" value="kuang ye zhan qu 2 ji 8" />
+	<configure id="狂野战区2级9" value="kuang ye zhan qu 2 ji 9" />
+	<configure id="狂野战区2级0" value="kuang ye zhan qu 2 ji 0" />
+	<configure id="狂野战区2级1" value="kuang ye zhan qu 2 ji 1" />
+	<configure id="狂野战区2级2" value="kuang ye zhan qu 2 ji 2" />
+	<configure id="狂野战区2级3" value="kuang ye zhan qu 2 ji 3" />
+	<configure id="狂野战区2级4" value="kuang ye zhan qu 2 ji 4" />
+	<configure id="狂野战区2级5" value="kuang ye zhan qu 2 ji 5" />
+	<configure id="狂野战区3级1" value="kuang ye zhan qu 3 ji 1" />
+	<configure id="狂野战区3级2" value="kuang ye zhan qu 3 ji 2" />
+	<configure id="狂野战区3级3" value="kuang ye zhan qu 3 ji 3" />
+	<configure id="狂野战区3级4" value="kuang ye zhan qu 3 ji 4" />
+	<configure id="狂野战区3级5" value="kuang ye zhan qu 3 ji 5" />
+	<configure id="狂野战区3级6" value="kuang ye zhan qu 3 ji 6" />
+	<configure id="狂野战区3级7" value="kuang ye zhan qu 3 ji 7" />
+	<configure id="狂野战区3级8" value="kuang ye zhan qu 3 ji 8" />
+	<configure id="狂野战区3级9" value="kuang ye zhan qu 3 ji 9" />
+	<configure id="狂野战区3级0" value="kuang ye zhan qu 3 ji 0" />
+	<configure id="狂野战区4级1" value="kuang ye zhan qu 4 ji 1" />
+	<configure id="狂野战区4级2" value="kuang ye zhan qu 4 ji 2" />
+	<configure id="狂野战区4级3" value="kuang ye zhan qu 4 ji 3" />
+	<configure id="狂野战区4级4" value="kuang ye zhan qu 4 ji 4" />
+	<configure id="狂野战区4级5" value="kuang ye zhan qu 4 ji 5" />
+	<configure id="狂野战区4级6" value="kuang ye zhan qu 4 ji 6" />
+	<configure id="狂野战区4级7" value="kuang ye zhan qu 4 ji 7" />
+	<configure id="狂野战区4级8" value="kuang ye zhan qu 4 ji 8" />
+	<configure id="狂野战区4级9" value="kuang ye zhan qu 4 ji 9" />
+	<configure id="狂野战区4级0" value="kuang ye zhan qu 4 ji 0" />
+	<configure id="狂野战区5级1" value="kuang ye zhan qu 5 ji 1" />
+	<configure id="狂野战区5级2" value="kuang ye zhan qu 5 ji 2" />
+	<configure id="狂野战区5级3" value="kuang ye zhan qu 5 ji 3" />
+	<configure id="狂野战区5级4" value="kuang ye zhan qu 5 ji 4" />
+	<configure id="狂野战区5级5" value="kuang ye zhan qu 5 ji 5" />
+	<configure id="狂野战区5级6" value="kuang ye zhan qu 5 ji 6" />
+	<configure id="狂野战区5级7" value="kuang ye zhan qu 5 ji 7" />
+	<configure id="狂野战区5级8" value="kuang ye zhan qu 5 ji 8" />
+	<configure id="狂野战区5级9" value="kuang ye zhan qu 5 ji 9" />
+	<configure id="狂野战区5级0" value="kuang ye zhan qu 5 ji 0" />
+	<configure id="狂野战区6级1" value="kuang ye zhan qu 6 ji 1" />
+	<configure id="狂野战区6级2" value="kuang ye zhan qu 6 ji 2" />
+	<configure id="狂野战区6级3" value="kuang ye zhan qu 6 ji 3" />
+	<configure id="狂野战区6级4" value="kuang ye zhan qu 6 ji 4" />
+	<configure id="狂野战区6级5" value="kuang ye zhan qu 6 ji 5" />
+	<configure id="狂野战区6级6" value="kuang ye zhan qu 6 ji 6" />
+	<configure id="狂野战区6级7" value="kuang ye zhan qu 6 ji 7" />
+	<configure id="狂野战区6级8" value="kuang ye zhan qu 6 ji 8" />
+	<configure id="狂野战区6级9" value="kuang ye zhan qu 6 ji 9" />
+	<configure id="狂野战区6级0" value="kuang ye zhan qu 6 ji 0" />
+	<configure id="狂野战区7级1" value="kuang ye zhan qu 7 ji 1" />
+	<configure id="狂野战区7级2" value="kuang ye zhan qu 7 ji 2" />
+	<configure id="狂野战区7级3" value="kuang ye zhan qu 7 ji 3" />
+	<configure id="狂野战区7级4" value="kuang ye zhan qu 7 ji 4" />
+	<configure id="狂野战区7级5" value="kuang ye zhan qu 7 ji 5" />
+	<configure id="狂野战区7级6" value="kuang ye zhan qu 7 ji 6" />
+	<configure id="狂野战区7级7" value="kuang ye zhan qu 7 ji 7" />
+	<configure id="狂野战区7级8" value="kuang ye zhan qu 7 ji 8" />
+	<configure id="狂野战区7级9" value="kuang ye zhan qu 7 ji 9" />
+	<configure id="狂野战区7级0" value="kuang ye zhan qu 7 ji 0" />
+	<configure id="狂野战区8级1" value="kuang ye zhan qu 8 ji 1" />
+	<configure id="狂野战区8级2" value="kuang ye zhan qu 8 ji 2" />
+	<configure id="狂野战区8级3" value="kuang ye zhan qu 8 ji 3" />
+	<configure id="狂野战区8级4" value="kuang ye zhan qu 8 ji 4" />
+	<configure id="狂野战区8级5" value="kuang ye zhan qu 8 ji 5" />
+	<configure id="狂野战区8级6" value="kuang ye zhan qu 8 ji 6" />
+	<configure id="狂野战区8级7" value="kuang ye zhan qu 8 ji 7" />
+	<configure id="狂野战区8级8" value="kuang ye zhan qu 8 ji 8" />
+	<configure id="狂野战区8级9" value="kuang ye zhan qu 8 ji 9" />
+	<configure id="狂野战区8级0" value="kuang ye zhan qu 8 ji 0" />
+	<configure id="狂野战区9级1" value="kuang ye zhan qu 9 ji 1" />
+	<configure id="狂野战区9级2" value="kuang ye zhan qu 9 ji 2" />
+	<configure id="狂野战区9级3" value="kuang ye zhan qu 9 ji 3" />
+	<configure id="狂野战区9级4" value="kuang ye zhan qu 9 ji 4" />
+	<configure id="狂野战区9级5" value="kuang ye zhan qu 9 ji 5" />
+	<configure id="狂野战区9级6" value="kuang ye zhan qu 9 ji 6" />
+	<configure id="狂野战区9级7" value="kuang ye zhan qu 9 ji 7" />
+	<configure id="狂野战区9级8" value="kuang ye zhan qu 9 ji 8" />
+	<configure id="狂野战区9级9" value="kuang ye zhan qu 9 ji 9" />
+	<configure id="狂野战区9级0" value="kuang ye zhan qu 9 ji 0" />
+	<configure id="狂野战区10级1" value="kuang ye zhan qu 10 ji 1" />
+	<configure id="狂野战区10级2" value="kuang ye zhan qu 10 ji 2" />
+	<configure id="狂野战区10级3" value="kuang ye zhan qu 10 ji 3" />
+	<configure id="狂野战区10级4" value="kuang ye zhan qu 10 ji 4" />
+	<configure id="狂野战区10级5" value="kuang ye zhan qu 10 ji 5" />
+	<configure id="狂野战区10级6" value="kuang ye zhan qu 10 ji 6" />
+	<configure id="狂野战区10级7" value="kuang ye zhan qu 10 ji 7" />
+	<configure id="狂野战区10级8" value="kuang ye zhan qu 10 ji 8" />
+	<configure id="狂野战区10级9" value="kuang ye zhan qu 10 ji 9" />
+	<configure id="狂野战区10级0" value="kuang ye zhan qu 10 ji 0" />
+	<configure id="狂野战区11级1" value="kuang ye zhan qu 11 ji 1" />
+	<configure id="狂野战区11级2" value="kuang ye zhan qu 11 ji 2" />
+	<configure id="狂野战区11级3" value="kuang ye zhan qu 11 ji 3" />
+	<configure id="狂野战区11级4" value="kuang ye zhan qu 11 ji 4" />
+	<configure id="狂野战区11级5" value="kuang ye zhan qu 11 ji 5" />
+	<configure id="狂野战区11级6" value="kuang ye zhan qu 11 ji 6" />
+	<configure id="狂野战区11级7" value="kuang ye zhan qu 11 ji 7" />
+	<configure id="狂野战区11级8" value="kuang ye zhan qu 11 ji 8" />
+	<configure id="狂野战区11级9" value="kuang ye zhan qu 11 ji 9" />
+	<configure id="狂野战区11级0" value="kuang ye zhan qu 11 ji 0" />
+	<configure id="狂野战区12级1" value="kuang ye zhan qu 12 ji 1" />
+	<configure id="狂野战区12级2" value="kuang ye zhan qu 12 ji 2" />
+	<configure id="狂野战区12级3" value="kuang ye zhan qu 12 ji 3" />
+	<configure id="狂野战区12级4" value="kuang ye zhan qu 12 ji 4" />
+	<configure id="狂野战区12级5" value="kuang ye zhan qu 12 ji 5" />
+	<configure id="狂野战区12级6" value="kuang ye zhan qu 12 ji 6" />
+	<configure id="狂野战区12级7" value="kuang ye zhan qu 12 ji 7" />
+	<configure id="狂野战区12级8" value="kuang ye zhan qu 12 ji 8" />
+	<configure id="狂野战区12级9" value="kuang ye zhan qu 12 ji 9" />
+	<configure id="狂野战区12级0" value="kuang ye zhan qu 12 ji 0" />
+	<configure id="狂野战区13级1" value="kuang ye zhan qu 13 ji 1" />
+	<configure id="狂野战区13级2" value="kuang ye zhan qu 13 ji 2" />
+	<configure id="狂野战区13级3" value="kuang ye zhan qu 13 ji 3" />
+	<configure id="狂野战区13级4" value="kuang ye zhan qu 13 ji 4" />
+	<configure id="狂野战区13级5" value="kuang ye zhan qu 13 ji 5" />
+	<configure id="狂野战区13级6" value="kuang ye zhan qu 13 ji 6" />
+	<configure id="狂野战区13级7" value="kuang ye zhan qu 13 ji 7" />
+	<configure id="狂野战区13级8" value="kuang ye zhan qu 13 ji 8" />
+	<configure id="狂野战区13级9" value="kuang ye zhan qu 13 ji 9" />
+	<configure id="狂野战区13级0" value="kuang ye zhan qu 13 ji 0" />
+	<configure id="狂野战区14级1" value="kuang ye zhan qu 14 ji 1" />
+	<configure id="狂野战区14级2" value="kuang ye zhan qu 14 ji 2" />
+	<configure id="狂野战区14级3" value="kuang ye zhan qu 14 ji 3" />
+	<configure id="狂野战区14级4" value="kuang ye zhan qu 14 ji 4" />
+	<configure id="狂野战区14级5" value="kuang ye zhan qu 14 ji 5" />
+	<configure id="狂野战区14级6" value="kuang ye zhan qu 14 ji 6" />
+	<configure id="狂野战区14级7" value="kuang ye zhan qu 14 ji 7" />
+	<configure id="狂野战区14级8" value="kuang ye zhan qu 14 ji 8" />
+	<configure id="狂野战区14级9" value="kuang ye zhan qu 14 ji 9" />
+	<configure id="狂野战区14级0" value="kuang ye zhan qu 14 ji 0" />
+	<configure id="狂野战区15级1" value="kuang ye zhan qu 15 ji 1" />
+	<configure id="狂野战区15级2" value="kuang ye zhan qu 15 ji 2" />
+	<configure id="狂野战区15级3" value="kuang ye zhan qu 15 ji 3" />
+	<configure id="狂野战区15级4" value="kuang ye zhan qu 15 ji 4" />
+	<configure id="狂野战区15级5" value="kuang ye zhan qu 15 ji 5" />
+	<configure id="狂野战区15级6" value="kuang ye zhan qu 15 ji 6" />
+	<configure id="狂野战区15级7" value="kuang ye zhan qu 15 ji 7" />
+	<configure id="狂野战区15级8" value="kuang ye zhan qu 15 ji 8" />
+	<configure id="狂野战区15级9" value="kuang ye zhan qu 15 ji 9" />
+	<configure id="狂野战区15级0" value="kuang ye zhan qu 15 ji 0" />
+	<configure id="狂野战区16级1" value="kuang ye zhan qu 16 ji 1" />
+	<configure id="狂野战区16级2" value="kuang ye zhan qu 16 ji 2" />
+	<configure id="狂野战区16级3" value="kuang ye zhan qu 16 ji 3" />
+	<configure id="狂野战区16级4" value="kuang ye zhan qu 16 ji 4" />
+	<configure id="狂野战区16级5" value="kuang ye zhan qu 16 ji 5" />
+	<configure id="狂野战区16级6" value="kuang ye zhan qu 16 ji 6" />
+	<configure id="狂野战区16级7" value="kuang ye zhan qu 16 ji 7" />
+	<configure id="狂野战区16级8" value="kuang ye zhan qu 16 ji 8" />
+	<configure id="狂野战区16级9" value="kuang ye zhan qu 16 ji 9" />
+	<configure id="狂野战区16级0" value="kuang ye zhan qu 16 ji 0" />
+	<configure id="狂野战区17级1" value="kuang ye zhan qu 17 ji 1" />
+	<configure id="狂野战区17级2" value="kuang ye zhan qu 17 ji 2" />
+	<configure id="狂野战区17级3" value="kuang ye zhan qu 17 ji 3" />
+	<configure id="狂野战区17级4" value="kuang ye zhan qu 17 ji 4" />
+	<configure id="狂野战区17级5" value="kuang ye zhan qu 17 ji 5" />
+	<configure id="狂野战区17级6" value="kuang ye zhan qu 17 ji 6" />
+	<configure id="狂野战区17级7" value="kuang ye zhan qu 17 ji 7" />
+	<configure id="狂野战区17级8" value="kuang ye zhan qu 17 ji 8" />
+	<configure id="狂野战区17级9" value="kuang ye zhan qu 17 ji 9" />
+	<configure id="狂野战区17级0" value="kuang ye zhan qu 17 ji 0" />
+	<configure id="狂野战区18级1" value="kuang ye zhan qu 18 ji 1" />
+	<configure id="狂野战区18级2" value="kuang ye zhan qu 18 ji 2" />
+	<configure id="狂野战区18级3" value="kuang ye zhan qu 18 ji 3" />
+	<configure id="狂野战区18级4" value="kuang ye zhan qu 18 ji 4" />
+	<configure id="狂野战区18级5" value="kuang ye zhan qu 18 ji 5" />
+	<configure id="狂野战区18级6" value="kuang ye zhan qu 18 ji 6" />
+	<configure id="狂野战区18级7" value="kuang ye zhan qu 18 ji 7" />
+	<configure id="狂野战区18级8" value="kuang ye zhan qu 18 ji 8" />
+	<configure id="狂野战区18级9" value="kuang ye zhan qu 18 ji 9" />
+	<configure id="狂野战区18级0" value="kuang ye zhan qu 18 ji 0" />
+	<configure id="狂野战区19级1" value="kuang ye zhan qu 19 ji 1" />
+	<configure id="狂野战区19级2" value="kuang ye zhan qu 19 ji 2" />
+	<configure id="狂野战区19级3" value="kuang ye zhan qu 19 ji 3" />
+	<configure id="狂野战区19级4" value="kuang ye zhan qu 19 ji 4" />
+	<configure id="狂野战区19级5" value="kuang ye zhan qu 19 ji 5" />
+	<configure id="狂野战区19级6" value="kuang ye zhan qu 19 ji 6" />
+	<configure id="狂野战区19级7" value="kuang ye zhan qu 19 ji 7" />
+	<configure id="狂野战区19级8" value="kuang ye zhan qu 19 ji 8" />
+	<configure id="狂野战区19级9" value="kuang ye zhan qu 19 ji 9" />
+	<configure id="狂野战区19级0" value="kuang ye zhan qu 19 ji 0" />
+	<configure id="狂野战区20级1" value="kuang ye zhan qu 20 ji 1" />
+	<configure id="狂野战区20级2" value="kuang ye zhan qu 20 ji 2" />
+	<configure id="狂野战区20级3" value="kuang ye zhan qu 20 ji 3" />
+	<configure id="狂野战区20级4" value="kuang ye zhan qu 20 ji 4" />
+	<configure id="狂野战区20级5" value="kuang ye zhan qu 20 ji 5" />
+	<configure id="狂野战区20级6" value="kuang ye zhan qu 20 ji 6" />
+	<configure id="狂野战区20级7" value="kuang ye zhan qu 20 ji 7" />
+	<configure id="狂野战区20级8" value="kuang ye zhan qu 20 ji 8" />
+	<configure id="狂野战区20级9" value="kuang ye zhan qu 20 ji 9" />
+	<configure id="狂野战区20级0" value="kuang ye zhan qu 20 ji 0" />
+	<configure id="战利品" value="zhan li pin" />
+	<configure id="可能获得" value="ke neng huo de" />
+	<configure id="可投入战场的部队" value="ke tou ru zhan chang de bu dui" />
+	<configure id="正在侦查敌军基地" value="zheng zai zhen cha di jun ji di" />
+	<configure id="作战图" value="zuo zhan tu" />
+	<configure id="探索该区域" value="tan suo gai qu yu" />
+	<configure id="登上该岛" value="deng shang gai dao" />
+	<configure id="登上岛屿" value="deng shang dao yu" />
+	<configure id="侦查" value="zhen cha" />
+	<configure id="更换对手" value="geng huan dui shou" />
+	<configure id="资源奖励" value="zi yuan jiang li" />
+	<configure id="奖励道具" value="jiang li dao ju" />
+	<configure id="(玩家)" value="(player)" />
+	<configure id="探索令" value="tan suo ling" />
+</configures>

@@ -1,0 +1,2979 @@
+module('NewBi', package.seeall)
+
+
+local MyGroupId
+MyGroupId = 1
+local IsOpen
+local EmptyBox
+function GetBuilding()
+	return NewbieGuideWrap.GetAllTower()	
+end
+
+function GetAmy(id)
+	return NewbieGuideWrap.GetAmy(id)
+end
+ 
+
+function halfTalk(id,next)			---剧情对白
+	NewbieGuideWrap.ShowPerson(id)
+	--print('she zhi xia yi bu ') 
+	NewbieGuideWrap.NextNewbi(next)	
+end
+
+function clickButton(buttonId,next)
+	if NewbieGuideWrap.GetButton(buttonId) ~= nil then
+			--print("1")
+			NewbieGuideWrap.ShowButtonAllUI(2,90,Vector3.New(0,0,0),NewbieGuideWrap.GetButton(buttonId))
+			NewbieGuideWrap.ShowForceGuide(NewbieGuideWrap.GetButton(buttonId),0)
+			--print('she zhi xia yi bu ') 
+			NewbieGuideWrap.NextNewbi(next)
+			--print("2")
+		--else
+			--print(buttonId..' is null')
+	end
+	--NewbieGuideWrap.NextNewbi('Open1')
+	--print("3")
+end
+
+function clickTower(TowerId,scene,isInbuild,next)
+	if NewbieGuideWrap.GetTower(TowerId,scene,isInbuild) ~= nil then
+		NewbieGuideWrap.GetTower(TowerId,scene,isInbuild)
+		NewbieGuideWrap.ShowTowerAllUI(2,90,Vector3.New(0,0,0),NewbieGuideWrap.GetTower(TowerId,scene,isInbuild))
+		NewbieGuideWrap.ShowForceGuide(NewbieGuideWrap.GetTower(TowerId,scene,isInbuild),0)
+		--print('she zhi xia yi bu ') 
+		NewbieGuideWrap.NextNewbi(next)
+		return true
+	end
+	return false
+end
+
+function GetJiJieDian(JiJieDian,next)
+	if NewbieGuideWrap.GetJiJieDian(JiJieDian) ~= nil then
+		NewbieGuideWrap.GetJiJieDian(JiJieDian)
+		NewbieGuideWrap.ShowTowerAllUI(2,90,Vector3.New(0,0,0),NewbieGuideWrap.GetJiJieDian(JiJieDian))
+		NewbieGuideWrap.ShowForceGuide(NewbieGuideWrap.GetJiJieDian(JiJieDian),0)
+		--print('she zhi xia yi bu ') 
+		NewbieGuideWrap.NextNewbi(next)
+		return true
+	end
+	return false
+end
+
+function clickTower2(TowerId,next)
+		NewbieGuideWrap.ShowTowerAllUI(2,90,Vector3.New(0,0,0),TowerId)
+		NewbieGuideWrap.ShowForceGuide(TowerId,0)
+		--print('she zhi xia yi bu ') 
+		NewbieGuideWrap.NextNewbi(next)
+end
+
+function IsInCd(TowerId,scene)
+	if NewbieGuideWrap.GetTower(TowerId,scene,true) ~= nil then
+		return NewbieGuideWrap.IsInBuildingCD(NewbieGuideWrap.GetTower(TowerId,scene,true))
+	end
+	return false
+end
+
+function findBuilding(building,id,level)
+	if building ~= nil then 
+	  for i = 0 , building.Count-1 do
+		----print(building[i].index)
+	    	if building[i] ~= nil then 
+	    	  if building[i].index == id then
+			----print('fuck')
+			----print(id)
+		    	return building[i].lv == level
+	         	end 
+	     	else  
+		   end
+	    end
+    else
+    	--print('building is null')
+	end
+	return false
+end
+
+function clickTowerByLv(building,TowerId,scene,isInbuild,lv,next)
+	if building ~= nil then
+		for i = 0 ,building.Count-1 do
+			if building[i] ~= nil then
+				if building[i].index == TowerId then
+					if building[i].lv >= lv then
+						if NewbieGuideWrap.GetTower(building[i].index,scene,isInbuild) ~= nil then
+							NewbieGuideWrap.GetTower(TowerId,scene,isInbuild)
+							NewbieGuideWrap.ShowTowerAllUI(2,90,Vector3.New(0,0,0),NewbieGuideWrap.GetTower(TowerId,scene,isInbuild))
+							--NewbieGuideWrap.ShowForceGuide(NewbieGuideWrap.GetTower(TowerId,scene,isInbuild),0)
+		                    -------2int('she zhi xia yi bu ') 
+							NewbieGuideWrap.NextNewbi(next)
+							return true
+						end
+					end
+				end
+			end
+		end
+	else
+		return false
+	end
+end
+
+
+function myfindBuilding(building,id,level)
+	if building ~= nil then 
+	  for i = 0 , building.Count-1 do
+	    	if building[i] ~= nil then 
+	    	  if building[i].index == id then
+		    	return building[i].lv >= level
+	         	end 
+	     	else  
+				print('building[i] is null'..i)
+		   end
+	    end
+    else
+end
+	return false
+end
+
+function myfindBuildingisinbuild(building,id,level,isInbuild)
+	if building ~= nil then 
+		for i = 0 , building.Count-1 do
+		----print(building[i].index)
+	    	if building[i] ~= nil then 
+	    	  	if building[i].index == id then
+		    		if  building[i].lv >= level then
+		    			if NewbieGuideWrap.GetTower(building[i].index,scene,isInbuild) ~= nil then
+		    				return true
+		    			end
+	         		end 
+	         	end
+	     	else  
+			--print('building[i] is null'..i)
+		  	end
+	    end
+	end
+	return false
+end
+
+function Group1()  ---建造机枪塔
+	if MyGroupId == 1 then
+		IsOpen = true
+	else
+		IsOpen = false
+	end
+end
+
+
+function Group2()                --NPC进攻
+	if MyGroupId == 2 then
+		IsOpen = true
+	else
+		IsOpen = false
+	end
+end
+
+function Group3()                         --引导起名字
+	if MyGroupId == 3 then
+		IsOpen = true
+	else
+		IsOpen = false
+	end
+end
+
+function Group4()                                 ---建造战车工厂
+	if MyGroupId == 4 and NewbieGuideWrap.GetTower(17,1,false) ~= nil and NewbieGuideWrap.GetTower(13,1,false) == nil then
+		IsOpen = true
+	else
+		IsOpen = false
+	end
+end
+
+function Group5()                            ---购买队列
+	if MyGroupId == 5 and NewbieGuideWrap.GetTower(13,1,false) ~= nil then
+		IsOpen = true
+	else
+		IsOpen = false
+	end
+end
+
+function Group6()          ---建造间谍卫星
+	if MyGroupId == 6 and NewbieGuideWrap.GetTower(10,1,false) == nil then
+		IsOpen = true
+	else
+		IsOpen = false
+	end
+end
+
+function Group7()  ---立即结束战车工厂
+	if MyGroupId == 7  then
+		IsOpen = true
+	else
+		IsOpen = false
+	end
+end
+
+function Group8()  ---建造多功能步兵车
+	if MyGroupId == 8 and  NewbieGuideWrap.GetBattleFieldState(1)==0 then
+		IsOpen = true
+	else
+        if MyGroupId == 8 and NewbieGuideWrap.GetBattleFieldState(1)==1 then
+        		NewbieGuideWrap.Lock2D(0)
+				NewbieGuideWrap.Lock3D(0)
+             Open(9)
+        end
+		IsOpen = false
+	end
+end
+
+function Group9()  ---引导进副本
+	if MyGroupId == 9 and NewbieGuideWrap.GetBattleFieldState(1)==0 then
+		IsOpen = true
+	else
+		if MyGroupId == 9 and NewbieGuideWrap.GetBattleFieldState(1)==1 then
+				NewbieGuideWrap.Lock2D(0)
+				NewbieGuideWrap.Lock3D(0)
+             Open(10)
+        end
+		IsOpen = false
+	end
+end
+
+function Group10()             --首次战斗
+	if MyGroupId == 10 and NewbieGuideWrap.GetBattleFieldState(1)==0 then
+		IsOpen = true
+	else
+		if MyGroupId == 10 and NewbieGuideWrap.GetBattleFieldState(1)==1 then
+				NewbieGuideWrap.Lock2D(0)
+				NewbieGuideWrap.Lock3D(0)
+             Open(11)
+        end
+		IsOpen = false
+	end
+end
+
+
+function Group11()    --引导返回主基地
+	if MyGroupId == 11 and NewbieGuideWrap.GetBattleFieldState(1)==0 then
+		IsOpen = true
+	else
+		if MyGroupId == 11 and NewbieGuideWrap.GetBattleFieldState(1)==1 then
+				NewbieGuideWrap.Lock2D(0)
+				NewbieGuideWrap.Lock3D(0)
+             Open(12)
+        end
+		IsOpen = false
+	end
+end
+
+
+function Group12()
+	--print('group2')				---建造金库
+	if NewbieGuideWrap.GetTower(2,1,false) == nil and NewbieGuideWrap.GetTower(1,1,false) ~= nil and MyGroupId == 12 then
+		IsOpen = true
+	else
+		IsOpen = false
+	end
+	if NewbieGuideWrap.GetTower(2,1,false) ~= nil then
+		MyGroupId = 13
+		NewbieGuideWrap.SetNewBieGudieID(13)
+		step13_1()
+	end
+end
+
+function Group13()				---建造油库
+	if NewbieGuideWrap.GetTower(3,1,false) == nil and NewbieGuideWrap.GetTower(1,1,false) ~= nil and NewbieGuideWrap.GetTower(2,1,true) == nil and NewbieGuideWrap.GetTower(2,1,false) ~= nil and MyGroupId == 13 then
+		IsOpen = true
+	else
+		IsOpen = false
+	end
+	if NewbieGuideWrap.GetTower(3,1,false) ~= nil then
+		MyGroupId = 14
+		NewbieGuideWrap.SetNewBieGudieID(14)
+		step14_1()
+	end
+	 
+end
+
+function Group14()				---司令部升级
+	print('hahahahahhaa') --
+	if  MyGroupId == 14 and NewbieGuideWrap.GetTower(3,1,false) ~= nil and NewbieGuideWrap.GetHomeTowerLv(1)<2 then  --findBuilding(GetBuilding(),1,1) and
+		print('Group14 true true true true true true true')
+		IsOpen = true
+	else
+		 
+		if MyGroupId==14 and NewbieGuideWrap.GetHomeTowerLv(1)>=2 then
+			NewbieGuideWrap.SetNewBieGudieID(15)
+			Open(15)
+		end
+      
+        print('Group14        false    false     false')
+		IsOpen = false
+	end
+
+end
+
+
+
+function Group15()    --攻打玩家2次进入排行榜
+	if MyGroupId == 15 then
+		IsOpen = true
+	else
+		IsOpen = false
+	end
+end
+
+
+function Group16()      --发电厂完成NPC进攻
+	if MyGroupId == 16 then
+		IsOpen = true
+	else
+		IsOpen = false
+	end
+end
+
+function Group17()    --装备技能卡
+
+end
+
+
+function step1_0()
+	NewbieGuideWrap.Lock2D(1)
+	NewbieGuideWrap.Lock3D(1)	
+	NewbieGuideWrap.ShowPerson(180,0)
+	NewbieGuideWrap.NextNewbi('step1_1')
+end
+
+function step1_1()                ---建造机枪塔
+	NewbieGuideWrap.ShowPerson(147,17)
+	NewbieGuideWrap.NextNewbi('step1_2')
+end
+
+function step1_2()				
+	clickButton(1,'step1_3')
+	NewbieGuideWrap.ShowDes(2,'点击打开建造列表',Vector3.New(0,0,0),Vector3.New(1,1,1))
+end
+
+function step1_3()
+	--print('2-3')
+	--NewbieGuideWrap.SetBuildingPosition(Vector3.New(20,0,31))
+	clickButton(2,'step1_4')
+	NewbieGuideWrap.ShowDes(2,'点击进入防御建筑列表',Vector3.New(0,0,0),Vector3.New(1,1,1))
+end
+
+function step1_4()
+	--print('step2_4')
+	NewbieGuideWrap.SetBuildingPosition(Vector3.New(32,0,22))
+	clickButton(79,'step1_4_1')
+	NewbieGuideWrap.ShowDes(2,'点击建造机枪塔，并进入建造模式',Vector3.New(0,0,0),Vector3.New(1,1,1))
+end
+
+function step1_4_1()
+	clickButton(707,'step1_5')
+end
+function step1_5()
+	--print('step2_5')			
+	clickButton(4,'step1_6')
+	NewbieGuideWrap.ShowDes(1,'点击开始建造',Vector3.New(0,0,0),Vector3.New(1,1,1))
+end
+
+function step1_6()
+	--print('aaaaaaaaaaaaaaaaaaaaa')
+	if NewbieGuideWrap.GetButton(104) ~= nil then
+		step1_7()
+		MyGroupId = 2
+		NewbieGuideWrap.SetNewBieGudieID(2)
+	else
+		if NewbieGuideWrap.GetTower(17,1,false) ~= nil and NewbieGuideWrap.GetTowerNumByIndex(17) == 1 then
+			MyGroupId = 2
+			NewbieGuideWrap.SetNewBieGudieID(2)	
+			if NewbieGuideWrap.GetTowerInBuildingQueue() ~= nil then	
+				--NewbieGuideWrap.LogError('cccccccccccccccc')
+				clickTower2(NewbieGuideWrap.GetTowerInBuildingQueue(),'step1_7')
+				--clickTower(16,1,true,'step2_7')	
+				NewbieGuideWrap.ShowDes(3,'点击正在建造的建筑物',Vector3.New(0,0,0),Vector3.New(1,1,1))		
+			end
+		end
+	end
+end
+
+function step1_7()
+	--print('step2_7')
+	if NewbieGuideWrap.GetTower(17,1,true) ~= nil and NewbieGuideWrap.GetTowerNumByIndex(17) == 1 then
+		MyGroupId = 2
+		NewbieGuideWrap.SetNewBieGudieID(2)	
+		clickButton(104,'step1_8')
+		NewbieGuideWrap.ShowDes(1,'点击立即结束按钮，可以快速完成建造',Vector3.New(0,0,0),Vector3.New(1,1,1))
+	else
+		step1_9()
+	end
+end
+
+function step1_8()
+	--print('step2_8')
+	if NewbieGuideWrap.GetTower(17,1,true) ~= nil then	
+		clickButton(11,'step1_9')
+		NewbieGuideWrap.ShowDes(3,'立即完成建造，五分钟以下免费',Vector3.New(0,0,0),Vector3.New(1,1,1))
+		MyGroupId = 2
+		NewbieGuideWrap.SetNewBieGudieID(2)
+	else
+		step1_9()
+	end	
+end
+
+function step1_9()
+	--print('nnnnnnnnnnn')
+	NewbieGuideWrap.CloseExpensePanel()
+	NewbieGuideWrap.ShowPerson(113,0)
+	NewbieGuideWrap.NextNewbi('Open1')
+	MyGroupId = 2
+	NewbieGuideWrap.SetNewBieGudieID(2)
+end
+
+function step2_1()          --尤里进攻
+	if NewbieGuideWrap.GetTower(17,1,false) == nil then
+		step1_2()
+	else
+		if NewbieGuideWrap.GetTower(17,1,true) ~= nil then
+			step1_6()
+		else
+			if NewbieGuideWrap.ISCommandPanel() == 1 then
+				NewbieGuideWrap.CloseCommandPanelToOpenMainUIPanel()
+			end
+			NewbieGuideWrap.Lock2D(1)
+			NewbieGuideWrap.Lock3D(1)
+			NewbieGuideWrap.ShowPerson(149,0)
+			NewbieGuideWrap.NextNewbi('step2_2')
+		end
+	end
+end
+
+function step2_2()
+	NewbieGuideWrap.ShowPerson(150,0)
+	NewbieGuideWrap.NextNewbi('step2_3')
+end	
+
+function step2_3()				
+	--print('6-1abcd')
+	NewbieGuideWrap.NewEnemyAttackStart()
+	--NewbieGuideWrap.NewSoliderAttack(1,1,1,1,Vector3.New(55,0,19))  --ID、等级、星级、技能等级
+
+	 NewbieGuideWrap.NewEnemyAttack(21,1,1,Vector3.New(48,0,21))
+	 NewbieGuideWrap.NewEnemyAttack(21,1,1,Vector3.New(50,0,19))	
+	 NewbieGuideWrap.NewEnemyAttack(21,1,1,Vector3.New(46,0,21))
+	 NewbieGuideWrap.NewEnemyAttack(21,1,1,Vector3.New(52,0,21))
+	 --NewbieGuideWrap.NewEnemyAttack(21,1,1,Vector3.New(50,0,19))	
+	 --NewbieGuideWrap.NewEnemyAttack(22,1,1,Vector3.New(50,0,23))
+	 --NewbieGuideWrap.NewEnemyAttack(22,1,1,Vector3.New(50,0,19))
+	NewbieGuideWrap.NextNewbi('step2_4')
+end
+
+
+function step2_4()
+	--print('4-3')
+	NewbieGuideWrap.Lock2D(0)
+	NewbieGuideWrap.Lock3D(0)
+	if NewbieGuideWrap.GetAllTank().Count == 0  then
+		NewbieGuideWrap.ShowPerson(151,0)    --自己人
+		NewbieGuideWrap.NextNewbi('step2_5')
+		NewbieGuideWrap.CloseSettlementPanel()
+		NewbieGuideWrap.SetNewBieGudieID(3)
+		MyGroupId = 3
+	end
+end
+
+
+function step2_5()
+	if NewbieGuideWrap.GetAllTank().Count == 0  then
+		NewbieGuideWrap.ShowPerson(152,0)     --自己人
+		NewbieGuideWrap.NextNewbi('step2_6')
+		NewbieGuideWrap.CloseSettlementPanel()
+	end
+end	
+
+function step2_6()                 --gohome
+	--print('4-4')			 
+	NewbieGuideWrap.GoHome()
+	MyGroupId = 3
+	NewbieGuideWrap.SetNewBieGudieID(3)
+	NewbieGuideWrap.NextNewbi('Open1')
+end
+
+function step3_1()           --起名字
+	if NewbieGuideWrap.GetTower(1,1,false) ~= nil then
+		NewbieGuideWrap.ShowReNamePanel()
+		NewbieGuideWrap.NextNewbi('Open1')
+		NewbieGuideWrap.SetNewBieGudieID(4)
+		MyGroupId = 4		
+	end
+end
+
+function step4_1()   --建造战车工厂
+	NewbieGuideWrap.Lock2D(0)
+	NewbieGuideWrap.Lock3D(0)
+	if NewbieGuideWrap.IsPlayerNameExist() == 1 then
+		if NewbieGuideWrap.GetTower(13,1,false) ~= nil then
+			step5_1()
+			MyGroupId = 5
+			NewbieGuideWrap.SetNewBieGudieID(5)
+		else
+			if NewbieGuideWrap.GetTower(1,1,false) ~= nil then
+				if  NewbieGuideWrap.GetResource(2) >= 250 then
+					if NewbieGuideWrap.GetButton(1) ~= nil then
+						--NewbieGuideWrap.ShowSendComandoGuid(0,Vector3.New(435,375,0))
+						NewbieGuideWrap.Lock2D(1)
+			    		NewbieGuideWrap.Lock3D(1)
+						NewbieGuideWrap.ShowPerson(166,0)
+						NewbieGuideWrap.NextNewbi('step4_2')
+					end
+				end
+			end
+		end
+	else
+		step3_1()
+	end
+end	
+
+function step4_2()
+	if NewbieGuideWrap.GetTower(1,1,false) ~= nil then
+
+		if NewbieGuideWrap.GetButton(1) ~= nil then
+			--NewbieGuideWrap.ShowSendComandoGuid(0,Vector3.New(435,375,0))
+			NewbieGuideWrap.Lock2D(1)
+		    NewbieGuideWrap.Lock3D(1)
+			NewbieGuideWrap.ShowPerson(167,13)
+			NewbieGuideWrap.NextNewbi('step4_3')
+		end
+	end
+end
+
+function step4_3()				---战车工厂
+	--print('step15_2')
+	clickButton(1,'step4_4')
+	NewbieGuideWrap.ShowDes(2,'点击打开建造列表',Vector3.New(0,0,0),Vector3.New(1,1,1))
+end
+
+function step4_4()
+	clickButton(10,'step4_5')
+	NewbieGuideWrap.ShowDes(1,'点击进入支持建筑列表',Vector3.New(0,0,0),Vector3.New(1,1,1))
+end
+
+function step4_5()
+	print('step4_5')
+	NewbieGuideWrap.SetBuildingPosition(Vector3.New(17,0,22))
+	clickButton(56,'step4_5_1')
+	NewbieGuideWrap.ShowDes(2,'点击建造战车工厂，并进入建造模式',Vector3.New(0,0,0),Vector3.New(1,1,1))
+end
+function step4_5_1()
+	clickButton(707,'step4_6')
+end
+
+function step4_6()
+	--print('15_5')			
+	clickButton(4,'step5_1')
+	NewbieGuideWrap.ShowDes(1,'点击开始建造',Vector3.New(0,0,0),Vector3.New(1,1,1))
+    MyGroupId = 5
+    NewbieGuideWrap.SetNewBieGudieID(5)	
+end
+
+function step5_1()	   --购买队列
+	NewbieGuideWrap.Lock2D(1)
+	NewbieGuideWrap.Lock3D(1)
+	if NewbieGuideWrap.GetButton(120)~= nil then
+		if NewbieGuideWrap.BuildQueueCount() == 1  then
+			if  NewbieGuideWrap.GetResource(7) >= 200 then
+				if  NewbieGuideWrap.GetButton(1800) == nil then
+					clickButton(120,'step5_1')
+		            MyGroupId = 6
+				    NewbieGuideWrap.SetNewBieGudieID(6)
+					NewbieGuideWrap.ShowDes(1,'点击按钮，购买建筑队列',Vector3.New(0,0,0),Vector3.New(1,1,1))
+				else
+		            clickButton(1800,'Open1')
+					NewbieGuideWrap.ShowDes(3,'完成建筑队列的购买，您现在可以免费同时建造或升级两个建筑',Vector3.New(0,0,0),Vector3.New(1,1,1))
+		            MyGroupId = 6
+				    NewbieGuideWrap.SetNewBieGudieID(6)
+				end
+		  end
+		else
+			MyGroupId = 6
+			NewbieGuideWrap.SetNewBieGudieID(6)
+			Open1(MyGroupId)  
+		end
+	end
+end
+
+function step6_1()				---建造雷达
+	NewbieGuideWrap.Lock2D(1)
+	NewbieGuideWrap.Lock3D(1)
+	if NewbieGuideWrap.GetButton(1) ~= nil then
+		if NewbieGuideWrap.BuildQueueCount() == 2 then
+			NewbieGuideWrap.CloseExpensePanel()
+			--print('7-1abcd')
+			clickButton(1,'step6_2')
+			NewbieGuideWrap.ShowDes(2,'点击打开建造列表',Vector3.New(0,0,0),Vector3.New(1,1,1))
+		else
+			print('6_1   to   5_1'..NewbieGuideWrap.BuildQueueCount())
+			step5_1()
+		end
+	else
+		if  NewbieGuideWrap.GetButton(10) ~= nil then
+			step6_3()
+		else
+			if NewbieGuideWrap.GetButton(4) ~= nil then
+				step6_4()
+			end
+		end
+	end
+end
+
+function step6_2()
+	if NewbieGuideWrap.GetButton(1) ~= nil then
+		step6_1()
+	else
+		clickButton(10,'step6_3')
+		NewbieGuideWrap.ShowDes(1,'点击进入支持建筑列表',Vector3.New(0,0,0),Vector3.New(1,1,1))
+	end
+end
+
+function step6_3()
+	--print('7-2')
+	if NewbieGuideWrap.GetButton(10) ~= nil and NewbieGuideWrap.GetButton(41) == nil then
+		step6_2()
+	else
+		NewbieGuideWrap.SetBuildingPosition(Vector3.New(25,0,30))
+		clickButton(41,'step6_3_1')
+		NewbieGuideWrap.ShowDes(2,'点击建造间谍卫星，并进入建造模式',Vector3.New(0,0,0),Vector3.New(1,1,1))
+	end
+end
+function step6_3_1()    
+	if NewbieGuideWrap.GetButton(41) ~= nil and NewbieGuideWrap.GetButton(707) == nil then
+		step6_3()
+	else                       
+		clickButton(707,'step6_4')
+	end
+end
+
+function step6_4()
+	--print('7-4')		
+	if NewbieGuideWrap.GetButton(41) ~= nil then
+		step6_3()
+	else
+		if NewbieGuideWrap.GetButton(707) ~= nil then
+			step6_3_1()
+		else	
+			clickButton(4,'step6_5')
+			NewbieGuideWrap.ShowDes(1,'点击开始建造',Vector3.New(0,0,0),Vector3.New(1,1,1))
+		end
+	end
+end
+
+function step6_5()
+	if NewbieGuideWrap.GetTower(10,1,false) ~= nil then
+		MyGroupId = 7 
+		NewbieGuideWrap.SetNewBieGudieID(7)
+		Open1(MyGroupId)
+	else
+		step6_4()
+	end
+end
+
+
+
+function step7_1()  ---立即结束战车工厂
+	NewbieGuideWrap.Lock2D(1)
+	NewbieGuideWrap.Lock3D(2)
+	if NewbieGuideWrap.GetTower(13,1,true) == nil then
+		MyGroupId = 8
+		NewbieGuideWrap.SetNewBieGudieID(8)
+		step8_1()
+	else
+		if NewbieGuideWrap.GetButton(1) ~= nil then
+			if NewbieGuideWrap.GetButton(104) ~= nil then
+				--step4_7()                                    --12.2注释掉，不知道是用来干嘛的
+				MyGroupId = 8
+				NewbieGuideWrap.SetNewBieGudieID(8)
+			else
+				if NewbieGuideWrap.GetTower(13,1,false) ~= nil then
+					MyGroupId = 8
+					NewbieGuideWrap.SetNewBieGudieID(8)	
+					if NewbieGuideWrap.GetTower(13,1,true) ~= nil then	
+						clickTower(13,1,true,'step7_2')
+						NewbieGuideWrap.ShowDes(3,'点击正在建造的建筑物',Vector3.New(0,0,0),Vector3.New(1,1,1))
+					else
+						Open1(MyGroupId)
+					end	
+				end
+			end
+		end	
+	end
+end
+
+function step7_2()
+	if NewbieGuideWrap.GetButton(104) ~= nil then
+		if NewbieGuideWrap.GetTower(13,1,true) ~= nil then	
+			clickButton(104,'step7_3')
+			NewbieGuideWrap.ShowDes(1,'点击立即结束按钮，可以快速完成建造',Vector3.New(0,0,0),Vector3.New(1,1,1))
+		else
+			Open1(MyGroupId)
+		end
+	else
+		step7_1()
+	end
+end
+
+function step7_3()
+	if NewbieGuideWrap.GetButton(104) ~= nil and NewbieGuideWrap.GetButton(11) == nil then
+		step7_2()
+	else
+		if NewbieGuideWrap.GetTower(13,1,true) ~= nil then	
+			NewbieGuideWrap.Lock2D(0)
+			NewbieGuideWrap.Lock3D(0)
+			clickButton(11,'Open1')
+			--NewbieGuideWrap.ShowDes(3,'立即完成建造，五分钟以下免费',Vector3.New(0,0,0),Vector3.New(1,1,1))
+			MyGroupId = 8
+			NewbieGuideWrap.SetNewBieGudieID(8)
+		else
+			Open1(MyGroupId)
+		end	
+	end
+end
+
+--[[function step7_0()
+	if NewbieGuideWrap.GetButton(40)~= nil then
+		clickButton(40,'step7_1')
+	end
+end]]--
+
+function step8_1()  ---建造多功能步兵车
+	print('9527   8——1')
+	--if NewbieGuideWrap.GetButton(10534) == nil then
+		if NewbieGuideWrap.GetSoliderFuncedNumByGa(NewbieGuideWrap.GetTower(13,1,false)) == 6 then
+			print('what the fuck')
+			step9_1()
+		else
+			if NewbieGuideWrap.GetTower(13,1,false) ~= nil then
+				if NewbieGuideWrap.GetSoliderFuncingNumByGa(NewbieGuideWrap.GetTower(13,1,false))+NewbieGuideWrap.GetSoliderFuncedNumByGa(NewbieGuideWrap.GetTower(13,1,false)) < 6 then
+					if NewbieGuideWrap.GetButton(11) ~= nil then
+						step7_3()
+					else
+						if NewbieGuideWrap.GetTower(13,1,true) ~= nil then
+							step7_1()
+						else
+							if NewbieGuideWrap.GetTower(13,1,true) == nil and NewbieGuideWrap.GetTower(13,1,false) ~= nil and NewbieGuideWrap.GetTower(10,1,true) == nil and NewbieGuideWrap.GetTower(10,1,false) ~= nil then
+								clickTower(13,1,false,'step8_2')
+							end
+						end
+					end
+				end	
+			end
+		end
+	end
+
+--end
+
+function step8_2()
+	if NewbieGuideWrap.GetButton(-5) ~= nil then
+	NewbieGuideWrap.Lock2D(1)
+	NewbieGuideWrap.Lock3D(1)
+		if NewbieGuideWrap.GetResource(1) >= 112 then
+			clickButton(-5,'step8_3')
+		else
+			NewbieGuideWrap.Lock2D(0)	
+		end
+	else
+		step8_1()
+	end
+end
+
+
+function step8_3()
+     local x = NewbieGuideWrap.GetSoliderFuncingNumByGa(NewbieGuideWrap.GetTower(13,1,false))+NewbieGuideWrap.GetSoliderFuncedNumByGa(NewbieGuideWrap.GetTower(13,1,false))
+     
+     print('111111'..x)
+
+	if x< 6 then
+		step8_2()
+	else
+		if NewbieGuideWrap.GetButton(2210) ~= nil then
+			print('222222')
+			clickButton(2210,'step8_4')
+		end
+	end
+end
+
+function step8_4()
+	print('111111')
+	if NewbieGuideWrap.GetSoliderFuncedNumByGa(NewbieGuideWrap.GetTower(13,1,false)) == 6 then
+		NewbieGuideWrap.Lock2D(0)
+		NewbieGuideWrap.Lock3D(0)
+		MyGroupId = 9 
+		NewbieGuideWrap.SetNewBieGudieID(9)
+		NewbieGuideWrap.NextNewbi('step9_1')
+	else
+		if NewbieGuideWrap.GetButton(1501) ~= nil then
+			print('222222')
+			if NewbieGuideWrap.GetSoliderFuncingNumByGa(NewbieGuideWrap.GetTower(13,1,false)) ~= 0 then
+				MyGroupId = 9
+				NewbieGuideWrap.SetNewBieGudieID(9)
+				NewbieGuideWrap.Lock2D(0)
+				NewbieGuideWrap.Lock3D(0)
+				clickButton(1501,'step9_1')
+			else
+				MyGroupId = 9
+				NewbieGuideWrap.SetNewBieGudieID(9)
+				NewbieGuideWrap.Lock2D(0)
+				NewbieGuideWrap.Lock3D(0)
+				Open1()
+			end
+		else
+			if NewbieGuideWrap.GetSoliderFuncingNumByGa(NewbieGuideWrap.GetTower(13,1,false)) ~= 0 then
+				step8_3()
+			else
+				step9_1()
+				NewbieGuideWrap.NextNewbi('step9_1')
+			end
+		end
+	end
+end
+
+function step9_1()  --引导副本
+
+	if NewbieGuideWrap.GetBattleFieldState(1)==0 then
+			
+			if NewbieGuideWrap.GetButton(5) ~= nil then
+				 NewbieGuideWrap.Lock2D(1)
+			     NewbieGuideWrap.Lock3D(1)
+				 step9_4()
+		    elseif NewbieGuideWrap.GetButton(806) ~= nil then 
+				 NewbieGuideWrap.Lock2D(1)
+			     NewbieGuideWrap.Lock3D(1)
+				 step9_3()
+			elseif NewbieGuideWrap.GetEarthStar_Battle(1) ~= nil then
+				 NewbieGuideWrap.Lock2D(1)
+			     NewbieGuideWrap.Lock3D(1)
+				 step9_2()
+			elseif NewbieGuideWrap.GetButton(59) ~= nil then
+				 NewbieGuideWrap.Lock2D(1)
+			     NewbieGuideWrap.Lock3D(1)
+				 clickButton(59,'step9_2')
+			else	
+                NewbieGuideWrap.NextNewbi('step9_1')		
+			end
+	end
+end
+
+function step9_2()
+	print('33333')
+	if NewbieGuideWrap.GetEarthStar_Battle(1) ~= nil then
+		print('22222')
+		NewbieGuideWrap.ShowButtonAllUI(2,90,Vector3().New(0,0,0),NewbieGuideWrap.GetEarthStar_Battle(1))
+		NewbieGuideWrap.ShowForceGuide(NewbieGuideWrap.GetEarthStar_Battle(1),0)
+		NewbieGuideWrap.NextNewbi('step9_3')
+	else
+		step9_1()
+	end
+end
+
+function step9_3()
+	print('99999')
+	if NewbieGuideWrap.GetButton(806) ~= nil then
+		clickButton(806,'step9_4')		
+	end
+end
+
+function step9_4()
+	if NewbieGuideWrap.GetButton(5) ~= nil then
+		clickButton(5,'step9_5')
+	end
+end
+
+function step9_5()
+	if NewbieGuideWrap.GetSoliderButtonFightByIndex(1) ~= nil then
+		NewbieGuideWrap.Lock2D(1)
+		NewbieGuideWrap.ShowButtonAllUI(2,90,Vector3.New(0,0,0), NewbieGuideWrap.GetSoliderButtonFightByIndex(1))
+		NewbieGuideWrap.ShowForceGuide(NewbieGuideWrap.GetSoliderButtonFightByIndex(1))
+		NewbieGuideWrap.NextNewbi('step9_6')	
+	end
+end
+
+function step9_6()
+	if NewbieGuideWrap.GetButton(1200) == nil then 
+		print(NewbieGuideWrap.GetAllTank().Count)
+		xxxx = 0
+		EmptyBox = NewbieGuideWrap.CreateLandArmyGuid(Vector3.New(41,0,5))
+		NewbieGuideWrap.ShowTowerAllUI(2,90,Vector3.New(0,0,0),EmptyBox)
+		NewbieGuideWrap.ShowForceGuide(EmptyBox)
+		NewbieGuideWrap.NextNewbi('step9_7')
+	else
+		if NewbieGuideWrap.GetButton(819) ~= nil then
+			step9_10()
+		end
+	end
+end
+
+function step9_7()
+	if NewbieGuideWrap.GetSenceState()==4 then
+		if NewbieGuideWrap.GetBattleFieldState(1)==0 then --未打完第一副本
+			if xxxx == 0 then
+				if NewbieGuideWrap.GetSoliderNumFightByIndex(1) == 0 then
+					xxxx = 1
+					yyyy = 1
+						NewbieGuideWrap.ShowDes(1,'优先摧毁敌人的防御塔，可以减少自己的部队损失',Vector3.New(0,0,0),Vector3.New(1,1,1))
+						--NewbieGuideWrap.ShowSendArmyGuid(0,Vector3.New(277,130,0))	
+						clickTower(86,4,false,'step9_8') 
+						NewbieGuideWrap.Lock2D(1)
+				else
+					step9_6()
+				end
+			else
+				if yyyy == 1 then
+					if NewbieGuideWrap.GetAllTank().Count == 0 then
+						NewbieGuideWrap.Lock2D(0)
+						NewbieGuideWrap.Lock3D(0)
+						NewbieGuideWrap.NextNewbi('step8_1')
+						NewbieGuideWrap.SetNewBieGudieID(8)
+					end
+				end
+			end
+		else
+             step9_10()
+	    end
+	else
+		if MyGroupId<13 then 
+			NewbieGuideWrap.Lock2D(0)
+			NewbieGuideWrap.Lock3D(0)
+			Open(MyGroupId)
+	    end
+	end
+end
+
+function step9_8()
+	if NewbieGuideWrap.GetSenceState()==4 then
+		if NewbieGuideWrap.GetButton(819) == nil then
+			if NewbieGuideWrap.GetButton(1200) == nil then
+				if NewbieGuideWrap.GetTower(86,4,false) == nil then
+						--NewbieGuideWrap.ShowSendArmyGuid(0,Vector3.New(277,130,0))	
+						--NewbieGuideWrap.ShowSendComandoGuid(0,Vector3.New(435,375,0))
+					clickTower(2,4,false,'step9_9') 
+					NewbieGuideWrap.ShowDes(1,'摧毁敌人的资源仓库，可以抢夺敌人的资源',Vector3.New(0,0,0),Vector3.New(1,1,1))
+					NewbieGuideWrap.Lock2D(0)		
+				else
+					step9_7()
+				end
+				if NewbieGuideWrap.GetAllTank().Count == 0 then
+					NewbieGuideWrap.Lock2D(0)
+					NewbieGuideWrap.Lock3D(0)
+					NewbieGuideWrap.NextNewbi('step9_10')
+					NewbieGuideWrap.SetNewBieGudieID(8)
+				end
+			else
+				NewbieGuideWrap.Lock2D(0)
+				NewbieGuideWrap.Lock3D()
+			end
+		else	
+			step9_10()
+		end
+	else
+		if MyGroupId<13 then 
+			NewbieGuideWrap.Lock2D(0)
+			NewbieGuideWrap.Lock3D(0)
+			Open(MyGroupId)
+	    end
+	end
+end
+
+function step9_9()
+	if NewbieGuideWrap.GetSenceState()==4 then
+		if NewbieGuideWrap.GetButton(1200) == nil then
+			if NewbieGuideWrap.GetTower(2,4,false) == nil then
+				if NewbieGuideWrap.GetTower(1,4,false) == nil then
+					MyGroupId = 12
+					NewbieGuideWrap.SetNewBieGudieID(12)
+					NewbieGuideWrap.NextNewbi('step9_10')				
+				end
+					--NewbieGuideWrap.ShowSendArmyGuid(0,Vector3.New(277,130,0))	
+					--NewbieGuideWrap.ShowSendComandoGuid(0,Vector3.New(435,375,0))
+					clickTower(1,4,false,'step9_9') 
+					NewbieGuideWrap.ShowDes(2,'摧毁敌人的司令部，立即获得战斗胜利',Vector3.New(0,0,0),Vector3.New(1,1,1))
+					NewbieGuideWrap.Lock2D(0)		
+			end
+		else
+			if NewbieGuideWrap.GetButton(819) ~= nil then
+				step9_10()
+			end
+		end
+	else
+		if MyGroupId<13 then 
+			NewbieGuideWrap.Lock2D(0)
+			NewbieGuideWrap.Lock3D(0)
+			Open(MyGroupId)
+	    end
+	end
+end
+
+local isWin 
+
+function step9_10()
+	isWin = NewbieGuideWrap.GetBattleFieldState(1)
+		print('isWin  ::::'..isWin)
+	if isWin == 1 then
+		print('1111')
+		step9_11()
+	else
+		print('0000')
+		MyGroupId = 8
+		NewbieGuideWrap.SetNewBieGudieID(8)
+		step9_11() 
+	end
+end
+
+function step9_11()
+	if NewbieGuideWrap.GetButton(819) ~= nil then
+		clickButton(819,'step9_12')
+	end
+end
+
+function step9_12()
+	if NewbieGuideWrap.GetButton(819) == nil then
+			if NewbieGuideWrap.GetButton(10534) ~= nil then
+				if isWin == 1 then
+					print('胜利')
+					clickButton(10534,'Open1')
+					MyGroupId = 12
+					NewbieGuideWrap.SetNewBieGudieID(12)
+				else
+					clickButton(10534,'step8_1')
+					print('失败')
+				end
+			end
+	else
+		step9_11()
+	end
+end
+
+function step10_1()  ---首次战斗
+	---首次战斗
+end
+
+
+function step11_1()   --引导返回主基地
+	if NewbieGuideWrap.GetTower(1,1,false) ~= nil then
+		print('666666666666666666666')
+		NewbieGuideWrap.OpenTaskByNewBiePanel(1)
+		clickButton(11001,'Open1')
+		MyGroupId = 10000
+		NewbieGuideWrap.SetNewBieGudieID(10000)
+		NewbieGuideWrap.ShowDes(1,'点击开始任务',Vector3.New(0,0,0),Vector3.New(1,1,1))
+		NewbieGuideWrap.MainNewBieStay(1)
+	else
+		--引导返回主基地
+	end
+end
+
+
+
+
+function step12_1()
+	if NewbieGuideWrap.GetSenceState()==2 then
+		--print('2_1')
+		if NewbieGuideWrap.ISCommandPanel() == 1 then
+			NewbieGuideWrap.CloseCommandPanelToOpenMainUIPanel()
+		end
+		--NewbieGuideWrap.Lock2D(1)
+		--NewbieGuideWrap.Lock3D(1)
+		if NewbieGuideWrap.GetTower(2,1,false) ~= nil then
+				step13_1()
+				MyGroupId = 13
+				NewbieGuideWrap.SetNewBieGudieID(13)
+		else
+			step12_2()
+		end
+    end
+end
+
+function step12_2()				---建造金库
+	if NewbieGuideWrap.GetSenceState()==2 then
+		if NewbieGuideWrap.GetButton(1) ~= nil then
+			NewbieGuideWrap.Lock2D(1)
+			NewbieGuideWrap.Lock3D(1)
+			--print('3-1abcd')
+			clickButton(1,'step12_2_1')
+			NewbieGuideWrap.ShowDes(2,'点击打开建造列表',Vector3.New(0,0,0),Vector3.New(1,1,1))
+		else
+			NewbieGuideWrap.NextNewbi('step12_2')
+	    end
+    end
+end
+
+function step12_2_1()				---建造金库
+	if NewbieGuideWrap.GetSenceState()==2 then
+		if NewbieGuideWrap.GetButton(7) ~= nil then
+			NewbieGuideWrap.Lock2D(1)
+			NewbieGuideWrap.Lock3D(1)
+			--print('3-1abcd')
+			clickButton(7,'step12_3')
+			NewbieGuideWrap.ShowDes(2,'经济建筑按钮',Vector3.New(0,0,0),Vector3.New(1,1,1))
+		else
+            step12_2()
+	    end
+    end
+end
+
+
+function step12_3()
+	--print('2-3')
+	NewbieGuideWrap.SetBuildingPosition(Vector3.New(20,0,31))
+	clickButton(38,'step12_3_1')
+	NewbieGuideWrap.ShowDes(2,'点击建造金库，并进入建造模式',Vector3.New(0,0,0),Vector3.New(1,1,1))
+end
+
+function step12_3_1()
+	clickButton(707,'step12_4')
+end
+function step12_4()
+	--print('2-4')			
+	clickButton(4,'Open1')
+	NewbieGuideWrap.ShowDes(1,'点击开始建造',Vector3.New(0,0,0),Vector3.New(1,1,1))
+	NewbieGuideWrap.SetNewBieGudieID(13)
+	MyGroupId = 13
+end
+
+--[[function step12_5()
+	if NewbieGuideWrap.GetButton(104) ~= nil then
+		step12_6()
+		MyGroupId = 13
+		NewbieGuideWrap.SetNewBieGudieID(13)
+	else
+
+		if NewbieGuideWrap.GetTower(2,1,false) ~= nil then
+	 	  	MyGroupId = 13
+			NewbieGuideWrap.SetNewBieGudieID(13)	
+			if NewbieGuideWrap.GetTower(2,1,true) ~= nil then	
+				clickTower(2,1,true,'step12_6')
+				NewbieGuideWrap.ShowDes(3,'点击正在建造的建筑物',Vector3.New(0,0,0),Vector3.New(1,1,1))
+			else
+				step13_1()
+			end
+		end
+	end
+end
+
+function step12_6()			---立即结束CD
+	--print('step2_6')
+	if NewbieGuideWrap.GetTower(2,1,true) ~= nil then
+		MyGroupId = 13
+		NewbieGuideWrap.SetNewBieGudieID(13)	
+		clickButton(104,'step12_7')
+		NewbieGuideWrap.ShowDes(1,'点击立即结束按钮，可以快速完成建造',Vector3.New(0,0,0),Vector3.New(1,1,1))
+	else
+		step13_1()
+	end
+end
+
+function step12_7()
+	--print('step2_7')
+	if NewbieGuideWrap.GetTower(2,1,true) ~= nil then	
+		clickButton(11,'Open1')
+		--NewbieGuideWrap.ShowDes(3,'立即完成建造，五分钟以下免费',Vector3.New(0,0,0),Vector3.New(1,1,1))
+		MyGroupId = 13
+	else
+		step13_1()
+		NewbieGuideWrap.CloseExpensePanel()
+	end
+end]]
+
+
+function step13_1()
+	if NewbieGuideWrap.ISCommandPanel() == 1 then
+		NewbieGuideWrap.CloseCommandPanelToOpenMainUIPanel()
+	end
+		NewbieGuideWrap.Lock2D(1)
+		NewbieGuideWrap.Lock3D(1)
+		NewbieGuideWrap.CloseExpensePanel()
+		NewbieGuideWrap.ShowPerson(118,3)
+		NewbieGuideWrap.NextNewbi('step13_2')
+end
+
+function step13_2()				---建造油库
+	--print('6-1abcd')
+	clickButton(1,'step13_3')
+	NewbieGuideWrap.ShowDes(2,'点击打开建造列表',Vector3.New(0,0,0),Vector3.New(1,1,1))
+end
+
+function step13_3()
+	--print('13-3')
+	NewbieGuideWrap.SetBuildingPosition(Vector3.New(32,0,31))
+	NewbieGuideWrap.ShowDes(2,'点击建造油库，并进入建造模式',Vector3.New(0,0,0),Vector3.New(1,1,1))
+	clickButton(47,'step13_3_1')
+end
+
+function step13_3_1()
+	clickButton(707,'step13_4')
+end
+
+function step13_4()
+	--print('13-4')			
+	clickButton(4,'Open1')
+	NewbieGuideWrap.ShowDes(1,'点击开始建造',Vector3.New(0,0,0),Vector3.New(1,1,1))
+	NewbieGuideWrap.SetNewBieGudieID(14)
+	MyGroupId  = 14 
+end
+
+
+--[[function step13_5()			---立即结束CD
+	--print('step13_5')
+	if NewbieGuideWrap.GetButton(104) ~= nil then
+		step13_6()
+		MyGroupId = 14
+		NewbieGuideWrap.SetNewBieGudieID(14)
+	else
+		if NewbieGuideWrap.GetTower(3,1,false) ~= nil then
+			MyGroupId = 14
+			NewbieGuideWrap.SetNewBieGudieID(14)			
+			if NewbieGuideWrap.GetTower(3,1,true) ~= nil then	
+				clickTower(3,1,true,'step13_6')	
+				NewbieGuideWrap.ShowDes(3,'点击正在建造的建筑物',Vector3.New(0,0,0),Vector3.New(1,1,1))
+			else
+				step14_1()
+			end
+		end
+	end
+end
+
+function step13_6()
+	--print('step4_6')
+	if NewbieGuideWrap.GetTower(3,1,true) ~= nil and NewbieGuideWrap.GetButton(104) ~= nil then
+		MyGroupId = 14
+		NewbieGuideWrap.SetNewBieGudieID(14)	
+		clickButton(104,'step13_7')
+		NewbieGuideWrap.ShowDes(1,'点击立即结束按钮，可以快速完成建造',Vector3.New(0,0,0),Vector3.New(1,1,1))
+	else
+		if NewbieGuideWrap.GetTower(3,1,true) == nil then
+			step14_1()
+		else
+			step13_5()
+		end
+	end
+end
+
+function step13_7()
+	--print('step6_6')
+	if NewbieGuideWrap.GetTower(3,1,true) ~= nil then	
+		NewbieGuideWrap.Lock2D(1)
+		NewbieGuideWrap.Lock3D(1)
+		clickButton(11,'Open1')
+		--NewbieGuideWrap.ShowDes(3,'立即完成建造，五分钟以下免费',Vector3.New(0,0,0),Vector3.New(1,1,1))
+		MyGroupId = 14
+	else
+		NewbieGuideWrap.CloseExpensePanel()
+		step14_1()
+		NewbieGuideWrap.Lock2D(1)
+		NewbieGuideWrap.Lock3D(1)
+	end	
+end]]
+
+
+function step14_1()
+  --	NewbieGuideWrap.CloseExpensePanel()  打开这个 会引起司令部升级2级 打开消费面板 会直接关掉导致升级不成功（darling 注释）
+	if NewbieGuideWrap.GetTower(3,1,true) == nil then
+		NewbieGuideWrap.Lock2D(0)
+		NewbieGuideWrap.Lock3D(0)
+		if NewbieGuideWrap.GetResource(2) >= 900 and  NewbieGuideWrap.GetButton(1) ~= nil then
+			print('1111111111111111111')
+			NewbieGuideWrap.Lock2D(1)
+			NewbieGuideWrap.Lock3D(1)
+			NewbieGuideWrap.ShowPerson(165,1)
+			NewbieGuideWrap.NextNewbi('step14_1_1')
+		else
+			print('2222222222222')	
+		end
+	else
+		   print('3333333333333333333')
+	end
+end	
+
+function step14_1_1()			---升级主基地 司令部升级
+	NewbieGuideWrap.Lock2D(1)
+	NewbieGuideWrap.Lock3D(1)
+	--NewbieGuideWrap.SetNewBieGudieID(10)
+	clickTower(1,1,false,'step14_2')
+	NewbieGuideWrap.ShowDes(3,'点击司令部',Vector3.New(0,0,0),Vector3.New(1,1,1))
+end
+
+function step14_2()
+	clickButton(20,'step14_3')
+	NewbieGuideWrap.ShowDes(3,'点击升级按钮，进入建筑物升级界面',Vector3.New(0,0,0),Vector3.New(1,1,1))
+	--NewbieGuideWrap.SetNewBieGudieID(12)
+end
+
+function step14_3()
+	--if findBuilding(GetBuilding(),1,2) == nil then
+		clickButton(21,'step14_4')
+		NewbieGuideWrap.ShowDes(1,'点击按钮，立即进入建筑物升级',Vector3.New(0,0,0),Vector3.New(1,1,1))
+	--else
+	--	step11_6()
+	--end
+end
+
+function step14_4()			---立即结束CD
+	if NewbieGuideWrap.GetButton(104) ~= nil then
+		step14_5()
+		NewbieGuideWrap.SetNewBieGudieID(15)
+		MyGroupId = 15
+	else
+		if  findBuilding(GetBuilding(),1,1) == true then
+			clickTower(1,1,true,'step14_5')
+			NewbieGuideWrap.ShowDes(3,'点击正在升级的建筑物',Vector3.New(0,0,0),Vector3.New(1,1,1))
+			NewbieGuideWrap.SetNewBieGudieID(15)
+			MyGroupId = 15
+		else
+			step15_1()
+		end
+	end
+end
+
+function step14_5()	
+	if  findBuilding(GetBuilding(),1,1) == true then
+		clickButton(104,'step14_6')
+
+		NewbieGuideWrap.ShowDes(1,'点击立即结束按钮，可以快速完成建造',Vector3.New(0,0,0),Vector3.New(1,1,1))
+	else
+		step15_1()
+	end
+end
+
+function step14_6()		
+	if  findBuilding(GetBuilding(),1,1) == true then	
+		clickButton(11,'Open1')
+		--NewbieGuideWrap.ShowDes(3,'立即完成建造，五分钟以下免费',Vector3.New(0,0,0),Vector3.New(1,1,1))
+		MyGroupId = 15
+		NewbieGuideWrap.SetNewBieGudieID(15)
+		NewbieGuideWrap.Lock2D(0)
+		NewbieGuideWrap.Lock3D(0)
+	else
+		step15_1()
+	end
+end
+
+function step15_1()
+	if  NewbieGuideWrap.IsRecieved(11)==1 then
+		NewbieGuideWrap.Lock2D(0)
+		NewbieGuideWrap.Lock3D(0)
+		NewbieGuideWrap.SetNewBieGudieID(16)
+		Open(16)
+	else
+		if  findBuilding(GetBuilding(),1,2) == true then	
+			clickButton(11001,'step15_2')
+			NewbieGuideWrap.ShowDes(1,'点击开始任务',Vector3.New(0,0,0),Vector3.New(1,1,1))
+			--MyGroupId = 16
+			--NewbieGuideWrap.SetNewBieGudieID(16)
+		end
+	end
+end
+
+function step15_2()
+	if NewbieGuideWrap.IsTaskCanRecieve(11) == 1 then
+		clickButton(11001,'Open1')
+		MyGroupId = 16
+		NewbieGuideWrap.SetNewBieGudieID(16)
+	end
+end
+
+function step15_3()
+	MyGroupId = 16
+	NewbieGuideWrap.SetNewBieGudieID(16)
+	NewbieGuideWrap.NextNewbi('Open1')
+end
+
+
+
+
+--[[
+function step15_1()
+	print('666666666666666666666')
+	NewbieGuideWrap.OpenTaskByNewBiePanel(1)
+	clickButton(11001,'Open1')
+	MyGroupId = 10000
+	NewbieGuideWrap.SetNewBieGudieID(10000)
+	NewbieGuideWrap.ShowDes(1,'点击开始任务',Vector3.New(0,0,0),Vector3.New(1,1,1))
+	NewbieGuideWrap.MainNewBieStay(1)
+		NewbieGuideWrap.Lock2D(0)
+		NewbieGuideWrap.Lock3D(0)
+end
+
+]]
+function step16_1()          
+	print('9527  16———1')
+	if NewbieGuideWrap.GetSkillButtonFightByIndex(0) ~= nil then
+		NewbieGuideWrap.ShowButtonAllUI(2,90,Vector3.New(0,0,0),NewbieGuideWrap.GetSkillButtonFightByIndex(0))
+		NewbieGuideWrap.NextNewbi('step16_2')
+	end
+end
+
+function step16_2()
+	
+	clickTower(1,4,false,'')
+	NewbieGuideWrap.SetNewBieGudieID(10000)
+	MyGroupId = 10000
+
+	NewbieGuideWrap.Lock2D(0)
+	NewbieGuideWrap.Lock3D(0)
+
+end	
+
+function step16_3()				
+
+end
+
+
+function step16_4()
+
+end
+
+
+function step16_5()
+
+end	
+
+function step16_6()                 --gohome
+
+end
+
+
+function step17_1()
+
+end
+
+ 
+function task4_1()				---战车工厂*2
+	print('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
+	if NewbieGuideWrap.GetTowerNumByIndex(13) == 1 then
+		clickButton(1,'task4_2')
+		NewbieGuideWrap.ShowDes(2,'点击打开建造列表',Vector3.New(0,0,0),Vector3.New(1,1,1))
+	elseif NewbieGuideWrap.GetTowerNumByIndex(13) == 2 then
+		aaa = NewbieGuideWrap.GetArmyFac_NoArmy()
+		if aaa ~= nil then
+			NewbieGuideWrap.ShowTowerAllUI(2,90,Vector3.New(0,0,0),aaa)
+			NewbieGuideWrap.ShowForceGuide(aaa,0)
+			NewbieGuideWrap.NextNewbi('task4_6')
+		end
+	end
+end
+
+function task4_2()
+	clickButton(10,'task4_3')
+	NewbieGuideWrap.ShowDes(1,'点击进入支持建筑列表',Vector3.New(0,0,0),Vector3.New(1,1,1))
+end
+
+function task4_3()
+	--print('step15_4')
+	NewbieGuideWrap.SetBuildingPosition(Vector3.New(11,0,21))
+	clickButton(56,'task4_3_1')
+	NewbieGuideWrap.ShowDes(2,'点击建造战车工厂，并进入建造模式',Vector3.New(0,0,0),Vector3.New(1,1,1))
+end
+
+function task4_3_1()
+	clickButton(707,'task4_4')
+end
+function task4_4()
+	--print('15_5')			
+	clickButton(4,'task4_5')
+	NewbieGuideWrap.ShowDes(1,'点击开始建造',Vector3.New(0,0,0),Vector3.New(1,1,1))
+end
+
+
+function task4_5()  ---立即结束战车工厂
+	aaa = NewbieGuideWrap.GetArmyFac_NoArmy()
+	if NewbieGuideWrap.GetButton(1) ~= nil then
+		if NewbieGuideWrap.GetButton(104) ~= nil then
+			task4_6()    
+		else
+			if NewbieGuideWrap.GetTower(13,1,false) ~= nil then
+				task4_1()
+			end
+		end
+	end	
+end
+
+function task4_6()
+	if NewbieGuideWrap.GetTower(13,1,true) ~= nil then	
+		clickButton(104,'task4_7')
+		NewbieGuideWrap.ShowDes(1,'点击立即结束按钮，可以快速完成建造',Vector3.New(0,0,0),Vector3.New(1,1,1))
+	end
+end
+
+function task4_7()
+	if NewbieGuideWrap.GetTower(13,1,true) ~= nil then	
+		clickButton(11,'task4_8')
+		--NewbieGuideWrap.ShowDes(3,'立即完成建造，五分钟以下免费',Vector3.New(0,0,0),Vector3.New(1,1,1))
+	end	
+end
+
+function task4_8()
+	if NewbieGuideWrap.IsTaskCanRecieve(11) == 1 then
+		clickButton('11001','')
+		NewbieGuideWrap.ShowDes(1,'点击领取任务奖励',Vector3.New(0,0,0),Vector3.New(1,1,1))
+	else
+		NewbieGuideWrap.Lock2D(0)
+		NewbieGuideWrap.Lock3D(0)
+	end
+end
+
+
+
+
+
+
+function task5_1()  ---建造多功能步兵车
+	print('9527  5——1')
+	aaa = NewbieGuideWrap.GetArmyFac_NoArmy()
+	if NewbieGuideWrap.GetTower(13,1,true) == nil and NewbieGuideWrap.GetTower(13,1,false) ~= nil then
+		print('OK')
+		NewbieGuideWrap.ShowTowerAllUI(2,90,Vector3.New(0,0,0),aaa)
+		NewbieGuideWrap.NextNewbi('task5_2')
+	end
+end
+
+function task5_2()
+	if NewbieGuideWrap.GetButton(-5) ~= nil then
+		clickButton(-5,'task5_3')
+	else 
+        task5_1()
+	end
+end
+
+function task5_3()
+     local x = NewbieGuideWrap.GetSoliderFuncingNumByGa(aaa)+NewbieGuideWrap.GetSoliderFuncedNumByGa(aaa)
+     print('111111'..x)
+	if x< 6 then
+		task5_2()
+	else
+		if NewbieGuideWrap.GetButton(2210) ~= nil then
+			print('222222')
+			clickButton(2210,'task5_4')
+		end
+	end
+end
+
+function task5_4()
+	print('111111')
+	if NewbieGuideWrap.GetButton(1501) ~= nil then
+		print('222222')
+		clickButton(1501,'task5_5')
+	end
+end
+
+function task5_5()
+	NewbieGuideWrap.NextNewbi('')
+end
+
+
+function task6_1()     --通关第一章第3关
+	if NewbieGuideWrap.GetButton(59) ~= nil then
+	   clickButton(59,'')
+	else
+		NewbieGuideWrap.NextNewbi('task6_1')
+    end
+end
+
+
+
+function task7_1()  ---战车工厂升级
+	aaa = NewbieGuideWrap.GetArmyFac_NoArmy()
+	if NewbieGuideWrap.GetTower(13,1,false) ~= nil then
+		NewbieGuideWrap.ShowTowerAllUI(2,90,Vector3.New(0,0,0),NewbieGuideWrap.GetTower(13,1,false))
+		NewbieGuideWrap.NextNewbi('task7_2')
+		--clickTower(13,1,false,'task7_2')
+	end
+end
+
+function task7_2() 
+	print('1111111111')
+	clickButton(20,'task7_3')
+end
+
+function task7_3()
+	clickButton(21,'task7_4')
+
+end
+
+function task7_4()
+	if NewbieGuideWrap.GetTower(13,1,true) ~= nil then
+		NewbieGuideWrap.LockTaskByNewBie(1)
+		NewbieGuideWrap.NextNewbi('')
+	end
+end
+
+
+function task8_1()				---建造科技钻油井
+	--print('5-1abcd')
+	if NewbieGuideWrap.GetButton(1) ~= nil then
+		clickButton(1,'task8_2')
+		NewbieGuideWrap.ShowDes(2,'点击打开建造列表',Vector3.New(0,0,0),Vector3.New(1,1,1))
+	else
+		NewbieGuideWrap.NextNewbi('task8_1')
+   end
+end
+
+function task8_2()
+	if NewbieGuideWrap.GetButton(46) ~= nil then
+		clickButton(46,'task8_2_1')
+		NewbieGuideWrap.ShowDes(2,'点击建造科技钻油井，并进入建造模式',Vector3.New(0,0,0),Vector3.New(1,1,1))
+	else
+		task8_1()
+    end
+end
+function task8_2_1()
+	clickButton(707,'task8_3')
+end
+
+function task8_3()
+	--print('12-4')			
+	clickButton(4,'task8_4')	
+	NewbieGuideWrap.ShowDes(1,'点击开始建造',Vector3.New(0,0,0),Vector3.New(1,1,1))
+	--ewbieGuideWrap.LockTaskByNewBie(1)
+end
+
+
+
+function task8_4()
+	if NewbieGuideWrap.GetTower(13,1,false) ~= nil then
+		NewbieGuideWrap.LockTaskByNewBie(1)
+		NewbieGuideWrap.NextNewbi('')
+	else
+		NewbieGuideWrap.Lock2D(0)
+		NewbieGuideWrap.Lock3D(0)
+	end
+end
+
+
+function task9_1()  --步兵战车升级
+
+	if NewbieGuideWrap.GetTower(13,1,true) == nil and NewbieGuideWrap.GetTower(13,1,false) ~= nil then
+		print('OK')
+		NewbieGuideWrap.ShowTowerAllUI(2,90,Vector3.New(0,0,0),NewbieGuideWrap.GetTower(13,1,false))
+		NewbieGuideWrap.NextNewbi('task9_2')
+	end	
+end
+
+function task9_2()
+	if NewbieGuideWrap.GetButton(524) ~= nil then
+		clickButton(524,'') --task9_3
+	else
+		task9_1()
+	end
+--[[
+	else
+		task9_1()
+   ]]
+end
+
+function task9_3()
+	if NewbieGuideWrap.GetArmyUpdatingLevelById(1) == 2 then
+		task9_5()
+	else
+		if NewbieGuideWrap.GetResource(1) >= 1000 then
+			clickButton(611,'') --task9_4
+		else
+			NewbieGuideWrap.Lock2D(0)
+			NewbieGuideWrap.Lock3D(0)
+			clickButton(611,'') --task9_4
+		end
+	end
+end
+
+function task9_4()
+	if NewbieGuideWrap.GetArmyUpdatingLevelById(1) < 2 then
+		print('xxxxx')
+		task9_3()
+	else
+		print('yyyyy')
+		task9_5()
+	end
+end
+
+function task9_5()
+	if NewbieGuideWrap.GetButton(614) ~= nil then
+		clickButton(614,'')
+	end
+end
+
+
+function task10_1()		 ---建造矿石精炼厂		
+	clickButton(1,'task10_2')
+	NewbieGuideWrap.ShowDes(2,'点击打开建造列表',Vector3.New(0,0,0),Vector3.New(1,1,1))
+end
+
+function task10_2()
+	if NewbieGuideWrap.GetButton(89) == nil then
+		if NewbieGuideWrap.GetButton(7) ~= nil then
+			clickButton(7,'task10_3')
+			NewbieGuideWrap.ShowDes(2,'经济建筑按钮',Vector3.New(0,0,0),Vector3.New(1,1,1))
+		else
+			task10_1()
+	    end
+	else
+		task10_3()
+	end
+end
+
+function task10_3()
+	--print('step2_4')
+	NewbieGuideWrap.SetBuildingPosition(Vector3.New(30,0,19))
+	clickButton(89,'task10_3_1')
+	NewbieGuideWrap.ShowDes(3,'点击建造矿石精炼厂，并进入建造模式',Vector3.New(0,0,0),Vector3.New(1,1,1))
+end
+
+function task10_3_1()
+	clickButton(707,'task10_3_1')
+end
+function task10_4()
+	--print('step2_5')	
+	if NewbieGuideWrap.GetButton(4) ~= nil and NewbieGuideWrap.GetButton(89) == nil then		
+		clickButton(4,'task10_4_1')
+		NewbieGuideWrap.ShowDes(1,'点击开始建造',Vector3.New(0,0,0),Vector3.New(1,1,1))
+		--NewbieGuideWrap.LockTaskByNewBie(1)
+	else
+		task10_3()
+	end
+end
+
+
+function task10_4_1()
+	if NewbieGuideWrap.GetTower(6,1,false) ~= nil then
+		NewbieGuideWrap.LockTaskByNewBie(1)	
+		NewbieGuideWrap.NextNewbi('')
+	end
+end
+
+
+function task11_1()    --副本4、5关
+	clickButton(59,'')
+end
+
+
+
+function task12_1()  ---司令部升级
+	if findBuilding(GetBuilding(),1,2) and NewbieGuideWrap.GetTower(1,1,true) == nil then
+		print('111')
+		clickTower(1,1,false,'task12_2')
+	elseif findBuilding(GetBuilding(),1,2) and NewbieGuideWrap.GetTower(1,1,true) ~= nil then
+		clickTower(1,1,false,'')
+		print('222')
+		NewbieGuideWrap.ShowDes(3,'建筑正在建造中，您可以使用立即完成',Vector3.New(0,0,0),Vector3.New(1,1,1))
+	elseif findBuilding(GetBuilding(),1,3) then
+		NewbieGuideWrap.NextNewbi('')
+	end
+end
+
+function task12_2() 
+	if NewbieGuideWrap.GetButton(20) ~= nil then
+	    clickButton(20,'task12_3')
+	else
+		task12_1()
+    end
+end
+
+function task12_3()
+	clickButton(21,'')
+end
+
+
+
+function task13_1()				---战车工厂
+	--print('step15_2')
+	if NewbieGuideWrap.GetTowerNumByIndex(13) == 2 then
+		clickButton(1,'task13_2')
+		NewbieGuideWrap.ShowDes(2,'点击打开建造列表',Vector3.New(0,0,0),Vector3.New(1,1,1))
+	elseif NewbieGuideWrap.GetTowerNumByIndex(13) == 3 then
+		aaa = NewbieGuideWrap.GetArmyFac_NoArmy()
+		if aaa ~= nil then
+			NewbieGuideWrap.ShowTowerAllUI(2,90,Vector3.New(0,0,0),aaa)
+			NewbieGuideWrap.ShowForceGuide(aaa,0)
+			NewbieGuideWrap.NextNewbi('task13_6')
+		end
+	end
+end
+
+function task13_2()
+	clickButton(10,'task13_3')
+	NewbieGuideWrap.ShowDes(1,'点击进入支持建筑列表',Vector3.New(0,0,0),Vector3.New(1,1,1))
+end
+
+function task13_3()
+	--print('step15_4')
+	NewbieGuideWrap.SetBuildingPosition(Vector3.New(11,0,21))
+	clickButton(56,'task13_3_1')
+	NewbieGuideWrap.ShowDes(2,'点击建造战车工厂，并进入建造模式',Vector3.New(0,0,0),Vector3.New(1,1,1))
+end
+function task13_3_1()
+	clickButton(707,'task13_4')
+end
+
+function task13_4()
+	--print('15_5')			
+	clickButton(4,'')
+	NewbieGuideWrap.ShowDes(1,'点击开始建造',Vector3.New(0,0,0),Vector3.New(1,1,1))
+end
+
+function task13_5()  ---立即结束战车工厂
+	aaa = NewbieGuideWrap.GetArmyFac_NoArmy()
+	if NewbieGuideWrap.GetButton(1) ~= nil then
+		if NewbieGuideWrap.GetButton(104) ~= nil then
+			NewbieGuideWrap.Lock2D(0)
+			NewbieGuideWrap.Lock3D(0)
+			clickButton(104,'task13_6')
+		else
+			if NewbieGuideWrap.GetTower(13,1,false) ~= nil then
+				task13_1()
+			end
+		end
+	end	
+end
+
+function task13_6()
+	if NewbieGuideWrap.GetTower(13,1,true) ~= nil then	
+		clickButton(104,'task13_7')
+		NewbieGuideWrap.ShowDes(1,'点击立即结束按钮，可以快速完成建造',Vector3.New(0,0,0),Vector3.New(1,1,1))
+	end
+end
+
+function task13_7()
+	if NewbieGuideWrap.GetTower(13,1,true) ~= nil then	
+		clickButton(11,'')
+		--NewbieGuideWrap.ShowDes(3,'立即完成建造，五分钟以下免费',Vector3.New(0,0,0),Vector3.New(1,1,1))
+	end	
+end
+
+
+
+function task14_1()  ---战车工厂升级  3级
+	aaa = NewbieGuideWrap.GetArmyFac_NoArmy()
+	--[[if  myfindBuildingisinbuild(GetBuilding(),13,2,false) then]]--
+	if NewbieGuideWrap.GetTower(13,1,true) == nil then
+		NewbieGuideWrap.Lock3D(1)		
+		clickTower(13,1,false,'task14_2')
+		--NewbieGuideWrap.ShowTowerAllUI(2,90,Vector3.New(0,0,0),NewbieGuideWrap.GetTower(13,1,false))
+		--NewbieGuideWrap.NextNewbi('task14_2')
+		--clickTower(13,1,false,'task10_2')
+	else
+		NewbieGuideWrap.Lock2D(0)
+		NewbieGuideWrap.Lock3D(0)
+	end
+end
+
+function task14_2() 
+	print('1111111111')
+	clickButton(20,'task14_3')
+end
+
+function task14_3()
+	clickButton(21,'task14_4')
+
+end
+
+function task14_4()
+	if NewbieGuideWrap.GetTower(13,1,true) ~= nil then
+		NewbieGuideWrap.LockTaskByNewBie(1)
+		NewbieGuideWrap.NextNewbi('')
+		NewbieGuideWrap.Lock3D(0)
+	end
+end
+
+function task15_1()  ---建造灰熊坦克
+	aaa = NewbieGuideWrap.GetArmyFac_NoArmy()
+	--if findBuilding(GetBuilding(),13,2) then
+		print('1111111111')
+		if NewbieGuideWrap.GetSoliderFuncingNumByGa(aaa)+NewbieGuideWrap.GetSoliderFuncedNumByGa(aaa)<6 then
+			NewbieGuideWrap.ShowTowerAllUI(2,90,Vector3.New(0,0,0),aaa)
+			NewbieGuideWrap.NextNewbi('task15_2')
+			NewbieGuideWrap.ShowForceGuide(aaa,0)
+			--clickTower(13,1,false,'task11_2')
+		end
+	--end
+end
+
+function task15_2()
+	if NewbieGuideWrap.GetButton(-6) ~= nil then
+		if NewbieGuideWrap.GetResource(1) >= 787 then
+			clickButton(-6,'task15_3')
+		else
+			clickButton(-6,'')
+			NewbieGuideWrap.ShowDes(1,'金币不足',Vector3.New(0,0,0),Vector3.New(1,1,1))
+		end
+	end
+end
+
+function task15_3()
+    local x = NewbieGuideWrap.GetSoliderFuncingNumByGa(aaa)+NewbieGuideWrap.GetSoliderFuncedNumByGa(aaa)
+    print('111111'..x)
+	if x< 4 then
+		task15_2()
+	end
+end
+
+
+function task16_1()    --副本第二章第一关
+	clickButton(59,'')
+end
+
+
+function task17_1()  ---雷达升级
+	if NewbieGuideWrap.GetTower(10,1,false) ~= nil then
+		clickTower(10,1,false,'task17_2')
+	end
+end
+
+function task17_2() 
+	clickButton(20,'task17_3')
+end
+
+function task17_3()
+	clickButton(21,'task17_4')
+
+end
+
+function task17_4()
+	NewbieGuideWrap.LockTaskByNewBie(1)
+	NewbieGuideWrap.NextNewbi('')
+end
+
+function task18_1()     --打玩家两次
+	clickButton(8,'')
+end
+
+
+function task19_1()   --进入排行榜  没有奖励
+
+end
+
+
+function task20_1()  ---雷达升级3级
+	if NewbieGuideWrap.GetTower(10,1,true) ~= nil then
+		task20_4()
+	else
+		clickTower(10,1,false,'task20_2')
+	end
+end
+
+function task20_2() 
+	clickButton(20,'task20_3')
+end
+
+function task20_3()
+	clickButton(21,'task20_4')
+
+end
+
+function task20_4()
+	NewbieGuideWrap.LockTaskByNewBie(1)
+	NewbieGuideWrap.NextNewbi('')
+end
+
+
+function task21_1()     --攻打玩家3次
+	clickButton(8,'')
+
+end
+
+
+function task22_1()  ---司令部升级  Lv4
+
+		if NewbieGuideWrap.GetTower(1,1,true) == nil and findBuilding(GetBuilding(),1,3) then
+			clickTower(1,1,false,'task22_2')
+			NewbieGuideWrap.ShowDes(3,'点击司令部',Vector3.New(0,0,0),Vector3.New(1,1,1))
+		elseif NewbieGuideWrap.GetTower(1,1,true) ~= nil then
+			clickTower(1,1,false,'')
+			print('222')
+			NewbieGuideWrap.ShowDes(3,'建筑正在建造中，您可以使用立即完成',Vector3.New(0,0,0),Vector3.New(1,1,1))			
+		elseif NewbieGuideWrap.GetTower(1,1,false) == nil and findBuilding(GetBuilding(),1,4) then
+			NewbieGuideWrap.NextNewbi('')
+		end
+end
+
+
+function task22_2() 
+	clickButton(20,'task22_3')
+	NewbieGuideWrap.ShowDes(3,'点击升级按钮，进入建筑物升级界面',Vector3.New(0,0,0),Vector3.New(1,1,1))
+end
+
+function task22_3()
+	clickButton(21,'')
+	if NewbieGuideWrap.GetResource(2)>=12500 then
+		NewbieGuideWrap.ShowDes(1,'点击按钮，立即进入建筑物升级',Vector3.New(0,0,0),Vector3.New(1,1,1))	
+		NewbieGuideWrap.LockTaskByNewBie(1)
+	else
+		NewbieGuideWrap.ShowDes(1,'您的石油资源不足',Vector3.New(0,0,0),Vector3.New(1,1,1))	
+	end
+end
+
+
+function task23_1()  ---发电厂升级
+	if NewbieGuideWrap.GetTower(62,1,false) ~= nil and NewbieGuideWrap.GetTower(62,1,true) == nil then
+		clickTower(62,1,false,'task23_2')
+	else
+		if NewbieGuideWrap.GetTower(62,1,true) ~= nil then
+			task23_4()
+		end
+	end
+end
+
+function task23_2() 
+	clickButton(20,'task23_3')
+end
+
+function task23_3()
+	clickButton(21,'task23_4')
+
+end
+
+function task23_4()
+	if NewbieGuideWrap.GetTower(62,1,true) ~= nil then
+		NewbieGuideWrap.LockTaskByNewBie(1)
+		NewbieGuideWrap.NextNewbi('')
+	else
+		NewbieGuideWrap.Lock2D(0)
+		NewbieGuideWrap.Lock3D(0)
+	end
+end
+
+
+function task24_1()     --Npc进攻2
+ 
+end
+
+
+
+
+function task25_1()	 --建造飞机场
+	if NewbieGuideWrap.GetTower(91,4,false) == nil then
+		clickButton(1,'task25_2')
+	else
+		if NewbieGuideWrap.GetTower(91,4,true) ~= nil then
+			task25_5()
+		else
+			NewbieGuideWrap.LockTaskByNewBie(1)
+		end
+	end
+end
+
+function task25_2()
+	clickButton(10,'task25_3')	
+end
+
+function task25_3()
+	clickButton(117,'task25_3_1')	
+end
+function task25_3_1()
+	clickButton(707,'task25_4')
+end
+
+function task25_4()
+	clickButton(4,'task25_5')	
+	NewbieGuideWrap.LockTaskByNewBie(1)
+end
+
+
+function task25_5()			---立即结束CD
+	if NewbieGuideWrap.GetTower(91,1,false) ~= nil then	
+		if NewbieGuideWrap.GetTower(91,1,true) ~= nil then	
+			clickTower(91,1,true,'task25_6')
+			NewbieGuideWrap.ShowDes(3,'点击正在建造的建筑物',Vector3.New(0,0,0),Vector3.New(1,1,1))
+		else
+			task25_8()
+		end
+	end
+end
+
+function task25_6()
+	--print('step8_7')
+	if NewbieGuideWrap.GetTower(91,1,true) ~= nil then	
+		clickButton(104,'task25_7')
+		NewbieGuideWrap.ShowDes(1,'点击立即结束按钮，可以快速完成建造',Vector3.New(0,0,0),Vector3.New(1,1,1))
+	else
+		task25_8()
+	end
+end
+
+function task25_7()
+	if NewbieGuideWrap.GetTower(91,1,true) ~= nil then	
+		clickButton(11,'task25_8')
+	else
+		NewbieGuideWrap.CloseExpensePanel()
+		NewbieGuideWrap.Lock2D(0)
+		NewbieGuideWrap.Lock3D(0)
+	end
+end
+
+function task25_8()
+	if NewbieGuideWrap.GetTower(91,1,true) == nil  and NewbieGuideWrap.GetTower(91,1,false) ~= nil then
+		NewbieGuideWrap.CloseExpensePanel()
+
+		NewbieGuideWrap.NextNewbi('')
+		NewbieGuideWrap.Lock2D(0)
+		NewbieGuideWrap.Lock3D(0)
+	end
+end
+
+
+
+
+function task26_1()  ---建造阿帕奇
+	--aaa = NewbieGuideWrap.GetArmyFac_NoArmy()
+	aaa=NewbieGuideWrap.GetTower(91,1,false)
+	if NewbieGuideWrap.GetTower(91,1,true) == nil and NewbieGuideWrap.GetTower(91,1,false) ~= nil then
+		
+			NewbieGuideWrap.ShowTowerAllUI(2,90,Vector3.New(0,0,0),aaa)
+			NewbieGuideWrap.NextNewbi('task26_2')
+
+	else
+		NewbieGuideWrap.Lock2D(0)
+		NewbieGuideWrap.Lock3D(0)
+	end
+end
+
+function task26_2()
+ 	local x = NewbieGuideWrap.GetSoliderFuncingNumByGa(aaa)+NewbieGuideWrap.GetSoliderFuncedNumByGa(aaa)
+ 	if x < 1 then
+	if NewbieGuideWrap.GetButton(-5) ~= nil and NewbieGuideWrap.GetResource(1) > 1071 then
+		clickButton(-5,'task26_3')
+	else
+		NewbieGuideWrap.Lock2D(0)
+		NewbieGuideWrap.Lock3D(0)
+		NewbieGuideWrap.ShowDes(1,'金币不足',Vector3.New(0,0,0),Vector3.New(1,1,1))
+		clickButton(-5,'')
+	end
+		else
+			task26_3()
+		end
+end
+
+function task26_3()
+	
+
+     local x = NewbieGuideWrap.GetSoliderFuncingNumByGa(aaa)+NewbieGuideWrap.GetSoliderFuncedNumByGa(aaa)
+     
+     print('111111'..x)
+
+	if x< 1 then
+		task26_2()
+	else
+		if NewbieGuideWrap.GetButton(2210) ~= nil then
+			print('222222')
+			clickButton(2210,'task26_4')
+		end
+	end
+end
+
+function task26_4()
+	print('111111')
+	if NewbieGuideWrap.GetButton(1501) ~= nil then
+		print('222222')
+		clickButton(1501,'')
+
+	else
+		NewbieGuideWrap.Lock2D(0)
+		NewbieGuideWrap.Lock3D(0)
+	end
+end
+
+
+
+function task27_1()     --副本第二章234关
+	clickButton(59,'Open1')
+end
+
+
+
+function task28_1()                 --司令部升级lv5
+	if NewbieGuideWrap.GetTower(1,1,true) ~= nil then
+		task28_4()
+	else
+		clickTower(1,1,false,'task28_2')
+	end
+end
+
+function task28_2()
+	if NewbieGuideWrap.GetButton(20) ~= nil then
+		clickButton(20,'task28_3')
+	else
+		NewbieGuideWrap.Lock2D(0)
+		NewbieGuideWrap.Lock3D(0)
+	end
+end
+function task28_3()
+	if NewbieGuideWrap.GetButton(21) ~= nil then 
+		clickButton(21,'task28_4')
+	else
+		NewbieGuideWrap.Lock2D(0)
+		NewbieGuideWrap.Lock3D(0)
+	end
+end
+
+function task28_4()
+	if NewbieGuideWrap.GetTower(1,1,true) ~= nil then
+		NewbieGuideWrap.LockTaskByNewBie(1)
+		NewbieGuideWrap.Lock2D(0)
+		NewbieGuideWrap.Lock3D(0)
+		NewbieGuideWrap.NextNewbi('')
+	else
+		NewbieGuideWrap.Lock2D(0)
+		NewbieGuideWrap.Lock3D(0)
+		NewbieGuideWrap.NextNewbi('')
+	end
+end
+
+
+
+function task29_1()  --建造兵营
+	if NewbieGuideWrap.GetTowerNumByIndex(94) == 0 and NewbieGuideWrap.GetResource(2) > 320 then
+		clickButton(1,'task29_2')
+		NewbieGuideWrap.ShowDes(2,'点击打开建造列表',Vector3.New(0,0,0),Vector3.New(1,1,1))
+	else
+		task29_8()
+	end
+end
+
+function task29_2()
+	clickButton(10,'task29_3')
+	NewbieGuideWrap.ShowDes(1,'点击进入支持建筑列表',Vector3.New(0,0,0),Vector3.New(1,1,1))
+end
+
+function task29_3()
+	--print('7-2')
+	NewbieGuideWrap.SetBuildingPosition(Vector3.New(26.23,0,36.28))
+	clickButton(58,'task29_3_1')
+	NewbieGuideWrap.ShowDes(2,'点击建造兵营，并进入建造模式',Vector3.New(0,0,0),Vector3.New(1,1,1))
+end
+function task29_3_1()
+	clickButton(707,'task29_4')
+end
+
+function task29_4()
+	--print('7-4')			
+	clickButton(4,'task29_5')
+	NewbieGuideWrap.ShowDes(1,'点击开始建造',Vector3.New(0,0,0),Vector3.New(1,1,1))
+end
+
+function task29_5()			---立即结束CD
+	--if NewbieGuideWrap.GetButton(104) ~= nil then
+	--	step10_6()
+	--else
+		if NewbieGuideWrap.GetTower(94,1,false) ~= nil then	
+			if NewbieGuideWrap.GetTower(94,1,true) ~= nil then	
+				clickTower(94,1,true,'task29_6')
+				NewbieGuideWrap.ShowDes(3,'点击正在建造的建筑物',Vector3.New(0,0,0),Vector3.New(1,1,1))
+			else
+				task29_8()
+			end
+		end
+	--end
+end
+
+function task29_6()
+	--print('step8_7')
+	if NewbieGuideWrap.GetTower(94,1,true) ~= nil then	
+		clickButton(104,'task29_7')
+		NewbieGuideWrap.ShowDes(1,'点击立即结束按钮，可以快速完成建造',Vector3.New(0,0,0),Vector3.New(1,1,1))
+	else
+		task29_8()
+	end
+end
+
+function task29_7()
+	--print('step6_8')
+	if NewbieGuideWrap.GetTower(94,1,true) ~= nil then	
+		clickButton(11,'task29_8')
+		--NewbieGuideWrap.ShowDes(3,'立即完成建造，五分钟以下免费',Vector3.New(0,0,0),Vector3.New(1,1,1))
+	end
+end
+
+function task29_8()
+	if NewbieGuideWrap.GetTower(94,1,true) == nil  and NewbieGuideWrap.GetTower(94,1,false) ~= nil then
+		NewbieGuideWrap.CloseExpensePanel()
+
+		NewbieGuideWrap.NextNewbi('')
+		NewbieGuideWrap.Lock2D(0)
+		NewbieGuideWrap.Lock3D(0)
+	end
+end
+
+function task30_1()  ---鲍里斯出战
+	if NewbieGuideWrap.ComandoIndexInFight() ==1 then
+	    NewbieGuideWrap.Lock2D(0)
+	    NewbieGuideWrap.Lock3D(0)	
+	else
+		 clickTower(94,1,false,'task30_2')
+    end
+end
+
+function task30_2()
+	if NewbieGuideWrap.ComandoIndexInFight() ~=1 then
+	   clickButton(-5,'')
+    end
+	NewbieGuideWrap.Lock2D(0)
+	NewbieGuideWrap.Lock3D(0)	
+end
+
+
+function task31_1()  ---鲍里斯升级
+	if NewbieGuideWrap.GetTower(94,1,true) == nil then
+		clickTower(94,1,false,'task31_2')
+	else
+		clickTower(94,1,false,'')
+		NewbieGuideWrap.ShowDes(1,'兵营正在升级中，可使用立即结束功能',Vector3.New(0,0,0),Vector3.New(1,1,1))
+	end
+end
+
+function task31_2()
+	if NewbieGuideWrap.GetButton(508) ~= nil then
+		clickButton(508,'task31_3')
+	end
+end
+
+function task31_3()
+	if NewbieGuideWrap.GetButton(10103) ~= nil then
+		clickButton(10103,'')
+	else
+		NewbieGuideWrap.Lock2D(0)
+		NewbieGuideWrap.Lock3D(0)
+	end
+end
+
+
+function task32_1()     --副本第三章1/2
+	clickButton(59,'')
+end
+
+
+
+function task33_1()  ---鲍里斯升星
+	if NewbieGuideWrap.GetTower(94,1,true) == nil then
+		clickTower(94,1,false,'task33_2')
+	else
+		clickTower(94,1,false,'')
+		NewbieGuideWrap.ShowDes(1,'兵营正在升级中，可使用立即结束功能',Vector3.New(0,0,0),Vector3.New(1,1,1))
+	end
+end
+
+function task33_2()
+	if NewbieGuideWrap.GetButton(508) ~= nil then
+		clickButton(508,'task33_3')
+	end
+end
+
+function task33_3()
+	if NewbieGuideWrap.GetButton(10106) ~= nil then
+		clickButton(10106,'')
+	end
+end
+
+
+
+function task34_1()     --副本第三章78关
+	clickButton(59,'')
+end
+
+
+function task35_1()                 --司令部升级lv6
+	if NewbieGuideWrap.GetTower(1,1,true) ~= nil then
+		task35_4()
+	else
+		clickTower(1,1,false,'task35_2')
+	end
+end
+
+function task35_2()
+	if NewbieGuideWrap.GetButton(20) ~= nil then
+		clickButton(20,'task35_3')
+	else
+		NewbieGuideWrap.Lock2D(0)
+		NewbieGuideWrap.Lock3D(0)
+	end
+end
+function task35_3()
+	if NewbieGuideWrap.GetButton(21) ~= nil then 
+		clickButton(21,'task35_4')
+	else
+		NewbieGuideWrap.Lock2D(0)
+		NewbieGuideWrap.Lock3D(0)
+	end
+end
+
+function task35_4()
+	if NewbieGuideWrap.GetTower(1,1,true) ~= nil then
+		NewbieGuideWrap.LockTaskByNewBie(1)
+		NewbieGuideWrap.Lock2D(0)
+		NewbieGuideWrap.Lock3D(0)
+		NewbieGuideWrap.NextNewbi('')
+	else
+		NewbieGuideWrap.Lock2D(0)
+		NewbieGuideWrap.Lock3D(0)
+		NewbieGuideWrap.NextNewbi('')
+	end
+end
+
+
+function task36_1()				---建造炼钢厂
+	clickButton(1,'task36_2')
+end
+
+
+function task36_2()				
+	clickButton(7,'task36_3')
+end
+
+
+function task36_3()
+	clickButton(125,'task36_3_1')
+end
+function task36_3_1()
+	clickButton(707,'task36_4')
+end
+
+function task36_4()			
+	clickButton(4,'task36_4_1')
+	NewbieGuideWrap.ShowDes(1,'点击开始建造',Vector3.New(0,0,0),Vector3.New(1,1,1))
+	
+end
+
+function task36_4_1()
+	if NewbieGuideWrap.GetTower(8,1,false) ~= nil then
+		NewbieGuideWrap.LockTaskByNewBie(1)
+		NewbieGuideWrap.NextNewbi('')
+	end
+end
+
+
+
+function task37_1()				---建造钢铁仓库
+	clickButton(1,'task37_2')
+end
+
+
+function task37_2()		
+	clickButton(7,'task37_3')
+end
+
+
+function task37_3()
+	clickButton(60,'task37_3_1')
+end
+
+function task37_3_1()
+	clickButton(707,'task37_4')
+end
+function task37_4()
+	clickButton(4,'task37_4_1')
+	NewbieGuideWrap.ShowDes(1,'点击开始建造',Vector3.New(0,0,0),Vector3.New(1,1,1))
+	
+end
+
+function task37_4_1()
+	if NewbieGuideWrap.GetTower(4,1,false) ~= nil then
+		NewbieGuideWrap.LockTaskByNewBie(1)
+		NewbieGuideWrap.NextNewbi('')
+	end
+end
+
+
+
+function task38_1()  --建造科技中心
+	if NewbieGuideWrap.GetTower(11,1,true) ~= nil then
+		task38_5()
+	else
+		clickButton(1,'task38_2')
+	end
+end
+
+function task38_2()
+	if NewbieGuideWrap.GetButton(112) == nil then
+		clickButton(702,'task38_3')
+	else
+		task38_3()
+	end
+end
+
+function task38_3()  --建造科技中心
+	clickButton(112,'task38_3_1')	
+end
+function task38_3_1()
+	clickButton(707,'task38_4')
+end
+
+function task38_4()  --建造科技中心
+	clickButton(4,'')
+	NewbieGuideWrap.LockTaskByNewBie(1)	
+	NewbieGuideWrap.LockTaskByNewBie(1)
+end
+
+
+
+
+
+function task39_1() --制造技能
+--[[
+	if NewbieGuideWrap.IsSkillIDInBag(12) == 0 then
+		if NewbieGuideWrap.GetResource(1) >= 10000 then ]]
+			if NewbieGuideWrap.GetTower(11,1,false) ~= nil then
+				clickTower(11,1,false,'task39_2')
+			end
+			--[[
+		end
+	else
+		if NewbieGuideWrap.IsSkillIDInBattle(12) == 0 then
+			task39_6()
+		else
+			task39_9()
+		end
+	end
+	]]
+end
+
+function task39_2()
+	if NewbieGuideWrap.GetButton(510) ~= nil then
+		clickButton(510,'') --task39_3
+	end
+end
+
+function task39_3()
+	if NewbieGuideWrap.GetButton(2622) ~= nil then
+		clickButton(2622,'task39_5')
+	end
+end
+--[[
+function task39_4()
+	if NewbieGuideWrap.GetButton(2626) ~= nil then
+		clickButton(2626,'task39_4_1')
+	else
+		NewbieGuideWrap.NextNewbi('task39_4')
+	end
+end
+
+function task39_4()
+	if NewbieGuideWrap.GetButton(11) ~= nil then
+		clickButton(11,'task39_5')
+	end
+end]]
+
+function task39_5()
+	if NewbieGuideWrap.GetButton(2606) ~= nil then
+		clickButton(2606,'task39_6')
+	end
+end
+
+function task39_6()
+	if NewbieGuideWrap.GetTower(11,1,false) ~= nil then
+		clickTower(11,1,false,'task39_7')
+	end
+end
+
+function task39_7()
+	if NewbieGuideWrap.GetButton(511) ~= nil then
+		clickButton(511,'task39_8')
+	else
+		task39_6()
+	end
+end
+
+function task39_8()
+	if NewbieGuideWrap.GetButton(110) ~= nil then
+		clickButton(110,'Open1')
+	end
+end
+
+function task39_9() --PVP
+	if NewbieGuideWrap.GetButton(121) ~= nil then
+		clickButton(121,'task39_10')
+	end
+end
+function task39_10() --PVP
+	if NewbieGuideWrap.GetButton(1800) ~= nil then
+		clickButton(1800,'task39_11')
+	end
+end
+function task39_11() --PVP
+	if NewbieGuideWrap.GetSkillButtonFightByIndex(0) ~= nil then
+		NewbieGuideWrap.ShowButtonAllUI(2,90,Vector3.New(0,0,0),NewbieGuideWrap.GetSkillButtonFightByIndex(0))
+		NewbieGuideWrap.NextNewbi('task39_12')
+	end
+end
+function task39_12() --PVP
+	clickTower(1,4,false,'')
+	NewbieGuideWrap.TaskByNewBieOver()
+end
+
+
+function task41_1()    --副本第三章
+	clickButton(59,'')
+end
+
+function task42_1()    --副本第四章
+	clickButton(59,'')
+end
+
+function task43_1()                 --司令部升级lv7
+	if NewbieGuideWrap.GetTower(1,1,true) ~= nil then
+		task43_4()
+	else
+		clickTower(1,1,false,'task43_2')
+	end
+end
+
+function task43_2()
+	if NewbieGuideWrap.GetButton(20) ~= nil then
+		clickButton(20,'task43_3')
+	else
+		NewbieGuideWrap.Lock2D(0)
+		NewbieGuideWrap.Lock3D(0)
+	end
+end
+function task43_3()
+	if NewbieGuideWrap.GetButton(21) ~= nil then 
+		clickButton(21,'task43_4')
+	else
+		NewbieGuideWrap.Lock2D(0)
+		NewbieGuideWrap.Lock3D(0)
+	end
+end
+
+function task43_4()
+	if NewbieGuideWrap.GetTower(1,1,true) ~= nil then
+		NewbieGuideWrap.LockTaskByNewBie(1)
+		NewbieGuideWrap.Lock2D(0)
+		NewbieGuideWrap.Lock3D(0)
+		NewbieGuideWrap.NextNewbi('')
+	else
+		NewbieGuideWrap.Lock2D(0)
+		NewbieGuideWrap.Lock3D(0)
+		NewbieGuideWrap.NextNewbi('')
+	end
+end
+
+function task74_1()
+	clickTower(6,1,false,'task74_2')
+end
+
+function task74_2() 
+	print('1111111111')
+	clickButton(20,'task74_3')
+end
+
+function task74_3()
+	clickButton(21,'task74_4')
+
+end
+
+function task74_4()
+	if NewbieGuideWrap.GetTower(6,1,true) ~= nil then
+		NewbieGuideWrap.LockTaskByNewBie(1)
+		NewbieGuideWrap.NextNewbi('')
+	end
+end
+
+function task75_1()
+	clickTower(7,1,false,'task75_2')
+end
+
+function task75_2() 
+	print('1111111111')
+	clickButton(20,'task75_3')
+end
+
+function task75_3()
+	clickButton(21,'task75_4')
+
+end
+
+function task75_4()
+	if NewbieGuideWrap.GetTower(7,1,true) ~= nil then
+		NewbieGuideWrap.LockTaskByNewBie(1)
+		NewbieGuideWrap.NextNewbi('')
+	end
+end
+
+function task76_1()
+	clickTower(2,1,false,'task76_2')
+end
+
+function task76_2() 
+	print('1111111111')
+	clickButton(20,'task76_3')
+end
+
+function task76_3()
+	clickButton(21,'task76_4')
+
+end
+
+function task76_4()
+	if NewbieGuideWrap.GetTower(2,1,true) ~= nil then
+		NewbieGuideWrap.LockTaskByNewBie(1)
+		NewbieGuideWrap.NextNewbi('')
+	end
+end
+
+function task77_1()
+	clickTower(3,1,false,'task77_2')
+end
+
+function task77_2() 
+	print('1111111111')
+	clickButton(20,'task77_3')
+end
+
+function task77_3()
+	clickButton(21,'task77_4')
+
+end
+
+function task77_4()
+	if NewbieGuideWrap.GetTower(3,1,true) ~= nil then
+		NewbieGuideWrap.LockTaskByNewBie(1)
+		NewbieGuideWrap.NextNewbi('')
+	end
+end
+
+function task78_1()
+	clickTower(62,1,false,'task78_2')
+end
+
+function task78_2() 
+	print('1111111111')
+	clickButton(20,'task78_3')
+end
+
+function task78_3()
+	clickButton(21,'task78_4')
+
+end
+
+function task78_4()
+	if NewbieGuideWrap.GetTower(62,1,true) ~= nil then
+		NewbieGuideWrap.LockTaskByNewBie(1)
+		NewbieGuideWrap.NextNewbi('')
+	end
+end
+
+function task79_1()
+	clickTower(13,1,false,'task79_2')
+end
+
+function task79_2() 
+	print('1111111111')
+	clickButton(20,'task79_3')
+end
+
+function task79_3()
+	clickButton(21,'task79_4')
+
+end
+
+function task79_4()
+	if NewbieGuideWrap.GetTower(13,1,true) ~= nil then
+		NewbieGuideWrap.LockTaskByNewBie(1)
+		NewbieGuideWrap.NextNewbi('')
+	end
+end
+
+function task80_1()
+	clickButton(1,'')
+end
+
+function task81_1()
+	clickTower(17,1,false,'task81_2')
+end
+
+function task81_2() 
+	print('1111111111')
+	clickButton(20,'task81_3')
+end
+
+function task81_3()
+	clickButton(21,'task81_4')
+
+end
+
+function task81_4()
+	if NewbieGuideWrap.GetTower(17,1,true) ~= nil then
+		NewbieGuideWrap.LockTaskByNewBie(1)
+		NewbieGuideWrap.NextNewbi('')
+	end
+end
+
+function task90_1()
+	clickTower(16,1,false,'task90_2')
+end
+
+function task90_2() 
+	print('1111111111')
+	clickButton(20,'task90_3')
+end
+
+function task90_3()
+	clickButton(21,'task90_4')
+
+end
+
+function task90_4()
+	if NewbieGuideWrap.GetTower(16,1,true) ~= nil then
+		NewbieGuideWrap.LockTaskByNewBie(1)
+		NewbieGuideWrap.NextNewbi('')
+	end
+end
+
+local swichGroup = {
+	[1] = function()
+		Group1()
+	end,
+	[2] = function()
+		Group2()
+	end,
+	[3] = function()
+		Group3()
+	end,	
+	[4] = function()
+		Group4()
+	end,
+	[5] = function()
+		Group5()
+	end,
+	[6] = function()
+		Group6()
+	end,
+	[7] = function()
+		Group7()
+	end,
+	[8] = function()
+		Group8()
+	end,
+	[9] = function()
+		Group9()
+	end,
+	[10] = function()
+		Group10()
+	end,
+	[11] = function()
+		Group11()
+	end,
+	[12] = function()
+		Group12()
+	end,
+	[13] = function()
+		Group13()
+	end,
+	[14] = function()
+		Group14()
+	end,
+	[15] = function()
+		Group15()
+	end,
+	[16] = function()
+		Group16()
+	end,
+	[17] = function()
+		Group17()
+	end,
+}
+
+local swithStep = {
+	[1] = function()
+		step1_0()
+	end,
+	[2] = function()
+		step2_1()
+	end,
+	[3] = function()
+		step3_1()
+	end,
+	[4] = function()
+		step4_1()
+	end,
+	[5] = function()
+		step5_1()
+	end,
+	[6] = function()
+		step6_1()
+	end,	
+	[7] = function()
+		step7_1()
+	end,
+	[8] = function()
+		step8_1()
+	end,
+	[9] = function()
+		step9_1()
+	end,
+	[10] = function()
+		step10_1()
+	end,
+	[11] = function()
+		step11_1()
+	end,
+	[12] = function()
+		step12_1()
+	end,
+	[13] = function()
+		step13_1()
+	end,
+	[14] = function()
+		step14_1()
+	end,
+	[15] = function()
+		step15_1()
+	end,
+	[16] = function()
+		step16_1()
+	end,
+	[17] = function()
+		step17_1()
+	end,		
+}
+
+function Open1(groupId)
+	Open(MyGroupId)
+end
+
+ myContinue = false
+
+function Open(groupId)
+	MyGroupId = groupId
+	NewbieGuideWrap.NextNewbi('Open1')
+	print('aaaaaaaaaaaaaid'..MyGroupId)
+	while groupId <= table.getn(swichGroup)
+	do
+		local IsStartGroup = swichGroup[groupId]  --组条件
+		if IsStartGroup then 
+			IsStartGroup()
+			if IsOpen == true then
+				--print('trueGroupId='..groupId)
+				local Step = swithStep[groupId] --
+				if Step then
+					Step()
+					myContinue = false
+				end
+				return
+			else
+				if myContinue == true then
+					--print('11111')
+					return
+				else
+					--print('22222')
+					NewbieGuideWrap.NextNewbi('Open1')
+				end
+			end
+		end
+		print('groupId='..groupId)
+		groupId = groupId + 1
+		IsOpen = false
+	end
+	
+end
+
+
+
+module('Test', package.seeall)
+
+function DoJob()
+	 print('Test.DoJob.................Test.DoJob.................Test.DoJob...........................')
+end
+
+function PlayEffect()
+	
+end

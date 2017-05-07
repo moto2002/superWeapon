@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="该位置不允许放建筑" value="Not allowed there" />
+	<configure id="建筑设定不存在{0}" value="Building settings not exist" />
+	<configure id="有建筑正在建造" value="Building under construction" />
+	<configure id="建筑不存在" value="Building not exist" />
+	<configure id="建筑等级不够" value="Building level not enough" />
+	<configure id="建筑不允许建造" value="Not allowed to build" />
+	<configure id="建筑不允许移除" value="Not allowed to remove" />
+	<configure id="建筑不在cd中" value="Building is cooling down" />
+	<configure id="建筑等级达上限" value="Building level Maxed" />
+	<configure id="建筑队列达上限" value="Builder teams Maxed" />
+	<configure id="强化等级达到上限" value="Enhance level Maxed" />
+	<configure id="升阶等级达到上限" value="Advance level Maxed" />
+	<configure id="资源不足" value="Resource not enough" />
+	<configure id="等级已经到顶级了" value="Level Maxed" />
+	<configure id="道具不足" value="Not enough items" />
+	<configure id="体力不足" value="Not enough energy" />
+	<configure id="玩家等级不够" value="Player level not enough" />
+	<configure id="账户已经存在" value="Account already exist" />
+	<configure id="设定数据不存在" value="Setting data not exist" />
+	<configure id="钻石不够" value="Not enough diamond" />
+	<configure id="资源已达到上限" value="Resources Maxed" />
+	<configure id="没有足够的次数" value="Not enough chance" />
+	<configure id="积分不够" value="Not enough points" />
+	<configure id="错误的参数" value="Wrong parameter" />
+	<configure id="已经领取过奖励" value="Rewards collected already" />
+	<configure id="玩家数据异常" value="Player data error" />
+	<configure id="资源达到购买上限" value="Purchasing limitation reached" />
+	<configure id="数据不一致" value="Data not consistent" />
+	<configure id="该时间段不允许" value="Not the time" />
+	<configure id="数量达到上限" value="Quantity Maxed" />
+	<configure id="您还不是月卡VIP" value="You are not Month Card VIP" />
+	<configure id="购买金币类型错误" value="Wrong gold type" />
+	<configure id="名字含有非法字符" value="Invalid characters" />
+	<configure id="名字已重复" value="The name exists already" />
+	<configure id="游戏暂停" value="Please wait for the server launch" />
+	<configure id="账号封停" value="Account banned" />
+	<configure id="禁言" value="Mute" />
+	<configure id="登录验证失败" value="Verification failed" />
+	<configure id="账号名过长" value="Account name too long" />
+	<configure id="兵种等级不够" value="Army level not enough" />
+	<configure id="指挥官等级不够" value="Commander level not enough" />
+	<configure id="副官派遣的类型重复" value="Adjutant type repeated" />
+	<configure id="副官合成参数数量错误" value="Adjutant synthesize parameter error" />
+	<configure id="副官数量不足,无法合成" value="Not enough Adjutant, can not synthesize" />
+	<configure id="副官合成星级不同" value="Adjutant synthesis star level not same" />
+	<configure id="副官星级到顶级了" value="Adjutant star level full" />
+	<configure id="兵种星级不够" value="Army star level not enough" />
+	<configure id="指挥官技能不存在" value="Commander skill not exist" />
+	<configure id="指挥官天赋不存在" value="Commander Talent not exist" />
+	<configure id="指挥官军衔不够" value="Commander military rank not enough" />
+	<configure id="技能点数不够" value="Skill points not enough" />
+	<configure id="天赋点数不够" value="Talent points not enough" />
+	<configure id="配兵错误,你不存在该兵种" value="Army matching error, you do not have the army" />
+	<configure id="不存在该科技" value="Technology not exist" />
+	<configure id="指挥官使用道具类型错误" value="Commander using wrong item type" />
+	<configure id="指挥官招募错误" value="Commander recruit error" />
+	<configure id="达到招募背包上限" value="Recruit bag Maxed" />
+	<configure id="该类型指挥官已存在" value="Commander type already exist" />
+	<configure id="该指挥官已经冻结" value="The commander has been frozen" />
+	<configure id="指挥官等级不能高于玩家等级" value="Commander level can not be higher than player level" />
+	<configure id="指挥官装备错误" value="Commander equipment error" />
+	<configure id="合成装备品质错误" value="Synthesis item quality error" />
+	<configure id="装备不足" value="Not enough items" />
+	<configure id="品质达到上限,不能进行合成" value="Quality topped, can not synthesize" />
+	<configure id="指挥官升阶道具不足" value="Not enough items to advance commander" />
+	<configure id="指挥官满阶,不能升阶" value="Commander fully advanced already" />
+	<configure id="指挥官升阶道具错误" value="Commander advance items error" />
+	<configure id="不能合成已装备的装备" value="Can not synthesize equipped items" />
+	<configure id="传入装备错误" value="Wrong equipment" />
+	<configure id="传入指挥官错误" value="Wrong commander" />
+	<configure id="巡逻点配兵波数错误" value="Patrol spot army batch error" />
+	<configure id="指挥官升级金币不足" value="Not enough gold to upgrade commander" />
+	<configure id="装备已达上限" value="Equipment Maxed" />
+	<configure id="兵种未开放" value="Army locked" />
+	<configure id="兵种cd池达到上限" value="Army CD pool Maxed" />
+	<configure id="云层组已经被打开" value="Cloud group has been unfolded" />
+	<configure id="雷达等级不够" value="Radar level not enough" />
+	<configure id="该岛屿无法侦查" value="Can not detect the island" />
+	<configure id="不能侦查自己" value="Can not detect yourself" />
+	<configure id="世界地图未开放" value="World Map locked" />
+	<configure id="获取岛屿数据失败" value="Obtain island data failed" />
+	<configure id="客户端service请求参数信息不完整" value="Terminal service request parameter info not complete" />
+	<configure id="客户端action请求参数信息不完整" value="Terminal action request parameter info not complete" />
+	<configure id="客户端请求的服务不存在" value="The service terminal requested not exist." />
+	<configure id="客户端请求的服务方法不存在" value="The service method terminal requested not exist." />
+	<configure id="客户端请求已经被执行过" value="Terminal request executed" />
+	<configure id="客户端请求的action不存在" value="The action terminal requested not exist." />
+	<configure id="客户端请求过快" value="Terminal request too frequent" />
+	<configure id="session失效" value="session invalid" />
+	<configure id="session没有创建" value="session not created" />
+	<configure id="已经异地登录" value="Account logged in at other device" />
+	<configure id="客户端版本太低" value="Terminal version low" />
+	<configure id="请求cmd为空或null" value="Request cmd is empty or null" />
+	<configure id="userid为空" value="userid is empty" />
+	<configure id="请求序列号为空" value="Request serial number is empty" />
+	<configure id="请求序列号重复" value="Request serial number is repeated" />
+	<configure id="服务器报错" value="Server error" />
+	<configure id="session创建失败" value="session creation failed" />
+	<configure id="资源对比xml文件不存在或者文件中没有数据" value="Resource comparison xml file not exist or no data in the file" />
+	<configure id="服务器验证请求序列号失败" value="Server verification serial number request failed" />
+	<configure id="未知异常" value="Unknown error" />
+	<configure id="锁失败" value="Lock failed" />
+	<configure id="未启动到world的连接" value="Link not started to world" />
+	<configure id="未成功连接到world" value="Failed linking to world" />
+	<configure id="战斗不合法" value="Battle not legal" />
+	<configure id="岛屿正在遭受攻击" value="Island is under attack" />
+	<configure id="战斗已经结算" value="Battle has been settled" />
+	<configure id="上一场战斗还未结束" value="The last battle is still under going" />
+	<configure id="战场未开放" value="Battle locked" />
+	<configure id="军令不足" value="Not enough Orders" />
+	<configure id="战报不存在" value="Battle report not exist" />
+	<configure id="超过复仇期限" value="Revenge expired" />
+	<configure id="不能复仇" value="Can not revenge" />
+	<configure id="不能领取" value="Can not collect" />
+	<configure id="战役未开放" value="Battle locked" />
+	<configure id="战役星级奖励已领取" value="Battle star rewards collected" />
+	<configure id="战役星级奖励无法领取,星数不够" value="Not stars to collect battle rewards" />
+	<configure id="探索令不足" value="Explore Order not enough" />
+	<configure id="不能与自己发起战斗" value="Can not fight with yourself" />
+	<configure id="通关奖励已领取" value="Map clearing rewards collected" />
+	<configure id="没有可领取的战役箱子" value="Not battle chest available" />
+	<configure id="章节奖励箱子不可领" value="Chapter reward chest not available" />
+	<configure id="奖励已领取,或者没有奖励" value="Rewards collected or no reward" />
+	<configure id="任务已完成" value="Quest finished" />
+	<configure id="任务未完成" value="Quest unfinished" />
+	<configure id="任务需要重置" value="Quest need to reset" />
+	<configure id="已达到最高成就" value="Achievement Maxed" />
+	<configure id="成就还未完成" value="Achievement to be completed" />
+	<configure id="没有加入军团" value="You joined no guild" />
+	<configure id="邮件已经删除" value="Mailed deleted" />
+	<configure id="无法领取邮件附件" value="Can not collect the mail attachment" />
+	<configure id="附件已领取" value="Attachment collected" />
+	<configure id="物品已卖完" value="Items sold out" />
+	<configure id="没有足够的刷新次数" value="Not enough refresh chance" />
+	<configure id="活动已结束" value="The event is over" />
+	<configure id="没有足够的补签次数" value="Not enough chance to make up" />
+	<configure id="不能补签" value="Can not make up" />
+	<configure id="不满足领取条件" value="Requirement unsatisfied" />
+	<configure id="需要先派遣副官" value="Need to dispatch Adjutant first" />
+	<configure id="等待合成" value="To be synthesized" />
+	<configure id="副官不存在" value="Adjutant not exist" />
+	<configure id="副官已强化" value="Adjutant enhanced" />
+	<configure id="没有需要派遣的副官" value="No Adjutant need to be dispatched" />
+	<configure id="需要副官建筑" value="Need Adjutant building" />
+	<configure id="副官已达到上限" value="Adjutants maxed" />
+	<configure id="礼包号码错误" value="Pack code wrong" />
+	<configure id="礼包过期" value="Pack expired" />
+	<configure id="礼包时间未到" value="It's not bonus pack time" />
+	<configure id="礼包未找到" value="Can not find the pack" />
+	<configure id="礼包号已经使用" value="The pack number has been used" />
+	<configure id="礼包号无法使用" value="The pack number can not be used" />
+	<configure id="不能领取同种类礼包" value="Can not collect the pack of same kind" />
+	<configure id="技能卡碎片不足" value="Skill Card fragment not enough" />
+	<configure id="配置在战场中的技能不能出售" value="Can not sell equipped skilled cards" />
+	<configure id="没有配置在战场中不能释放" value="Can not cast if it's unequipped" />
+	<configure id="技能卡id错误" value="Wrong Skill Card id" />
+	<configure id="卡槽位置错误" value="Slot position wrong" />
+	<configure id="技能仓库已满" value="Skill house full" />
+	<configure id="技能卡使用错误" value="Wrong usage of Skill Card" />
+	<configure id="技能卡出售错误" value="Error on selling skill card" />
+	<configure id="技能类型错误" value="Skill type wrong" />
+	<configure id="技能已到满级" value="Skill level Maxed" />
+	<configure id="卡槽已满" value="Slot full" />
+	<configure id="技能卡移除错误" value="Skill Card remove error" />
+	<configure id="抽卡次数有剩余，不能购买" value="Can not buy when there is chance to draw" />
+	<configure id="在线奖励领取错误" value="Online bonus collection error" />
+	<configure id="未匹配到玩家" value="Failed matching with a player" />
+	<configure id="特种兵已经存在,不能重复拥有" value="Special troops exist, can not have more" />
+	<configure id="获得特种兵失败" value="Failed to get special troops." />
+	<configure id="特种兵等级已满" value="Special troops level Maxed" />
+	<configure id="特种兵星级已满" value="Special troops star level Maxed" />
+	<configure id="该特种兵没有被动技能" value="The special troop has no passive skill" />
+	<configure id="特种兵技能等级已满" value="Special troop skill level Maxed" />
+	<configure id="技能点不足" value="Skill points not enough" />
+	<configure id="时间未到，不能复活" value="Time hasn't arrived, can not revive" />
+	<configure id="解锁条件错误" value="Unlock condition error" />
+	<configure id="特种兵等级不足，不能升级技能卡" value="Special troop level not enough to upgrade skill card" />
+	<configure id="特种兵等级不能超过玩家等级" value="Special troop level can not exceed player level" />
+	<configure id="特种兵死亡不能上场" value="Special troop died, can not get in battle" />
+	<configure id="特种兵不在死亡cd中" value="Special troop not in death CD" />
+	<configure id="不在活动时间内,不能领奖" value="Not in event duration, can not collect reward" />
+	<configure id="活动奖励数量不足，不能领取" value="Not enough event reward, can not collect" />
+	<configure id="充值未开放" value="Recharge function locked" />
+</configures>

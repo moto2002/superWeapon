@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" armyIds="7" waves="1" />
+	<configure id="2" armyIds="8" waves="2" />
+	<configure id="3" armyIds="" waves="2" />
+	<configure id="4" armyIds="" waves="3" />
+	<configure id="5" armyIds="" waves="3" />
+	<configure id="6" armyIds="" waves="4" />
+	<configure id="7" armyIds="" waves="4" />
+	<configure id="8" armyIds="" waves="5" />
+	<configure id="9" armyIds="" waves="5" />
+	<configure id="10" armyIds="" waves="5" />
+</configures>

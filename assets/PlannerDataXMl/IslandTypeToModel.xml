@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" islandType="1" bodyId="center_3" scale="0.07,0.07,0.07" angle="" />
+	<configure id="2" islandType="2" bodyId="center_3" scale="0.07,0.07,0.07" angle="" />
+	<configure id="3" islandType="3" bodyId="build7_3" scale="0.07,0.07,0.07" angle="" />
+	<configure id="4" islandType="4" bodyId="build8_3" scale="0.07,0.07,0.07" angle="" />
+	<configure id="5" islandType="5" bodyId="build5_3" scale="0.07,0.07,0.07" angle="" />
+	<configure id="6" islandType="6" bodyId="wbclosed" scale="1,1,1" angle="" />
+	<configure id="7" islandType="7" bodyId="wb1" scale="1,1,1" angle="" />
+	<configure id="8" islandType="8" bodyId="yuri_head" scale="0.8,0.8,0.8" angle="" />
+</configures>

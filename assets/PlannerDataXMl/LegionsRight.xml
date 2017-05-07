@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" name="军团长" num="1" right="1,2,3,4,5,6,8,9,10,11,12" />
+	<configure id="2" name="副军团长" num="3" right="1,2,3,4,6,7,8,11,12" />
+	<configure id="3" name="成员" num="" right="1,7" />
+</configures>

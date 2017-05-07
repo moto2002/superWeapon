@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure language="Traditional" value="Traditional_achieve" />
+	<configure language="Traditional" value="Traditional_Army" />
+	<configure language="Traditional" value="Traditional_Battle" />
+	<configure language="Traditional" value="Traditional_BattleNotice" />
+	<configure language="Traditional" value="Traditional_build" />
+	<configure language="Traditional" value="Traditional_ErrorMassage" />
+	<configure language="Traditional" value="Traditional_item" />
+	<configure language="Traditional" value="Traditional_NPC" />
+	<configure language="Traditional" value="Traditional_others" />
+	<configure language="Traditional" value="Traditional_ResIsland" />
+	<configure language="Traditional" value="Traditional_skill" />
+	<configure language="Traditional" value="Traditional_soldier" />
+	<configure language="Traditional" value="Traditional_Task" />
+	<configure language="Traditional" value="Traditional_technology" />
+	<configure language="Traditional" value="Traditional_Activities" />
+	<configure language="Traditional" value="Traditional_Halftalk" />
+	<configure language="Traditional" value="Traditional_Client" />
+</configures>

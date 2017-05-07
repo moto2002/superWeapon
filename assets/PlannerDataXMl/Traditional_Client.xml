@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="网络错误    " value="網絡錯誤" />
+	<configure id="无网络" value="無網絡" />
+	<configure id="请检查网络重试" value="請檢查網絡重試" />
+	<configure id="退出游戏" value="退出遊戲" />
+	<configure id="重新登录   " value="重新登錄" />
+	<configure id="加载中" value="加載中" />
+	<configure id="检查资源 " value="檢查資源" />
+	<configure id="检查资源完成" value="檢查資源完成" />
+	<configure id="解包中" value="解包中" />
+	<configure id="检查资源更新" value="檢查資源更新" />
+	<configure id="开始解包" value="開始解包" />
+	<configure id="解包完成" value="解包完成" />
+	<configure id="开检查资源更新" value="開始檢查資源更新" />
+</configures>

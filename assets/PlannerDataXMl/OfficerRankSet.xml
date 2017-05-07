@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" name="隆美尔" description="上尉" itemId="1" level="1" officerLevel="1" quality="2" itemCost="15:10" gold="100" skillOpen="1" talentOpen="1" />
+	<configure id="2" name="隆美尔" description="少校" itemId="1" level="2" officerLevel="10" quality="3" itemCost="16:10" gold="100" skillOpen="2" talentOpen="2" />
+	<configure id="3" name="隆美尔" description="中校" itemId="1" level="3" officerLevel="20" quality="3" itemCost="17:10" gold="100" skillOpen="3" talentOpen="3" />
+	<configure id="4" name="隆美尔" description="上校" itemId="1" level="4" officerLevel="30" quality="4" itemCost="18:10" gold="100" skillOpen="3" talentOpen="3" />
+	<configure id="5" name="隆美尔" description="少将" itemId="1" level="5" officerLevel="40" quality="4" itemCost="19:10" gold="100" skillOpen="4" talentOpen="4" />
+	<configure id="6" name="隆美尔" description="中将" itemId="1" level="6" officerLevel="50" quality="4" itemCost="20:10" gold="100" skillOpen="4" talentOpen="4" />
+	<configure id="7" name="隆美尔" description="上将" itemId="1" level="7" officerLevel="60" quality="5" itemCost="21:10" gold="100" skillOpen="5" talentOpen="5" />
+</configures>

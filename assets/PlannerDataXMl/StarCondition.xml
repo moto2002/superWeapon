@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" name="" description="摧毁ID为【参数1】的【参数2】个建筑   参数1：参数2" conditionId="20" contitions="16:1" />
+	<configure id="2" name="" description="携带ID为【参数1】，【参数2】兵种   参数1：0，参数2：0" conditionId="21" contitions="1:0" />
+	<configure id="3" name="" description="携带ID为【参数1】指挥官   参数1：0" conditionId="22" contitions="1:1" />
+	<configure id="4" name="" description="兵种损失少于【参数1】  参数1：0" conditionId="23" contitions="1:80" />
+	<configure id="5" name="" description="兵种损失少于【参数1】  参数1：0" conditionId="23" contitions="1:80" />
+	<configure id="6" name="" description="兵种损失少于【参数1】  参数1：0" conditionId="23" contitions="1:50" />
+	<configure id="7" name="" description="兵种损失少于【参数1】  参数1：0" conditionId="23" contitions="1:25" />
+	<configure id="8" name="" description="摧毁ID为【参数1】的【参数2】个建筑   参数1：参数2" conditionId="20" contitions="1:1" />
+	<configure id="9" name="" description="" conditionId="" contitions="" />
+	<configure id="10" name="" description="" conditionId="" contitions="" />
+	<configure id="11" name="" description="" conditionId="" contitions="" />
+	<configure id="12" name="" description="" conditionId="" contitions="" />
+	<configure id="13" name="" description="" conditionId="" contitions="" />
+	<configure id="14" name="" description="" conditionId="" contitions="" />
+	<configure id="15" name="" description="" conditionId="" contitions="" />
+	<configure id="16" name="" description="" conditionId="" contitions="" />
+	<configure id="17" name="" description="" conditionId="" contitions="" />
+	<configure id="18" name="" description="" conditionId="" contitions="" />
+	<configure id="19" name="" description="" conditionId="" contitions="" />
+	<configure id="20" name="" description="" conditionId="" contitions="" />
+</configures>

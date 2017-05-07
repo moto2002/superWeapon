@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="石油资源岛1" value="Oil Island 1" />
+	<configure id="石油资源岛2" value="Oil Island 2" />
+	<configure id="石油资源岛3" value="Oil Island 3" />
+	<configure id="石油资源岛4" value="Oil Island 4" />
+	<configure id="石油资源岛5" value="Oil Island 5" />
+	<configure id="石油资源岛6" value="Oil Island 6" />
+	<configure id="石油资源岛7" value="Oil Island 7" />
+	<configure id="石油资源岛8" value="Oil Island 8" />
+	<configure id="石油资源岛9" value="Oil Island 9" />
+	<configure id="石油资源岛10" value="Oil Island 10" />
+	<configure id="石油资源岛11" value="Oil Island 11" />
+	<configure id="石油资源岛12" value="Oil Island 12" />
+	<configure id="石油资源岛13" value="Oil Island 13" />
+	<configure id="石油资源岛14" value="Oil Island 14" />
+	<configure id="石油资源岛15" value="Oil Island 15" />
+	<configure id="钢铁资源岛1" value="Iron Island 1" />
+	<configure id="钢铁资源岛2" value="Iron Island 2" />
+	<configure id="钢铁资源岛3" value="Iron Island 3" />
+	<configure id="钢铁资源岛4" value="Iron Island 4" />
+	<configure id="钢铁资源岛5" value="Iron Island 5" />
+	<configure id="钢铁资源岛6" value="Iron Island 6" />
+	<configure id="钢铁资源岛7" value="Iron Island 7" />
+	<configure id="钢铁资源岛8" value="Iron Island 8" />
+	<configure id="钢铁资源岛9" value="Iron Island 9" />
+	<configure id="钢铁资源岛10" value="Iron Island 10" />
+	<configure id="钢铁资源岛11" value="Iron Island 11" />
+	<configure id="钢铁资源岛12" value="Iron Island 12" />
+	<configure id="钢铁资源岛13" value="Iron Island 13" />
+	<configure id="钢铁资源岛14" value="Iron Island 14" />
+	<configure id="钢铁资源岛15" value="Iron Island 15" />
+	<configure id="稀矿资源岛1" value="Ore Island 1" />
+	<configure id="稀矿资源岛2" value="Ore Island 2" />
+	<configure id="稀矿资源岛3" value="Ore Island 3" />
+	<configure id="稀矿资源岛4" value="Ore Island 4" />
+	<configure id="稀矿资源岛5" value="Ore Island 5" />
+	<configure id="稀矿资源岛6" value="Ore Island 6" />
+	<configure id="石油" value="Oil" />
+	<configure id="金币" value="Gold" />
+	<configure id="钢铁" value="Iron" />
+	<configure id="稀矿" value="Lean Ore" />
+	<configure id="钻石" value="Diamond" />
+	<configure id="每小时生产石油" value="Oil production per hour" />
+	<configure id="每小时生产钢铁" value="Iron production per hour" />
+	<configure id="每小时生产稀矿" value="Ore production per hour" />
+	<configure id="每小时生产金币" value="Gold production per hour" />
+	<configure id="石油资源点" value="Oil resource spot" />
+	<configure id="钢铁资源点" value="Iron resource spot" />
+	<configure id="稀矿资源点" value="Ore resource spot" />
+	<configure id="金币资源点" value="Gold resource spot" />
+	<configure id="获取石油" value="Obtain Oil" />
+	<configure id="获取钢铁" value="Obtain Iron" />
+	<configure id="获取稀矿" value="Obtain Ore" />
+	<configure id="获取金币" value="Obtain Gold" />
+	<configure id="获得石油" value="Obtain Oil" />
+	<configure id="获得钢铁" value="Obtain Iron" />
+	<configure id="获得稀矿" value="Obtain Ore" />
+	<configure id="获得金币" value="Obtain Gold" />
+	<configure id="升级司令部可增加购买上限" value="Upgrade Headquarters to buy more" />
+	<configure id="金库已满，请先升级金库建筑等级" value="Treasury full, please upgrade Treasury" />
+	<configure id="储油罐已满，请先升级储油罐建筑等级" value="Oil tank full, please upgrade oil tank" />
+	<configure id="钢铁仓库已满，请先升级钢铁仓库等级" value="Iron hourse full, please upgrade Iron hourse" />
+	<configure id="稀矿仓库已满，请先升级稀矿仓库建筑等级" value="Ore House full, please upgrade Ore House" />
+	<configure id="立即结束冷却" value="End Now" />
+	<configure id="金币购买已达上限（升级司令部可增加金币购买上限）" value="Gold purchase maxed(Upgrade Headquarters to buy more)" />
+	<configure id="石油购买已达上限（升级司令部可增加金币购买上限）" value="Oil purchase maxed(Upgrade Headquarters to buy more)" />
+	<configure id="钢铁购买已达上限（升级司令部可增加金币购买上限）" value="Iron purchase maxed(Upgrade Headquarters to buy more)" />
+	<configure id="稀矿购买已达上限（升级司令部可增加金币购买上限）" value="Ore purchase maxed(Upgrade Headquarters to buy more)" />
+	<configure id="花费金币" value="Cost" />
+	<configure id="金币已达上限（升级司令部可增加金币购买上限）" value="Gold purchase maxed(Upgrade Headquarters to buy more)" />
+	<configure id="石油已达上限（升级司令部可增加金币购买上限）" value="Oil purchase maxed(Upgrade Headquarters to buy more)" />
+	<configure id="钢铁已达上限（升级司令部可增加金币购买上限）" value="Iron purchase maxed(Upgrade Headquarters to buy more)" />
+	<configure id="稀矿已达上限（升级司令部可增加金币购买上限）" value="Ore purchase maxed(Upgrade Headquarters to buy more)" />
+	<configure id="资源奖励" value="Resource Bonus" />
+	<configure id="钻石不足" value="Not enough diamond" />
+	<configure id="您钻石不足，请先充值。" value="Not enough diamond, please recharge." />
+	<configure id="取消" value="Cancel" />
+	<configure id="充值" value="Recharge" />
+	<configure id="免费" value="Free" />
+	<configure id="当前" value="Current" />
+	<configure id="当前金库已满,请提升金库等级" value="Treasury is full, please upgrade Treasury" />
+	<configure id="您的金库放不下这么多金币" value="Not enough space in Treasury for so many gold" />
+	<configure id="钻石不足，请充值" value="Not enough diamonds, please recharge" />
+	<configure id="当前金币已满" value="Gold is full" />
+	<configure id="收集金币" value="Collect gold" />
+	<configure id="当前石油已满" value="Oil full" />
+	<configure id="收集石油" value="Collect oil" />
+	<configure id="当前钢铁已满" value="Iron full" />
+	<configure id="收集钢铁" value="Collect iron" />
+	<configure id="当前稀矿已满" value="Ore full" />
+	<configure id="收集稀矿" value="Collect ore" />
+	<configure id="获取钻石" value="Obtain diamond" />
+	<configure id="金币不足" value="Not enough gold" />
+	<configure id="存储空间不足" value="Your bag is full." />
+	<configure id="资源已满" value="Resource full" />
+	<configure id="升级所需钢铁" value="Steel needed for upgrade" />
+	<configure id="升级所需石油" value="Oil needed for upgrade" />
+	<configure id="升级所需稀矿" value="Ore needed for upgrade" />
+	<configure id="升级所需金币" value="Gold needed for upgrade" />
+	<configure id="一键升级城墙" value="One click to upgrade walls" />
+	<configure id="购买配置坦克所缺金币" value="Buy gold for soldier recruitment" />
+	<configure id="额外赠送" value="Extra bonus" />
+	<configure id="花费  30钻 即可获得 10000金币" value="Cost 30 diamond to get 10000 gold immediately." />
+	<configure id="花费 280钻 即可获得 100000金币" value="Cost 280 diamond to get 100000 gold immediately." />
+	<configure id="花费2500钻 即可获得 1000000金币" value="Cost 2500 diamond to get 1000000 gold immediately." />
+	<configure id="一键补兵花费" value="Cost for one click recruitment" />
+</configures>

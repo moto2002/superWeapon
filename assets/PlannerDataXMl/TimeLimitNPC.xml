@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" description="心灵军团" Level="18-15" npc="1" army1="" army2="" army3="" army4="" army5="" />
+	<configure id="2" description="心灵军团" Level="16-21" npc="1" army1="" army2="" army3="" army4="" army5="" />
+	<configure id="3" description="心灵军团" Level="22-34" npc="1" army1="" army2="" army3="" army4="" army5="" />
+	<configure id="4" description="心灵军团" Level="35-43" npc="1" army1="" army2="" army3="" army4="" army5="" />
+	<configure id="5" description="心灵军团" Level="44-54" npc="1" army1="" army2="" army3="" army4="" army5="" />
+	<configure id="6" description="心灵军团" Level="55-60" npc="1" army1="" army2="" army3="" army4="" army5="" />
+	<configure id="1" description="天蝎军团" Level="18-15" npc="1" army1="" army2="" army3="" army4="" army5="" />
+	<configure id="2" description="天蝎军团" Level="16-21" npc="1" army1="" army2="" army3="" army4="" army5="" />
+	<configure id="3" description="天蝎军团" Level="22-34" npc="1" army1="" army2="" army3="" army4="" army5="" />
+	<configure id="4" description="天蝎军团" Level="35-43" npc="1" army1="" army2="" army3="" army4="" army5="" />
+	<configure id="5" description="天蝎军团" Level="44-54" npc="1" army1="" army2="" army3="" army4="" army5="" />
+	<configure id="6" description="天蝎军团" Level="55-60" npc="1" army1="" army2="" army3="" army4="" army5="" />
+	<configure id="1" description="总部守卫" Level="18-15" npc="1" army1="1:2" army2="2:2" army3="" army4="" army5="" />
+	<configure id="2" description="总部守卫" Level="16-21" npc="1" army1="1:2" army2="2:2" army3="3:2" army4="4:2" army5="" />
+	<configure id="3" description="总部守卫" Level="22-34" npc="1" army1="1:2" army2="2:2" army3="3:2" army4="4:2" army5="" />
+	<configure id="4" description="总部守卫" Level="35-43" npc="1" army1="1:2" army2="2:2" army3="3:2" army4="4:2" army5="" />
+	<configure id="5" description="总部守卫" Level="44-54" npc="1" army1="1:2" army2="2:2" army3="3:2" army4="4:2" army5="" />
+	<configure id="6" description="总部守卫" Level="55-60" npc="1" army1="1:2" army2="2:2" army3="3:2" army4="4:2" army5="" />
+</configures>

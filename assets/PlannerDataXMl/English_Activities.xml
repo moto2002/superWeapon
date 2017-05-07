@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="七天登陆" value="7-Day" />
+	<configure id="在线奖励" value="Online Bonus" />
+	<configure id="每日任务" value="Daily" />
+	<configure id="等级冲刺" value="Level Up" />
+	<configure id="基地礼包" value="Base Bonus" />
+	<configure id="关卡奖励" value="Stage Bonus" />
+	<configure id="排行榜" value="Rank" />
+	<configure id="勇者无敌" value="Warriors Rank" />
+	<configure id="冲级领钻石" value="Level-Up Bonus" />
+	<configure id="今日首充" value="1st RC Today" />
+	<configure id="充值大礼" value="Recharge Bonus" />
+	<configure id="单笔充值" value="Single Recharge" />
+	<configure id="充值排行" value="Recharge Rank" />
+	<configure id="特惠礼包" value="Bargains" />
+	<configure id="累计消费" value="Consumption" />
+	<configure id="消费排行" value="Con. Rank" />
+	<configure id="角色达到LV.5" value="Reach Lv. 5" />
+	<configure id="角色达到LV.10" value="Reach Lv. 10" />
+	<configure id="角色达到LV.20" value="Reach Lv. 20" />
+	<configure id="角色达到LV.30" value="Reach Lv. 30" />
+	<configure id="角色达到LV.40" value="Reach Lv. 40" />
+	<configure id="角色达到LV.50" value="Reach Lv. 50" />
+	<configure id="角色达到LV.60" value="Reach Lv. 60" />
+	<configure id="主基地达到LV.3" value="Reach Lv. 3" />
+	<configure id="主基地达到LV.5" value="Reach Lv. 5" />
+	<configure id="主基地达到LV.8" value="Reach Lv. 8" />
+	<configure id="主基地达到LV.10" value="Reach Lv. 10" />
+	<configure id="主基地达到LV.15" value="Reach Lv. 15" />
+	<configure id="主基地达到LV.20" value="Reach Lv. 20" />
+	<configure id="通过副本布拉德利要塞" value="Pass stage Bradley Fortress" />
+	<configure id="通过副本乌拉尔山" value="Pass stage the Ural Mountains" />
+	<configure id="通过副本黑森林" value="Pass stage Black Forest" />
+	<configure id="通过副本光棱科技站" value="Pass stage Prism Station" />
+	<configure id="通过副本电磁科技站" value="Pass stage Electromagnetic Laboratory" />
+	<configure id="通关副本消灭尤里" value="Pass stage wipe out Yuri" />
+	<configure id="通关副本寸土必争" value="Pass stage Every Inch Count" />
+	<configure id="通关副本琉球群岛" value="Pass stage Nenya Upland" />
+	<configure id="通关副本浮岛堡垒" value="Pass stage Floating Island" />
+	<configure id="通关副本昨日重现" value="Pass stage Yesterday Once More" />
+	<configure id="通关副本富士山之战" value="Pass stage Rapids Chase" />
+	<configure id="通关副本光阴似箭" value="Pass stage Time Flies" />
+	<configure id="通关副本梦一场" value="Pass stage A Dream" />
+	<configure id="通关副本集中攻击" value="Pass stage Focus Attack" />
+	<configure id="通关副本洗脑" value="Pass stage Brainwash" />
+	<configure id="通关副本沙漠奇袭" value="Pass stage Desert Rush" />
+	<configure id="通关副本复制中心" value="Pass stage Cloning Vats" />
+	<configure id="通关副本秘密基地" value="Pass stage Secret Base" />
+	<configure id="通关副本极地之战" value="Pass stage Polar Battle" />
+	<configure id="通关副本尤里的堡垒" value="Pass stage Base of Yuri" />
+	<configure id="进入排行榜100名以内" value="Rank in top 100" />
+	<configure id="进入排行榜50名以内" value="Rank in top 50" />
+	<configure id="进入排行榜30名以内" value="Rank in top 30" />
+	<configure id="进入排行榜20名以内" value="Rank in top 20" />
+	<configure id="进入排行榜10名以内" value="Rank in top 10" />
+	<configure id="成为排行榜冠军" value="Rank 1st" />
+	<configure id="冲榜排行第6名" value="Rank NO. 6" />
+	<configure id="冲榜排行第5名" value="Rank NO. 5" />
+	<configure id="冲榜排行第4名" value="Rank NO. 4" />
+	<configure id="冲榜排行第3名" value="Rank NO. 3" />
+	<configure id="冲榜排行第2名" value="Rank NO. 2" />
+	<configure id="冲榜排行第1名" value="Rank NO. 1" />
+	<configure id="累积在线5分钟" value="Online for 5 minutes" />
+	<configure id="累积在线10分钟" value="Online for 10 minutes" />
+	<configure id="累积在线30分钟" value="Online for 30 minutes" />
+	<configure id="累积在线1小时" value="Online for 1 hour" />
+	<configure id="累积在线2小时" value="Online for 2 hour" />
+	<configure id="前20位角色等级达到LV.30的玩家可以领取" value="The first 20 players reaches Lv. 30 can get bonus" />
+	<configure id="前20位角色等级达到LV.45的玩家可以领取" value="The first 20 players reaches Lv. 45 can get bonus" />
+	<configure id="前20位角色等级达到LV.60的玩家可以领取" value="The first 20 players reaches Lv. 60 can get bonus" />
+	<configure id="当日充值60钻石" value="Recharge 60 diamonds in a day" />
+	<configure id="首次充值购买任意钻石，" value="1st recharge of any amount" />
+	<configure id="单笔充值300钻石，" value="Recharge 300 diamonds at a time" />
+	<configure id="单笔充值680钻石，" value="Recharge 680 diamonds at a time" />
+	<configure id="单笔充值1280钻石，" value="Recharge 1280 diamonds at a time" />
+	<configure id="单笔充值3280钻石，" value="Recharge 3280 diamonds at a time" />
+	<configure id="单笔充值6480钻石，" value="Recharge 6480 diamonds at a time" />
+	<configure id="充值第一" value="Recharge Rank NO. 1" />
+	<configure id="充值第二" value="Recharge Rank NO. 2" />
+	<configure id="充值第三" value="Recharge Rank NO. 3" />
+	<configure id="花费999钻石，即可获得价值1999钻石的特惠大礼包" value="Cost 999 diamonds to get Super Bonus with value of 1999 diamonds" />
+	<configure id="花费1999钻石，即可获得价值3999钻石的特惠大礼包" value="Cost 1999 diamonds to get Super Bonus with value of 3999 diamonds" />
+	<configure id="花费3999钻石，即可获得价值5999钻石的特惠大礼包" value="Cost 3999 diamonds to get Super Bonus with value of 5999 diamonds" />
+	<configure id="活动期间内累计消费999钻" value="Total consume 999 diamonds in the event" />
+	<configure id="消费第一" value="Consume Rank NO. 1" />
+	<configure id="消费第二" value="Consume Rank NO. 2" />
+	<configure id="消费第三" value="Consume Rank NO. 3" />
+	<configure id="活动" value="Events" />
+	<configure id="活动时间：" value="Duration" />
+	<configure id="奖励数量：" value="Bonus Num." />
+	<configure id="有限" value="Limited" />
+	<configure id="无限" value="No Limit" />
+	<configure id="领取" value="Collect" />
+	<configure id="查看已领玩家" value="Players already collected" />
+	<configure id="未达成" value="Undone" />
+	<configure id="永久" value="Permanent" />
+	<configure id="不限量" value="No limit" />
+	<configure id="在线时间" value="Online time" />
+	<configure id="奖励已领完" value="Bonus run out" />
+	<configure id="充值" value="Recharge" />
+	<configure id="活动时间" value="Event Time" />
+	<configure id="购买" value="Buy" />
+	<configure id="领取奖励" value="Collect" />
+	<configure id="领取次数" value="Collect Times" />
+	<configure id="跳转" value="Jump" />
+	<configure id="可获得:" value="to get" />
+	<configure id="充值就送大礼！" value="Recharge for great bonus!" />
+	<configure id="首次充值购买" value="1st purchase of" />
+	<configure id="钻石，" value="Diamon，" />
+	<configure id="可获得：" value="to get：" />
+	<configure id="活动期间累计消费" value="Total" />
+	<configure id="钻" value="Diamon" />
+	<configure id="任意 " value="any amount of " />
+	<configure id="已领取" value="Collected" />
+	<configure id="可领取" value="Can receive" />
+</configures>

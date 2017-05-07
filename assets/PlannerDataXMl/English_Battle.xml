@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="布拉德利要塞(副本)" value="Bradley Fortress (Map)" />
+	<configure id="乌拉尔山(副本)" value="the Ural Mountains (Map)" />
+	<configure id="黑森林(副本)" value="Black Forest (Map)" />
+	<configure id="光棱科技站(副本)" value="Prism Station (Map)" />
+	<configure id="电磁科技站(副本)" value="Magnet Station (Map)" />
+	<configure id="消灭尤里(副本)" value="Vanish Yuri (Map)" />
+	<configure id="寸土必争(副本)" value="Every Inch Count (Map)" />
+	<configure id="琉球群岛(副本)" value="Nenya Upland (Map)" />
+	<configure id="浮岛堡垒(副本)" value="Floating Island (Map)" />
+	<configure id="昨日重现(副本)" value="Yesterday Once More (Map)" />
+	<configure id="富士山之战(副本)" value="Rapids Chase (Map)" />
+	<configure id="光阴似箭(副本)" value="Time Flies (Map)" />
+	<configure id="梦一场(副本)" value="A Dream (Map)" />
+	<configure id="集中攻击(副本)" value="Focus Attack (Map)" />
+	<configure id="洗脑(副本)" value="Brainwash (Map)" />
+	<configure id="沙漠奇袭(副本)" value="Desert Rush (Map)" />
+	<configure id="复制中心(副本)" value="Cloning Vats (Map)" />
+	<configure id="秘密基地(副本)" value="Secret Base (Map)" />
+	<configure id="极地之战(副本)" value="Polar Battle (Map)" />
+	<configure id="尤里的堡垒(副本)" value="Base of Yuri (Map)" />
+	<configure id="布拉德利要塞1" value="Bradley Fortress 1" />
+	<configure id="布拉德利要塞2" value="Bradley Fortress 2" />
+	<configure id="布拉德利要塞3" value="Bradley Fortress 3" />
+	<configure id="布拉德利要塞4" value="Bradley Fortress 4" />
+	<configure id="布拉德利要塞5" value="Bradley Fortress 5" />
+	<configure id="布拉德利要塞6" value="Bradley Fortress 6" />
+	<configure id="布拉德利要塞7" value="Bradley Fortress 7" />
+	<configure id="布拉德利要塞8" value="Bradley Fortress 8" />
+	<configure id="布拉德利要塞9" value="Bradley Fortress 9" />
+	<configure id="布拉德利要塞10" value="Bradley Fortress 10" />
+	<configure id="布拉德利要塞11" value="Bradley Fortress 11" />
+	<configure id="布拉德利要塞12" value="Bradley Fortress 12" />
+	<configure id="乌拉尔山1" value="Ural Mountains 1" />
+	<configure id="乌拉尔山2" value="Ural Mountains 2" />
+	<configure id="乌拉尔山3" value="Ural Mountains 3" />
+	<configure id="乌拉尔山4" value="Ural Mountains 4" />
+	<configure id="乌拉尔山5" value="Ural Mountains 5" />
+	<configure id="乌拉尔山6" value="Ural Mountains 6" />
+	<configure id="乌拉尔山7" value="Ural Mountains 7" />
+	<configure id="乌拉尔山8" value="Ural Mountains 8" />
+	<configure id="乌拉尔山9" value="Ural Mountains 9" />
+	<configure id="乌拉尔山10" value="Ural Mountains 10" />
+	<configure id="乌拉尔山11" value="Ural Mountains 11" />
+	<configure id="乌拉尔山12" value="Ural Mountains 12" />
+	<configure id="黑森林1" value="Black Forest 1" />
+	<configure id="黑森林2" value="Black Forest 2" />
+	<configure id="黑森林3" value="Black Forest 3" />
+	<configure id="黑森林4" value="Black Forest 4" />
+	<configure id="黑森林5" value="Black Forest 5" />
+	<configure id="黑森林6" value="Black Forest 6" />
+	<configure id="黑森林7" value="Black Forest 7" />
+	<configure id="黑森林8" value="Black Forest 8" />
+	<configure id="黑森林9" value="Black Forest 9" />
+	<configure id="黑森林10" value="Black Forest 10" />
+	<configure id="黑森林11" value="Black Forest 11" />
+	<configure id="黑森林12" value="Black Forest 12" />
+	<configure id="黑森林13" value="Black Forest 13" />
+	<configure id="黑森林14" value="Black Forest 14" />
+	<configure id="黑森林15" value="Black Forest 15" />
+	<configure id="光棱科技站1" value="Prism Station 1" />
+	<configure id="光棱科技站2" value="Prism Station 2" />
+	<configure id="光棱科技站3" value="Prism Station 3" />
+	<configure id="光棱科技站4" value="Prism Station 4" />
+	<configure id="光棱科技站5" value="Prism Station 5" />
+	<configure id="光棱科技站6" value="Prism Station 6" />
+	<configure id="光棱科技站7" value="Prism Station 7" />
+	<configure id="光棱科技站8" value="Prism Station 8" />
+	<configure id="光棱科技站9" value="Prism Station 9" />
+	<configure id="光棱科技站10" value="Prism Station 10" />
+	<configure id="光棱科技站11" value="Prism Station 11" />
+	<configure id="光棱科技站12" value="Prism Station 12" />
+	<configure id="光棱科技站13" value="Prism Station 13" />
+	<configure id="光棱科技站14" value="Prism Station 14" />
+	<configure id="光棱科技站15" value="Prism Station 15" />
+	<configure id="电磁科技站1" value="Magnet Station 1" />
+	<configure id="电磁科技站2" value="Magnet Station 2" />
+	<configure id="电磁科技站3" value="Magnet Station 3" />
+	<configure id="电磁科技站4" value="Magnet Station 4" />
+	<configure id="电磁科技站5" value="Magnet Station 5" />
+	<configure id="电磁科技站6" value="Magnet Station 6" />
+	<configure id="电磁科技站7" value="Magnet Station 7" />
+	<configure id="电磁科技站8" value="Magnet Station 8" />
+	<configure id="电磁科技站9" value="Magnet Station 9" />
+	<configure id="电磁科技站10" value="Magnet Station 10" />
+	<configure id="电磁科技站11" value="Magnet Station 11" />
+	<configure id="电磁科技站12" value="Magnet Station 12" />
+	<configure id="电磁科技站13" value="Magnet Station 13" />
+	<configure id="电磁科技站14" value="Magnet Station 14" />
+	<configure id="电磁科技站15" value="Magnet Station 15" />
+	<configure id="消灭尤里1" value="Vanish Yuri 1" />
+	<configure id="消灭尤里2" value="Vanish Yuri 2" />
+	<configure id="消灭尤里3" value="Vanish Yuri 3" />
+	<configure id="消灭尤里4" value="Vanish Yuri 4" />
+	<configure id="消灭尤里5" value="Vanish Yuri 5" />
+	<configure id="消灭尤里6" value="Vanish Yuri 6" />
+	<configure id="消灭尤里7" value="Vanish Yuri 7" />
+	<configure id="消灭尤里8" value="Vanish Yuri 8" />
+	<configure id="消灭尤里9" value="Vanish Yuri 9" />
+	<configure id="消灭尤里10" value="Vanish Yuri 10" />
+	<configure id="消灭尤里11" value="Vanish Yuri 11" />
+	<configure id="消灭尤里12" value="Vanish Yuri 12" />
+	<configure id="消灭尤里13" value="Vanish Yuri 13" />
+	<configure id="消灭尤里14" value="Vanish Yuri 14" />
+	<configure id="消灭尤里15" value="Vanish Yuri 15" />
+	<configure id="寸土必争1" value="Every Inch Count 1" />
+	<configure id="寸土必争2" value="Every Inch Count 2" />
+	<configure id="寸土必争3" value="Every Inch Count 3" />
+	<configure id="寸土必争4" value="Every Inch Count 4" />
+	<configure id="寸土必争5" value="Every Inch Count 5" />
+	<configure id="寸土必争6" value="Every Inch Count 6" />
+	<configure id="寸土必争7" value="Every Inch Count 7" />
+	<configure id="寸土必争8" value="Every Inch Count 8" />
+	<configure id="寸土必争9" value="Every Inch Count 9" />
+	<configure id="寸土必争10" value="Every Inch Count 10" />
+	<configure id="寸土必争11" value="Every Inch Count 11" />
+	<configure id="寸土必争12" value="Every Inch Count 12" />
+	<configure id="寸土必争13" value="Every Inch Count 13" />
+	<configure id="寸土必争14" value="Every Inch Count 14" />
+	<configure id="寸土必争15" value="Every Inch Count 15" />
+	<configure id="南雅高地1" value="Nenya Upland 1" />
+	<configure id="南雅高地2" value="Nenya Upland 2" />
+	<configure id="南雅高地3" value="Nenya Upland 3" />
+	<configure id="南雅高地4" value="Nenya Upland 4" />
+	<configure id="南雅高地5" value="Nenya Upland 5" />
+	<configure id="南雅高地6" value="Nenya Upland 6" />
+	<configure id="南雅高地7" value="Nenya Upland 7" />
+	<configure id="南雅高地8" value="Nenya Upland 8" />
+	<configure id="南雅高地9" value="Nenya Upland 9" />
+	<configure id="南雅高地10" value="Nenya Upland 10" />
+	<configure id="南雅高地11" value="Nenya Upland 11" />
+	<configure id="南雅高地12" value="Nenya Upland 12" />
+	<configure id="南雅高地13" value="Nenya Upland 13" />
+	<configure id="南雅高地14" value="Nenya Upland 14" />
+	<configure id="南雅高地15" value="Nenya Upland 15" />
+	<configure id="浮岛堡垒1" value="Floating Island 1" />
+	<configure id="浮岛堡垒2" value="Floating Island 2" />
+	<configure id="浮岛堡垒3" value="Floating Island 3" />
+	<configure id="浮岛堡垒4" value="Floating Island 4" />
+	<configure id="浮岛堡垒5" value="Floating Island 5" />
+	<configure id="浮岛堡垒6" value="Floating Island 6" />
+	<configure id="浮岛堡垒7" value="Floating Island 7" />
+	<configure id="浮岛堡垒8" value="Floating Island 8" />
+	<configure id="浮岛堡垒9" value="Floating Island 9" />
+	<configure id="浮岛堡垒10" value="Floating Island 10" />
+	<configure id="浮岛堡垒11" value="Floating Island 11" />
+	<configure id="浮岛堡垒12" value="Floating Island 12" />
+	<configure id="浮岛堡垒13" value="Floating Island 13" />
+	<configure id="浮岛堡垒14" value="Floating Island 14" />
+	<configure id="浮岛堡垒15" value="Floating Island 15" />
+	<configure id="昨日重现1" value="Yesterday Once More 1" />
+	<configure id="昨日重现2" value="Yesterday Once More 2" />
+	<configure id="昨日重现3" value="Yesterday Once More 3" />
+	<configure id="昨日重现4" value="Yesterday Once More 4" />
+	<configure id="昨日重现5" value="Yesterday Once More 5" />
+	<configure id="昨日重现6" value="Yesterday Once More 6" />
+	<configure id="昨日重现7" value="Yesterday Once More 7" />
+	<configure id="昨日重现8" value="Yesterday Once More 8" />
+	<configure id="昨日重现9" value="Yesterday Once More 9" />
+	<configure id="昨日重现10" value="Yesterday Once More 10" />
+	<configure id="昨日重现11" value="Yesterday Once More 11" />
+	<configure id="昨日重现12" value="Yesterday Once More 12" />
+	<configure id="昨日重现13" value="Yesterday Once More 13" />
+	<configure id="昨日重现14" value="Yesterday Once More 14" />
+	<configure id="昨日重现15" value="Yesterday Once More 15" />
+	<configure id="激流追逐1" value="Rapids Chase 1" />
+	<configure id="激流追逐2" value="Rapids Chase 2" />
+	<configure id="激流追逐3" value="Rapids Chase 3" />
+	<configure id="激流追逐4" value="Rapids Chase 4" />
+	<configure id="激流追逐5" value="Rapids Chase 5" />
+	<configure id="激流追逐6" value="Rapids Chase 6" />
+	<configure id="激流追逐7" value="Rapids Chase 7" />
+	<configure id="激流追逐8" value="Rapids Chase 8" />
+	<configure id="激流追逐9" value="Rapids Chase 9" />
+	<configure id="激流追逐10" value="Rapids Chase 10" />
+	<configure id="激流追逐11" value="Rapids Chase 11" />
+	<configure id="激流追逐12" value="Rapids Chase 12" />
+	<configure id="激流追逐13" value="Rapids Chase 13" />
+	<configure id="激流追逐14" value="Rapids Chase 14" />
+	<configure id="激流追逐15" value="Rapids Chase 15" />
+	<configure id="光阴似箭1" value="Time Flies 1" />
+	<configure id="光阴似箭2" value="Time Flies 2" />
+	<configure id="光阴似箭3" value="Time Flies 3" />
+	<configure id="光阴似箭4" value="Time Flies 4" />
+	<configure id="光阴似箭5" value="Time Flies 5" />
+	<configure id="光阴似箭6" value="Time Flies 6" />
+	<configure id="光阴似箭7" value="Time Flies 7" />
+	<configure id="光阴似箭8" value="Time Flies 8" />
+	<configure id="光阴似箭9" value="Time Flies 9" />
+	<configure id="光阴似箭10" value="Time Flies 10" />
+	<configure id="光阴似箭11" value="Time Flies 11" />
+	<configure id="光阴似箭12" value="Time Flies 12" />
+	<configure id="光阴似箭13" value="Time Flies 13" />
+	<configure id="光阴似箭14" value="Time Flies 14" />
+	<configure id="光阴似箭15" value="Time Flies 15" />
+	<configure id="梦一场1" value="A Dream 1" />
+	<configure id="梦一场2" value="A Dream 2" />
+	<configure id="梦一场3" value="A Dream 3" />
+	<configure id="梦一场4" value="A Dream 4" />
+	<configure id="梦一场5" value="A Dream 5" />
+	<configure id="梦一场6" value="A Dream 6" />
+	<configure id="梦一场7" value="A Dream 7" />
+	<configure id="梦一场8" value="A Dream 8" />
+	<configure id="梦一场9" value="A Dream 9" />
+	<configure id="梦一场10" value="A Dream 10" />
+	<configure id="梦一场11" value="A Dream 11" />
+	<configure id="梦一场12" value="A Dream 12" />
+	<configure id="梦一场13" value="A Dream 13" />
+	<configure id="梦一场14" value="A Dream 14" />
+	<configure id="梦一场15" value="A Dream 15" />
+	<configure id="集中攻击1" value="Focus Attack 1" />
+	<configure id="集中攻击2" value="Focus Attack 2" />
+	<configure id="集中攻击3" value="Focus Attack 3" />
+	<configure id="集中攻击4" value="Focus Attack 4" />
+	<configure id="集中攻击5" value="Focus Attack 5" />
+	<configure id="集中攻击6" value="Focus Attack 6" />
+	<configure id="集中攻击7" value="Focus Attack 7" />
+	<configure id="集中攻击8" value="Focus Attack 8" />
+	<configure id="集中攻击9" value="Focus Attack 9" />
+	<configure id="集中攻击10" value="Focus Attack 10" />
+	<configure id="集中攻击11" value="Focus Attack 11" />
+	<configure id="集中攻击12" value="Focus Attack 12" />
+	<configure id="集中攻击13" value="Focus Attack 13" />
+	<configure id="集中攻击14" value="Focus Attack 14" />
+	<configure id="集中攻击15" value="Focus Attack 15" />
+	<configure id="洗脑1" value="Brainwash 1" />
+	<configure id="洗脑2" value="Brainwash 2" />
+	<configure id="洗脑3" value="Brainwash 3" />
+	<configure id="洗脑4" value="Brainwash 4" />
+	<configure id="洗脑5" value="Brainwash 5" />
+	<configure id="洗脑6" value="Brainwash 6" />
+	<configure id="洗脑7" value="Brainwash 7" />
+	<configure id="洗脑8" value="Brainwash 8" />
+	<configure id="洗脑9" value="Brainwash 9" />
+	<configure id="洗脑10" value="Brainwash 10" />
+	<configure id="洗脑11" value="Brainwash 11" />
+	<configure id="洗脑12" value="Brainwash 12" />
+	<configure id="洗脑13" value="Brainwash 13" />
+	<configure id="洗脑14" value="Brainwash 14" />
+	<configure id="洗脑15" value="Brainwash 15" />
+	<configure id="沙漠奇袭1" value="Desert Rush 1" />
+	<configure id="沙漠奇袭2" value="Desert Rush 2" />
+	<configure id="沙漠奇袭3" value="Desert Rush 3" />
+	<configure id="沙漠奇袭4" value="Desert Rush 4" />
+	<configure id="沙漠奇袭5" value="Desert Rush 5" />
+	<configure id="沙漠奇袭6" value="Desert Rush 6" />
+	<configure id="沙漠奇袭7" value="Desert Rush 7" />
+	<configure id="沙漠奇袭8" value="Desert Rush 8" />
+	<configure id="沙漠奇袭9" value="Desert Rush 9" />
+	<configure id="沙漠奇袭10" value="Desert Rush 10" />
+	<configure id="沙漠奇袭11" value="Desert Rush 11" />
+	<configure id="沙漠奇袭12" value="Desert Rush 12" />
+	<configure id="沙漠奇袭13" value="Desert Rush 13" />
+	<configure id="沙漠奇袭14" value="Desert Rush 14" />
+	<configure id="沙漠奇袭15" value="Desert Rush 15" />
+	<configure id="复制中心1" value="Cloning Vats 1" />
+	<configure id="复制中心2" value="Cloning Vats 2" />
+	<configure id="复制中心3" value="Cloning Vats 3" />
+	<configure id="复制中心4" value="Cloning Vats 4" />
+	<configure id="复制中心5" value="Cloning Vats 5" />
+	<configure id="复制中心6" value="Cloning Vats 6" />
+	<configure id="复制中心7" value="Cloning Vats 7" />
+	<configure id="复制中心8" value="Cloning Vats 8" />
+	<configure id="复制中心9" value="Cloning Vats 9" />
+	<configure id="复制中心10" value="Cloning Vats 10" />
+	<configure id="复制中心11" value="Cloning Vats 11" />
+	<configure id="复制中心12" value="Cloning Vats 12" />
+	<configure id="复制中心13" value="Cloning Vats 13" />
+	<configure id="复制中心14" value="Cloning Vats 14" />
+	<configure id="复制中心15" value="Cloning Vats 15" />
+	<configure id="秘密基地1" value="Secret Base 1" />
+	<configure id="秘密基地2" value="Secret Base 2" />
+	<configure id="秘密基地3" value="Secret Base 3" />
+	<configure id="秘密基地4" value="Secret Base 4" />
+	<configure id="秘密基地5" value="Secret Base 5" />
+	<configure id="秘密基地6" value="Secret Base 6" />
+	<configure id="秘密基地7" value="Secret Base 7" />
+	<configure id="秘密基地8" value="Secret Base 8" />
+	<configure id="秘密基地9" value="Secret Base 9" />
+	<configure id="秘密基地10" value="Secret Base 10" />
+	<configure id="秘密基地11" value="Secret Base 11" />
+	<configure id="秘密基地12" value="Secret Base 12" />
+	<configure id="秘密基地13" value="Secret Base 13" />
+	<configure id="秘密基地14" value="Secret Base 14" />
+	<configure id="秘密基地15" value="Secret Base 15" />
+	<configure id="极地之战1" value="Polar Battle 1" />
+	<configure id="极地之战2" value="Polar Battle 2" />
+	<configure id="极地之战3" value="Polar Battle 3" />
+	<configure id="极地之战4" value="Polar Battle 4" />
+	<configure id="极地之战5" value="Polar Battle 5" />
+	<configure id="极地之战6" value="Polar Battle 6" />
+	<configure id="极地之战7" value="Polar Battle 7" />
+	<configure id="极地之战8" value="Polar Battle 8" />
+	<configure id="极地之战9" value="Polar Battle 9" />
+	<configure id="极地之战10" value="Polar Battle 10" />
+	<configure id="极地之战11" value="Polar Battle 11" />
+	<configure id="极地之战12" value="Polar Battle 12" />
+	<configure id="极地之战13" value="Polar Battle 13" />
+	<configure id="极地之战14" value="Polar Battle 14" />
+	<configure id="极地之战15" value="Polar Battle 15" />
+	<configure id="尤里的堡垒1" value="Base of Yuri 1" />
+	<configure id="尤里的堡垒2" value="Base of Yuri 2" />
+	<configure id="尤里的堡垒3" value="Base of Yuri 3" />
+	<configure id="尤里的堡垒4" value="Base of Yuri 4" />
+	<configure id="尤里的堡垒5" value="Base of Yuri 5" />
+	<configure id="尤里的堡垒6" value="Base of Yuri 6" />
+	<configure id="尤里的堡垒7" value="Base of Yuri 7" />
+	<configure id="尤里的堡垒8" value="Base of Yuri 8" />
+	<configure id="尤里的堡垒9" value="Base of Yuri 9" />
+	<configure id="尤里的堡垒10" value="Base of Yuri 10" />
+	<configure id="尤里的堡垒11" value="Base of Yuri 11" />
+	<configure id="尤里的堡垒12" value="Base of Yuri 12" />
+	<configure id="尤里的堡垒13" value="Base of Yuri 13" />
+	<configure id="尤里的堡垒14" value="Base of Yuri 14" />
+	<configure id="尤里的堡垒15" value="Base of Yuri 15" />
+	<configure id="作战图Npc掉落" value="NPC will Drop the Map" />
+	<configure id="战役掉落" value="Drop in battle" />
+	<configure id="NPC进攻掉落" value="Drop from NPC attack" />
+	<configure id="NPC玩家掉落" value="Drop from NPC" />
+	<configure id="司令部等级不够" value="Headquarters level low" />
+	<configure id="任务描述：" value="Details:" />
+	<configure id="扫荡十次" value="10 Times" />
+	<configure id="扫荡一章" value="Sweep 1 Chap." />
+	<configure id="进入战场" value="Battlefield" />
+	<configure id="现有扫荡令:" value="Sweep Card:" />
+	<configure id="有机会掉落:" value="Drop List:" />
+	<configure id="进入条件:" value="Conditions:" />
+	<configure id="消耗军令:" value="Cost Order:" />
+	<configure id="资源获得:" value="Resources get:" />
+	<configure id="要求司令部等级" value="Headquarter Lv. Req." />
+	<configure id="战役" value="Battle" />
+	<configure id="完成度:" value="Done:" />
+	<configure id="这里曾经发生过一件事，敌人已经开始行动。长官快点行动吧！" value="Something happened here, the enemies had taken actions. Let move!" />
+	<configure id="前置关卡未通过" value="The previous stage not cleared" />
+	<configure id="部队升到" value="Troop Lv. Up to" />
+	<configure id="星" value="Star" />
+	<configure id="攻防血加成" value="Enhance Attack, Armor, HP" />
+	<configure id="军令:" value="Order:" />
+	<configure id="获得" value="Obtain" />
+	<configure id="要求雷达等级" value="Need Radar Lv." />
+	<configure id="前置战役未通过" value="The previous battle not cleared" />
+	<configure id="没有可出战的坦克" value="No tank available" />
+	<configure id="恭喜您获得了" value="Congrats! You got" />
+	<configure id="普通宝箱" value="Chest" />
+	<configure id="白银宝箱" value="Silver Chest" />
+	<configure id="黄金宝箱" value="Gold Chest" />
+	<configure id="主基地被攻陷" value="Main Base was occupied" />
+	<configure id="主基地防御成功" value="Defend Success" />
+	<configure id="进攻" value="Attack" />
+	<configure id="基地失败" value="Failed" />
+	<configure id="对" value="Yes" />
+	<configure id="复仇成功" value="Success" />
+	<configure id="攻陷" value="Occupy" />
+	<configure id="基地" value="Base" />
+	<configure id="海岛丢失" value="Spot Lost" />
+	<configure id="资源岛丢失" value="Resources Spot Lost" />
+	<configure id="资源岛已防御" value="Resources Spot Defended" />
+	<configure id="的资源岛失败" value="Resources Spot failed" />
+	<configure id="成功收复资源岛" value="Failed to get back Resources Spot" />
+	<configure id="成功占领" value="Occupied" />
+	<configure id="的资源岛" value="s Resources Spot" />
+	<configure id="解放海岛成功" value="Liberated the base successfully" />
+	<configure id="解放海岛失败" value="Failed to liberated the base" />
+	<configure id="什么岛屿呢" value="What Spot" />
+	<configure id="已出现" value="Appeared" />
+	<configure id="发现新目标" value="Find new target" />
+	<configure id="可以掠夺的资源" value="Resources can be plundered" />
+	<configure id="战报" value="Report" />
+	<configure id="战斗回放" value="Review" />
+	<configure id="进攻记录" value="Attack Records" />
+	<configure id="防守记录" value="Defence Records" />
+	<configure id="退出战场" value="Exit Battle" />
+	<configure id="是否要退出战场" value="Are you sure to exit?" />
+	<configure id="确定" value="Yes" />
+	<configure id="取消  " value="Cancel" />
+	<configure id="雷达等级不足,不能够探索更大的区域" value="Radar level not enough for further exploration" />
+	<configure id="重新匹配" value="Rematch" />
+	<configure id="取消操作" value="Cancel" />
+	<configure id="超出范围" value="Out of range" />
+	<configure id="技能" value="Skill" />
+	<configure id="飞机" value="Aircraft" />
+	<configure id="坦克" value="Tank" />
+	<configure id="仓库资源不足" value="Not enough space in warehouse" />
+	<configure id="资源仓库不足以存放战利品，是否确认扫荡，扫荡完成后会有部分资源损失" value="Not enough space for war trophies, you may lost part of resources from battle, continue?" />
+	<configure id="取消释放" value="Cancel" />
+	<configure id="储量不足" value="Not enough reserves" />
+	<configure id="您仓库储量不足以存放战利品，是否确认攻击？(战斗胜利后有部分资源损失)" value="Not enough space for war trophies, you may lost part of resources from battle, continue?" />
+	<configure id="确认" value="Confirm" />
+	<configure id="花费" value="Cost" />
+	<configure id="钻可购买" value="diamond to buy" />
+	<configure id="个军令" value="orders" />
+	<configure id="司令部升级到" value="Headquarters upgrade to Lv." />
+	<configure id="级解锁" value="to unlock" />
+	<configure id="机场未开放" value="Aircraft locked" />
+	<configure id="机场未建造" value="No aircraft building" />
+	<configure id="战果" value="Battle Result" />
+	<configure id="军令已达上限" value="Order Maxed" />
+	<configure id="军令恢复倒计时" value="Order Recover CD" />
+	<configure id="军令恢复！" value="Order Recovered!" />
+	<configure id="加入" value="Join" />
+	<configure id="创建军团" value="Create" />
+	<configure id="搜索军团" value="Search" />
+	<configure id="换一批" value="Change" />
+	<configure id="请输入军团名称" value="Please enter guild name" />
+	<configure id="需要最少奖牌数目" value="The least medal require" />
+	<configure id="联盟开放类型" value="Open Type" />
+	<configure id="向所有人开放" value="Open to all" />
+	<configure id="不向所有人开放" value="Limited" />
+	<configure id="军团名称长度不能超过12个字符" value="Guild name can not have more than 12 characters" />
+	<configure id="军团名称长度不能为0" value="Guild name length can not be zero" />
+	<configure id="输入工会名称" value="Please enter guild name" />
+	<configure id="贡献:" value="Contribution:" />
+	<configure id="开除" value="Expel" />
+	<configure id="访问" value="Visit" />
+	<configure id="军团长" value="President" />
+	<configure id="副军团长" value="VP" />
+	<configure id="普通成员" value="Member" />
+	<configure id="升职" value="Promote" />
+	<configure id="降职" value="Demote" />
+	<configure id="取消" value="Cancel" />
+	<configure id="你确定要删除此成员吗？" value="Are you sure to delete the member?" />
+	<configure id="你确定要改变该成员的职务吗？" value="Are you sure to change the occupation of the member?" />
+	<configure id="你已成功删除该成员" value="Delete success" />
+	<configure id="军团名称:" value="Guild Name:" />
+	<configure id="军团等级:" value="Guild Lv.:" />
+	<configure id="军团人数:" value="Members:" />
+	<configure id="奖牌数:" value="Medals:" />
+	<configure id="军团长:" value="President:" />
+	<configure id="我的贡献:" value="Contribution:" />
+	<configure id="军团成员" value="Member" />
+	<configure id="军团奖励" value="Guild Bonus" />
+	<configure id="军团副本" value="Dungeons" />
+	<configure id="联盟公告:" value="Alliance Notice:" />
+	<configure id="审核" value="Verify" />
+	<configure id="退出军团" value="Quit" />
+	<configure id="解散军团" value="Dismiss" />
+	<configure id="审核通过" value="Verified" />
+	<configure id="拒绝申请" value="Refused" />
+	<configure id="清除列表" value="Clear" />
+	<configure id="退出军团后两小时内不能加入其他军团或者创建军团,且军团贡献消失。" value="You will lost all contributions and can not join or create another guild after quit a guild within 2 hours" />
+	<configure id="解散军团后两小时内不能加入其他军团或者创建军团,且军团贡献消失。" value="You will lost all contributions and can not join or create another guild after dismissing a guild within 2 hours" />
+	<configure id="你确定要拒绝该玩家的申请吗？" value="Are you sure to refuse the application?" />
+	<configure id="副军长数目已达上线不能增加了" value="Can not have more VP" />
+	<configure id="你退出军团未到俩个小时无法加入军团" value="Can not join guild within 2 hours after quit." />
+	<configure id="你退出军团未到俩个小时无法创建军团" value="Can not create guild within 2 hours after quit." />
+	<configure id="未找到指定军团" value="Can not find the guild" />
+	<configure id="当前没有军团，你可以创建军团" value="No guild available,you can create one." />
+	<configure id="你的金币未到达1000000，无法创建军团" value="To create a guild you need to have 1000000 gold at least" />
+	<configure id="我方援军到达战场！" value="Our reinforcements arrived!" />
+	<configure id="的援军到达战场！" value="reinforcements arrived!" />
+	<configure id="敌方援军到达战场！" value="Enemy reinforcements arrived!" />
+</configures>

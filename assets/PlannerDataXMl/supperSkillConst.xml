@@ -1,0 +1,67 @@
+	<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure skillType="0" skillId="0" lv="0" name="集结" describe="操作技能：手指点击移动" baseCost="-1" power="-1" renju="-1" hurtRadius="-1" hitCount="-1" icon="-1" tarType="-1" fightEffect="tianqi_fg" BodyEffect="tianqi_gj 1" DamageEffect="jupao_xw" fightSound="" DamageSound=""/>
+	<configure skillType="1" skillId="1" lv="0" name="出兵" describe="操作技能：点击登陆派出部队" baseCost="-1" power="-1" renju="-1" hurtRadius="-1" hitCount="-1" icon="-1" tarType="-1" fightEffect="tianqi_fg" BodyEffect="tianqi_gj 1" DamageEffect="jupao_xw" fightSound="" DamageSound=""/>
+	<configure skillType="2" skillId="20001" name="单体飞弹" describe="军师技" icon="s_skill_4" tarType="0" fightEffect="t_huojian_fg" BodyEffect="daodan_02" DamageEffect="baozha_01" fightSound="" DamageSound="">
+		<level lv="0" baseCost="2"  power="255" renju="1" hurtRadius="1" hitCount="1"/>
+		<level lv="1" baseCost="2"  power="651" renju="1" hurtRadius="1" hitCount="1"/>
+		<level lv="2" baseCost="2"  power="1047" renju="1" hurtRadius="1" hitCount="1"/>
+		<level lv="3" baseCost="2"  power="1443" renju="1" hurtRadius="1" hitCount="1"/>
+		<level lv="4" baseCost="2"  power="1839" renju="1" hurtRadius="1" hitCount="1"/>
+		<level lv="5" baseCost="2"  power="2235" renju="1" hurtRadius="1" hitCount="1"/>
+		<level lv="6" baseCost="2"  power="2631" renju="1" hurtRadius="1" hitCount="1"/>
+		<level lv="7" baseCost="2"  power="3027" renju="1" hurtRadius="1" hitCount="1"/>
+		<level lv="8" baseCost="2"  power="3423" renju="1" hurtRadius="1" hitCount="1"/>
+		<level lv="9" baseCost="2"  power="3819" renju="1" hurtRadius="1" hitCount="1"/>
+		<level lv="10" baseCost="2"  power="4017" renju="1" hurtRadius="1" hitCount="1"/>
+	</configure>
+	<configure skillType="3" skillId="30002"name="溅射飞弹" describe="军师技" icon="s_skill_3" tarType="0" fightEffect="tianqi_fg" BodyEffect="daodan_01" DamageEffect="baozha_01" fightSound="" DamageSound="">
+	   	<level lv="1" baseCost="3" power="2000" renju="1" hurtRadius="5" hitCount="3"/>
+	    <level lv="2" baseCost="4" power="2000" renju="1" hurtRadius="5" hitCount="3"/>
+	    <level lv="3" baseCost="5" power="2000" renju="1" hurtRadius="5" hitCount="3"/>
+	    <level lv="4" baseCost="6" power="2000" renju="1" hurtRadius="5" hitCount="3"/>
+	    <level lv="5" baseCost="7" power="2000" renju="1" hurtRadius="5" hitCount="3"/>
+	    <level lv="6" baseCost="8" power="2000" renju="1" hurtRadius="5" hitCount="3"/>
+	    <level lv="7" baseCost="9" power="2000" renju="1" hurtRadius="5" hitCount="3"/>
+	    <level lv="8" baseCost="10" power="2000" renju="1" hurtRadius="5" hitCount="3"/>
+	    <level lv="9" baseCost="11" power="2000" renju="1" hurtRadius="5" hitCount="3"/>
+	    <level lv="10" baseCost="12" power="2000" renju="1" hurtRadius="5" hitCount="3"/>
+	</configure>
+	<configure skillType="4" skillId="40002" name="乱射飞弹" describe="军师技" icon="s_skill_5" tarType="0" fightEffect="t_huojian_fg" BodyEffect="daodan_01" DamageEffect="baozha_01" fightSound="" DamageSound="">
+    	<level lv="0" baseCost="5" power="70" renju="6" hurtRadius="8" hitCount="50"/>    	
+		<level lv="1" baseCost="5" power="180" renju="6" hurtRadius="8" hitCount="50"/>
+    	<level lv="2" baseCost="5" power="290" renju="6" hurtRadius="8" hitCount="50"/>
+    	<level lv="3" baseCost="5" power="400" renju="6" hurtRadius="8" hitCount="50"/>
+    	<level lv="4" baseCost="5" power="510" renju="6" hurtRadius="8" hitCount="50"/>
+    	<level lv="5" baseCost="5" power="620" renju="6" hurtRadius="8" hitCount="50"/>
+    	<level lv="6" baseCost="5" power="730" renju="6" hurtRadius="8" hitCount="50"/>
+    	<level lv="7" baseCost="5" power="840" renju="6" hurtRadius="8" hitCount="50"/>
+	    <level lv="8" baseCost="5" power="950" renju="6" hurtRadius="8" hitCount="50"/>
+	    <level lv="9" baseCost="5" power="1060" renju="6" hurtRadius="8" hitCount="50"/>
+	    <level lv="10" baseCost="5" power="1115" renju="6" hurtRadius="8" hitCount="50"/>
+	</configure>
+	<configure skillType="5" skillId="50001" name="范围内治疗" describe="军师技" icon="s_skill_1" tarType="2" fightEffect="tianqi_fg" BodyEffect="tianqi_gj 1" DamageEffect="jupao_xw" fightSound="" DamageSound="">
+	    <level lv="1" baseCost="3" power="2" renju="1" hurtRadius="5" hitCount="50"/>
+	    <level lv="2" baseCost="4" power="2" renju="1" hurtRadius="5" hitCount="50"/>
+    	<level lv="3" baseCost="5" power="2" renju="1" hurtRadius="5" hitCount="50"/>
+	    <level lv="4" baseCost="6" power="2" renju="1" hurtRadius="5" hitCount="50"/>
+	    <level lv="5" baseCost="7" power="2" renju="1" hurtRadius="5" hitCount="50"/>
+    	<level lv="6" baseCost="8" power="2" renju="1" hurtRadius="5" hitCount="50"/>
+	    <level lv="7" baseCost="9" power="2" renju="1" hurtRadius="5" hitCount="50"/>
+	    <level lv="8" baseCost="10" power="2" renju="1" hurtRadius="5" hitCount="50"/>
+	    <level lv="9" baseCost="11" power="2" renju="1" hurtRadius="5" hitCount="50"/>
+    	<level lv="10" baseCost="12" power="2" renju="1" hurtRadius="5" hitCount="50"/>
+	</configure>
+	<configure skillType="10" skillId="100001" name="增加buff" describe="军师技" icon="s_skill_2" tarType="2" fightEffect="tianqi_fg" BodyEffect="tianqi_gj 1" DamageEffect="jupao_xw" fightSound="" DamageSound="">
+	    <level lv="1" baseCost="3" power="2001" renju="1" hurtRadius="5" hitCount="50"/>
+    	<level lv="2" baseCost="4" power="2001" renju="1" hurtRadius="5" hitCount="50"/>
+    	<level lv="3" baseCost="5" power="2001" renju="1" hurtRadius="5" hitCount="50"/>
+    	<level lv="4" baseCost="6" power="2001" renju="1" hurtRadius="5" hitCount="50"/>
+    	<level lv="5" baseCost="7" power="2001" renju="1" hurtRadius="5" hitCount="50"/>
+    	<level lv="6" baseCost="8" power="2001" renju="1" hurtRadius="5" hitCount="50"/>
+    	<level lv="7" baseCost="9" power="2001" renju="1" hurtRadius="5" hitCount="50"/>
+    	<level lv="8" baseCost="10" power="2001" renju="1" hurtRadius="5" hitCount="50"/>
+    	<level lv="9" baseCost="11" power="2001" renju="1" hurtRadius="5" hitCount="50"/>
+	    <level lv="10" baseCost="12" power="2001" renju="1" hurtRadius="5" hitCount="50"/>
+</configures>
+</configures>

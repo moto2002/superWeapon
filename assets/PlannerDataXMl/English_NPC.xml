@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="活动关卡1" value="Event Map 1" />
+	<configure id="活动关卡2" value="Event Map 2" />
+	<configure id="活动关卡3" value="Event Map 3" />
+	<configure id="活动关卡4" value="Event Map 4" />
+	<configure id="活动关卡5" value="Event Map 5" />
+	<configure id="活动关卡6" value="Event Map 6" />
+	<configure id="活动关卡7" value="Event Map 7" />
+	<configure id="活动关卡8" value="Event Map 8" />
+	<configure id="活动关卡9" value="Event Map 9" />
+	<configure id="活动关卡10" value="Event Map 10" />
+	<configure id="活动关卡11" value="Event Map 11" />
+	<configure id="活动关卡12" value="Event Map 12" />
+	<configure id="活动关卡13" value="Event Map 13" />
+	<configure id="活动关卡14" value="Event Map 14" />
+	<configure id="活动关卡15" value="Event Map 15" />
+	<configure id="活动关卡16" value="Event Map 16" />
+	<configure id="活动关卡17" value="Event Map 17" />
+	<configure id="活动关卡18" value="Event Map 18" />
+	<configure id="活动关卡19" value="Event Map 19" />
+	<configure id="活动关卡20" value="Event Map 20" />
+	<configure id="活动关卡21" value="Event Map 21" />
+	<configure id="活动关卡22" value="Event Map 22" />
+	<configure id="活动关卡23" value="Event Map 23" />
+	<configure id="活动关卡24" value="Event Map 24" />
+	<configure id="活动关卡25" value="Event Map 25" />
+	<configure id="活动关卡26" value="Event Map 26" />
+	<configure id="活动关卡27" value="Event Map 27" />
+	<configure id="活动关卡28" value="Event Map 28" />
+	<configure id="活动关卡29" value="Event Map 29" />
+	<configure id="活动关卡30" value="Event Map 30" />
+	<configure id="活动关卡31" value="Event Map 31" />
+	<configure id="活动关卡32" value="Event Map 32" />
+	<configure id="活动关卡33" value="Event Map 33" />
+	<configure id="活动关卡34" value="Event Map 34" />
+	<configure id="活动关卡35" value="Event Map 35" />
+	<configure id="活动关卡36" value="Event Map 36" />
+	<configure id="活动关卡37" value="Event Map 37" />
+	<configure id="活动关卡38" value="Event Map 38" />
+	<configure id="活动关卡39" value="Event Map 39" />
+	<configure id="活动关卡40" value="Event Map 40" />
+	<configure id="活动关卡41" value="Event Map 41" />
+	<configure id="活动关卡42" value="Event Map 42" />
+	<configure id="活动关卡43" value="Event Map 43" />
+	<configure id="活动关卡44" value="Event Map 44" />
+	<configure id="活动关卡45" value="Event Map 45" />
+	<configure id="活动关卡46" value="Event Map 46" />
+	<configure id="活动关卡47" value="Event Map 47" />
+	<configure id="活动关卡48" value="Event Map 48" />
+	<configure id="活动关卡49" value="Event Map 49" />
+	<configure id="活动关卡50" value="Event Map 50" />
+	<configure id="活动关卡51" value="Event Map 51" />
+	<configure id="活动关卡52" value="Event Map 52" />
+	<configure id="活动关卡53" value="Event Map 53" />
+	<configure id="活动关卡54" value="Event Map 54" />
+	<configure id="活动关卡55" value="Event Map 55" />
+	<configure id="活动关卡56" value="Event Map 56" />
+	<configure id="活动关卡57" value="Event Map 57" />
+	<configure id="活动关卡58" value="Event Map 58" />
+	<configure id="活动关卡59" value="Event Map 59" />
+	<configure id="活动关卡60" value="Event Map 60" />
+	<configure id="活动关卡61" value="Event Map 61" />
+	<configure id="活动关卡62" value="Event Map 62" />
+	<configure id="活动关卡63" value="Event Map 63" />
+	<configure id="活动关卡64" value="Event Map 64" />
+	<configure id="活动关卡65" value="Event Map 65" />
+	<configure id="活动关卡66" value="Event Map 66" />
+	<configure id="活动关卡67" value="Event Map 67" />
+	<configure id="活动关卡68" value="Event Map 68" />
+	<configure id="活动关卡69" value="Event Map 69" />
+	<configure id="活动关卡70" value="Event Map 70" />
+	<configure id="活动关卡71" value="Event Map 71" />
+	<configure id="活动关卡72" value="Event Map 72" />
+	<configure id="活动关卡73" value="Event Map 73" />
+	<configure id="活动关卡74" value="Event Map 74" />
+	<configure id="石油资源岛" value="Oil Island" />
+	<configure id="钢铁资源岛" value="Iron Island" />
+	<configure id="稀矿资源岛" value="Ore Island" />
+	<configure id="孤独的哨塔" value="Lonely Tower" />
+	<configure id="浪人" value="Vagrant" />
+	<configure id="有效打法" value="Efficient Way" />
+	<configure id="红色黎明" value="Red Dawn" />
+	<configure id="使命" value="Mission" />
+	<configure id="侵略与反抗" value="Invasion Revolt" />
+	<configure id="科技站" value="Tech Station" />
+	<configure id="敢死队" value="Forlorn Hope" />
+	<configure id="危险丛林" value="Danger Jungle" />
+	<configure id="激光陷阱" value="Laser Trap" />
+	<configure id="八方" value="All Around" />
+	<configure id="诱饵" value="Bait" />
+	<configure id="激光危险" value="Dangerous Laser" />
+	<configure id="双管齐下" value="Both Line" />
+	<configure id="演习场" value="Polygon" />
+	<configure id="丛林之狼" value="Forest Wolf" />
+	<configure id="常规战术" value="Common Tactic" />
+	<configure id="声东击西" value="East or Weat" />
+	<configure id="清场" value="Cleared" />
+	<configure id="出其不意" value="A Surprise" />
+	<configure id="快攻" value="Be Quick" />
+	<configure id="误区" value="Mistake" />
+	<configure id="零伤亡" value="Zero Mortality" />
+	<configure id="三军" value="Whole Army" />
+	<configure id="三岔口" value="T road" />
+	<configure id="威胁" value="Threat" />
+	<configure id="孤独守卫" value="Lonely Guard" />
+	<configure id="边缘待命" value="Standby" />
+	<configure id="线攻击" value="Line Attack" />
+	<configure id="指挥官的考验" value="Trial For Commander" />
+	<configure id="全是植被的关卡" value="Plants All Around" />
+	<configure id="狂野战区10级1" value="Lv. 10 Wild War Zone 1" />
+	<configure id="狂野战区10级2" value="Lv. 10 Wild War Zone 2" />
+	<configure id="狂野战区10级3" value="Lv. 10 Wild War Zone 3" />
+	<configure id="狂野战区10级4" value="Lv. 10 Wild War Zone 4" />
+	<configure id="狂野战区10级5" value="Lv. 10 Wild War Zone 5" />
+	<configure id="狂野战区9级1" value="Lv. 9 Wild War Zone 1" />
+	<configure id="狂野战区9级2" value="Lv. 9 Wild War Zone 2" />
+	<configure id="狂野战区9级3" value="Lv. 9 Wild War Zone 3" />
+	<configure id="狂野战区9级4" value="Lv. 9 Wild War Zone 4" />
+	<configure id="狂野战区9级5" value="Lv. 9 Wild War Zone 5" />
+	<configure id="狂野战区8级1" value="Lv. 8 Wild War Zone 1" />
+	<configure id="狂野战区8级2" value="Lv. 8 Wild War Zone 2" />
+	<configure id="狂野战区8级3" value="Lv. 8 Wild War Zone 3" />
+	<configure id="狂野战区8级4" value="Lv. 8 Wild War Zone 4" />
+	<configure id="狂野战区8级5" value="Lv. 8 Wild War Zone 5" />
+	<configure id="狂野战区7级1" value="Lv. 7 Wild War Zone 1" />
+	<configure id="狂野战区7级2" value="Lv. 7 Wild War Zone 2" />
+	<configure id="狂野战区7级3" value="Lv. 7 Wild War Zone 3" />
+	<configure id="狂野战区7级4" value="Lv. 7 Wild War Zone 4" />
+	<configure id="狂野战区7级5" value="Lv. 7 Wild War Zone 5" />
+	<configure id="狂野战区6级1" value="Lv. 6 Wild War Zone 1" />
+	<configure id="狂野战区6级2" value="Lv. 6 Wild War Zone 2" />
+	<configure id="狂野战区6级3" value="Lv. 6 Wild War Zone 3" />
+	<configure id="狂野战区6级4" value="Lv. 6 Wild War Zone 4" />
+	<configure id="狂野战区6级5" value="Lv. 6 Wild War Zone 5" />
+	<configure id="狂野战区5级1" value="Lv. 5 Wild War Zone 1" />
+	<configure id="狂野战区5级2" value="Lv. 5 Wild War Zone 2" />
+	<configure id="狂野战区5级3" value="Lv. 5 Wild War Zone 3" />
+	<configure id="狂野战区5级4" value="Lv. 5 Wild War Zone 4" />
+	<configure id="狂野战区5级5" value="Lv. 5 Wild War Zone 5" />
+	<configure id="狂野战区4级1" value="Lv. 4 Wild War Zone 1" />
+	<configure id="狂野战区4级2" value="Lv. 4 Wild War Zone 2" />
+	<configure id="狂野战区4级3" value="Lv. 4 Wild War Zone 3" />
+	<configure id="狂野战区4级4" value="Lv. 4 Wild War Zone 4" />
+	<configure id="狂野战区4级5" value="Lv. 4 Wild War Zone 5" />
+	<configure id="狂野战区3级1" value="Lv. 3 Wild War Zone 1" />
+	<configure id="狂野战区3级2" value="Lv. 3 Wild War Zone 2" />
+	<configure id="狂野战区3级3" value="Lv. 3 Wild War Zone 3" />
+	<configure id="狂野战区3级4" value="Lv. 3 Wild War Zone 4" />
+	<configure id="狂野战区3级5" value="Lv. 3 Wild War Zone 5" />
+	<configure id="狂野战区2级1" value="Lv. 2 Wild War Zone 1" />
+	<configure id="狂野战区2级2" value="Lv. 2 Wild War Zone 2" />
+	<configure id="狂野战区2级3" value="Lv. 2 Wild War Zone 3" />
+	<configure id="狂野战区2级4" value="Lv. 2 Wild War Zone 4" />
+	<configure id="狂野战区2级5" value="Lv. 2 Wild War Zone 5" />
+	<configure id="狂野战区1级1" value="Lv. 1 Wild War Zone 1" />
+	<configure id="狂野战区1级2" value="Lv. 1 Wild War Zone 2" />
+	<configure id="狂野战区1级3" value="Lv. 1 Wild War Zone 3" />
+	<configure id="狂野战区1级4" value="Lv. 1 Wild War Zone 4" />
+	<configure id="狂野战区1级5" value="Lv. 1 Wild War Zone 5" />
+	<configure id="狂野战区20级1" value="Lv. 20 Wild War Zone 1" />
+	<configure id="狂野战区20级2" value="Lv. 20 Wild War Zone 2" />
+	<configure id="狂野战区20级3" value="Lv. 20 Wild War Zone 3" />
+	<configure id="狂野战区20级4" value="Lv. 20 Wild War Zone 4" />
+	<configure id="狂野战区20级5" value="Lv. 20 Wild War Zone 5" />
+	<configure id="狂野战区19级1" value="Lv. 19 Wild War Zone 1" />
+	<configure id="狂野战区19级2" value="Lv. 19 Wild War Zone 2" />
+	<configure id="狂野战区19级3" value="Lv. 19 Wild War Zone 3" />
+	<configure id="狂野战区19级4" value="Lv. 19 Wild War Zone 4" />
+	<configure id="狂野战区19级5" value="Lv. 19 Wild War Zone 5" />
+	<configure id="狂野战区18级1" value="Lv. 18 Wild War Zone 1" />
+	<configure id="狂野战区18级2" value="Lv. 18 Wild War Zone 2" />
+	<configure id="狂野战区18级3" value="Lv. 18 Wild War Zone 3" />
+	<configure id="狂野战区18级4" value="Lv. 18 Wild War Zone 4" />
+	<configure id="狂野战区18级5" value="Lv. 18 Wild War Zone 5" />
+	<configure id="狂野战区17级1" value="Lv. 17 Wild War Zone 1" />
+	<configure id="狂野战区17级2" value="Lv. 17 Wild War Zone 2" />
+	<configure id="狂野战区17级3" value="Lv. 17 Wild War Zone 3" />
+	<configure id="狂野战区17级4" value="Lv. 17 Wild War Zone 4" />
+	<configure id="狂野战区17级5" value="Lv. 17 Wild War Zone 5" />
+	<configure id="狂野战区16级1" value="Lv. 16 Wild War Zone 1" />
+	<configure id="狂野战区16级2" value="Lv. 16 Wild War Zone 2" />
+	<configure id="狂野战区16级3" value="Lv. 16 Wild War Zone 3" />
+	<configure id="狂野战区16级4" value="Lv. 16 Wild War Zone 4" />
+	<configure id="狂野战区16级5" value="Lv. 16 Wild War Zone 5" />
+	<configure id="狂野战区15级1" value="Lv. 15 Wild War Zone 1" />
+	<configure id="狂野战区15级2" value="Lv. 15 Wild War Zone 2" />
+	<configure id="狂野战区15级3" value="Lv. 15 Wild War Zone 3" />
+	<configure id="狂野战区15级4" value="Lv. 15 Wild War Zone 4" />
+	<configure id="狂野战区15级5" value="Lv. 15 Wild War Zone 5" />
+	<configure id="狂野战区14级1" value="Lv. 14 Wild War Zone 1" />
+	<configure id="狂野战区14级2" value="Lv. 14 Wild War Zone 2" />
+	<configure id="狂野战区14级3" value="Lv. 14 Wild War Zone 3" />
+	<configure id="狂野战区14级4" value="Lv. 14 Wild War Zone 4" />
+	<configure id="狂野战区14级5" value="Lv. 14 Wild War Zone 5" />
+	<configure id="狂野战区13级1" value="Lv. 13 Wild War Zone 1" />
+	<configure id="狂野战区13级2" value="Lv. 13 Wild War Zone 2" />
+	<configure id="狂野战区13级3" value="Lv. 13 Wild War Zone 3" />
+	<configure id="狂野战区13级4" value="Lv. 13 Wild War Zone 4" />
+	<configure id="狂野战区13级5" value="Lv. 13 Wild War Zone 5" />
+	<configure id="狂野战区11级1" value="Lv. 11 Wild War Zone 1" />
+	<configure id="狂野战区11级2" value="Lv. 11 Wild War Zone 2" />
+	<configure id="狂野战区11级3" value="Lv. 11 Wild War Zone 3" />
+	<configure id="狂野战区11级4" value="Lv. 11 Wild War Zone 4" />
+	<configure id="狂野战区11级5" value="Lv. 11 Wild War Zone 5" />
+	<configure id="狂野战区12级1" value="Lv. 12 Wild War Zone 1" />
+	<configure id="狂野战区12级2" value="Lv. 12 Wild War Zone 2" />
+	<configure id="狂野战区12级3" value="Lv. 12 Wild War Zone 3" />
+	<configure id="狂野战区12级4" value="Lv. 12 Wild War Zone 4" />
+	<configure id="狂野战区12级5" value="Lv. 12 Wild War Zone 5" />
+	<configure id="海滨城市" value="Coast City" />
+	<configure id="急速运兵" value="Rapid Support" />
+	<configure id="大军突击" value="Assault" />
+	<configure id="漂亮音符" value="Nice Note" />
+	<configure id="阿尔法的爱" value="Love of Alpha" />
+	<configure id="寻找目标" value="Find Target" />
+	<configure id="坦克的无奈" value="Sigh of The Tank" />
+	<configure id="士兵训练" value="Soldier Training" />
+	<configure id="毕业典礼" value="Graduation" />
+	<configure id="亡命的时间" value="Death Duration" />
+	<configure id="吹鼓手" value="Trumpeter" />
+	<configure id="狡猾的兔子" value="Tricky Rabbit" />
+	<configure id="等比缩放" value="Uniform Scale" />
+	<configure id="大大的战场" value="Huge Battlefield" />
+	<configure id="火山爆发" value="Volcanic Eruption" />
+	<configure id="炮管生锈" value="Rusty Gun Tube" />
+	<configure id="比赛时间" value="Match Time" />
+	<configure id="山洪暴发" value="Flash Flood" />
+	<configure id="地裂" value="Ground Cleaves" />
+	<configure id="冰雹" value="Hailstone" />
+	<configure id="暴风雪" value="Snowstorm" />
+	<configure id="寻找卡尔德" value="Search for Calder" />
+	<configure id="爱吃菠菜" value="Love Spinach" />
+	<configure id="脖子痛" value="Pain on Neck" />
+	<configure id="奔跑的乌龟" value="Running Turtle" />
+	<configure id="舔舐伤口" value="Lick Wounds" />
+	<configure id="血流成河" value="Blood Stream" />
+	<configure id="满满的爱" value="Full of Love" />
+	<configure id="包扎伤口" value="Bandage Wounds" />
+	<configure id="疼痛" value="Pain" />
+	<configure id="荆棘之地" value="Ground of Brambles" />
+	<configure id="亡命之徒" value="Desperado" />
+	<configure id="可怜的羊羔" value="Poor Lamb" />
+	<configure id="美餐" value="Feast" />
+	<configure id="无尽的杀戮" value="Endless Slaughter" />
+	<configure id="敬畏神明" value="Revere" />
+	<configure id="列阵" value="Array" />
+	<configure id="一排排的炮" value="Rows of Cannon" />
+	<configure id="有利地带" value="Favorable Zone" />
+	<configure id="战士的墓地" value="Tomb of Soldiers" />
+	<configure id="头疼" value="Headache" />
+	<configure id="边缘地带" value="Edge Zone" />
+	<configure id="霹雳闪电" value="Lightning" />
+	<configure id="荣耀" value="Glory" />
+	<configure id="防火区" value="Fire Zone" />
+	<configure id="快速打击" value="Fast Strike" />
+	<configure id="野人" value="Savage" />
+	<configure id="装甲车" value="Armoured Car" />
+	<configure id="快速射击" value="Snap Shot" />
+	<configure id="完美配置" value="Perfect Deploy" />
+	<configure id="破甲弹" value="Armour Piercer" />
+	<configure id="侵略者" value="Invader" />
+	<configure id="高速公路" value="Highway" />
+	<configure id="运兵的秘密" value="Secret of Tactic" />
+	<configure id="天敌" value="Natural Enemy" />
+	<configure id="公平交易" value="Fair Deal" />
+	<configure id="花瓶" value="Vase" />
+	<configure id="积尸" value="Dead Bodies" />
+	<configure id="打劫" value="Plunder" />
+	<configure id="塔楼" value="Tower" />
+	<configure id="美酒成河" value="River of Wine" />
+	<configure id="石林" value="Stone Forest" />
+	<configure id="伤害制造" value="Damage Dealer" />
+	<configure id="世界杯" value="World Cup" />
+	<configure id="棘刺" value="Calthrop" />
+	<configure id="盐湖" value="Salt Lake" />
+	<configure id="白色巨轮" value="White Steamer" />
+	<configure id="糟糕的牧场" value="Terrible Pasture" />
+	<configure id="城市废墟" value="City Ruins" />
+	<configure id="垃圾场" value="Garbage Dump" />
+	<configure id="高原" value="Highland" />
+	<configure id="形式主义" value="Formalism" />
+	<configure id="炮火宠爱" value="Favour of Fire" />
+	<configure id="痢疾" value="Dysentery" />
+	<configure id="不安的快乐" value="Fake Happiness" />
+	<configure id="是与不是" value="Yes or No" />
+	<configure id="你想不到的" value="Unexpected" />
+	<configure id="可惜罪过" value="Pity Crime" />
+	<configure id="慈悲" value="Mercy" />
+	<configure id="战与和" value="War or Peace" />
+	<configure id="大地的愤怒" value="Anger of the Earth" />
+	<configure id="折煞" value="Mortality" />
+	<configure id="纯系谱" value="Pure Score" />
+	<configure id="爆走主义" value="Crazy" />
+	<configure id="大扫荡" value="Sweep" />
+	<configure id="松鼠与野兽" value="Squirrel and Beast" />
+	<configure id="赵司令" value="Commander Zhao" />
+	<configure id="眼睛疼" value="Pain In The Eye" />
+	<configure id="藕断丝连" value="Entangled" />
+	<configure id="逃亡" value="Escape" />
+	<configure id="迁徙" value="Migration" />
+	<configure id="不安分" value="Restless" />
+	<configure id="不是观光" value="Not Sightseeing" />
+	<configure id="荆棘" value="Thorn" />
+	<configure id="土匪之家" value="Home of Bandit" />
+	<configure id="沦陷" value="Fall" />
+	<configure id="敌后方" value="Back of Enemy" />
+	<configure id="最后时间" value="Last Moment" />
+	<configure id="合金弹头" value="Metal Slug" />
+	<configure id="噼噼啪啪" value="Pop pop" />
+	<configure id="大量运兵" value="Convey Soldiers" />
+	<configure id="战车故事" value="War Story" />
+	<configure id="41区" value="Area 41" />
+	<configure id="乱葬岗" value="Mass Grave" />
+	<configure id="冲动的后果" value="Impulsion" />
+	<configure id="易守难攻" value="Easily Guarded" />
+	<configure id="宝藏" value="Treasure" />
+	<configure id="火力送葬" value="Fire Funeral" />
+	<configure id="松林" value="Pinery" />
+	<configure id="地下城堡" value="Undercroft" />
+	<configure id="天启" value="Apocalypse" />
+	<configure id="童谣" value="Rhyme" />
+	<configure id="王者复仇" value="Revenge of King" />
+	<configure id="秘密基地" value="Secret Base " />
+	<configure id="粮仓" value="Granary" />
+	<configure id="屯兵站" value="Army Station" />
+	<configure id="超级能量基地" value="Super Energy Base" />
+	<configure id="眼镜蛇" value="Cobra" />
+	<configure id="毒蝎" value="Scorpion" />
+	<configure id="红色警报" value="Red Alert" />
+	<configure id="全军覆没" value="Total Loss" />
+	<configure id="各种打法" value="Various Method" />
+	<configure id="VS前线" value="VS Front Line" />
+	<configure id="粮道" value="Roads of Supplies" />
+	<configure id="地下金矿" value="Gold Ore" />
+	<configure id="秘密仓库" value="Secret Depot" />
+	<configure id="集结号" value="Assembly" />
+	<configure id="磁场" value="Magnetic Field" />
+	<configure id="万有引力" value="Universal Gravitation" />
+	<configure id="孤独冲锋" value="Lonely Assult" />
+	<configure id="曙光" value="Dawn" />
+	<configure id="科学怪人" value="Frankenstein" />
+	<configure id="脑死亡" value="Cognitive Death" />
+	<configure id="小平锅" value="A Little Pot" />
+	<configure id="石灰" value="Lime" />
+	<configure id="红烧坦克" value="Red-roast Tank" />
+	<configure id="钻石坑" value="Crater of Diamonds" />
+	<configure id="弹雨" value="Hail of Bullets" />
+	<configure id="风声" value="Wind Sound" />
+	<configure id="统一战线" value="The United Front" />
+	<configure id="子弹壳" value="Bullet Shell" />
+	<configure id="热浪" value="Heat Wave" />
+	<configure id="昔日繁华" value="Lost Glory" />
+	<configure id="反抗军" value="Defiance" />
+	<configure id="科技较量" value="Tech Contest" />
+	<configure id="暴发户" value="Upstart" />
+	<configure id="火舞" value="Fire Dance" />
+	<configure id="白色恐怖" value="White Terror" />
+	<configure id="弹药库" value="Ammunition depot" />
+	<configure id="巨塔" value="Giant Tower" />
+	<configure id="核弹之密" value="Nuclear Bomb Secret" />
+	<configure id="大逃亡" value="Escape" />
+	<configure id="元素" value="Element" />
+	<configure id="火花" value="Spark" />
+	<configure id="战车工厂" value="War Factory" />
+	<configure id="岔路" value="Crossing" />
+	<configure id="沙漠之狐" value="Desert Fox" />
+	<configure id="秘密教会" value="Secret Church" />
+	<configure id="鲨鱼脊" value="Shark Ridge" />
+	<configure id="运兵车" value="Troop Crawler" />
+	<configure id="倒计时" value="Countdown" />
+	<configure id="日出" value="Sunrise" />
+	<configure id="稀矿" value="Lean Ore" />
+	<configure id="大祸临头" value="Coming Disaster" />
+	<configure id="密集火力" value="Crossfire" />
+	<configure id="边陲重镇" value="Border Town" />
+	<configure id="闪电突击" value="Lightning Rush" />
+	<configure id="地毯式轰炸" value="Carpet Bombing" />
+	<configure id="化石" value="Fossil" />
+	<configure id="刑场" value="Execution Ground" />
+	<configure id="监视器" value="Monitor" />
+	<configure id="折射原理" value="Refraction Principle" />
+	<configure id="炮楼" value="Blockhouse" />
+	<configure id="弹片" value="Shrapnel" />
+	<configure id="军旅" value="Brigade" />
+	<configure id="黎明" value="Bingham" />
+	<configure id="指挥车" value="Command Car" />
+	<configure id="军事地带" value="Military Zone" />
+	<configure id="底壳运动" value="Pan Movement" />
+	<configure id="屠宰场" value="Slaughterhouse" />
+	<configure id="边界" value="Border" />
+	<configure id="敌占区" value="Enemy Territory" />
+	<configure id="不是陷阱" value="Not a Trap" />
+	<configure id="细胞分裂" value="Cell Division" />
+	<configure id="大炮飞弹" value="Artillery Missiles" />
+	<configure id="坑" value="Pit" />
+	<configure id="前线" value="Frontline" />
+	<configure id="封锁线" value="Blockade" />
+	<configure id="铁丝网" value="Wire Meshes " />
+	<configure id="阵地" value="Front" />
+	<configure id="对抗" value="Withstand" />
+	<configure id="战争游戏" value="War Game" />
+	<configure id="残肢" value="Stump" />
+	<configure id="高地" value="Upland" />
+	<configure id="血肉横飞" value="Bloodshed" />
+	<configure id="断壁残垣" value="Broken Walls" />
+	<configure id="战线延伸" value="Extending War" />
+	<configure id="阵亡" value="Death" />
+	<configure id="你死我活" value="Extreme War" />
+	<configure id="独家守护" value="Exclusive Guard" />
+	<configure id="特种作战" value="Special Operation" />
+	<configure id="细胞行动" value="Cell Action" />
+	<configure id="兵王" value="Soldier King" />
+	<configure id="剑与盾" value="Sword Shield" />
+	<configure id="守护" value="Guard" />
+	<configure id="剑齿虎师" value="Tiger Army" />
+	<configure id="狼军" value="Wolf Army" />
+	<configure id="孤狼行动" value="Wolf Action" />
+	<configure id="独狼军" value="Wolf Army" />
+	<configure id="分裂行动" value="Split Action" />
+	<configure id="狩猎作战" value="Hunting" />
+	<configure id="包围" value="Encircle" />
+	<configure id="闪光" value="Flash" />
+	<configure id="战场护盾" value="Battle Shield" />
+	<configure id="战场补给" value="Provision" />
+	<configure id="光环" value="Corona" />
+	<configure id="星际战甲" value="Warframe " />
+	<configure id="海盗" value="Pirate" />
+	<configure id="星际海盗" value="Star Pirate" />
+	<configure id="狼烟行动" value="Wolf Smoke Action" />
+	<configure id="围城打援" value="Besieged City" />
+	<configure id="攻坚战" value="Tough Fight" />
+	<configure id="集中火力" value="Focus Shoot" />
+	<configure id="间谍作战" value="Spy Battle" />
+	<configure id="窃取情报" value="Intelligence" />
+	<configure id="情报网" value="Network" />
+	<configure id="守护任务" value="Guard Quest" />
+	<configure id="战地" value="Battlefield" />
+	<configure id="使命召唤" value="Call Of Duty" />
+	<configure id="总部陷落" value="Fall of Base" />
+	<configure id="泰坦陨落" value="Fall of Titan" />
+	<configure id="佣兵总部" value="Mercenary Base" />
+	<configure id="雇佣兵" value="Mercenary" />
+	<configure id="杀戮地带" value="Slaughter Area" />
+	<configure id="战争雷霆" value="Thunder War" />
+	<configure id="闪电战" value="Lightning War" />
+	<configure id="佣军大厦" value="Mercenary Office" />
+	<configure id="代号装甲" value="Code Armor" />
+	<configure id="蓝网" value="Blue Net" />
+	<configure id="精准打击" value="Precise Strike" />
+	<configure id="钢铁雄心" value="Hearts of Iron" />
+	<configure id="黑暗时刻" value="Dark Hour" />
+	<configure id="全面战争" value="General War" />
+	<configure id="国家领袖" value="National Leader" />
+	<configure id="最高指挥官" value="Chief Commander" />
+	<configure id="内部敌人" value="The Enemy Within " />
+	<configure id="英雄连" value="Hero Troop" />
+	<configure id="钢铁意志" value="Will Of Steel " />
+	<configure id="不退避" value="No Escape" />
+	<configure id="谍网风云" value="Spy Compete" />
+	<configure id="尤里元帅" value="Yuri Marshal" />
+	<configure id="诺维克上将" value="General Novick" />
+	<configure id="威客里中将" value="General Witkey" />
+	<configure id="费伟基少将" value="Major Fei Weiji" />
+	<configure id="肖克将军" value="General Schork" />
+	<configure id="维斯少校" value="Major Weiss" />
+	<configure id="犹可上尉" value="Captain Yuki" />
+	<configure id="蒂娜少尉" value="Lieutenant Tina" />
+	<configure id="杜军中尉" value="Lieutenant Jun Du" />
+	<configure id="琼斯中校" value="Colonel Jones" />
+	<configure id="菲克上校" value="Colonel Fecker" />
+	<configure id="一等列兵" value="Lv. 1 Private" />
+	<configure id="二等列兵" value="Lv. 2 Private" />
+	<configure id="三等列兵" value="Lv. 3 Private" />
+	<configure id="莉莉下士" value="Lily Officer" />
+	<configure id="波威力中士" value="Sergeant Pauer" />
+	<configure id="肖威客上士" value="Sergeant Witkey" />
+	<configure id="关德铃下士" value="Officer GuanDeLing" />
+	<configure id="摩尼亚中士" value="Sergeant Monia" />
+	<configure id="乔克里上士" value="Sergeant Chocolly" />
+	<configure id="萨瓦力中尉" value="Lieutenant Savoie" />
+	<configure id="瓦格里少尉" value="Lieutenant Evagrius" />
+	<configure id="卡戴珊上尉" value="Captain Kourtney" />
+	<configure id="马奎尔少校" value="Major Maguire" />
+	<configure id="索薇娅中校" value="Colonel Sofia" />
+	<configure id="莫妮卡上校" value="Colonel Monika" />
+	<configure id="基雷夫的基地" value="Base of Kirev" />
+	<configure id="艾布特的堡垒" value="Fortress of Abbott" />
+	<configure id="分卡夫的军营" value="Barrack of Kraft" />
+	<configure id="迪瓦希的装甲师" value="Armor Army of Vahidi" />
+	<configure id="战前动员" value="Before Battle" />
+	<configure id="先锋战队" value="Pioneer Troop" />
+	<configure id="孤独的灯塔" value="Lonely Lighttower" />
+	<configure id="亚尔曼空军基地" value="Airbase of Yalman" />
+	<configure id="丛林战" value="Jungle Warfare" />
+	<configure id="不是boss" value="Not a Boss" />
+	<configure id="石油库" value="Oil Depot" />
+	<configure id="重金属" value="Heavy Metal" />
+	<configure id="盐田" value="Salt Pan" />
+	<configure id="军事基地" value="Military Base" />
+	<configure id="大冲锋" value="Assult" />
+	<configure id="炮弹做花瓶" value="Shell Made Vase" />
+	<configure id="瓷娃娃" value="China Doll" />
+	<configure id="闪光弹" value="Flashbomb" />
+	<configure id="孤山" value="Isolated Hill" />
+	<configure id="亡命" value="Flee" />
+	<configure id="电磁" value="Magnetron" />
+	<configure id="煤矿" value="Coal Mine" />
+	<configure id="金矿" value="Gold Mine" />
+	<configure id="明日再战" value="Fight another day" />
+	<configure id="等待冲击" value="Waiting for attack" />
+	<configure id="浪人三杀" value="3-Combo" />
+	<configure id="沙包行动" value="Sandbag Action" />
+	<configure id="量子冲击" value="Quantum Conflict" />
+	<configure id="武装斗争" value="Armed Struggle" />
+	<configure id="不弃" value="Hold On" />
+	<configure id="冲锋" value="Charge" />
+	<configure id="坚守阵地" value="Hold Position" />
+	<configure id="远程狙击" value="Snipe" />
+	<configure id="生死狙击" value="Fatal Snipe" />
+	<configure id="突破防线" value="Break Through" />
+	<configure id="生死前线" value="Frontline" />
+	<configure id="攻占阵地" value="Occupy" />
+	<configure id="电极" value="Electrode" />
+	<configure id="电网行动" value="Power Grid" />
+	<configure id="斩首" value="Head Cut" />
+	<configure id="斩首行动" value="Head Cut Action" />
+	<configure id="蓝军" value="Blue Army" />
+	<configure id="红军" value="Red Army" />
+	<configure id="红蓝对抗" value="Blue VS RED" />
+	<configure id="坦克师" value="Tank Army" />
+	<configure id="装甲军" value="Armor Army" />
+	<configure id="机炮群" value="Machine Gun Group" />
+	<configure id="幕后机械师" value="Machinist" />
+	<configure id="后勤装甲" value="Logistics Armor" />
+	<configure id="冲锋机甲" value="Assult Armor" />
+	<configure id="机甲师" value="Armor Army" />
+	<configure id="装甲阵" value="Armor Array" />
+	<configure id="远程机炮" value="Auto Cannon" />
+	<configure id="陆甲师" value="Land Armor" />
+	<configure id="明日边缘" value="Edge of Tomorrow" />
+	<configure id="明日世界" value="Tomorrow World" />
+	<configure id="最后的生还者" value="The Last Survivor" />
+	<configure id="幸存者" value="Survivor" />
+	<configure id="集中营" value="Camp" />
+	<configure id="坦克连" value="Tank Army" />
+	<configure id="战区指挥官" value="War Commander" />
+	<configure id="血肉模糊" value="Covered With Blood" />
+	<configure id="曲终人再见" value="Good Bye" />
+	<configure id="天空之城" value="City of Sky" />
+	<configure id="生于南 遇于北" value="South and North" />
+	<configure id="从不服输" value="Never Give Up" />
+	<configure id="南昔烈酒" value="Strong Liquor" />
+	<configure id="杀我别用感情刀" value="Blade of Emotion" />
+	<configure id="身不由己" value="Involuntary" />
+	<configure id="浮生若梦" value="Life but a dream" />
+	<configure id="玩命不玩心" value="Very Unhappy" />
+	<configure id="今夕何夕" value="This is the night" />
+	<configure id="墨染殇泪" value="Tears" />
+	<configure id="鸢浅" value="Glede" />
+	<configure id="生性寡淡" value="Desire-Free" />
+	<configure id="帅的要命" value="Too Handsome" />
+	<configure id="别把良心当狗肺" value="Thankless" />
+	<configure id="饿货" value="Hungry" />
+	<configure id="一念天堂" value="Heaven To Hell" />
+	<configure id="黑毛茎长" value="Black Hair" />
+	<configure id="把刀藏进衣袖" value="Hide the blade" />
+	<configure id="傲寒" value="Proud" />
+	<configure id="陌上烟雨" value="The Rain" />
+	<configure id="尐懶猫" value="Lazy Cat" />
+	<configure id="一个帅字贯穿一生" value="Handsome for whole life" />
+	<configure id="持枪走四方" value="Gun Man" />
+	<configure id="若兮" value="Vay" />
+	<configure id="纯情小男生" value="Pure Boy" />
+	<configure id="小爸爸" value="Little Father" />
+	<configure id="玫瑰先生" value="Mr. Rose" />
+	<configure id="小少爷" value="Young Master" />
+	<configure id="沦落少年终为王" value="The King of Future" />
+	<configure id="幻想少年梦" value="Fantasy Dream" />
+	<configure id="活着只为了等死" value="Waiting for death" />
+	<configure id="骑着蜗牛追飞机" value="Snail Rider Chasing Plane" />
+	<configure id="只拉勾不上吊" value="OK, a deal" />
+	<configure id="旧街凉风" value="Cool Breeze" />
+	<configure id="倾心" value="Fall in love" />
+	<configure id="余生一个他" value="He is the rest of my life" />
+	<configure id="北巷清风" value="Refreshing Breeze" />
+	<configure id="命比运硬" value="Tenacious" />
+	<configure id="钱包你都瘦了" value="Wallet get thinner" />
+	<configure id="徦裝冇伱" value="Pretend you are with me" />
+	<configure id="帅得不明显" value="Unobvious good look" />
+	<configure id="小丑的世界没人懂" value="No one knows the world of a clown" />
+	<configure id="向钱看向厚赚" value="All for money" />
+	<configure id="酷到没朋友" value="Too cool to have friend" />
+	<configure id="沐小希" value="Mu Xiaoxi" />
+	<configure id="心已冰封爱已荒废" value="My heart for love is frozen" />
+	<configure id="清浅流年" value="Clear shallow fleeting time" />
+	<configure id="孤痞" value="Lonely ruffian" />
+	<configure id="︶浅夏ゝ" value="Early Summer" />
+	<configure id="倚栏听风" value="Wind Sound" />
+	<configure id="一笑嫣然" value="A Smile" />
+	<configure id="凉心凉忆凉薄生" value="Memorize the cold life with a cold heart" />
+	<configure id="浪漫的杀手" value="Romantic Killer" />
+	<configure id="等风也等你" value="Waiting for the wind and you" />
+	<configure id="仅茈侕已" value="Only this" />
+	<configure id="转身已是陌路" value="Become a stranger" />
+	<configure id="执笔书生" value="A Scholar" />
+	<configure id="你命里缺我" value="Your life is lack of me" />
+	<configure id="玄墨公子" value="Childe ShanMo" />
+	<configure id="安之若素" value="In Peace" />
+	<configure id="冷訫'" value="Cold Heart" />
+	<configure id="夏末凉城空余心" value="Empty heart in a empty summer city" />
+	<configure id="莫失莫忘" value="Forget me not" />
+	<configure id="再苦再累不说再见" value="Never say good bye" />
+	<configure id="懒得想名字" value="Too lazy to think about name" />
+	<configure id="回不去的回忆" value="Old days had gone" />
+	<configure id="南笙一梦" value="Nothing but a dream" />
+	<configure id="匿名" value="Anonymity" />
+	<configure id="将孤独喂饱" value="Feed the loneliness" />
+	<configure id="此人纯属虚构" value="This guy is made out of whole cloth" />
+	<configure id="因帅被判无妻徒刑" value="I was sentenced no wife because of handsome" />
+	<configure id="乖萌兔" value="Smart Rabbit" />
+	<configure id="盏茶轻抿" value="A soft taste of tea" />
+	<configure id="野的像风" value="Wild like wind" />
+	<configure id="痞味小污女" value="Playgirl" />
+	<configure id="執念" value="Obsessiveness" />
+	<configure id="薄荷夏" value="Peppermint" />
+	<configure id="余生不过一个你" value="The rest of my life is for you" />
+	<configure id="温柔似你眉眼" value="Gentle like your bright eye" />
+	<configure id="十年好唱却难等" value="10 years is too long for waiting" />
+	<configure id="千城墨白" value="White Cities" />
+	<configure id="日光倾城" value="Sunlight City" />
+	<configure id="不羁岁月" value="Unruly Ages" />
+	<configure id="甜心小蜜糖" value="Sweetheart Honey" />
+	<configure id="暮雨潇潇" value="Evening Rain" />
+	<configure id="奈何桥上戏孟婆" value="Cheat Meng-Po on the bridge" />
+	<configure id="未命名" value="Unnamed" />
+	<configure id="过把感情瘾" value="Satisfy a love craving" />
+	<configure id="空城少年" value="Boy in an empty city" />
+	<configure id="青春喂了狗" value="Dog ate my youth" />
+	<configure id="静待花开" value="Waiting for flower bloom" />
+	<configure id="独久厌闹" value="Being alone for too long" />
+	<configure id="听闻旧事" value="Hearing the old stories" />
+	<configure id="口干舌燥大概欠吻" value="My mouth feel dry and needing a kiss" />
+	<configure id="别走" value="Don't leave" />
+	<configure id="何以为安" value="How can find peace" />
+	<configure id="看穿不拆穿" value="I would not expose the trick" />
+	<configure id="搞笑界扛把子" value="King of telling jokes" />
+	<configure id="久孤" value="Alone" />
+	<configure id="占有欲与你" value="Desire for you" />
+	<configure id="帥到没朋友" value="Too handsome to have friend" />
+	<configure id="做你的英雄" value="Be your hero" />
+	<configure id="待我成王封你为后" value="You are my queen" />
+	<configure id="醉过罪过" value="Drunk Crime" />
+	<configure id="智障陪伴我多年" value="Amentia always be with me" />
+	<configure id="淡末初夏" value="Light Early Summer" />
+	<configure id="傻丢丢i" value="Stupid" />
+	<configure id="余生请多指教" value="Please give advise" />
+	<configure id="情非得已" value="Not out of my view" />
+	<configure id="夏沫浅雨" value="Shallow Rain" />
+	<configure id="情话烫耳" value="Sweet word hurts" />
+	<configure id="南熙寒笙" value="Cool Reed Pipe" />
+	<configure id="孤人眠" value="Lonely Sleeper" />
+	<configure id="配角" value="Support Role" />
+	<configure id="唯爱痴狂" value="Crazy For Love" />
+	<configure id="青栀如初" value="As Original" />
+	<configure id="萧萧北风起" value="There comes the wind from north" />
+	<configure id="互撸娃" value="Calabash Brothers" />
+	<configure id="撩妹杀手" value="Girl Hitter" />
+	<configure id="水晶泪钻石心" value="Cristal tears and diamond heart" />
+	<configure id="乳茈逼眞" value="Feel so true" />
+	<configure id="只如初见" value="First Glance" />
+	<configure id="殇璃" value="Leaving" />
+	<configure id="农夫三拳有点痛" value="3 fist of the farmer" />
+	<configure id="北巷栀酒" value="North lane wine" />
+	<configure id="予笙" value="Yu Sheng" />
+	<configure id="懒得取名字" value="Too laze to get a name" />
+	<configure id="拱手江河讨你欢" value="The whole world is no better than you" />
+	<configure id="后会无期" value="Never see you again" />
+	<configure id="孤街野猫" value="Wildcat" />
+	<configure id="無言以對" value="Wordless" />
+	<configure id="与我无关" value="Non of my business" />
+	<configure id="不见不念" value="Not in mind" />
+	<configure id="老巷旧人" value="Old man in old lane" />
+	<configure id="离人怎挽" value="The One Parted" />
+	<configure id="荒城旧梦" value="Abandoned City" />
+	<configure id="泪点是你" value="Tears for you" />
+	<configure id="酒伴孤独" value="Wine with loneliness" />
+	<configure id="社会太狗" value="What a society" />
+	<configure id="渐行渐远ゞ" value="Fade Away" />
+	<configure id="五行缺智商" value="Zero IQ" />
+	<configure id="跑到坟场去吓鬼" value="Scare the ghost" />
+	<configure id="旧人未归" value="No return" />
+	<configure id="转身之后" value="Turn-back" />
+	<configure id="话多会厌" value="Being talkative is annoying" />
+	<configure id="残活于世" value="Linger out" />
+	<configure id="未拥怎弃" value="Never Had" />
+	<configure id="旧人往事" value="Old Days" />
+	<configure id="无伴终老" value="Get old alone" />
+	<configure id="清酒孤灯" value="Wine and the lonely light" />
+	<configure id="哥也纯情过" value="I used to be innocent" />
+	<configure id="孑然一身" value="All alone" />
+	<configure id="冰封的心" value="Frozen Heart" />
+	<configure id="从此陌路" value="Stranger" />
+	<configure id="凉城未暖" value="A Cold City" />
+	<configure id="亦久亦旧" value="Long become old" />
+	<configure id="庸人自扰" value="Self-disturbing" />
+	<configure id="客走茶凉" value="Tea only for guest" />
+	<configure id="残城碎梦" value="Broken Dream" />
+	<configure id="心在流浪" value="Vagrancy" />
+	<configure id="孤独患者" value="Loner" />
+	<configure id="半岛旧情" value="Peninsula Story" />
+	<configure id="痛而不言" value="In wordless pain" />
+	<configure id="乍然离场" value="Departure" />
+	<configure id="含泪听雨" value="Listen to the rain" />
+	<configure id="薄情寡义" value="Selfisher" />
+	<configure id="旧人离梦" value="Lost Dream" />
+	<configure id="不如沉默" value="Better be silence" />
+	<configure id="笑叹无缘" value="A Sigh" />
+	<configure id="孤久成瘾" value="Addicted to loneliness" />
+	<configure id="人走茶凉" value="Cold Tea" />
+	<configure id="痴人说梦" value="Dreamer" />
+	<configure id="孤街酒巷" value="Wine Lane" />
+	<configure id="无处安身" value="Homeless" />
+	<configure id="失她失心" value="Lost her, lost my heart" />
+	<configure id="离人未归" value="No return" />
+	<configure id="孤人自嘲" value="Self-ridicule" />
+	<configure id="凉城空巷" value="A Cold City" />
+	<configure id="失心念人" value="Missing" />
+	<configure id="泪过无痕" value="Trace of tears" />
+	<configure id="时光薄凉" value="Time is flying" />
+	<configure id="天煞孤星" value="Isolated Star" />
+	<configure id="我是绝版我骄傲" value="I'm proud of being out of print" />
+	<configure id="心野路子正" value="Wild heart on a bright road" />
+	<configure id="幻影" value="Phantom" />
+	<configure id="花落红颜碎" value="Beauty fade like flower" />
+	<configure id="素衣白裳" value="All in white" />
+	<configure id="庸人自扰" value="Self-disturbing" />
+	<configure id="本性狂野" value="Wild Mind" />
+	<configure id="独家式温柔" value="Gentleness" />
+	<configure id="南笙孤风" value="Reed pipe in wind" />
+	<configure id="荒凉一梦" value="Bleak Dream" />
+	<configure id="幼儿园扛把子" value="Strongest in kindergarten" />
+	<configure id="念来过倒要字名" value="End other the from name my read" />
+	<configure id="用搜狗搜出你来" value="Search for dog there comes you" />
+	<configure id="哎呀坏人" value="OMG Bad Guy" />
+	<configure id="朕好萌" value="I'm so cute" />
+	<configure id="初吻給了煙" value="First kiss gave cigarette" />
+	<configure id="墨城烟柳" value="Soft like willow tree" />
+	<configure id="无名指忧伤" value="Sadness of my ring finger" />
+	<configure id="你非良人怎知深情" value="You are not the one" />
+	<configure id="浪哩个浪" value="Wave and wave" />
+	<configure id="不一样的烟火" value="Fireworks" />
+	<configure id="[偽裝臫巳]" value="Pretend to be another guy" />
+	<configure id="向天再借五百年" value="Borrow 500 years from the god" />
+	<configure id="少年先疯队" value="Crazy youth team" />
+	<configure id="说爱太烫嘴" value="Too shy to say love" />
+	<configure id="念你如故" value="Missing you" />
+	<configure id="时光会咬人" value="The time bites" />
+	<configure id="素顏醉傾城" value="PlanNiceFace" />
+	<configure id="中国辣条协会会长i" value="Spicy strip association" />
+	<configure id="心心念念" value="Full Hearted" />
+	<configure id="心有一片海" value="Sea of my heart" />
+	<configure id="没有钻石的王老五" value="Mr. Wang the 5th without diamond" />
+	<configure id="想个网名真TM费劲" value="Names are shit" />
+	<configure id="善解人衣" value="Good at taking off" />
+	<configure id="帅的想跳楼" value="Die of handsome" />
+	<configure id="能动手尽量别吵吵" value="Fight and no talk" />
+	<configure id="高冷de逗逼" value="Faker" />
+	<configure id="加载中99" value="Loading99" />
+	<configure id="疯的很理智" value="Wild but reasonable" />
+	<configure id="哥有哥的风范" value="My Style" />
+	<configure id="黑色梦魇" value="Black Dream" />
+	<configure id="称霸全服" value="Boss of the server" />
+	<configure id="牵着蚂蚁去散步" value="Walking with ant" />
+	<configure id="晚风凉" value="Night Wind" />
+	<configure id="爷拽的有特点" value="SoCoolam" />
+	<configure id="马扁" value="Ma Bian" />
+	<configure id="演妓派" value="Performance" />
+	<configure id="七言顾暖" value="Seven-syllable" />
+	<configure id="纯情小处男" value="Innocent Virgin" />
+	<configure id="忆殇" value="Memory" />
+	<configure id="独久厌闹i" value="Hate noisy" />
+	<configure id="夜访吸血傀" value="Visit Vampire" />
+	<configure id="醉逍遥" value="Freedom" />
+	<configure id="青衫故人" value="Black Gown" />
+	<configure id="君临天下" value="DarkLord" />
+	<configure id="奈河桥头等你" value="The bridge" />
+	<configure id="浅薇安" value="Rose" />
+	<configure id="蜡笔小猪" value="Wax Pig" />
+	<configure id="孤街" value="Street" />
+	<configure id="全球焦點" value="Global Focus" />
+	<configure id="年輕就是輸的起" value="Youth is wealth" />
+	<configure id="学渣代言人" value="Spokesman" />
+	<configure id="冰点燃烧" value="Burning Ice" />
+	<configure id="是非黑白" value="Black or White" />
+	<configure id="离殇沫" value="Froth" />
+	<configure id="佐希寂" value="Lonesome" />
+	<configure id="怕黑" value="Afraid of darkness" />
+	<configure id="重逢时刻" value="Meet Again" />
+	<configure id="不依不饶" value="Never let it go" />
+	<configure id="情哥" value="Lover" />
+	<configure id="旧时光" value="Old Days" />
+	<configure id="仗剑天涯" value="Sword" />
+	<configure id="君心倾卿" value="Sovereign" />
+	<configure id="练习悲伤" value="Sadness" />
+	<configure id="这就是爱情" value="This is love" />
+	<configure id="唯沃μ独尊" value="Domination" />
+	<configure id="掩盖寂寞" value="Concealment" />
+	<configure id="爷狠耀眼" value="Dazzling" />
+	<configure id="温存记忆" value="Warm Memory" />
+	<configure id="阳光已熟透" value="Sunlight" />
+	<configure id="伤口在蔓延" value="Wounds" />
+	<configure id="仅此而已" value="ThatsAll" />
+	<configure id="人生路" value="Road of life" />
+	<configure id="酒不醉人" value="Intoxicant" />
+	<configure id="声嘶力竭" value="Shout" />
+	<configure id="雨啸青锋" value="Blue Blade" />
+	<configure id="一代彪汉" value="True Man" />
+	<configure id="狂野战区18级6" value="Lv. 18 Wild War Zone 6" />
+	<configure id="狂野战区18级7" value="Lv. 18 Wild War Zone 7" />
+	<configure id="狂野战区18级8" value="Lv. 18 Wild War Zone 8" />
+	<configure id="狂野战区18级9" value="Lv. 18 Wild War Zone 9" />
+	<configure id="狂野战区18级0" value="Lv. 18 Wild War Zone 0" />
+	<configure id="狂野战区19级6" value="Lv. 19 Wild War Zone 6" />
+	<configure id="狂野战区19级7" value="Lv. 19 Wild War Zone 7" />
+	<configure id="狂野战区19级8" value="Lv. 19 Wild War Zone 8" />
+	<configure id="狂野战区19级9" value="Lv. 19 Wild War Zone 9" />
+	<configure id="狂野战区19级0" value="Lv. 19 Wild War Zone 0" />
+	<configure id="狂野战区20级6" value="Lv. 20 Wild War Zone 6" />
+	<configure id="狂野战区20级7" value="Lv. 20 Wild War Zone 7" />
+	<configure id="狂野战区20级8" value="Lv. 20 Wild War Zone 8" />
+	<configure id="狂野战区20级9" value="Lv. 20 Wild War Zone 9" />
+	<configure id="狂野战区20级0" value="Lv. 20 Wild War Zone 0" />
+	<configure id="开场用的关卡" value="Stage for opening" />
+	<configure id="天蝎军团" value="Scorpio Corps" />
+	<configure id="天蝎军团,尤里复仇" value="Scorpio Corps, revenge of Yuri" />
+	<configure id="天蝎军团,尤里复仇,日不落帝国" value="Scorpio Corps, revenge of Yuri, No sunfall" />
+	<configure id="尤里复仇,日不落,轴心国联军" value="Revenge of Yuri, No sunfall, the Axis united army" />
+	<configure id="心灵军团" value="Soul Army" />
+	<configure id="总部守卫" value="Headquarters Guard" />
+	<configure id="(玩家)" value="(Player)" />
+	<configure id="您的主基地" value="Your mian base" />
+</configures>

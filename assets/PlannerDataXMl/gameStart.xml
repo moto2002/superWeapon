@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure ID="0" type="3:4:40,5:2:40,15:2:40" />
+	<configure ID="1" type="1:1:60" />
+	<configure ID="2" type="9999" />
+</configures>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="钻石礼包1" value="钻石礼包1" />
+	<configure id="钻石礼包2" value="钻石礼包2" />
+	<configure id="12元礼包" value="12元礼包" />
+	<configure id="vip月卡" value="vip月卡" />
+	<configure id="首次购买可多获得100钻石" value="首次购买可多获得100钻石" />
+	<configure id="首次购买可多获得500钻石" value="首次购买可多获得500钻石" />
+	<configure id="购买立即获得钻石*120,招募令*30，冻结卡*10，扫荡令*60，金币*10w，石油*5w，钢铁*2w，科技升级道具*10，副官合成道具*10，指挥官升级道具*10，蓝色徽章*10（可兑换三星指挥官）。道具将以邮件的形式发送
+" value="购买立即获得钻石*120,招募令*30，冻结卡*10，扫荡令*60，金币*10w，石油*5w，钢铁*2w，科技升级道具*10，副官合成道具*10，指挥官升级道具*10，蓝色徽章*10（可兑换三星指挥官）。道具将以邮件的形式发送
+" />
+	<configure id="1) 每日购买金币上限提升30%：该提升比例允许策划调整；2) 增加1队建造队列:可以写死；3) 作战图战斗次数购买上限:类似于体力购买的功能；4) 所有活动参加次数上限：增加每天参加活动的次数；5) 军令购买上限：战役参加的次数；6) 每天可领取30钻石。
+" value="1) 每日购买金币上限提升30%：该提升比例允许策划调整；2) 增加1队建造队列:可以写死；3) 作战图战斗次数购买上限:类似于体力购买的功能；4) 所有活动参加次数上限：增加每天参加活动的次数；5) 军令购买上限：战役参加的次数；6) 每天可领取30钻石。
+" />
+	<configure id="普通谭娅基因体" value="普通谭娅基因体" />
+	<configure id="普通佐菲亚基因体" value="普通佐菲亚基因体" />
+	<configure id="普通芸茹基因体" value="普通芸茹基因体" />
+	<configure id="优秀谭娅基因体" value="优秀谭娅基因体" />
+	<configure id="优秀佐菲亚基因体" value="优秀佐菲亚基因体" />
+	<configure id="优秀芸茹灵基因体" value="优秀芸茹灵基因体" />
+	<configure id="精英谭娅灵基因体" value="精英谭娅灵基因体" />
+	<configure id="精英佐菲亚基因体" value="精英佐菲亚基因体" />
+	<configure id="精英芸茹灵基因体" value="精英芸茹灵基因体" />
+	<configure id="手枪" value="手枪" />
+	<configure id="突击步枪" value="突击步枪" />
+	<configure id="冲锋枪" value="冲锋枪" />
+	<configure id="霰弹枪" value="霰弹枪" />
+	<configure id="轻机枪" value="轻机枪" />
+	<configure id="狙击枪" value="狙击枪" />
+	<configure id="发射器" value="发射器" />
+	<configure id="破片手雷" value="破片手雷" />
+	<configure id="闪光弹" value="闪光弹" />
+	<configure id="白磷弹" value="白磷弹" />
+	<configure id="粘性手雷" value="粘性手雷" />
+	<configure id="C4炸药" value="C4炸药" />
+	<configure id="电磁脉冲手雷" value="电磁脉冲手雷" />
+	<configure id="震撼弹" value="震撼弹" />
+	<configure id="遥控无人机" value="遥控无人机" />
+	<configure id="爆破无人机" value="爆破无人机" />
+	<configure id="追踪无人机" value="追踪无人机" />
+	<configure id="钉刺无人机" value="钉刺无人机" />
+	<configure id="无人轰炸机" value="无人轰炸机" />
+	<configure id="突击无人机" value="突击无人机" />
+	<configure id="作战无人机" value="作战无人机" />
+	<configure id="光学准镜" value="光学准镜" />
+	<configure id="红点准镜" value="红点准镜" />
+	<configure id="混合准镜" value="混合准镜" />
+	<configure id="自动瞄准准镜" value="自动瞄准准镜" />
+	<configure id="侦测目标准镜" value="侦测目标准镜" />
+	<configure id="热能探测准镜" value="热能探测准镜" />
+	<configure id="镭射准镜" value="镭射准镜" />
+	<configure id="防弹背心" value="防弹背心" />
+	<configure id="战术侦察胸挂" value="战术侦察胸挂" />
+	<configure id="战术快拆背心" value="战术快拆背心" />
+	<configure id="基础战术背心" value="基础战术背心" />
+	<configure id="盟军徽章" value="盟军徽章" />
+	<configure id="苏军徽章" value="苏军徽章" />
+	<configure id="尤里徽章" value="尤里徽章" />
+	<configure id="军令第一次" value="军令第一次" />
+	<configure id="军令第二次" value="军令第二次" />
+	<configure id="军令第三次" value="军令第三次" />
+	<configure id="探索令第一次" value="探索令第一次" />
+	<configure id="探索令第二次" value="探索令第二次" />
+	<configure id="探索令第三次" value="探索令第三次" />
+	<configure id="商城" value="商城" />
+</configures>

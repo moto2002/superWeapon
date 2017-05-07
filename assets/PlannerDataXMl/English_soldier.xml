@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="谭娅" value="Tanya" Officer="Officer" />
+	<configure id="鲍里斯" value="Boris" Officer="Officer" />
+	<configure id="娜塔莎" value="Natasha" Officer="Officer" />
+	<configure id="罗伯特" value="Robert" Officer="Officer" />
+	<configure id="夏娜" value="Shinena" Officer="Officer" />
+	<configure id="黑杰克" value="Black Jack" Officer="Officer" />
+	<configure id="全属性2%" value="All Attr. 2%" Officer="" />
+	<configure id="全属性5%" value="All Attr. 5%" Officer="officerRecruitRule" />
+	<configure id="全属性10%" value="All Attr. 10%" Officer="officerRecruitRule" />
+	<configure id="全属性15%" value="All Attr. 15%" Officer="officerRecruitRule" />
+	<configure id="全属性20%" value="All Attr. 20%" Officer="officerRecruitRule" />
+	<configure id="全属性25%" value="All Attr. 25%" Officer="officerRecruitRule" />
+	<configure id="升星" value="Star Up" Officer="officerRecruitRule" />
+	<configure id="技能" value="Skill" Officer="officerRecruitRule" />
+	<configure id="经验" value="Exp" Officer="officerRecruitRule" />
+	<configure id="使用" value="Use" Officer="officerRecruitRule" />
+	<configure id="道具不足" value="Not enough items" Officer="officerRecruitRule" />
+	<configure id="您还没有该道具" value="You don't have the item" Officer="officerRecruitRule" />
+	<configure id="您的等级不足" value="Your level not enough" Officer="officerRecruitRule" />
+	<configure id="需要特种兵达到" value="Need special troop reaches" Officer="officerRecruitRule" />
+	<configure id="技能点不足" value="Skill points not enough" Officer="officerRecruitRule" />
+	<configure id="购买" value="Buy" Officer="officerRecruitRule" />
+	<configure id="您还未拥有该兵种" value="You do not have the army" Officer="officerRecruitRule" />
+	<configure id="恭喜您获得了新兵种" value="Congrats! You got new army!" Officer="officerRecruitRule" />
+	<configure id="复活中" value="Reviving" Officer="officerRecruitRule" />
+	<configure id="复活" value="Revive" Officer="officerRecruitRule" />
+	<configure id="拥有复活币" value="Own Revive Coin" Officer="officerRecruitRule" />
+	<configure id="1个复活币减10分钟CD" value="A revive coin can shorten CD of 10 minutes" Officer="officerRecruitRule" />
+	<configure id="已到最高星级" value="Star Lv. Maxed" Officer="officerRecruitRule" />
+	<configure id="已满级" value="Reached the level cap" Officer="officerRecruitRule" />
+	<configure id="已满星" value="Star Lv. Maxed" Officer="officerRecruitRule" />
+	<configure id="需要技能点" value="Need skill points" Officer="officerRecruitRule" />
+	<configure id="已到最高等级" value="Level Maxed" Officer="officerRecruitRule" />
+	<configure id="您的兵种已死亡" value="Your army is dead" Officer="officerRecruitRule" />
+	<configure id="技能点" value="Skill Points" Officer="TalentUpset" />
+	<configure id="特种兵对话1" value="Attack others in the battle map help you get tech items and some resources" Officer="TalentUpset" />
+	<configure id="特种兵对话2" value="Attack other players in PVP help you get large amount of resources, but there might be revenge." Officer="Aide" />
+	<configure id="特种兵对话3" value="Attack Yuri to get large amount of gold and items to upgrade commanders." Officer="Aide" />
+	<configure id="也许你要帮我选个目标" value="You may need to choose a target for me." Officer="Aide" />
+	<configure id="我明白了，向目标前进" value="I understand, go towards the target" Officer="Aide" />
+	<configure id="算了，还是我自己选吧" value="Forget it, I'll choose by myself" Officer="Aide" />
+	<configure id="我无法攻击到目标建筑" value="I can not attack the target building" Officer="AideAbittly" />
+	<configure id="进入战场" value="Enter Battle" Officer="AideAbittly" />
+	<configure id="生命" value="HP" Officer="AideAbittly" />
+	<configure id="攻击" value="Attack" Officer="AideAbittly" />
+	<configure id="防御" value="Armor" Officer="AideAbittly" />
+	<configure id="增益" value="Buff" Officer="AideAbittly" />
+	<configure id="兵种属性提升" value="Soldiers attribute enhanced" Officer="AideAbittly" />
+	<configure id="您的特种兵还在复活CD中，是否要进行战斗" value="Your special army is still in revive CD. Are you sure to start the battle?" Officer="AideAbittly" />
+	<configure id="您的特种兵尚未配置，是否要进行战斗" value="Special army not set. Are you sure to start the battle?" Officer="AideAbittly" />
+</configures>

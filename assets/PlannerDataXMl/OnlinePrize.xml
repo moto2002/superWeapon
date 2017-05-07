@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" name="" time="120" resPrize="2:500" moneyPrize="" itemPrize="" skillPrize="" desprtion="累计在线2分钟" />
+	<configure id="2" name="" time="300" resPrize="2:1000" moneyPrize="" itemPrize="2:1" skillPrize="" desprtion="累积在线5分钟" />
+	<configure id="3" name="" time="600" resPrize="2:1500" moneyPrize="" itemPrize="" skillPrize="" desprtion="累计在线10分钟" />
+	<configure id="4" name="" time="900" resPrize="2:2000" moneyPrize="" itemPrize="120:5" skillPrize="" desprtion="累积在线15分钟" />
+	<configure id="5" name="" time="1200" resPrize="2:2500" moneyPrize="" itemPrize="" skillPrize="" desprtion="累计在线20分钟" />
+	<configure id="6" name="" time="1500" resPrize="2:3000" moneyPrize="" itemPrize="" skillPrize="" desprtion="累计在线25分钟" />
+	<configure id="7" name="" time="1800" resPrize="2:3500" moneyPrize="" itemPrize="" skillPrize="16:1" desprtion="累积在线30分钟" />
+	<configure id="8" name="" time="3600" resPrize="2:5000" moneyPrize="" itemPrize="" skillPrize="17:1" desprtion="累积在线1小时" />
+	<configure id="9" name="" time="7200" resPrize="2:6500" moneyPrize="7:10" itemPrize="120:30" skillPrize="" desprtion="累积在线2小时" />
+</configures>

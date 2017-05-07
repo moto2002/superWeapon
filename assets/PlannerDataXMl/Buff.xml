@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" name="加速" des="移动速度提升" buffType="2" buffLevel="1" target="1" powerType="0" power="50" lifetime="10" effect="" />
+	<configure id="2" name="隐身" des="无法被敌人攻击" buffType="32" buffLevel="1" target="1" powerType="-1" power="-1" lifetime="10" effect="" />
+	<configure id="3" name="攻击" des="一定时间内攻击提升" buffType="8" buffLevel="1" target="1" powerType="0" power="25" lifetime="15" effect="" />
+	<configure id="4" name="护盾" des="一定时间内吸收伤害" buffType="16" buffLevel="1" target="1" powerType="1" power="1500" lifetime="15" effect="" />
+	<configure id="5" name="护甲" des="一定时间内护甲提升" buffType="4" buffLevel="1" target="1" powerType="0" power="25" lifetime="15" effect="" />
+	<configure id="6" name="麻痹" des="一定时间内无法移动攻击" buffType="64" buffLevel="1" target="0" powerType="-1" power="-1" lifetime="5" effect="" />
+	<configure id="7" name="持续减血" des="美妙造成X点伤害，持续5秒" buffType="128" buffLevel="1" target="0" powerType="-1" power="-1" lifetime="3" effect="" />
+	<configure id="8" name="无法攻击" des="建筑物无法攻击" buffType="64" buffLevel="1" target="0" powerType="-1" power="-1" lifetime="5000" effect="" />
+	<configure id="9" name="升星1" des="全属性提升30%" buffType="256" buffLevel="1" target="1" powerType="0" power="30" lifetime="30" effect="" />
+	<configure id="10" name="升星2" des="全属性提升50%" buffType="256" buffLevel="2" target="1" powerType="0" power="50" lifetime="30" effect="" />
+	<configure id="11" name="升星3" des="全属性提升100%" buffType="256" buffLevel="3" target="1" powerType="0" power="100" lifetime="30" effect="" />
+	<configure id="12" name="兵种强化1星" des="全属性提升30%" buffType="256" buffLevel="1" target="1" powerType="0" power="30" lifetime="300" effect="" />
+	<configure id="13" name="兵种强化2星" des="全属性提升50%" buffType="256" buffLevel="2" target="1" powerType="0" power="50" lifetime="300" effect="" />
+	<configure id="14" name="兵种强化3星" des="全属性提升100%" buffType="256" buffLevel="3" target="1" powerType="0" power="100" lifetime="300" effect="" />
+	<configure id="15" name="攻击速度（冲锋）" des="效果120S内、全员加30%攻速。" buffType="512" buffLevel="1" target="1" powerType="0" power="30" lifetime="120" effect="" />
+	<configure id="16" name="攻击速度（冲锋）" des="效果120S内、全员加40%攻速。" buffType="512" buffLevel="2" target="1" powerType="0" power="40" lifetime="120" effect="" />
+	<configure id="17" name="攻击速度（冲锋）" des="效果120S内、全员加50%攻速。" buffType="512" buffLevel="3" target="1" powerType="0" power="50" lifetime="120" effect="" />
+	<configure id="18" name="移动速度" des="加15%移动速度" buffType="2" buffLevel="1" target="1" powerType="0" power="15" lifetime="120" effect="" />
+	<configure id="19" name="移动速度" des="加20%移动速度" buffType="2" buffLevel="2" target="1" powerType="0" power="20" lifetime="120" effect="" />
+	<configure id="20" name="移动速度" des="加30%移动速度" buffType="2" buffLevel="3" target="1" powerType="0" power="30" lifetime="120" effect="" />
+	<configure id="21" name="攻击" des="加15%攻击" buffType="8" buffLevel="1" target="1" powerType="0" power="15" lifetime="120" effect="" />
+	<configure id="22" name="攻击" des="加20%攻击" buffType="8" buffLevel="2" target="1" powerType="0" power="20" lifetime="120" effect="" />
+	<configure id="23" name="攻击" des="加30%攻击" buffType="8" buffLevel="3" target="1" powerType="0" power="30" lifetime="120" effect="" />
+	<configure id="24" name="护盾" des="一定时间内吸收伤害" buffType="16" buffLevel="1" target="1" powerType="1" power="1000" lifetime="180" effect="" />
+	<configure id="25" name="护盾" des="一定时间内吸收伤害" buffType="16" buffLevel="1" target="1" powerType="1" power="2000" lifetime="180" effect="" />
+	<configure id="26" name="护盾" des="一定时间内吸收伤害" buffType="16" buffLevel="1" target="1" powerType="1" power="3000" lifetime="180" effect="" />
+	<configure id="27" name="护甲" des="一定时间内护甲提升" buffType="4" buffLevel="1" target="1" powerType="0" power="30" lifetime="1" effect="" />
+	<configure id="28" name="护甲" des="一定时间内护甲提升" buffType="4" buffLevel="1" target="1" powerType="0" power="40" lifetime="1" effect="" />
+	<configure id="29" name="护甲" des="一定时间内护甲提升" buffType="4" buffLevel="1" target="1" powerType="0" power="50" lifetime="1" effect="" />
+	<configure id="30" name="烟雾弹效果" des="无法被敌人发现" buffType="32" buffLevel="1" target="1" powerType="-1" power="-1" lifetime="1" effect="" />
+	<configure id="31" name="烟雾弹效果" des="无法被敌人发现" buffType="32" buffLevel="1" target="1" powerType="-1" power="-1" lifetime="1" effect="" />
+	<configure id="32" name="烟雾弹效果" des="无法被敌人发现" buffType="32" buffLevel="1" target="1" powerType="-1" power="-1" lifetime="1" effect="" />
+	<configure id="33" name="烟雾弹效果2" des="一定时间内无法移动攻击" buffType="64" buffLevel="1" target="0" powerType="-1" power="-1" lifetime="10" effect="" />
+	<configure id="34" name="烟雾弹效果2" des="一定时间内无法移动攻击" buffType="64" buffLevel="1" target="0" powerType="-1" power="-1" lifetime="20" effect="" />
+	<configure id="35" name="烟雾弹效果2" des="一定时间内无法移动攻击" buffType="64" buffLevel="1" target="0" powerType="-1" power="-1" lifetime="30" effect="" />
+	<configure id="36" name="战争恐惧11" des="一定时间内护甲提升" buffType="4" buffLevel="1" target="0" powerType="0" power="-10" lifetime="20" effect="" />
+	<configure id="37" name="战争恐惧12" des="一定时间内护甲提升" buffType="4" buffLevel="1" target="0" powerType="0" power="-15" lifetime="20" effect="" />
+	<configure id="38" name="战争恐惧13" des="一定时间内护甲提升" buffType="4" buffLevel="1" target="0" powerType="0" power="-20" lifetime="20" effect="" />
+	<configure id="39" name="战争恐惧21" des="一定时间内攻速提升" buffType="512" buffLevel="1" target="0" powerType="0" power="-10" lifetime="20" effect="" />
+	<configure id="40" name="战争恐惧22" des="一定时间内攻速提升" buffType="512" buffLevel="1" target="0" powerType="0" power="-15" lifetime="20" effect="" />
+	<configure id="41" name="战争恐惧23" des="一定时间内攻速提升" buffType="512" buffLevel="1" target="0" powerType="0" power="-20" lifetime="20" effect="" />
+	<configure id="42" name="冰冻 " des="冻住敌人" buffType="64" buffLevel="1" target="0" powerType="1" power="-1" lifetime="5" effect="" />
+</configures>

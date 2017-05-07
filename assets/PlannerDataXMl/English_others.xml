@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="第1天" value="Day(s) 1" />
+	<configure id="第2天" value="Day(s) 2" />
+	<configure id="第3天" value="Day(s) 3" />
+	<configure id="第4天" value="Day(s) 4" />
+	<configure id="第5天" value="Day(s) 5" />
+	<configure id="第6天" value="Day(s) 6" />
+	<configure id="第7天" value="Day(s) 7" />
+	<configure id="第8天" value="Day(s) 8" />
+	<configure id="第9天" value="Day(s) 9" />
+	<configure id="第10天" value="Day(s) 10" />
+	<configure id="第11天" value="Day(s) 11" />
+	<configure id="第12天" value="Day(s) 12" />
+	<configure id="第13天" value="Day(s) 13" />
+	<configure id="第14天" value="Day(s) 14" />
+	<configure id="第15天" value="Day(s) 15" />
+	<configure id="第16天" value="Day(s) 16" />
+	<configure id="第17天" value="Day(s) 17" />
+	<configure id="第18天" value="Day(s) 18" />
+	<configure id="第19天" value="Day(s) 19" />
+	<configure id="第20天" value="Day(s) 20" />
+	<configure id="第21天" value="Day(s) 21" />
+	<configure id="第22天" value="Day(s) 22" />
+	<configure id="第23天" value="Day(s) 23" />
+	<configure id="第24天" value="Day(s) 24" />
+	<configure id="第25天" value="Day(s) 25" />
+	<configure id="第26天" value="Day(s) 26" />
+	<configure id="第27天" value="Day(s) 27" />
+	<configure id="第28天" value="Day(s) 28" />
+	<configure id="第29天" value="Day(s) 29" />
+	<configure id="第30天" value="Day(s) 30" />
+	<configure id="第31天" value="Day(s) 31" />
+	<configure id="普通招募免费次数" value="Common Free Recruit Chance" />
+	<configure id="精英招募免费次数" value="Elite Free Recruit Chance" />
+	<configure id="普通免费招募cd时间" value="Free Common Recruit CD" />
+	<configure id="精英免费招募cd时间" value="Free Elite Recruit CD" />
+	<configure id="可生长物品最大数量" value="Maxed growable items" />
+	<configure id="可生长物品刷新间隔时间" value="Growable items refresh CD" />
+	<configure id="免费购买金币次数" value="Free chances to buy gold" />
+	<configure id="钻石兑换的金币数量" value="Amount of gold exchanged by diamond" />
+	<configure id="购买金币需要花费的钻石数" value="Diamonds required to buy gold" />
+	<configure id="购买金币暴击几率（20=20%）" value="Bonus rate for gold purchase (20=20%)" />
+	<configure id="购买金币暴击额外获得的金币（50=额外获得50%）" value="Extra gold bonus for gold purchase (50=get 50% extra gold)" />
+	<configure id="军火商刷新间隔时间" value="Arms dealer refresh CD" />
+	<configure id="手动刷新军火商需要的钻石" value="Diamonds needed to refresh Arms dealer" />
+	<configure id="使用钻石刷新军火商的最大次数" value="Maxed chances to refresh arms dealer with diamonds" />
+	<configure id="补签需要的钻石" value="Diamonds needed for missed sign" />
+	<configure id="可补签最大次数" value="Maxed chances for missed sign" />
+	<configure id="副官强化需要的物品设定ID" value="Items ID needed for Adjutant enhancement" />
+	<configure id="推送每日任务数量" value="Number of daily quest notice" />
+	<configure id="月vip金币购买上限" value="Limitation of monthly VIP gold purchase" />
+	<configure id="月vip作战图战斗次数购买上限" value="Limitation of monthly VIP battle chance purchase" />
+	<configure id="月vip参加活动次数上限" value="Limitation of monthly VIP to attend event" />
+	<configure id="月vip军令购买上限" value="Limitation on order purchase for monthly VIP" />
+	<configure id="军令每次购买数量" value="Number of orders purchased per time" />
+	<configure id="探索令每次购买数量" value="Number of Explore Orders purchased per time" />
+	<configure id="月vip每日可领取钻石" value="Daily diamonds for month VIP" />
+	<configure id="npc每天中午12点的进攻次数" value="NPC daily attack times at 12:00" />
+	<configure id="npc每天下午18点的进攻次数" value="NPC daily attack times at 18:00" />
+	<configure id="装备最高品质" value="Highest quality of items" />
+	<configure id="摧毁ID为【参数1】的【参数2】个建筑   参数1：参数2" value="Destroyed ID is 【parameter 1】's 【parameter 2】buildings parameter 1: parameter 2" />
+	<configure id="携带ID为【参数1】，【参数2】兵种   参数1：0，参数2：0" value="Carr ID is 【parameter 1】,【parameter 2】army parameter1:0, parameter2:0" />
+	<configure id="携带ID为【参数1】指挥官   参数1：0" value="Carr ID is 【parameter 1】commander parameter1:0" />
+	<configure id="兵种损失少于【参数1】  参数1：0" value="Army loss less than 【Parameter 1】parameter1:0" />
+	<configure id="军令不足" value="Not enough Orders" />
+	<configure id="扫荡令不足" value="Not enough Sweep Order" />
+	<configure id="刚刚" value="Just now" />
+	<configure id="分前" value="Minutes ago" />
+	<configure id="时前" value="Hour ago" />
+	<configure id="天前" value="day(s) ago" />
+	<configure id="时" value="Hour" />
+	<configure id="天" value="Day" />
+	<configure id="获得钻石" value="Get diamonds" />
+	<configure id="角色经验" value="Role EXP" />
+	<configure id="恭喜！您的角色等级已升到LV." value="Congrats! Your role reaches Lv." />
+	<configure id="今日次数已用完" value="You have ran out of times today." />
+	<configure id="钻石不足，请充值！" value="Not enough diamonds, please recharge!" />
+	<configure id="签到" value="Sign in" />
+	<configure id="签到奖励" value="Sign-in Reward" />
+	<configure id="领取" value="Collect" />
+	<configure id="已领取" value="Collected" />
+	<configure id="商品售完请等待下次刷新提示" value="Sold out already, please wait for next refresh." />
+	<configure id="请先开通VIP" value="Please open VIP" />
+	<configure id="领取时间未到，请耐心等候" value="Not the time yet, please wait." />
+	<configure id="包含敏感字符" value="Illegal words" />
+	<configure id="包含非法字符" value="Invalid characters" />
+	<configure id="恭喜，您获得副官" value="Congrats! You got Adjutant" />
+	<configure id="军火商" value="Arm Dealer" />
+	<configure id="战报" value="Report" />
+	<configure id="刷新" value="Refresh" />
+	<configure id="刷新倒计时" value="Refresh CD" />
+	<configure id="刷新次数" value="Refresh Times" />
+	<configure id="已售完" value="Sold Out" />
+	<configure id="您" value="You" />
+	<configure id="排行榜" value="Rank" />
+	<configure id="荣誉排行" value="Honor Rank" />
+	<configure id="好友排行" value="Friend Rank" />
+	<configure id="排行奖励" value="Rank reward" />
+	<configure id="本人排名" value="Your Rank" />
+	<configure id="未上榜" value="Not ranked" />
+	<configure id="访问" value="Visit" />
+	<configure id="兵种" value="Army" />
+	<configure id="立即结束冷却" value="End Now" />
+	<configure id="邮件箱" value="Mail" />
+	<configure id="可领取奖励" value="Collectable" />
+	<configure id="领取奖励" value="Collect" />
+	<configure id="仓库" value="Bag" />
+	<configure id="强制更新" value="Force Update" />
+	<configure id="退出游戏" value="Exit" />
+	<configure id="没有帐号点击注册" value="Click to register" />
+	<configure id="当前帐号:" value="Current Acc." />
+	<configure id="更换账户" value="Change Acc." />
+	<configure id="点击更换" value="Click to change" />
+	<configure id="进入游戏" value="Login Game" />
+	<configure id="最近登录" value="Recent Login" />
+	<configure id="系统" value="System" />
+	<configure id="世界" value="World" />
+	<configure id="军团" value="Corps" />
+	<configure id="奖励已领取" value="Rewards collected" />
+	<configure id="资源已达上限" value="Resources Maxed" />
+	<configure id="未领取" value="Uncollected" />
+	<configure id="请输入聊天内容" value="Please enter contents" />
+	<configure id="探索该区域" value="Search the area" />
+	<configure id="侦查" value="Detect" />
+	<configure id="攻击" value="Attack" />
+	<configure id="确定" value="OK" />
+	<configure id="取消" value="Cancel" />
+	<configure id="勋章会影响排名，勋章数" value="Medal influences rank, number of medal" />
+	<configure id="量越多排行越高。作战图" value="Get higher rank if you have moreBattle Map" />
+	<configure id="每胜利一场会获得1至2枚" value="Get 1 or 2 for each victory" />
+	<configure id="勋章，如果基地被敌人摧" value="Medal, if base destroyed by enemy," />
+	<configure id="毁，勋章会丢失。" value="Medal will get lost" />
+	<configure id="任务" value="Quest" />
+	<configure id="成就" value="Ach." />
+	<configure id="邮件" value="Mail" />
+	<configure id="排行" value="Rank" />
+	<configure id="建造" value="Build" />
+	<configure id="战役" value="Battle" />
+	<configure id="作战图" value="Battle" />
+	<configure id="建造状态" value="Deploying" />
+	<configure id="发送" value="Send" />
+	<configure id="下次刷新倒计时" value="Refresh CD" />
+	<configure id="登上该岛" value="Land on the island" />
+	<configure id="敌军" value="Enemy" />
+	<configure id="分队操作" value="Group Operation" />
+	<configure id="可以掠夺资源" value="Can plunder resources" />
+	<configure id="可投入战场的部队" value="Troop available for battle" />
+	<configure id="正在侦查敌军基地" value="Detecting enemy base" />
+	<configure id="主基地" value="Main Base" />
+	<configure id="已经掠夺的资源" value="Resources plundered" />
+	<configure id="战斗剩余时间" value="Battle time left" />
+	<configure id="一键投兵" value="Drop Army" />
+	<configure id="自动战斗" value="Auto Fight" />
+	<configure id="手动操作" value="Manually" />
+	<configure id="撤退" value="Retreat" />
+	<configure id="进攻日志" value="Attack Log" />
+	<configure id="防守日志" value="Defend Log" />
+	<configure id="战斗日志" value="Battle Log" />
+	<configure id="侦查：" value="Detect:" />
+	<configure id="攻击：" value="Attack:" />
+	<configure id="攻陷：" value="Occupy:" />
+	<configure id="返回基地" value="Back to base" />
+	<configure id="进入资源点" value="Enter resource spot" />
+	<configure id="胜利" value="Win" />
+	<configure id="失败" value="Lose" />
+	<configure id="查看战斗" value="Check the battle" />
+	<configure id="领取钻石" value="Collect diamond" />
+	<configure id="复仇" value="Revenge" />
+	<configure id="我方攻击了此敌人的资源岛 " value="We attacked the resource island of the enemy" />
+	<configure id="我方攻击了此敌人的主基地" value="We attacked the main base of the enemy" />
+	<configure id="我方占领了敌人的资源点" value="We occupied the resource island of enemy" />
+	<configure id="我方抵御了敌人的进攻" value="We defeated the enemy" />
+	<configure id="我方资源岛被敌人占领" value="Our resource island was occupied by enemy" />
+	<configure id="我方攻击了此敌人的基地" value="We attacked the base of the enemy" />
+	<configure id="我方从敌方获得了" value="We obtained from enemy:" />
+	<configure id="敌方攻击我方基地" value="Our base is under attack" />
+	<configure id="敌方从我方获得了" value="Plundered by enemy" />
+	<configure id="资源获得" value="Resources Obtain" />
+	<configure id="道具获得" value="Items Obtain" />
+	<configure id="已派遣部队" value="Troop dispatched" />
+	<configure id="被摧毁部队" value="Troop destroyed" />
+	<configure id="我们抵御了敌人的进攻" value="We defeated enemy" />
+	<configure id="很抱歉视频已消失！" value="Sorry the video is lost!" />
+	<configure id="已成功复仇！" value="Revenge Success!" />
+	<configure id="伤亡" value="Loss" />
+	<configure id="点击屏幕返回" value="Click to back" />
+	<configure id="您指挥有方，我们的作战部队没有任何损失" value="By your command, we lost nothing in the battle" />
+	<configure id="每日购买资源上限提升30%" value="Daily resources purchased + 30%" />
+	<configure id="增加1队建造队列" value="Add 1 building team" />
+	<configure id="每日可购买3次探令" value="Can buy 3 times of Explore Order daily" />
+	<configure id="每日可购买3次军令" value="Can buy 3 times of Order daily" />
+	<configure id="每日可领取30钻石" value="Can collect 30 diamonds daily" />
+	<configure id="探索令或军令不足" value="Explore Order or Order not enough" />
+	<configure id="更换对手" value="Change" />
+	<configure id="战役数据加载中" value="Loading...." />
+	<configure id="欢迎您！指挥官！" value="Welcome! Commander!" />
+	<configure id="请输入您的姓名:" value="Please enter your name:" />
+	<configure id="尊敬的指挥官，昵称确定后将无法更改！建议您的昵称长度控制在12个字符内" value="Dear commander, the name can not be changed after you confirmed! A name should not be longer than 12 characters" />
+	<configure id="司令部已升级到" value="Headquarters upgraded to" />
+	<configure id="下列建筑已解锁!" value="The following building unlocked" />
+	<configure id="更换帐号" value="Change account" />
+	<configure id="昵称长度不能为0" value="The length of name can not be zero" />
+	<configure id="可领取" value="Collectable" />
+	<configure id="免费领取" value="Free Collect" />
+	<configure id="免费获得：" value="Free:" />
+	<configure id="可能获得：" value="May get:" />
+	<configure id="7天累计登录" value="7-day login" />
+	<configure id="钻石" value="Diamond" />
+	<configure id="神秘宝箱" value="Mystery Chest" />
+	<configure id="我的荣誉排行" value="My Honor Rank" />
+	<configure id="奖励" value="Reward" />
+	<configure id="第" value="Rank" />
+	<configure id="名" value="" />
+	<configure id="每周" value="Weekly" />
+	<configure id="点可以领取" value="Click to collect" />
+	<configure id="军团暂未上线" value="Guild is not open" />
+	<configure id="即将开放" value="Opening soon" />
+	<configure id="名字不可用" value="Name not available" />
+	<configure id="名字已重复" value="The name exists already" />
+	<configure id="帐号" value="Account" />
+	<configure id="密码" value="Password" />
+	<configure id="登录游戏" value="Login" />
+	<configure id="开放新兵种" value="New Army Unlocked" />
+	<configure id="完成" value="Done" />
+	<configure id="通关奖励" value="Stage Rewards" />
+	<configure id="打开可获取：" value="Open to get:" />
+	<configure id="箱子可领取" value="Chest Collectable" />
+	<configure id="仓库资源不足" value="Not enough space" />
+	<configure id="资源仓库不足以存放战利品，是否确认扫荡，扫荡完成后会有部分资源损失" value="Not enough space in warehouse, are you sure to Sweep? You will lost some resources of the battle" />
+	<configure id="昵称长度不能超过12个字符" value="Name should not be longer than 12 characters" />
+	<configure id="消费提示" value="Spend confirmation" />
+	<configure id="花费钻石" value="Coast diamond" />
+	<configure id="当前不能购买" value="Can not buy now" />
+	<configure id="技能兑换" value="Skill Exchange" />
+	<configure id="技能升级" value="Skill Upgrade" />
+	<configure id="升级" value="Upgrade" />
+	<configure id="免费" value="Free" />
+	<configure id="此处不可放置兵种" value="Can not put army here" />
+	<configure id="兵种不足" value="Army not enough" />
+	<configure id="网络断开" value="Disconnected" />
+	<configure id="重新登录" value="Relog" />
+	<configure id="重新加载" value="Reload" />
+	<configure id="网络错误" value="Connection Error" />
+	<configure id="军令已满" value="Orders are full." />
+	<configure id="今日购买军令次数已满" value="Can not buy more orders today" />
+	<configure id="恭喜您升到" value="Lv." />
+	<configure id="级" value="" />
+	<configure id="玩家信息" value="Player Info" />
+	<configure id="角色昵称：" value="Role Name:" />
+	<configure id="帐 号 ID：" value="Account:" />
+	<configure id="角色等级：" value="Role Level:" />
+	<configure id="角色经验：" value="Role EXP:" />
+	<configure id="服 务 器：" value="Server:" />
+	<configure id="所在军团：" value="Guild:" />
+	<configure id="开" value="On" />
+	<configure id="关" value="Off" />
+	<configure id="音效" value="Audio" />
+	<configure id="音乐" value="Music" />
+	<configure id="未加入军团" value="Not in a guild" />
+	<configure id="一键配兵" value="Click to dispatch" />
+	<configure id="出战部队" value="Troop for battle" />
+	<configure id="出战技能" value="Skill for battle" />
+	<configure id="出战战斗机" value="Aircraft for battle" />
+	<configure id="花费" value="Cost" />
+	<configure id="钻石可以购买一个新的建造队列" value="Can buy a building team with diamond" />
+	<configure id="已探索" value="Explored" />
+	<configure id="特种兵列表" value="Special Troop List" />
+	<configure id="消费提醒" value="Cost remind" />
+	<configure id="钻石不足请前往充值" value="Not enough diamond, please recharge" />
+	<configure id="前往充值" value="Go recharge" />
+	<configure id="您还未拥有该兵种" value="You do not have the army" />
+	<configure id="未解锁" value="Locked" />
+	<configure id="开始战斗" value="Start" />
+	<configure id="探索度" value="Explore Rate" />
+	<configure id="建筑" value="Building" />
+	<configure id="已满级" value="Level Maxed" />
+	<configure id="暂未开放" value="Not open yet." />
+	<configure id="开场白" value="In the year of 2046, Yuri went back to year 1942 by time machine, to eliminate Hitler from history.
+The history of the world was changed.
+The Yuri controlled the nuclear weapon, magnetic tech, and mind control army.
+The Yuri become stronger and stronger, the ally lost and lost in the battle.
+The war is continue..." />
+	<configure id="占领度" value="Occupy rate" />
+	<configure id="的石油岛" value="Oil Island" />
+	<configure id="的稀矿岛" value="Ore Island" />
+	<configure id="的钢铁岛" value="Iron Island" />
+	<configure id="未进入排行榜" value="Not in rank" />
+	<configure id="战斗机" value="Fighter Enhance" />
+	<configure id="特种兵" value="Specops Upgrade" />
+	<configure id="兵种升级" value="Upgrade Army" />
+	<configure id="技能卡" value="Skill Card Enhance" />
+	<configure id="强化战力" value="Enhance Power" />
+	<configure id="金币不足请前往商城购买" value="Not enough gold" />
+	<configure id="购买" value="Buy" />
+	<configure id="搜索对手中" value="Search for match..." />
+	<configure id="查看部队" value="Check Troop" />
+	<configure id="跳过引导" value="Skip" />
+	<configure id="司令部等级" value="Headquarters Lv." />
+	<configure id="请输入礼包兑换码" value="Please enter pack code" />
+	<configure id="活动" value="Events" />
+	<configure id="礼包" value="Package" />
+	<configure id="游戏公告" value="Notice" />
+	<configure id="充值活动" value="Recharge Event" />
+	<configure id="箱子数量" value="Number of chests" />
+	<configure id="点击屏幕继续" value="Click to go on" />
+	<configure id="激活码不能为空" value="Activated code can not be empty" />
+	<configure id="系统即将为您匹配到了一个对手，如果您确定要开始战斗，我们会从您的金库扣除" value="System find a match for you, if you decide to start battle, gold will be cut from your Treasury" />
+	<configure id="功能暂未开启" value="Function locked" />
+	<configure id="您的队列已达到上限，无法购买" value="Team Maxed, can not buy more" />
+	<configure id="小时" value="Hour" />
+	<configure id="兵种升级通知内容" value="Commander, your troop has finished upgrading, dispatch them now!" />
+	<configure id="兵种升级通知标题" value="Army upgrade finished" />
+	<configure id="建筑升级通知标题" value="Building upgrade finished" />
+	<configure id="建筑升级通知内容" value="Commander, your building has finished upgrading, go and check!" />
+	<configure id="充值成功" value="Recharge Success" />
+	<configure id="充值失败" value="Recharge Failed" />
+	<configure id="充值内容" value="Congrats! Purchase success! Get {0} diamond." />
+	<configure id="是否花费" value="Are you sure to cost" />
+	<configure id="钻石购买钥匙" value="diamonds to buy key?" />
+	<configure id="钥匙不足" value="Not enough keys" />
+	<configure id="金币" value="Gold" />
+	<configure id="石油" value="Oil" />
+	<configure id="钢铁" value="Iron" />
+	<configure id="稀矿" value="Lean Ore" />
+	<configure id="每小时的产量" value="Production per hour" />
+	<configure id="最大储量" value="Maxed Storage" />
+	<configure id="从主基地" value="From main base" />
+	<configure id="从" value="From" />
+	<configure id="个资源点" value="resource spot" />
+	<configure id="受保险库保护" value="Protected by the Safety Room" />
+	<configure id="发现新目标" value="Find new target" />
+	<configure id="指挥官，发现新目标，可以攻占该岛屿" value="Commander, new target found, we can occupy the island" />
+	<configure id="跳过动画" value="Skip" />
+	<configure id="司令部达到" value="Headquarters reaches Lv." />
+	<configure id="级解封" value="to unlock" />
+	<configure id="获取金币" value="Obtain gold" />
+	<configure id="您购买" value="You purchased" />
+	<configure id="辆" value="" />
+	<configure id="花费金币" value="cost gold" />
+	<configure id="通信中" value="Connecting" />
+	<configure id="无网络" value="NO NETWORK" />
+	<configure id="请检查网络重试" value="Please check your network and retry" />
+	<configure id="重新尝试" value="Retry" />
+	<configure id="异地登录" value="Logged in at another device" />
+	<configure id="您的账户异地登录，是否重新登录" value="Your account logged at another device, relog?" />
+	<configure id="掉线" value="Disconnected" />
+	<configure id="已掉线 需重新登录" value="Disconnected, you need to relog" />
+	<configure id="目前没有符合匹配的对手" value="No matching currently" />
+	<configure id="后可领取宝箱" value="later can collecct chest" />
+	<configure id="电力充沛" value="Power Sufficient" />
+	<configure id="电力不足" value="Power Low" />
+	<configure id="严重不足" value="Power too low" />
+	<configure id="电力瘫痪" value="Power fail" />
+	<configure id="产电量" value="Power production" />
+	<configure id="电量消耗" value="Power consumption" />
+	<configure id="匹配对手" value="Search for opponent" />
+	<configure id="补兵" value="Recruit" />
+	<configure id="配兵中" value="Dispatching" />
+	<configure id="更换兵种" value="Change army" />
+	<configure id="名字必须包含数字或者字母" value="A name should contain number or alphabet" />
+	<configure id="系统消息" value="System Message" />
+</configures>

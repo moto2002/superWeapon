@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure resType="1" resName="金币" resIcon="金币" />
+	<configure resType="2" resName="油" resIcon="石油" />
+	<configure resType="3" resName="钢铁" resIcon="钢铁" />
+	<configure resType="4" resName="稀土" resIcon="稀土" />
+	<configure resType="7" resName="钻石" resIcon="钻石" />
+	<configure resType="8" resName="经验" resIcon="playermedal" />
+	<configure resType="9" resName="体力" resIcon="playermedal" />
+	<configure resType="10" resName="奖牌" resIcon="playermedal" />
+	<configure resType="11" resName="攻击战斗力" resIcon="playermedal" />
+	<configure resType="12" resName="防守战斗力" resIcon="playermedal" />
+	
+</configures>
+

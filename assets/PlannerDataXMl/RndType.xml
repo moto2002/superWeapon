@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" refreshTime="6" probability="50" addProbability="10" />
+	<configure id="2" refreshTime="3" probability="30" addProbability="10" />
+</configures>

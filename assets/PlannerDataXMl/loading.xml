@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" officerId="1" description="升级建筑需要消耗石油、钢铁、稀矿" />
+	<configure id="2" officerId="361" description="火箭车射程远、攻击高，适合与灰熊或者天启合作，在后方做为火力增援出战。" />
+	<configure id="3" officerId="721" description="攻打作战图的敌人，可以占领他们的区域，占领后可以为主基地提供更多的资源。" />
+	<configure id="4" officerId="1081" description="核弹可以摧毁半个基地。" />
+	<configure id="5" officerId="1441" description="伞兵可以用来深入主基地中心。" />
+	<configure id="6" officerId="1801" description="升级间谍卫星可以在作战图探索更广的范围。" />
+	<configure id="7" officerId="1" description="天启坦克是机枪塔的克星" />
+	<configure id="8" officerId="361" description="光棱坦克有折射伤害，适合攻击建筑密集的基地。" />
+	<configure id="9" officerId="721" description="电磁坦克可以让对方无法攻击。" />
+	<configure id="10" officerId="1" description="升级兵种、战斗机、科技需要消耗大量的金币。" />
+	<configure id="11" officerId="361" description="想提升战斗力，可以升级兵种等级、战斗机等级、科技等级。" />
+	<configure id="12" officerId="1441" description="步兵战车数量多时，战斗力是很可怕的。" />
+	<configure id="13" officerId="1801" description="灰熊坦克属于经济适用型兵种。" />
+	<configure id="14" officerId="1" description="狙击塔要小心步兵战车，面对大量的步兵战车将很难阻挡他们前进。" />
+	<configure id="15" officerId="361" description="摧毁其他建筑，主基地的生命值也会下降。" />
+	<configure id="16" officerId="721" description="出战前请记得配置技能卡。" />
+	<configure id="17" officerId="1081" description="巨炮可以短时间内让天启坦克有来无回。" />
+	<configure id="18" officerId="1441" description="机枪塔是步兵战车的克星。" />
+	<configure id="19" officerId="1801" description="遇到多管火箭炮时，只要靠近他就好了，越近越好。" />
+	<configure id="20" officerId="1" description="小心地雷！" />
+	<configure id="21" officerId="361" description="完美使用战斗机及技能卡，可以减少兵种的损失。" />
+	<configure id="22" officerId="721" description="掠夺玩家是获得资源最快的方式。" />
+	<configure id="23" officerId="1441" description="请及时升级仓库，否则可能会爆仓，多余的资源会消失。" />
+	<configure id="24" officerId="361" description="长按建筑不放会进入建造状态，这时候您可以随意移动摆放建筑。" />
+</configures>

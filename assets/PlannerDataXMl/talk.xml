@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" content="我们每天的工作是吃饭、睡觉、打赵令！" nextid="2" name="大总统" icon="人物" />
+	<configure id="2" content="你爱玩打赵令游戏吗？" nextid="0" name="大总统" icon="人物" />
+</configures>

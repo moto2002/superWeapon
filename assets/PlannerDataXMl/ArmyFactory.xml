@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="0" itemId="13" level="0" openArmys="" armyLevelMax="0" />
+	<configure id="1" itemId="13" level="1" openArmys="1" armyLevelMax="1" />
+	<configure id="2" itemId="13" level="2" openArmys="1" armyLevelMax="2" />
+	<configure id="3" itemId="13" level="3" openArmys="1,2" armyLevelMax="3" />
+	<configure id="4" itemId="13" level="4" openArmys="1,2" armyLevelMax="4" />
+	<configure id="5" itemId="13" level="5" openArmys="3,1,2" armyLevelMax="5" />
+	<configure id="6" itemId="13" level="6" openArmys="4,3,1,2" armyLevelMax="6" />
+	<configure id="7" itemId="13" level="7" openArmys="5,4,3,1,2" armyLevelMax="7" />
+	<configure id="8" itemId="13" level="8" openArmys="6,5,4,3,1,2" armyLevelMax="8" />
+	<configure id="9" itemId="13" level="9" openArmys="6,5,4,3,1,2" armyLevelMax="9" />
+	<configure id="10" itemId="13" level="10" openArmys="6,5,4,3,1,2" armyLevelMax="10" />
+	<configure id="11" itemId="13" level="11" openArmys="6,5,4,3,1,2" armyLevelMax="11" />
+	<configure id="12" itemId="13" level="12" openArmys="6,5,4,3,1,2" armyLevelMax="12" />
+	<configure id="13" itemId="13" level="13" openArmys="6,5,4,3,1,2" armyLevelMax="13" />
+	<configure id="14" itemId="13" level="14" openArmys="6,5,4,3,1,2" armyLevelMax="14" />
+	<configure id="15" itemId="13" level="15" openArmys="6,5,4,3,1,2" armyLevelMax="15" />
+	<configure id="16" itemId="13" level="16" openArmys="6,5,4,3,1,2" armyLevelMax="16" />
+	<configure id="17" itemId="13" level="17" openArmys="6,5,4,3,1,2" armyLevelMax="17" />
+	<configure id="18" itemId="13" level="18" openArmys="6,5,4,3,1,2" armyLevelMax="18" />
+	<configure id="19" itemId="13" level="19" openArmys="6,5,4,3,1,2" armyLevelMax="19" />
+	<configure id="20" itemId="13" level="20" openArmys="6,5,4,3,1,2" armyLevelMax="20" />
+	<configure id="21" itemId="91" level="0" openArmys="" armyLevelMax="0" />
+	<configure id="22" itemId="91" level="1" openArmys="20" armyLevelMax="1" />
+	<configure id="23" itemId="91" level="2" openArmys="20" armyLevelMax="2" />
+	<configure id="24" itemId="91" level="3" openArmys="20" armyLevelMax="3" />
+	<configure id="25" itemId="91" level="4" openArmys="20" armyLevelMax="4" />
+	<configure id="26" itemId="91" level="5" openArmys="20" armyLevelMax="5" />
+	<configure id="27" itemId="91" level="6" openArmys="20" armyLevelMax="6" />
+	<configure id="28" itemId="91" level="7" openArmys="15,20" armyLevelMax="7" />
+	<configure id="29" itemId="91" level="8" openArmys="15,20" armyLevelMax="8" />
+	<configure id="30" itemId="91" level="9" openArmys="15,20" armyLevelMax="9" />
+	<configure id="31" itemId="91" level="10" openArmys="15,20" armyLevelMax="10" />
+	<configure id="32" itemId="91" level="11" openArmys="15,20,16" armyLevelMax="11" />
+	<configure id="33" itemId="91" level="12" openArmys="15,20,16,19" armyLevelMax="12" />
+	<configure id="34" itemId="91" level="13" openArmys="15,20,16,19" armyLevelMax="13" />
+	<configure id="35" itemId="91" level="14" openArmys="15,20,16,19" armyLevelMax="14" />
+	<configure id="36" itemId="91" level="15" openArmys="15,20,16,19" armyLevelMax="15" />
+	<configure id="37" itemId="91" level="16" openArmys="15,20,16,19" armyLevelMax="16" />
+	<configure id="38" itemId="91" level="17" openArmys="15,20,16,19" armyLevelMax="17" />
+	<configure id="39" itemId="91" level="18" openArmys="15,20,16,19" armyLevelMax="18" />
+	<configure id="40" itemId="91" level="19" openArmys="15,20,16,19" armyLevelMax="19" />
+	<configure id="41" itemId="91" level="20" openArmys="15,20,16,19" armyLevelMax="20" />
+</configures>

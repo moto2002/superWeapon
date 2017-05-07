@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure terrainIdx="0" terrainRes="terrain_0" camerPos="50,0,50" sizeX="50" sizeY="50" outPos="50,0,75|45,0,75|40,0,75|35,0,75|30,0,75|25,0,75" />
+	<configure terrainIdx="1" terrainRes="terrain_1" camerPos="50,0,51" sizeX="50" sizeY="50" outPos="" />
+	<configure terrainIdx="2" terrainRes="terrain_2" camerPos="50,0,52" sizeX="50" sizeY="50" outPos="" />
+	<configure terrainIdx="3" terrainRes="terrain_3" camerPos="50,0,53" sizeX="50" sizeY="50" outPos="" />
+	<configure terrainIdx="4" terrainRes="terrain_4" camerPos="50,0,54" sizeX="50" sizeY="50" outPos="" />
+	<configure terrainIdx="5" terrainRes="terrain_4" camerPos="50,0,54" sizeX="50" sizeY="50" outPos="" />
+	<configure terrainIdx="6" terrainRes="terrain_4" camerPos="50,0,54" sizeX="50" sizeY="50" outPos="" />
+</configures>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" itemId="2" level="0" needLevel="8" resCost="" itemCost="119:60" specialshow="2" bodyId="build9_1" makeshow="0,0.17,-0.1;0.7,137,0.01;0.15,0.15,0.15" description="无阶" outPut="" outPutLimit="0" />
+	<configure id="2" itemId="2" level="1" needLevel="15" resCost="" itemCost="119:120" specialshow="2" bodyId="build9_2" makeshow="0,0.17,-0.1;0.7,137,0.01;0.15,0.15,0.15" description="一阶" outPut="" outPutLimit="50" />
+	<configure id="3" itemId="2" level="2" needLevel="" resCost="" itemCost="" specialshow="2" bodyId="build9_3" makeshow="0,0.17,-0.1;0.7,137,0.01;0.15,0.15,0.15" description="二阶" outPut="" outPutLimit="100" />
+	<configure id="4" itemId="3" level="0" needLevel="8" resCost="" itemCost="119:60" specialshow="2" bodyId="build10_1" makeshow="0,0.17,-0.1;0.7,137,0.01;0.15,0.15,0.15" description="无阶" outPut="" outPutLimit="0" />
+	<configure id="5" itemId="3" level="1" needLevel="15" resCost="" itemCost="119:120" specialshow="2" bodyId="build10_2" makeshow="0,0.17,-0.1;0.7,137,0.01;0.15,0.15,0.15" description="一阶" outPut="" outPutLimit="50" />
+	<configure id="6" itemId="3" level="2" needLevel="" resCost="" itemCost="" specialshow="2" bodyId="build10_3" makeshow="0,0.17,-0.1;0.7,137,0.01;0.15,0.15,0.15" description="二阶" outPut="" outPutLimit="100" />
+	<configure id="7" itemId="4" level="0" needLevel="8" resCost="" itemCost="119:60" specialshow="2" bodyId="build11_1" makeshow="0,0.17,-0.1;0.7,137,0.01;0.15,0.15,0.15" description="无阶" outPut="" outPutLimit="0" />
+	<configure id="8" itemId="4" level="1" needLevel="15" resCost="" itemCost="119:120" specialshow="2" bodyId="build11_2" makeshow="0,0.17,-0.1;0.7,137,0.01;0.15,0.15,0.15" description="一阶" outPut="" outPutLimit="50" />
+	<configure id="9" itemId="4" level="2" needLevel="" resCost="" itemCost="" specialshow="2" bodyId="build11_3" makeshow="0,0.17,-0.1;0.7,137,0.01;0.15,0.15,0.15" description="二阶" outPut="" outPutLimit="100" />
+	<configure id="10" itemId="5" level="0" needLevel="8" resCost="" itemCost="119:60" specialshow="2" bodyId="build12_1" makeshow="0,0.17,-0.1;0.7,137,0.01;0.15,0.15,0.15" description="无阶" outPut="" outPutLimit="0" />
+	<configure id="11" itemId="5" level="1" needLevel="15" resCost="" itemCost="119:120" specialshow="2" bodyId="build12_2" makeshow="0,0.17,-0.1;0.7,137,0.01;0.15,0.15,0.15" description="一阶" outPut="" outPutLimit="50" />
+	<configure id="12" itemId="5" level="2" needLevel="" resCost="" itemCost="" specialshow="2" bodyId="build12_3" makeshow="0,0.17,-0.1;0.7,137,0.01;0.15,0.15,0.15" description="二阶" outPut="" outPutLimit="100" />
+	<configure id="13" itemId="6" level="0" needLevel="8" resCost="" itemCost="119:60" specialshow="1,2" bodyId="build6_1" makeshow="0,0.17,-0.1;0.7,137,0.01;0.15,0.15,0.15" description="无阶" outPut="0" outPutLimit="0" />
+	<configure id="14" itemId="6" level="1" needLevel="15" resCost="" itemCost="119:120" specialshow="1,2" bodyId="build6_2" makeshow="0,0.17,-0.1;0.7,137,0.01;0.15,0.15,0.15" description="一阶" outPut="50" outPutLimit="50" />
+	<configure id="15" itemId="6" level="2" needLevel="" resCost="" itemCost="" specialshow="1,2" bodyId="build6_3" makeshow="0,0.17,-0.1;0.7,137,0.01;0.15,0.15,0.15" description="二阶" outPut="100" outPutLimit="100" />
+	<configure id="16" itemId="7" level="0" needLevel="8" resCost="" itemCost="119:60" specialshow="1,2" bodyId="build7_1" makeshow="0,0.17,-0.1;0.7,137,0.01;0.15,0.15,0.15" description="无阶" outPut="0" outPutLimit="0" />
+	<configure id="17" itemId="7" level="1" needLevel="15" resCost="" itemCost="119:120" specialshow="1,2" bodyId="build7_2" makeshow="0,0.17,-0.1;0.7,137,0.01;0.15,0.15,0.15" description="一阶" outPut="50" outPutLimit="50" />
+	<configure id="18" itemId="7" level="2" needLevel="" resCost="" itemCost="" specialshow="1,2" bodyId="build7_3" makeshow="0,0.17,-0.1;0.7,137,0.01;0.15,0.15,0.15" description="二阶" outPut="100" outPutLimit="100" />
+	<configure id="19" itemId="8" level="0" needLevel="8" resCost="" itemCost="119:60" specialshow="1,2" bodyId="build8_1" makeshow="0,0.17,-0.1;0.7,137,0.01;0.15,0.15,0.15" description="无阶" outPut="0" outPutLimit="0" />
+	<configure id="20" itemId="8" level="1" needLevel="15" resCost="" itemCost="119:120" specialshow="1,2" bodyId="build8_2" makeshow="0,0.17,-0.1;0.7,137,0.01;0.15,0.15,0.15" description="一阶" outPut="50" outPutLimit="50" />
+	<configure id="21" itemId="8" level="2" needLevel="" resCost="" itemCost="" specialshow="1,2" bodyId="build8_3" makeshow="0,0.17,-0.1;0.7,137,0.01;0.15,0.15,0.15" description="二阶" outPut="100" outPutLimit="100" />
+	<configure id="22" itemId="9" level="0" needLevel="8" resCost="" itemCost="119:60" specialshow="1,2" bodyId="build5_1" makeshow="0,0.17,-0.1;0.7,137,0.01;0.15,0.15,0.15" description="无阶" outPut="0" outPutLimit="0" />
+	<configure id="23" itemId="9" level="1" needLevel="15" resCost="" itemCost="119:120" specialshow="1,2" bodyId="build5_2" makeshow="0,0.17,-0.1;0.7,137,0.01;0.15,0.15,0.15" description="一阶" outPut="50" outPutLimit="50" />
+	<configure id="24" itemId="9" level="2" needLevel="" resCost="" itemCost="" specialshow="1,2" bodyId="build5_3" makeshow="0,0.17,-0.1;0.7,137,0.01;0.15,0.15,0.15" description="二阶" outPut="100" outPutLimit="100" />
+</configures>

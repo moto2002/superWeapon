@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" name="" description="" number="1:0,2:0,3:0,4:0" />
+	<configure id="2" name="" description="" number="1:0,2:0,3:0,4:0" />
+	<configure id="3" name="" description="" number="1:0,2:63000,3:0,4:0" />
+	<configure id="4" name="" description="" number="1:28000,2:98000,3:0,4:0" />
+	<configure id="5" name="" description="" number="1:43000,2:144000,3:31000,4:0" />
+	<configure id="6" name="" description="" number="1:62000,2:200000,3:36000,4:0" />
+	<configure id="7" name="" description="" number="1:84000,2:266000,3:66000,4:0" />
+	<configure id="8" name="" description="" number="1:219000,2:342000,3:171000,4:51000" />
+	<configure id="9" name="" description="" number="1:414000,2:429000,3:429000,4:91000" />
+	<configure id="10" name="" description="" number="1:624000,2:525000,3:525000,4:356000" />
+	<configure id="11" name="" description="" number="1:755000,2:632000,3:632000,4:427000" />
+	<configure id="12" name="" description="" number="1:898000,2:749000,3:749000,4:505000" />
+	<configure id="13" name="" description="" number="1:1053000,2:876000,3:876000,4:590000" />
+	<configure id="14" name="" description="" number="1:1221000,2:1013000,3:1013000,4:681000" />
+	<configure id="15" name="" description="" number="1:1401000,2:1160000,3:1160000,4:779000" />
+	<configure id="16" name="" description="" number="1:1593000,2:1318000,3:1318000,4:884000" />
+	<configure id="17" name="" description="" number="1:1798000,2:1486000,3:1486000,4:996000" />
+	<configure id="18" name="" description="" number="1:2016000,2:1664000,3:1664000,4:1115000" />
+	<configure id="19" name="" description="" number="1:2246000,2:1852000,3:1852000,4:1240000" />
+	<configure id="20" name="" description="" number="1:2488000,2:2050000,3:2050000,4:1372000" />
+</configures>

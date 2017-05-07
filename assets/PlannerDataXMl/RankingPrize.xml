@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" name="第一名奖励" description="" minRank="1" maxRank="1" type="1" res="7:500" items="1:1,2:2" />
+	<configure id="2" name="第二名奖励" description="" minRank="2" maxRank="2" type="1" res="7:400" items="1:1,2:2" />
+	<configure id="3" name="第三名奖励" description="" minRank="3" maxRank="3" type="1" res="7:300" items="1:1,2:2" />
+	<configure id="4" name="第四名奖励" description="" minRank="4" maxRank="4" type="1" res="7:250" items="1:1,2:2" />
+	<configure id="5" name="第五名奖励" description="" minRank="5" maxRank="5" type="1" res="7:200" items="1:1,2:2" />
+	<configure id="6" name="第六名奖励" description="" minRank="6" maxRank="6" type="1" res="7:150" items="1:1,2:2" />
+	<configure id="7" name="第七名奖励" description="" minRank="7" maxRank="7" type="1" res="7:130" items="1:1,2:2" />
+	<configure id="8" name="第八名奖励" description="" minRank="8" maxRank="8" type="1" res="7:110" items="1:1,2:2" />
+	<configure id="9" name="第九名奖励" description="" minRank="9" maxRank="9" type="1" res="7:90" items="1:1,2:2" />
+	<configure id="10" name="第十名奖励" description="" minRank="10" maxRank="10" type="1" res="7:70" items="1:1,2:2" />
+	<configure id="11" name="十一到五十名" description="" minRank="11" maxRank="50" type="1" res="7:50" items="1:1,2:2" />
+	<configure id="12" name="五十一到一百名" description="" minRank="51" maxRank="100" type="1" res="7:30" items="1:1,2:2" />
+	<configure id="13" name="一百名以后" description="" minRank="100" maxRank="1000" type="1" res="7:10" items="1:1,2:2" />
+</configures>

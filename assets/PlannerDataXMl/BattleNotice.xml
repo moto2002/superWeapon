@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" type="1" count="20" res="" money="50" items="" description="PVP内容={0};{1}" />
+	<configure id="2" type="1" count="9999" res="" money="150" items="" description="PVP内容={0};{1}" />
+	<configure id="3" type="1" count="99999" res="" money="500" items="" description="PVP内容={0};{1}" />
+	<configure id="4" type="2" count="20" res="" money="50" items="" description="PVE内容={0};{1}" />
+	<configure id="5" type="2" count="9999" res="" money="150" items="" description="PVE内容={0};{1}" />
+	<configure id="6" type="2" count="99999" res="" money="500" items="" description="PVE内容={0};{1}" />
+</configures>

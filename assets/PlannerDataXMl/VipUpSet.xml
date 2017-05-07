@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" name="" description="" money="10" buyGoldNumber="2" moneyDiscount="80" />
+	<configure id="2" name="" description="" money="20" buyGoldNumber="3" moneyDiscount="80" />
+	<configure id="3" name="" description="" money="30" buyGoldNumber="5" moneyDiscount="80" />
+	<configure id="4" name="" description="" money="40" buyGoldNumber="7" moneyDiscount="80" />
+	<configure id="5" name="" description="" money="50" buyGoldNumber="9" moneyDiscount="80" />
+	<configure id="6" name="" description="" money="60" buyGoldNumber="11" moneyDiscount="80" />
+	<configure id="7" name="" description="" money="70" buyGoldNumber="13" moneyDiscount="80" />
+	<configure id="8" name="" description="" money="80" buyGoldNumber="16" moneyDiscount="80" />
+	<configure id="9" name="" description="" money="90" buyGoldNumber="20" moneyDiscount="80" />
+</configures>

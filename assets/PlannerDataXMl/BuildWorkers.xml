@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" price="0" />
+	<configure id="2" price="200" />
+	<configure id="3" price="500" />
+	<configure id="4" price="800" />
+	<configure id="5" price="1200" />
+</configures>

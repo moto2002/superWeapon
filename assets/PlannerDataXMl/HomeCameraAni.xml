@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure camPos="17,14,-68" camRota="30,-45,0" time="1" pathTime="2" isBlack="0" />  <!--起始点 --> 
+	<configure camPos="28,24,-80" camRota="30,-45,0" time="1" pathTime="2" isBlack="0" />  <!--起始点 --> 
+	 
+</configures>

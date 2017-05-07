@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure language="chinese" value="Chinese_achieve" />
+	<configure language="chinese" value="Chinese_Army" />
+	<configure language="chinese" value="Chinese_Battle" />
+	<configure language="chinese" value="Chinese_build" />
+	<configure language="chinese" value="Chinese_item" />
+	<configure language="chinese" value="Chinese_NPC" />
+	<configure language="chinese" value="Chinese_others" />
+	<configure language="chinese" value="Chinese_ResIsland" />
+	<configure language="chinese" value="Chinese_Task" />
+	<configure language="chinese" value="Chinese_technology" />
+	<configure language="chinese" value="Chinese_skill" />
+	<configure language="chinese" value="Chinese_ErrorMassage" />
+	<configure language="chinese" value="Chinese_soldier" />
+	<configure language="chinese" value="Chinese_BattleNotice" />
+	<configure language="chinese" value="Chinese_Activities" />
+	<configure language="chinese" value="Chinese_Halftalk" />
+	<configure language="chinese" value="Chinese_Client" />
+	<configure language="chinese" value="Chinese_Vip" />
+</configures>

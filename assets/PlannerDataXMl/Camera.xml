@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" type="1" farest="-5" nearest="20" biggestAngle="50" smallestAngel="30" normalAngle="30" moveAngle="50" placeTime="1" normalHeight="20" moveHeight="0" heightTime="1" />
+	<configure id="2" type="2" farest="-5" nearest="20" biggestAngle="50" smallestAngel="30" normalAngle="30" moveAngle="50" placeTime="1" normalHeight="20" moveHeight="0" heightTime="1" />
+	<configure id="3" type="3" farest="-5" nearest="20" biggestAngle="50" smallestAngel="30" normalAngle="30" moveAngle="50" placeTime="1" normalHeight="20" moveHeight="0" heightTime="1" />
+</configures>

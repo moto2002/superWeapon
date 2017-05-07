@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" name="" description="" commondLevel="1" userDrop="1" resDropListId="" pvpDrop="201" />
+	<configure id="2" name="" description="" commondLevel="2" userDrop="1" resDropListId="" pvpDrop="201" />
+	<configure id="3" name="" description="" commondLevel="3" userDrop="1" resDropListId="" pvpDrop="201" />
+	<configure id="4" name="" description="" commondLevel="4" userDrop="1" resDropListId="" pvpDrop="201" />
+	<configure id="5" name="" description="" commondLevel="5" userDrop="1" resDropListId="" pvpDrop="201" />
+	<configure id="6" name="" description="" commondLevel="6" userDrop="1" resDropListId="" pvpDrop="201" />
+	<configure id="7" name="" description="" commondLevel="7" userDrop="1" resDropListId="" pvpDrop="201" />
+	<configure id="8" name="" description="" commondLevel="8" userDrop="1" resDropListId="" pvpDrop="201" />
+	<configure id="9" name="" description="" commondLevel="9" userDrop="1" resDropListId="" pvpDrop="201" />
+	<configure id="10" name="" description="" commondLevel="10" userDrop="1" resDropListId="" pvpDrop="201" />
+	<configure id="11" name="" description="" commondLevel="11" userDrop="1" resDropListId="" pvpDrop="201" />
+	<configure id="12" name="" description="" commondLevel="12" userDrop="1" resDropListId="" pvpDrop="201" />
+	<configure id="13" name="" description="" commondLevel="13" userDrop="1" resDropListId="" pvpDrop="201" />
+	<configure id="14" name="" description="" commondLevel="14" userDrop="1" resDropListId="" pvpDrop="201" />
+	<configure id="15" name="" description="" commondLevel="15" userDrop="1" resDropListId="" pvpDrop="201" />
+	<configure id="16" name="" description="" commondLevel="16" userDrop="1" resDropListId="" pvpDrop="201" />
+	<configure id="17" name="" description="" commondLevel="17" userDrop="1" resDropListId="" pvpDrop="201" />
+	<configure id="18" name="" description="" commondLevel="18" userDrop="1" resDropListId="" pvpDrop="201" />
+	<configure id="19" name="" description="" commondLevel="19" userDrop="1" resDropListId="" pvpDrop="201" />
+	<configure id="20" name="" description="" commondLevel="20" userDrop="1" resDropListId="" pvpDrop="201" />
+</configures>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" name="金币" type="1" description="升级兵种资源" />
+	<configure id="2" name="石油" type="1" description="升级建筑资源" />
+	<configure id="3" name="钢铁" type="1" description="升级建筑资源" />
+	<configure id="4" name="稀矿" type="1" description="升级建筑资源" />
+	<configure id="7" name="钻石" type="2" description="游戏内流通货币" />
+	<configure id="9" name="经验" type="3" description="升级角色等级资源" />
+</configures>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" name="狂野战区" description="特别狂野" preId="0" nextId="" firstBattleId="1" lastBattleId="20" commondLevel="1" zoneMapId="" coord="" />
+	<configure id="2" name="军团" description="军团" preId="0" nextId="" firstBattleId="26" lastBattleId="35" commondLevel="1" zoneMapId="" coord="" />
+</configures>

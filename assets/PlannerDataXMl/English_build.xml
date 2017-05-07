@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="司令部" value="Headquarters " Building="Building" />
+	<configure id="金库" value="Treasury " Building="Building" />
+	<configure id="油库" value="Oil Tank " Building="Building" />
+	<configure id="钢铁仓库" value="Steel House " Building="Building" />
+	<configure id="稀矿仓库" value="Lean Ore House " Building="Building" />
+	<configure id="矿石精炼厂" value="Mineral Refinery " Building="Building" />
+	<configure id="科技钻油井" value="Oil Derrick " Building="Building" />
+	<configure id="炼钢厂" value="Steel Works " Building="Building" />
+	<configure id="生化反应炉" value="Biochemical Reactor " Building="Building" />
+	<configure id="间谍卫星" value="Spy Satellite " Building="Building" />
+	<configure id="科技中心" value="Tech Center " Building="Building" />
+	<configure id="集结点" value="Rally Point " Building="Building" />
+	<configure id="战车工厂" value="War Factory " Building="Building" />
+	<configure id="情报分析室" value="Analysis Lab " Building="Building" />
+	<configure id="保险库" value="Safety Room " Building="Building" />
+	<configure id="狙击塔" value="Sniper Tower " Building="Building" />
+	<configure id="机枪塔" value="Machine Gun Tower " Building="Building" />
+	<configure id="巨炮" value="Grand Cannon " Building="Building" />
+	<configure id="光棱塔" value="Prism Tower " Building="Building" />
+	<configure id="地雷" value="Mine " Building="Building" />
+	<configure id="高爆雷" value="HE Mine " Building="Building" />
+	<configure id="多管火箭炮" value="Multiple Rockets " Building="Building" />
+	<configure id="电磁塔" value="Mag-Tower " Building="Building" />
+	<configure id="战术研究院" value="Tactics Academy " Building="Building" />
+	<configure id="超时空传送仪" value="Chronosphere " Building="Building" />
+	<configure id="后勤中心" value="Logistics Center " Building="Building" />
+	<configure id="分基地" value="Sub Base " Building="Building" />
+	<configure id="战地路障" value="Barricade " Building="Building" />
+	<configure id="房子1" value="House 1" Building="Building" />
+	<configure id="房子2" value="House 2" Building="Building" />
+	<configure id="房子3" value="House 3" Building="Building" />
+	<configure id="房子4" value="House 4" Building="Building" />
+	<configure id="房子5" value="House 5" Building="Building" />
+	<configure id="房子6" value="House 6" Building="Building" />
+	<configure id="房子7" value="House 7" Building="Building" />
+	<configure id="房子8" value="House 8" Building="Building" />
+	<configure id="房子9" value="House 9" Building="Building" />
+	<configure id="房子10" value="House 10" Building="Building" />
+	<configure id="汽油桶" value="Gas Can" Building="Building" />
+	<configure id="新房子1" value="New House 1" Building="Building" />
+	<configure id="新房子2" value="New House 2" Building="Building" />
+	<configure id="新房子3" value="New House 3" Building="Building" />
+	<configure id="新房子4" value="New House 4" Building="Building" />
+	<configure id="新房子5" value="New House 5" Building="Building" />
+	<configure id="补给箱" value="Supply" Building="Building" />
+	<configure id="物资箱" value="Crates" Building="Building" />
+	<configure id="发电厂" value="Power Plant" Building="Building" />
+	<configure id="汽车" value="Car" Building="Building" />
+	<configure id="油桶" value="Gas Can" Building="Building" />
+	<configure id="铁塔1" value="Iron Tower 1" Building="Building" />
+	<configure id="铁塔2" value="Iron Tower 2" Building="Building" />
+	<configure id="铁塔3" value="Iron Tower 3" Building="Building" />
+	<configure id="加油站" value="Gas Station" Building="Building" />
+	<configure id="集装箱绿" value="Green Container" Building="Building" />
+	<configure id="集装箱红" value="Red container" Building="Building" />
+	<configure id="路灯" value="Road Lamp" Building="Building" />
+	<configure id="马路1" value="Road 1" Building="Building" />
+	<configure id="马路2" value="Road 2" Building="Building" />
+	<configure id="马路3" value="Road 3" Building="Building" />
+	<configure id="马路4" value="Road 4" Building="Building" />
+	<configure id="水箱" value="Water Tank" Building="Building" />
+	<configure id="石头1" value="Stone 1" Building="Building" />
+	<configure id="石头2" value="Stone 2" Building="Building" />
+	<configure id="石头3" value="Stone 3" Building="Building" />
+	<configure id="石头4" value="Stone 4" Building="Building" />
+	<configure id="石头5" value="Stone 5" Building="Building" />
+	<configure id="石头6" value="Stone 6" Building="Building" />
+	<configure id="铁丝网1" value="Wire Meshes 1" Building="Building" />
+	<configure id="铁丝网2" value="Wire Meshes 2" Building="Building" />
+	<configure id="铁丝网3" value="Wire Meshes 3" Building="Building" />
+	<configure id="树丛" value="Grove" Building="Building" />
+	<configure id="树林" value="Woods" Building="" />
+	<configure id="城墙" value="Wall" Building="" />
+	<configure id="飞机场" value="Airfield" Building="" />
+	<configure id="提升司令部等级解锁更多建筑" value="Upgrade Headquarters to unlock more buildings" Building="" />
+	<configure id="提升黄金存储能力" value="Enlarge capacity of gold" Building="" />
+	<configure id="提升石油存储能力" value="Enlarge capacity of petroleum" Building="" />
+	<configure id="提升钢铁存储能力" value="Enlarge capacity of steel" Building="" />
+	<configure id="提升稀矿存储能力" value="Enlarge capacity of Lean Ore" Building="" />
+	<configure id="生产黄金" value="Produce Gold" Building="" />
+	<configure id="生产石油" value="Produce Petroleum" Building="" />
+	<configure id="生产钢铁" value="Produce Steel" Building="" />
+	<configure id="生产稀矿" value="Produce Lean Ore" Building="" />
+	<configure id="在作战图区域可以发现更多的地区" value="Find more areas in the war map" Building="" />
+	<configure id="研发兵种、防塔和技能科技，提升战斗能力" value="Research armies, tower and technology to enhance your force." Building="" />
+	<configure id="配置出战兵种" value="Deploy your army" Building="" />
+	<configure id="升级兵种，提高兵种单位的战斗力" value="Upgrade army to enhance battle efficiency" Building="" />
+	<configure id="获得情报官，并派遣情报官可以获得更多的资源" value="Recruit and dispatch a intelligence officer to gain more resources" Building="" />
+	<configure id="用于保护一部分资源不被掠夺" value="To protect part of resources from being plundered" Building="" />
+	<configure id="在高塔上有狙击武器，可以对远处的敌人造成大量伤害。" value="There is a sniper on the tower to cause great damage to enemy far away" Building="" />
+	<configure id="对中程范围内的敌人进行扫射，面对集群部队有很大优势" value="Strafe enemies within intermediate range, cause great damage to enemy crowds" Building="Building" />
+	<configure id="对坦克兵种有很大的杀伤力，特别是天启坦克" value="It's predator to tanks, especially for the Apocalypse Tank" Building="Building" />
+	<configure id="高科技的激光武器，有折射效果，可以伤害多个目标" value="High-tech laser weapon, the laser will be reflected and cause damage to multiple enemies" Building="Building" />
+	<configure id="敌人靠近时会引爆" value="Explode when enemy get close" Building="Building" />
+	<configure id="敌人靠近时引爆，并对范围内的战斗单位造成伤害" value="Explode when enemy get close, cause damage to enemies around." Building="Building" />
+	<configure id="对超远目标发射多枚飞弹，面对集群单位有很大优势" value="Shoot a batch of missiles to enemies far away, fatal to enemies crowds." Building="Building" />
+	<configure id="高科技的电磁武器，能使对方在一定时间内无法进行任何行动" value="High-tech Magnetron Weapon. Stun enemy for a while." Building="Building" />
+	<configure id="升级指挥官" value="Upgrade Commander" Building="Building" />
+	<configure id="爱因斯坦发明的未来科技，可以招募特种兵到您的麾下。" value="Invented by Einstein, can summon special troops to your army." Building="Building" />
+	<configure id="里面存储了大量释放技能所需的弹药" value="It stored huge amount of ammunition for skill casting." Building="Building" />
+	<configure id="巡逻点" value="Patrol Spot" Building="Building" />
+	<configure id="给基地持续提高电力，增加建筑物的防御能力" value="Provide more electricity to base can enhance your building defense capability" Building="Building" />
+	<configure id="城墙能够有效的格挡敌人的攻击" value="Walls can block enemy attack effectively" Building="Building" />
+	<configure id="生产飞机，进行远程打击" value="Manufacture aircraft for long-range strike" Building="Building" />
+	<configure id="战术学院可以为您提供各种不同类型的技能卡，同时可以强化技能卡的威力。" value="Tactic Academy and provide you with different skill cards. It can enhance cards." Building="Building" />
+	<configure id="多功能步兵车" value="Multigunner IFV" Building="Building" />
+	<configure id="灰熊坦克" value="Bear Tank " Building="Building" />
+	<configure id="天启坦克" value="Apocalypse " Building="Building" />
+	<configure id="火箭车" value="Rocket Sled " Building="Building" />
+	<configure id="光棱坦克" value="Prism Tank " Building="Building" />
+	<configure id="电磁坦克" value="Magnetron " Building="Building" />
+	<configure id="建造" value="Build" Building="Building" />
+	<configure id="已建造" value="Built " Building="Building" />
+	<configure id="该建筑已建造" value="Under Construction " Building="Building" />
+	<configure id="升级司令部可解锁" value="Upgrade Headquarters to unlock" Building="Building" />
+	<configure id="司令部升级获取更多数量" value="Upgrade Headquarters to obtain more" Building="Building" />
+	<configure id="通关" value="Passed" Building="Building" />
+	<configure id="未通关" value="Not Passed" Building="BuildingUpSet" />
+	<configure id="兵种升级成功" value="Upgrade Success" Building="BuildingUpSet" />
+	<configure id="已满级" value="Reached the level cap" Building="DeathToArmy" />
+	<configure id="产电量" value="Electricity Production" Building="DeathToArmy" />
+	<configure id="金币产出" value="Gold Output" Building="DeathToArmy" />
+	<configure id="金币数量" value="Gold Qty." Building="DeathToArmy" />
+	<configure id="金币储量" value="Gold Reserves" Building="DeathToArmy" />
+	<configure id="石油产出" value="Oil Output" Building="DeathToArmy" />
+	<configure id="石油储量" value="Oil Reserves" Building="" />
+	<configure id="钢铁产出" value="Iron Output" Building="" />
+	<configure id="钢铁储量" value="Iron Reserves" Building="" />
+	<configure id="稀矿产出" value="Ore Output" Building="" />
+	<configure id="稀矿储量" value="Ore Reserves" Building="" />
+	<configure id="经验增加" value="EXP" Building="" />
+	<configure id="伤害值" value="Damage" Building="" />
+	<configure id="攻击值" value="Attack" Building="" />
+	<configure id="恭喜您" value="Congrats!" Building="" />
+	<configure id="升到" value="Up to" Building="" />
+	<configure id="级" value="" Building="" />
+	<configure id="移除成功" value="Removed" Building="" />
+	<configure id="生命值" value="HP" Building="" />
+	<configure id="防御值" value="Defence" Building="" />
+	<configure id="攻击" value="Attack" Building="" />
+	<configure id="防御" value="Armor" Building="" />
+	<configure id="暴击率" value="Critical" Building="" />
+	<configure id="暴击抵抗" value="Critical Resist" Building="" />
+	<configure id="溅射伤害" value="Splash Damage" Building="" />
+	<configure id="穿甲" value="Piercing" Building="" />
+	<configure id="破甲" value="Pierce" Building="" />
+	<configure id="干扰效果" value="Interference" Building="" />
+	<configure id="生命恢复" value="HP Recover" Building="" />
+	<configure id="持续伤害" value="Damage Over Time" Building="" />
+	<configure id="攻速" value="Attack Speed" Building="" />
+	<configure id="伤害" value="Damage" Building="" />
+	<configure id="司令部等级达到lv" value="Headquarters Reaches Lv." Building="" />
+	<configure id="升级提示" value="Upgrade Tips" Building="" />
+	<configure id="玩家需要" value="Need Lv" Building="" />
+	<configure id="需要" value="Req." Building="" />
+	<configure id="级才能开启司令部升级" value="to unlock Headquarters upgrade" Building="" />
+	<configure id="经验值" value="EXP" Building="" />
+	<configure id="解锁" value="Unlock" Building="" />
+	<configure id="未解锁" value="Locked" Building="" />
+	<configure id="最大容量" value="Max. Capacity" Building="" />
+	<configure id="升级" value="Upgrade" Building="" />
+	<configure id="下一级解锁" value="Unlock at next Lv." Building="" />
+	<configure id="天" value="D" Building="" />
+	<configure id="时" value="H" Building="" />
+	<configure id="分" value="M" Building="" />
+	<configure id="秒" value="S" Building="" />
+	<configure id="保护资源" value="Protect Resources" Building="" />
+	<configure id="需要玩家等级" value="Need Player Lv." Building="" />
+	<configure id="建造成功" value="Finished" Building="" />
+	<configure id="点击建筑不放可移动建筑" value="Long press to move buildings" Building="" />
+	<configure id="当前未建造间谍卫星" value="You have no spy satellite" Building="" />
+	<configure id="可建造" value="Buildable" Building="" />
+	<configure id="经济建筑" value="Economical" Building="" />
+	<configure id="防御建筑" value="Defence" Building="" />
+	<configure id="支持建筑" value="Support" Building="" />
+	<configure id="建造完成" value="Back" Building="" />
+	<configure id="升级成功" value="Successful!" Building="" />
+	<configure id="该区域不可建造" value="Not here" Building="" />
+	<configure id="该建筑正在冷却，请稍后重试" value="It's cooling down, please try later" Building="" />
+	<configure id="增加科技等级上限" value="Increase Maxed Tech level" Building="" />
+	<configure id="可以增加" value="Increasable" Building="" />
+	<configure id="个NPC据点" value="NPC Spot" Building="" />
+	<configure id="世纪轰炸机" value="Century Bomber" Building="" />
+	<configure id="消费提示" value="Spend confirmation" Building="" />
+	<configure id="购买建造队列" value="Buy builder team" Building="" />
+	<configure id="建筑信息详情" value="Building Info" Building="" />
+	<configure id="司令部升到" value="Headquarters upgrade to Lv." Building="" />
+	<configure id="级获得更多数量" value="to obtain more." Building="" />
+	<configure id="电力消耗" value="Electric " Building="" />
+	<configure id="防御塔强化" value="Enhance" Building="" />
+	<configure id="消耗：" value="Cost:" Building="" />
+	<configure id="强化" value="Enhance" Building="" />
+	<configure id="需要防御塔到达" value="Need Tower Lv. reaches" Building="" />
+	<configure id="您的建筑等级不足" value="Building level not enough" Building="" />
+	<configure id="强化等级" value="Enhance" Building="" />
+	<configure id="连击" value="Combo" Building="" />
+	<configure id="连珠" value="Chain" Building="" />
+	<configure id="溅射范围" value="Splash Range" Building="" />
+	<configure id="发射间隔" value="Shooting Gap" Building="" />
+	<configure id="防御塔等级达到" value="Tower reaches Lv." Building="" />
+	<configure id="阶" value="" Building="" />
+	<configure id="进阶" value="Advance" Building="" />
+	<configure id="已到最高阶级" value="Maxed already" Building="" />
+	<configure id="达到" value="Reach" Building="" />
+	<configure id="生产速率提高" value="Productivity Rised" Building="" />
+	<configure id="储量提高" value="Capacity Rised" Building="" />
+	<configure id="已强化到最高等级" value="Level Maxed already" Building="" />
+	<configure id="将" value="General" Building="" />
+	<configure id="科技升级" value="Upgrade Tech." Building="" />
+	<configure id="建筑升级" value="Upgrade" Building="" />
+	<configure id="兵种升级" value="Upgrade Army" Building="" />
+	<configure id="移除" value="Remove" Building="" />
+	<configure id="取消" value="Cancel" Building="" />
+	<configure id="确定" value="OK" Building="" />
+	<configure id="特种兵升级" value="Specops Upgrade" Building="" />
+	<configure id="立即结束" value="Complete" Building="" />
+	<configure id="防护罩" value="Shield" Building="" />
+	<configure id="技能卡抽取" value="Get Skill" Building="" />
+	<configure id="装备技能卡" value="Equip" Building="" />
+	<configure id="机场" value="Airfield" Building="" />
+	<configure id="技能兑换" value="Exchange" Building="" />
+	<configure id="技能升级" value="Skill Upgrade" Building="" />
+	<configure id="升阶" value="Advance" Building="" />
+	<configure id="建筑信息" value="Info" Building="" />
+	<configure id="一键领取 " value="Collect all" Building="" />
+	<configure id="一键补兵" value="Recruit" Building="" />
+	<configure id="不能建造" value="Can not build" Building="" />
+	<configure id="升级时间" value="Upgrade time" Building="" />
+	<configure id="电量不足，防御值已下降，请升级发电厂" value="Power too low to maintain defence, please upgrade power station" Building="" />
+	<configure id="进阶后" value="After advance" Building="" />
+	<configure id="资源产量减少10%" value="Resource Production -10%" Building="" />
+	<configure id="资源产量减少20%" value="Resource Production -20%" Building="" />
+	<configure id="资源产量减少30%" value="Resource Production -3%" Building="" />
+	<configure id="建筑批升级" value="Group-Upgrade" Building="" />
+	<configure id="未建造科研中心" value="Research center not built" Building="" />
+</configures>

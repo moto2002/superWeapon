@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="多功能步兵车" value="Multigunner IFV" />
+	<configure id="灰熊坦克" value="Bear Tank" />
+	<configure id="天启坦克" value="Apocalypse" />
+	<configure id="火箭车" value="Rocket Sled" />
+	<configure id="光棱坦克" value="Prism Tank" />
+	<configure id="电磁坦克" value="Magnetron" />
+	<configure id="美国大兵" value="American Soldier" />
+	<configure id="世纪轰炸机" value="Century Bomber" />
+	<configure id="阿波罗战斗机" value="Apollo Fighter" />
+	<configure id="米格战斗机" value="MIG Fighter" />
+	<configure id="冰冻直升机" value="Cryocopter" />
+	<configure id="阿帕奇直升机" value="Apache Helicopter" />
+	<configure id="苏联红军" value="Soviet Red Army" />
+	<configure id="排雷车" value="Mine Detector" />
+	<configure id="谭雅" value="TANY" />
+	<configure id="伞兵" value="Paratrooper" />
+	<configure id="爆破兵" value="Demoman" />
+	<configure id="克制狙击塔，适合与灰熊配合。" value="Predator of Sniper Tower, better with Bear Tank" />
+	<configure id="克制巨炮，适合与灰熊、火箭车、光棱、电磁配合。" value="Predator of Grand Cannon, better cooperate with Bear Tank, Bear Tank, Magnetron." />
+	<configure id="天启坦克，克制机枪与狙击，适合与火箭车、光棱、电磁配合" value="Apocalypse. Predator of machine gun and sniper, better cooperate with Rocket Sled, Prism Tank, Magnetron." />
+	<configure id="适合与灰熊、天启配合，擅长攻打特别密集的防御塔。" value="Suitable to cooperate with Bear Tank and Apocalypse, effective to attack serried tower group." />
+	<configure id="适合与灰熊、天启配合，擅长攻打中等密集的防御塔。" value="Suitable to cooperate with Bear Tank and Apocalypse, effective to attack tower group." />
+	<configure id="适合与所有其他兵种配合，可使对方在一定时间内无法发动攻击。" value="Suitable to cooperate with all armies to stop enemy attack for a while." />
+	<configure id="从固定位置飞来一架米格战斗机，向指定建筑发射一枚火箭弹，然后飞走" value="A MIG Fighter from a fixed position shoots a rocket bomb to the appointed building." />
+	<configure id="从固定位置出现一辆冰冻直升机，飞到玩家选中的目标，然后从直升级前方发射出冷冻射线，使对方建筑呈现冰冻状态，然后飞走。" value="A Cryocopter from a fixed position shoots the Ray of Frost to freeze the appointed enemy building." />
+	<configure id="从固定位置出现一架阿帕奇直升机，飞到玩家选中的目标，然后使用机炮向建筑持续扫射N秒，然后飞走。" value="A Apache Helicopter from a fixed position shoots the appointed building with machine gun for N seconds." />
+	<configure id="装甲车" value="Armoured Car" />
+	<configure id="轻型坦克" value="Light Tank" />
+	<configure id="中型坦克" value="Medium Tank" />
+	<configure id="重型坦克" value="Heavy Tank" />
+	<configure id="自行火炮" value="Autocannon" />
+	<configure id="工程车" value="Engineering" />
+	<configure id="一星" value="1 Star" />
+	<configure id="二星" value="2 Star" />
+	<configure id="三星" value="3 Star" />
+	<configure id="四星" value="4 Star" />
+	<configure id="五星" value="5 Star" />
+	<configure id="金库" value="Treasury" />
+	<configure id="油库" value="Oil Depot" />
+	<configure id="钢铁仓库" value="Steel House" />
+	<configure id="稀矿仓库" value="Lean Ore House" />
+	<configure id="矿石精炼厂" value="Mineral Refinery" />
+	<configure id="科技钻油井" value="Oil Derrick" />
+	<configure id="炼钢厂" value="Steel Works" />
+	<configure id="生化反应炉" value="Biochemical Reactor" />
+	<configure id="间谍卫星" value="Spy Satellite" />
+	<configure id="科技中心" value="Tech Center" />
+	<configure id="集结点" value="Rally Point" />
+	<configure id="战车工厂" value="War Factory" />
+	<configure id="情报分析室" value="Analysis Lab" />
+	<configure id="保险库" value="Safety Room" />
+	<configure id="狙击塔" value="Sniper Tower" />
+	<configure id="机枪塔" value="Machine Gun Tower" />
+	<configure id="巨炮" value="Grand Cannon" />
+	<configure id="光棱塔" value="Prism Tower" />
+	<configure id="地雷" value="Mine" />
+	<configure id="高爆雷" value="HE Mine" />
+	<configure id="多管火箭炮" value="Multiple Rockets" />
+	<configure id="电磁塔" value="Mag-Tower" />
+	<configure id="战争学院" value="War Academy" />
+	<configure id="超时空传送仪" value="Chronosphere" />
+	<configure id="火箭炮" value="Rocket" />
+	<configure id="生命值" value="HP" />
+	<configure id="生命" value="HP" />
+	<configure id="攻击" value="Attack" />
+	<configure id="防御" value="Armor" />
+	<configure id="暴击率" value="Critical" />
+	<configure id="暴击抵抗" value="Critical Resist" />
+	<configure id="溅射伤害" value="Splash Damage" />
+	<configure id="穿甲" value="Piercing" />
+	<configure id="破甲" value="Pierce" />
+	<configure id="干扰效果" value="Interference" />
+	<configure id="生命恢复" value="HP Recover" />
+	<configure id="持续伤害" value="Damage Over Time" />
+	<configure id="攻速" value="Attack Speed" />
+	<configure id="伤害" value="Damage" />
+	<configure id="经验值" value="EXP" />
+	<configure id="消耗资源" value="Cost" />
+	<configure id="升级条件" value="Lv. Up Conditions" />
+	<configure id="司令部等级到达Lv" value="Headquarters reaches Lv." />
+	<configure id="冷却时间" value="CD time" />
+	<configure id="升级" value="Upgrade" />
+	<configure id="等级" value="Lv." />
+	<configure id="获取金币" value="Obtain Gold" />
+	<configure id="时" value="H" />
+	<configure id="秒" value="S" />
+	<configure id="兵种" value="Unit" />
+	<configure id="兵种数量" value="Unit Num." />
+	<configure id="兵种单价" value="Unit Price" />
+	<configure id="花费的金币" value="Gold Cost" />
+	<configure id="当前拥有金币" value="Current Gold" />
+	<configure id="司令部提升到" value="Headquarters reaches Lv." />
+	<configure id="级解封" value="unlock" />
+	<configure id="集结点提升到" value="Rally Point reaches Lv." />
+	<configure id="已满" value="Full" />
+	<configure id="当前选择为" value="Now your choice is" />
+	<configure id="兵种为" value="The Unit is" />
+	<configure id="数目为" value="The Num. is" />
+	<configure id="您购买" value="You purchase" />
+	<configure id="个" value="" />
+	<configure id="补充兵种" value="Unit Supply" />
+	<configure id="兵种已到达最高等级" value="Unit Level Maxed" />
+	<configure id="购买" value="Buy" />
+	<configure id="未解封" value="Locked" />
+	<configure id="需要兵工厂等级到达" value="Need War Factory reaches Lv. " />
+	<configure id="级" value="" />
+	<configure id="需要本机场等级到达" value="Need Airfield reaches Lv." />
+	<configure id="飞机" value="Aircraft" />
+	<configure id="立即结束" value="End Now" />
+	<configure id="全属性5% " value="All Attr. 5%" />
+	<configure id="全属性10%" value="All Attr. 10%" />
+	<configure id="全属性15%" value="All Attr. 15%" />
+	<configure id="全属性20%" value="All Attr. 20%" />
+	<configure id="已满级" value="Lv. Maxed" />
+	<configure id="立即清空升级池" value="Level up now" />
+	<configure id="克制" value="Restrain" />
+	<configure id="飞机场" value="Airfield" />
+	<configure id="兵工厂" value="War Factory" />
+	<configure id="级开放" value="Lv. Unlock" />
+	<configure id="架" value="" />
+	<configure id="司令部升级到" value="Headquarters reaches Lv." />
+	<configure id="级解锁此集结点" value="to unlock the " />
+	<configure id="补满" value="Refill" />
+	<configure id="速度" value="Speed" />
+	<configure id="防御" value="Armor" />
+	<configure id="攻击" value="Attack" />
+	<configure id="生命" value="HP" />
+	<configure id="射程" value="Range" />
+	<configure id="点击配兵" value="Deploy" />
+	<configure id="点击上阵" value="Appoint" />
+</configures>

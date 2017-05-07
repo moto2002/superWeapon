@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure ID="1" description="电力充沛" percent="90" extraDamage="0" buildings="" buffId="" resReduce="" actualReduce="1" />
+	<configure ID="2" description="电力不足" percent="60" extraDamage="10" buildings="" buffId="" resReduce="资源产量减少10%" actualReduce="0.9" />
+	<configure ID="3" description="严重不足" percent="20" extraDamage="30" buildings="" buffId="" resReduce="资源产量减少20%" actualReduce="0.8" />
+	<configure ID="4" description="电力瘫痪" percent="0" extraDamage="60" buildings="19,23" buffId="8" resReduce="资源产量减少30%" actualReduce="0.7" />
+</configures>

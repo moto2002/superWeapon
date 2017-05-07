@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="招募令" value="Recruit Order" />
+	<configure id="扫荡令" value="Sweep Order" />
+	<configure id="冻结令" value="Freeze Order" />
+	<configure id="小型能量药剂" value="Mini Energy" />
+	<configure id="中型能量药剂" value="Medium Energy" />
+	<configure id="大型能量药剂" value="Strong Energy" />
+	<configure id="超级能量药剂" value="Super Energy" />
+	<configure id="兵种科技图纸" value="Army Tech Drawing" />
+	<configure id="防御塔科技图纸" value="Tower Tech Drawing" />
+	<configure id="技能科技图纸" value="Tech Drawing" />
+	<configure id="1级泰矿蓝晶" value="Lv. 1 Blue Crystal" />
+	<configure id="2级泰矿蓝晶" value="Lv. 2 Blue Crystal" />
+	<configure id="3级泰矿蓝晶" value="Lv. 3 Blue Crystal" />
+	<configure id="4级泰矿蓝晶" value="Lv. 4 Blue Crystal" />
+	<configure id="5级泰矿蓝晶" value="Lv. 5 Blue Crystal" />
+	<configure id="6级泰矿蓝晶" value="Lv. 6 Blue Crystal" />
+	<configure id="7级泰矿蓝晶" value="Lv. 7 Blue Crystal" />
+	<configure id="8级泰矿蓝晶" value="Lv. 8 Blue Crystal" />
+	<configure id="9级泰矿蓝晶" value="Lv. 9 Blue Crystal" />
+	<configure id="10级泰矿蓝晶" value="Lv. 10 Blue Crystal" />
+	<configure id="11级泰矿蓝晶" value="Lv. 11 Blue Crystal" />
+	<configure id="12级泰矿蓝晶" value="Lv. 12 Blue Crystal" />
+	<configure id="1级泰矿绿晶" value="Lv. 1 Green Crystal" />
+	<configure id="2级泰矿绿晶" value="Lv. 2 Green Crystal" />
+	<configure id="3级泰矿绿晶" value="Lv. 3 Green Crystal" />
+	<configure id="4级泰矿绿晶" value="Lv. 4 Green Crystal" />
+	<configure id="5级泰矿绿晶" value="Lv. 5 Green Crystal" />
+	<configure id="6级泰矿绿晶" value="Lv. 6 Green Crystal" />
+	<configure id="7级泰矿绿晶" value="Lv. 7 Green Crystal" />
+	<configure id="8级泰矿绿晶" value="Lv. 8 Green Crystal" />
+	<configure id="9级泰矿绿晶" value="Lv. 9 Green Crystal" />
+	<configure id="10级泰矿绿晶" value="Lv. 10 Green Crystal" />
+	<configure id="11级泰矿绿晶" value="Lv. 11 Green Crystal" />
+	<configure id="12级泰矿绿晶" value="Lv. 12 Green Crystal" />
+	<configure id="普通伊娃基因体" value="Common Eva Genosome" />
+	<configure id="普通莉塞特基因体" value="Common Lisette Genosome" />
+	<configure id="普通达夏基因体" value="Common Daksha Genosome" />
+	<configure id="优秀伊娃基因体" value="Excellent Eva Genosome" />
+	<configure id="优秀莉塞特基因体" value="Excellent Lisette Genosome" />
+	<configure id="优秀达夏基因体" value="Excellent Daksha Genosome" />
+	<configure id="精英伊娃基因体" value="Elite Eva Genosome" />
+	<configure id="精英莉塞特基因体" value="Elite Lisette Genosome" />
+	<configure id="精英达夏基因体" value="Elite Daksha Genosome" />
+	<configure id="传奇伊娃基因体" value="Legendary Eva Genosome" />
+	<configure id="传奇莉塞特基因体" value="Legendary Lisette Genosome" />
+	<configure id="传奇达夏基因体" value="Legendary Daksha Genosome" />
+	<configure id="勇气勋章" value="Courage Medal" />
+	<configure id="金星勋章" value="Star Medal" />
+	<configure id="紫心勋章" value="Violet Medal" />
+	<configure id="霰弹枪" value="Shotgun" />
+	<configure id="轻机枪" value="Light Machine Gun" />
+	<configure id="狙击枪" value="Sniper" />
+	<configure id="掷弹筒" value="Grenade Launcher" />
+	<configure id="发射器" value="Launcher" />
+	<configure id="重机枪" value="Heavy Machine Gun" />
+	<configure id="破片手雷" value="Frag Grenade" />
+	<configure id="闪光弹" value="Flashbomb" />
+	<configure id="白磷弹" value="Case Shot" />
+	<configure id="粘性手雷" value="Sticky Grenade" />
+	<configure id="C4炸药" value="C4 Bomb" />
+	<configure id="电磁脉冲手雷" value="EMP Grenade" />
+	<configure id="TNT" value="TNT" />
+	<configure id="震撼弹" value="Stun Grenade" />
+	<configure id="强炸雷管" value="Cartridge" />
+	<configure id="遥控无人机" value="Unmanned Plane" />
+	<configure id="爆破无人机" value="UAV Bomber" />
+	<configure id="追踪无人机" value="UAV Tracker" />
+	<configure id="钉刺无人机" value="Nail UAV" />
+	<configure id="无人轰炸机" value="UAV Bomber" />
+	<configure id="突击无人机" value="Assault UAV" />
+	<configure id="火箭无人机" value="Rocket UAV" />
+	<configure id="作战无人机" value="Combat UAV" />
+	<configure id="超音速无人机" value="Supersonic UAV" />
+	<configure id="光学准镜" value="Sighting Telescope" />
+	<configure id="红点准镜" value="Red Gun Sight" />
+	<configure id="混合准镜" value="Mixed Gun Sight" />
+	<configure id="自动瞄准准镜" value="Auto Gun Sight" />
+	<configure id="侦测目标准镜" value="Detection Sight" />
+	<configure id="热能探测准镜" value="Heat Gun Sight" />
+	<configure id="夜视镜" value="Night-Vision" />
+	<configure id="镭射准镜" value="Laser Sight" />
+	<configure id="远程激光准镜" value="Long Range Laser" />
+	<configure id="防弹背心" value="Body Armor" />
+	<configure id="战术侦察胸挂" value="Scout Pendant" />
+	<configure id="战术快拆背心" value="Tactic Vest" />
+	<configure id="基础战术背心" value="Basic Tactic Vest" />
+	<configure id="盟军徽章" value="Ally Badge" />
+	<configure id="苏军徽章" value="Soviet Badge" />
+	<configure id="银鹰徽章" value="Hawk Badge" />
+	<configure id="尤里徽章" value="Yuri Badge" />
+	<configure id="紫心徽章" value="Violet Badge" />
+	<configure id="防弹背心1" value="Bulletproof Vest 1" />
+	<configure id="战术侦察胸挂1" value="Scout Pendant 1" />
+	<configure id="战术快拆背心1" value="Tactic Vest 1" />
+	<configure id="基础战术背心1" value="Basic Tactic Vest 1" />
+	<configure id="盟军徽章1" value="Ally Badge 1" />
+	<configure id="苏军徽章1" value="Soviet Badge 1" />
+	<configure id="银鹰徽章1" value="Hawk Badge 1" />
+	<configure id="尤里徽章1" value="Yuri Badge 1" />
+	<configure id="紫心徽章1" value="Violet Badge 1" />
+	<configure id="基因强化剂" value="Gene Intensify Dose" />
+	<configure id="普通钥匙" value="Common Key" />
+	<configure id="白银钥匙" value="Silver Key" />
+	<configure id="黄金钥匙" value="Gold Key" />
+	<configure id="普通宝箱" value="Chest" />
+	<configure id="白银宝箱" value="Silver Chest" />
+	<configure id="黄金宝箱" value="Gold Chest" />
+	<configure id="建筑进阶图纸" value="Building Advance Drawing" />
+	<configure id="复活币" value="Revive Coin" />
+	<configure id="鲍里斯基因体" value="Boris Genosome" />
+	<configure id="谭亚基因体" value="Tanya Genosome" />
+	<configure id="招募指挥官使用，开启副本宝箱可获得" value="Use to recruit commander" />
+	<configure id="扫荡战役关卡使用，开启副本宝箱可获得" value="Use to sweep battle stage" />
+	<configure id="延长指挥官停留时间，开启副本宝箱可获得" value="Prolong commander duration" />
+	<configure id="小型指挥官经验药剂，开启副本宝箱可获得" value="Mini Commander EXP" />
+	<configure id="中型指挥官经验药剂，开启副本宝箱可获得" value="Medium Commander EXP" />
+	<configure id="大型指挥官经验药剂，开启副本宝箱可获得" value="Strong Commander EXP" />
+	<configure id="超级指挥官经验药剂，开启副本宝箱可获得" value="Super Commander EXP" />
+	<configure id="记录着提升兵种能力方法的图纸，开启副本宝箱可获得" value="It records the method to enhance army" />
+	<configure id="记录着提升防御塔能力方法的图纸，开启副本宝箱可获得" value="It records the method to enhance tower" />
+	<configure id="记录着提升技能能力方法的图纸，开启副本宝箱可获得" value="It records the method to enhance skill" />
+	<configure id="用于提升科研中心等级" value="Use to upgrade Research Center" />
+	<configure id="用于提升超时空传送仪等级" value="Use to upgrade Chronosphere" />
+	<configure id="可以合成普通伊娃，开启副本宝箱可获得" value="Can Synthesize common Eva" />
+	<configure id="可以合成普通莉塞特，开启副本宝箱可获得" value="Can Synthesize common Lisette" />
+	<configure id="可以合成普通达夏，开启副本宝箱可获得" value="Can Synthesize common Daksha" />
+	<configure id="可以合成优秀伊娃" value="Can Synthesize Excellent Eva" />
+	<configure id="可以合成优秀莉塞特" value="Can Synthesize Excellent Lisette" />
+	<configure id="可以合成优秀达夏" value="Can Synthesize Excellent Daksha" />
+	<configure id="可以合成精英伊娃" value="Can Synthesize Elite Eva" />
+	<configure id="可以合成精英莉塞特" value="Can Synthesize Elite Lisette" />
+	<configure id="可以合成精英达夏" value="Can Synthesize Elite Daksha" />
+	<configure id="可以合成传奇伊娃" value="Can Synthesize Legendary Eva" />
+	<configure id="可以合成传奇莉塞特" value="Can Synthesize Legendary Lisette" />
+	<configure id="可以合成传奇达夏" value="Can Synthesize Legendary Daksha" />
+	<configure id="指挥官升星需要使用它" value="Use to upgrade commander star-level" />
+	<configure id="雇佣一阶指挥官使用" value="Use to hire a 1-class commander" />
+	<configure id="雇佣二阶指挥官使用" value="Use to hire a 2-class commander" />
+	<configure id="雇佣三阶指挥官使用" value="Use to hire a 3-class commander" />
+	<configure id="雇佣四阶指挥官使用" value="Use to hire a 4-class commander" />
+	<configure id="雇佣五阶指挥官使用" value="Use to hire a 5-class commander" />
+	<configure id="一段时间内提升副官加成效果，副本宝箱可掉落" value="Enhance Adjutant effect for a while" />
+	<configure id="开启战役掉落的普通宝箱" value="Open common chest drop from battle" />
+	<configure id="开启战役掉落的白银宝箱" value="Open silver chest drop from battle" />
+	<configure id="开启战役掉落的黄金宝箱" value="Open gold chest drop from battle" />
+	<configure id="战役中获得宝箱，可以开出一些好东西，通关副本关卡可掉落" value="There are some good items in the chest drop from battle" />
+	<configure id="战役中获得宝箱，可以开出大量好东西，通关副本关卡可掉落" value="There are many good items in the chest drop from battle" />
+	<configure id="战役中获得宝箱，可以开出海量好东西，通关副本关卡可掉落" value="There are large number of good items in the chest drop from battle" />
+	<configure id="可以减少特种兵10分钟复活时间，开启章节副本宝箱可获得" value="Use to upgrade star level of Boris" />
+	<configure id="可以用来升星鲍里斯，开启副本宝箱可获得" value="Use to upgrade star level of Tanya" />
+	<configure id="可以用来升星谭亚，开启副本宝箱可获得" value="Material for advancing buildings" />
+	<configure id="建筑进阶必要的道具，开启章节副本宝箱可获得" value="Use to shorten the CD of special troop revive" />
+	<configure id="使用" value="Use" />
+	<configure id="军令不足" value="Not enough Orders" />
+	<configure id="扫荡令不足" value="Not enough Sweep Order" />
+	<configure id="道具不足" value="Not enough items" />
+	<configure id="道具不足~~" value="Not enough items~~" />
+	<configure id="您的强化剂数量不足!" value="Enhance liquid not enough!" />
+	<configure id="探索令或军令不足" value="Explore Order or Order not enough" />
+	<configure id="道具" value="Item" />
+	<configure id="使用了强化剂 资源加成效果加强" value="Enhance liquid used, resource production enhanced" />
+	<configure id="数量" value="Amt." />
+	<configure id="一键放入" value="Put-in Click" />
+	<configure id="合成" value="Synth" />
+	<configure id="金币不足" value="Not enough gold" />
+	<configure id="物品不足" value="Not enough items" />
+	<configure id="探索令" value="Explore Order" />
+	<configure id="指挥官等级不能超过角色等级" value="Commander Lv. can not exceed role Lv." />
+	<configure id="军令" value="Order" />
+	<configure id="购买" value="Buy" />
+</configures>

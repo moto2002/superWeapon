@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" res="7:10" items="" />
+	<configure id="3" res="7:10" items="" />
+	<configure id="5" res="7:10" items="" />
+	<configure id="7" res="" items="2:10" />
+	<configure id="12" res="" items="3:10" />
+	<configure id="25" res="" items="4:10" />
+</configures>

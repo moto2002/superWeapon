@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="20101" name="石油资源岛1" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="20102" name="石油资源岛2" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="20103" name="石油资源岛3" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="20104" name="石油资源岛4" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="20105" name="石油资源岛5" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="20106" name="石油资源岛6" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="20107" name="石油资源岛7" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="20108" name="石油资源岛8" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="20109" name="石油资源岛9" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="20110" name="石油资源岛10" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="20111" name="石油资源岛11" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="20112" name="石油资源岛12" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="20113" name="石油资源岛13" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="20114" name="石油资源岛14" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="20115" name="石油资源岛15" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="30101" name="钢铁资源岛1" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="30102" name="钢铁资源岛2" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="30103" name="钢铁资源岛3" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="30104" name="钢铁资源岛4" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="30105" name="钢铁资源岛5" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="30106" name="钢铁资源岛6" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="30107" name="钢铁资源岛7" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="30108" name="钢铁资源岛8" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="30109" name="钢铁资源岛9" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="30110" name="钢铁资源岛10" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="30111" name="钢铁资源岛11" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="30112" name="钢铁资源岛12" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="30113" name="钢铁资源岛13" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="30114" name="钢铁资源岛14" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="30115" name="钢铁资源岛15" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="40101" name="稀矿资源岛1" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="40102" name="稀矿资源岛2" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="40103" name="稀矿资源岛3" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="40104" name="稀矿资源岛4" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="40105" name="稀矿资源岛5" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+	<configure id="40106" name="稀矿资源岛6" description="" buildingInfo="16:8,17:8,18:8,19:8,22:8,23:8,27:1,2:1,6:1,7:1,62:1" />
+</configures>

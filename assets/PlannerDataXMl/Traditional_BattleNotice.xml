@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="PVP内容" value="恭喜[00FF00]{0}[-]進行全服第[00FF00]{1}[-]次PVP戰鬥,成為幸運玩家並獲得幸運獎勵！" />
+	<configure id="PVE内容" value="恭喜[00FF00]{0}[-]進行全服第[00FF00]{1}[-]次PVE戰鬥,成為幸運玩家並獲得幸運獎勵！" />
+	<configure id="PVP统计" value="當前全服已經進行了[00FF00]{0}[-]次PVP戰鬥。" />
+	<configure id="PVE统计" value="當前全服已經進行了[00FF00]{0}[-]次PVE戰鬥。" />
+	<configure id="fight_prize_1" value="PVP戰鬥幸運獎勵" />
+	<configure id="fight_prize_2" value="PVE戰鬥幸運獎勵" />
+</configures>

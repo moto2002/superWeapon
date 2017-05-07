@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" description="攻打作战图中其他玩家可以获得，科技道具和少量资源" />
+	<configure id="2" description="攻打PVP中的其他玩家，可以获得大量资源，但是要小心对方复仇" />
+	<configure id="3" description="攻打尤里，会获得大量金币和特种兵升级的相关道具" />
+</configures>

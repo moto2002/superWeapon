@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" name="第1天" description="" money="" items="" skill="" res="2:8000" goldBox="0" doubleNeedVipLevel="1" type="4" />
+	<configure id="2" name="第2天" description="" money="" items="132:2" skill="" res="" goldBox="0" doubleNeedVipLevel="" type="1" />
+	<configure id="3" name="第3天" description="" money="100" items="" skill="" res="" goldBox="0" doubleNeedVipLevel="" type="2" />
+	<configure id="4" name="第4天" description="" money="" items="120:30" skill="" res="" goldBox="0" doubleNeedVipLevel="" type="3" />
+	<configure id="5" name="第5天" description="" money="" items="132:4" skill="" res="" goldBox="0" doubleNeedVipLevel="" type="1" />
+	<configure id="6" name="第6天" description="" money="150" items="" skill="" res="" goldBox="0" doubleNeedVipLevel="" type="2" />
+	<configure id="7" name="第7天" description="" money="200" items="132:8" skill="18:1" res="" goldBox="1" doubleNeedVipLevel="1" type="" />
+</configures>

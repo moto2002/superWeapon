@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" itemId="1" name="鲍里斯" level="0" starUpItem="109:15" starUpRes="1:5000" armyId="1" price="1:5000" armyAffixes="1:2,2:2,4:2" description="全属性2%" />
+	<configure id="2" itemId="1" name="鲍里斯" level="1" starUpItem="110:30" starUpRes="1:75000" armyId="1" price="1:5000" armyAffixes="1:5,2:5,4:5" description="全属性5%" />
+	<configure id="3" itemId="1" name="鲍里斯" level="2" starUpItem="111:60" starUpRes="1:150000" armyId="1" price="1:5000" armyAffixes="1:10,2:10,4:10" description="全属性10%" />
+	<configure id="4" itemId="1" name="鲍里斯" level="3" starUpItem="112:120" starUpRes="1:300000" armyId="1" price="1:5000" armyAffixes="1:15,2:15,4:15" description="全属性15%" />
+	<configure id="5" itemId="1" name="鲍里斯" level="4" starUpItem="113:180" starUpRes="1:1000000" armyId="1" price="1:5000" armyAffixes="1:20,2:20,4:20" description="全属性20%" />
+	<configure id="6" itemId="1" name="鲍里斯" level="5" starUpItem="" starUpRes="" armyId="1" price="1:5000" armyAffixes="1:25,2:25,4:25" description="全属性25%" />
+	<configure id="7" itemId="2" name="谭亚" level="0" starUpItem="114:15" starUpRes="1:25000" armyId="2" price="1:5000" armyAffixes="1:2,2:2,4:2" description="全属性2%" />
+	<configure id="8" itemId="2" name="谭亚" level="1" starUpItem="115:30" starUpRes="1:75000" armyId="2" price="1:5000" armyAffixes="1:5,2:5,4:5" description="全属性5%" />
+	<configure id="9" itemId="2" name="谭亚" level="2" starUpItem="116:60" starUpRes="1:150000" armyId="2" price="1:5000" armyAffixes="1:10,2:10,4:10" description="全属性10%" />
+	<configure id="10" itemId="2" name="谭亚" level="3" starUpItem="117:120" starUpRes="1:300000" armyId="2" price="1:5000" armyAffixes="1:15,2:15,4:15" description="全属性15%" />
+	<configure id="11" itemId="2" name="谭亚" level="4" starUpItem="118:180" starUpRes="1:1000000" armyId="2" price="1:5000" armyAffixes="1:20,2:20,4:20" description="全属性20%" />
+	<configure id="12" itemId="2" name="谭亚" level="5" starUpItem="" starUpRes="" armyId="2" price="1:5000" armyAffixes="1:25,2:25,4:25" description="全属性25%" />
+</configures>

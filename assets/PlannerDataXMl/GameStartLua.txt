@@ -1,0 +1,389 @@
+ module('GameStartLua', package.seeall)
+
+local tank1,tank2,tank3,tank4
+local i
+i = 0
+
+function DoJob()
+    --print('DoJob')
+      coroutine.start(GameStart)
+  --   coroutine.start(tank)
+     --coroutine.start(Amy)
+end
+
+
+function GameStart()
+ --print('GameStart')    
+  -- local camera=GS.GetCamera()
+   loading()
+ --[[
+  while true do
+    GS.SetGa(camera,Vector3.New(187,14,107),Vector3.New(26,-48,0),Vector3.New(1,1,1))
+    coroutine.wait(0.1) --等待一秒
+    Dojob1(camera)
+
+    coroutine.wait(0.5) --等待一秒
+
+    Dojob2(camera)
+
+    coroutine.wait(6) --等待一秒
+     
+    Dojob3(camera)
+    
+    coroutine.wait(6) --等待一秒
+
+    Dojob4(camera)
+    
+    coroutine.wait(5) --等待一秒
+
+    Dojob5(camera)
+
+    coroutine.wait(6) --等待一秒
+
+    GS.SetGa(camera,Vector3.New(80,28,80),Vector3.New(38.7,47,-7),Vector3.New(1,1,1))
+    Dojob6(camera)
+
+    coroutine.wait(6) --等待一秒
+
+    Dojob7(camera)
+
+    coroutine.wait(8) --等待一秒
+
+     Dojob6(camera)
+
+    coroutine.wait(5) --等待一秒
+    
+  end
+   ]]
+end
+
+
+function tank()
+ --print('tank')    
+   dotank1()
+   --coroutine.wait(1)
+    --coroutine.wait(4)
+
+   --dotank2()
+
+   --coroutine.wait(3)
+    --dotank3()
+end
+
+function Amy()
+   --print('Amy')    
+  coroutine.wait(1)
+  while true do
+    i = i+1
+    if i > 1 and i%4 == 0 then
+      if amy8 ~= nil then
+        GS.Del(amy1)
+        amy1 = nil
+        GS.Del(amy2)
+        amy2 = nil
+        GS.Del(amy3)
+        amy3 = nil
+        GS.Del(amy4)
+        amy4 = nil
+        GS.Del(amy5)
+        amy5 = nil       
+        GS.Del(amy6)
+        amy6 = nil
+        GS.Del(amy7)
+        amy7 = nil
+        GS.Del(amy8)
+        amy8 = nil
+      end   
+    elseif i>1 and i%4 == 1 then
+      if amy16 ~= nil then
+        GS.Del(amy9)
+        amy9 = nil
+        GS.Del(amy10)
+        amy10 = nil
+        GS.Del(amy11)
+        amy11 = nil       
+        GS.Del(amy12)
+        amy12 = nil
+        GS.Del(amy13)
+        amy13 = nil
+        GS.Del(amy14)
+        amy14 = nil       
+        GS.Del(amy15)
+        amy15 = nil
+        GS.Del(amy16)
+        amy16 = nil
+      end 
+
+    elseif i>1 and i%4 == 0 then
+      if amy24 ~= nil then
+        GS.Del(amy16)
+        amy16 = nil
+        GS.Del(amy17)
+        amy17 = nil       
+        GS.Del(amy18)
+        amy18 = nil
+        GS.Del(amy19)
+        amy19 = nil
+        GS.Del(amy20)
+        amy20 = nil       
+        GS.Del(amy21)
+        amy21 = nil
+        GS.Del(amy22)
+        amy22 = nil
+        GS.Del(amy23)
+        amy23 = nil       
+        GS.Del(amy24)
+        amy24 = nil
+      end 
+
+    elseif i>1 and i%4 == 1 then
+      if amy32 ~= nil then
+        GS.Del(amy25)
+        amy25 = nil
+        GS.Del(amy26)
+        amy26 = nil       
+        GS.Del(amy27)
+        amy27 = nil
+        GS.Del(amy28)
+        amy28 = nil
+        GS.Del(amy29)
+        amy29 = nil       
+        GS.Del(amy30)
+        amy30 = nil
+        GS.Del(amy31)
+        amy31 = nil       
+        GS.Del(amy32)
+        amy32 = nil
+       end 
+
+     end
+
+    --print(i)
+   doAmy1()
+   --coroutine.wait(15)
+  end
+end
+
+--GS.AngelTo(ga,Vector3.New(149,5,99),2)  ga转角度
+--GS.MoveTo（ga,Vector3.New(17,-45,0),2） ga移动到哪
+--GS.BuildTank(Vector3.New(0,0,0),Vector3.New(0,0,0),Vector3.New(0,0,0),index,type)  在哪生成 初始角度       返回坦克 对象    type=0 自己 1 别人  3自己的残兵  4 别人的残兵
+--GS.GetCamera()  返回相机对象
+--GS.DisplayLoginPanel()  显示 登陆面板
+--GS.SetGa(ga,Vector3.New(0,0,0),Vector3.New(0,0,0),Vector3.New(0,0,0))  设置ga 的位置  角度  大小 
+--]]
+
+function loading()
+     --print('loading')    
+	GS.DisplayLoginPanel()
+end
+
+function  Dojob1(camera)
+  GS.MoveTo(camera,Vector3.New(187,14,107),1)
+  GS.AngelTo(camera,Vector3.New(26.4,-48,0),1)
+  --print('Dojob1')
+end
+
+function  Dojob2(camera)
+  GS.MoveTo(camera,Vector3.New(163,8.3,116),6)
+  GS.AngelTo(camera,Vector3.New(40,-48,0),6)
+  --print('Dojob2')
+end
+function  Dojob3(camera)
+  GS.MoveTo(camera,Vector3.New(188.5,3,131.4),5)
+  GS.AngelTo(camera,Vector3.New(6.3,-128.7,-12.2),5)
+  --print('Dojob3')
+end
+
+function  Dojob4(camera)
+  GS.MoveTo(camera,Vector3.New(190,11.2,127.4),5)
+  GS.AngelTo(camera,Vector3.New(28.8,-81.3,-2),5)
+  --print('Dojob4')
+end
+
+function  Dojob5(camera)
+  GS.MoveTo(camera,Vector3.New(220,11.2,127.4),5)
+  GS.AngelTo(camera,Vector3.New(28.8,-81.3,-2),5)
+  --print('Dojob5')
+end
+
+function  Dojob6(camera)
+  GS.MoveTo(camera,Vector3.New(79.74,28.24,80),1)
+  GS.AngelTo(camera,Vector3.New(38.7,47,-7),1)
+  --print('Dojob7')
+end
+
+function  Dojob7(camera)
+--print('Dojob7')
+  GS.MoveTo(camera,Vector3.New(79.6,15.13,91.67),6)
+  GS.AngelTo(camera,Vector3.New(25.42,34.4,-8),6)
+  ----print('Dojob6')
+end
+
+--[[function  Dojob6(camera)
+--print('Dojob5')
+  GS.MoveTo(camera,Vector3.New(120,7,120),5)
+  GS.AngelTo(camera,Vector3.New(30,60,0),5)
+  ----print('Dojob5')
+end--]]
+
+function  dotank1() 
+   --print('dotank1') 
+  tank1 = GS.BuildTank(Vector3.New(160,0.2,127.8),Vector3.New(0,90,0),Vector3.New(2.5,2.5,2.5),1,0)
+  tank2 = GS.BuildTank(Vector3.New(150.3,0.2,130),Vector3.New(0,90,0),Vector3.New(2.5,2.5,2.5),1,0)
+  tank3 = GS.BuildTank(Vector3.New(143.6,0.2,125.2),Vector3.New(0,90,0),Vector3.New(2.5,2.5,2.5),1,0)
+  tank4 = GS.BuildTank(Vector3.New(128,0.2,127.9),Vector3.New(0,90,0),Vector3.New(2,2,2),4,0)
+  tank5 = GS.BuildTank(Vector3.New(108.5,0.2,127.1),Vector3.New(0,90,0),Vector3.New(2.5,2.5,2.5),3,0)
+  tank6 = GS.BuildTank(Vector3.New(88.8,0.2,125.4),Vector3.New(0,90,0),Vector3.New(2.5,2.5,2.5),3,0)
+  tank7 = GS.BuildTank(Vector3.New(68.6,0.2,128),Vector3.New(0,90,0),Vector3.New(3,3,3),2,0)
+  tank8 = GS.BuildTank(Vector3.New(48.4,0.2,124),Vector3.New(0,90,0),Vector3.New(3,3,3),2,0)
+  tank9 = GS.BuildTank(Vector3.New(30.2,0.2,128.4),Vector3.New(0,90,0),Vector3.New(3,3,3),2,0)
+  tank10 = GS.BuildTank(Vector3.New(148.5,0.2,133.1),Vector3.New(0,90,0),Vector3.New(2.5,2.5,2.5),7,0)
+  tank11 = GS.BuildTank(Vector3.New(130.3,0.2,120),Vector3.New(0,90,0),Vector3.New(2.5,2.5,2.5),7,0)
+  tank12 = GS.BuildTank(Vector3.New(300,-12,58),Vector3.New(-10,-60,0),Vector3.New(4,4,4),18,0)
+  tank13 = GS.BuildTank(Vector3.New(330,-12,5),Vector3.New(-10,-50,-30),Vector3.New(2,2,2),17,0)
+  tank14 = GS.BuildTank(Vector3.New(42.2,14.9,126),Vector3.New(0,90,0),Vector3.New(2,2,2),15,0)
+  tank15 = GS.BuildTank(Vector3.New(4.3,18.7,98.5),Vector3.New(0,90,0),Vector3.New(2,2,2),15,0)
+  tank16 = GS.BuildTank(Vector3.New(4.3,24.2,152.5),Vector3.New(0,90,0),Vector3.New(2,2,2),15,0)
+  GS.MoveTo(tank1,Vector3.New(403,0.2,127.9),35)
+  GS.MoveTo(tank2,Vector3.New(393.5,0.2,130.1),35)
+  GS.MoveTo(tank3,Vector3.New(386.8,0.2,125.2),35)
+  GS.MoveTo(tank4,Vector3.New(367.7,0.2,127.9),35)
+  GS.MoveTo(tank5,Vector3.New(349.7,0.2,127.1),35)
+  GS.MoveTo(tank6,Vector3.New(333,0.2,125.4),35)
+  GS.MoveTo(tank7,Vector3.New(319.8,0.2,128),35)
+  GS.MoveTo(tank8,Vector3.New(308.6,0.2,124.4),35)
+  GS.MoveTo(tank9,Vector3.New(297.4,0.2,128.4),35)
+  GS.MoveTo(tank10,Vector3.New(375,0.2,133.1),56)
+  GS.MoveTo(tank11,Vector3.New(370.3,0.2,120),61)
+  GS.MoveTo(tank12,Vector3.New(0,20,193),8)
+  GS.MoveTo(tank13,Vector3.New(0,16,220),15)
+  GS.MoveTo(tank14,Vector3.New(291.4,14.9,126),35)
+  GS.MoveTo(tank15,Vector3.New(253.5,18.7,98.5),35)
+  GS.MoveTo(tank16,Vector3.New(253.5,24.2,152.5),35)
+
+  --coroutine.wait(15)
+  --GS.MoveTo(tank4,Vector3.New(240,0.18,134),5)
+  --GS.AngelTo(tank4,Vector3.New(0,57,0),1)
+
+  Amy()
+
+
+end
+
+function  doAmy1()
+  coroutine.wait(1)
+  --print('doAmy1')
+  if amy6 == nil then
+    amy1 = GS.BuildTank(Vector3.New(46.2,0.2,128),Vector3.New(0,90,0),Vector3.New(2.5,2.5,2.5),1,0)
+    amy2 = GS.BuildTank(Vector3.New(37.8,0.2,124.4),Vector3.New(0,90,0),Vector3.New(2.5,2.5,2.5),1,0)
+    amy3 = GS.BuildTank(Vector3.New(34.8,0.18,130.4),Vector3.New(0,90,0),Vector3.New(2.5,2.5,2.5),1,0)
+    amy4 = GS.BuildTank(Vector3.New(19.4,0.2,126.8),Vector3.New(0,90,0),Vector3.New(2,2,2),4,0)
+    amy5 = GS.BuildTank(Vector3.New(0.6,0.18,129),Vector3.New(0,90,0),Vector3.New(2.5,2.5,2.5),2,0)
+    amy6 = GS.BuildTank(Vector3.New(-6.2,0.2,124),Vector3.New(0,90,0),Vector3.New(2.5,2.5,2.5),2,0)
+    amy7 = GS.BuildTank(Vector3.New(-23.6,0.18,128.3),Vector3.New(0,90,0),Vector3.New(2.5,2.5,2.5),5,0)
+    amy8 = GS.BuildTank(Vector3.New(-40.2,0.2,123.7),Vector3.New(0,90,0),Vector3.New(2.5,2.5,2.5),5,0)
+    GS.MoveTo(amy1,Vector3.New(365.6,0.2,128),39)
+    GS.MoveTo(amy2,Vector3.New(357.3,0.2,124.4),39)
+    GS.MoveTo(amy3,Vector3.New(354.3,0.2,130.4),39)
+    GS.MoveTo(amy4,Vector3.New(338.9,0.2,126.8),39)
+    GS.MoveTo(amy5,Vector3.New(320,0.2,129),39)
+    GS.MoveTo(amy6,Vector3.New(313.3,0.2,124),39)
+    GS.MoveTo(amy7,Vector3.New(295.9,0.2,128.3),39)
+    GS.MoveTo(amy8,Vector3.New(279.3,0.2,123.7),39)
+    coroutine.wait(12)
+  end
+  if amy16 == nil then
+    amy9 = GS.BuildTank(Vector3.New(50,0.2,124.6),Vector3.New(0,90,0),Vector3.New(2.5,2.5,2.5),3,0)
+    amy10 = GS.BuildTank(Vector3.New(36.5,0.2,130.9),Vector3.New(0,90,0),Vector3.New(2.5,2.5,2.5),5,0)
+    amy11 = GS.BuildTank(Vector3.New(18.5,0.2,124),Vector3.New(0,90,0),Vector3.New(2.5,2.5,2.5),5,0)
+    amy12 = GS.BuildTank(Vector3.New(0.3,0.2,127.5),Vector3.New(0,90,0),Vector3.New(2.5,2.5,2.5),6,0)
+    amy13 = GS.BuildTank(Vector3.New(-11.6,0.2,121.6),Vector3.New(0,90,0),Vector3.New(2,2,2),6,0)
+    amy14 = GS.BuildTank(Vector3.New(300,-12,58),Vector3.New(-10,-60,0),Vector3.New(3,3,3),18,0)
+    amy15 = GS.BuildTank(Vector3.New(330,-12,5),Vector3.New(-10,-50,-30),Vector3.New(2,2,2),17,0)
+    amy16 = GS.BuildTank(Vector3.New(-31.5,0.2,122.8),Vector3.New(0,90,0),Vector3.New(2,2,2),3,0)
+    GS.MoveTo(amy9,Vector3.New(355.6,0.2,124.6),39)
+    GS.MoveTo(amy10,Vector3.New(341.6,0.2,130.9),39)
+    GS.MoveTo(amy11,Vector3.New(323.8,0.2,124),39)
+    GS.MoveTo(amy12,Vector3.New(305.4,0.2,127.5),39)
+    GS.MoveTo(amy13,Vector3.New(293.5,0.2,121.6),39)
+    GS.MoveTo(amy14,Vector3.New(0,22,193),8)
+    GS.MoveTo(amy15,Vector3.New(0,18,220),15)
+    GS.MoveTo(amy16,Vector3.New(273.6,0.2,122),39)
+    coroutine.wait(12)
+  end
+  
+   if amy24 == nil then
+    amy17 = GS.BuildTank(Vector3.New(46.2,0.2,128),Vector3.New(0,90,0),Vector3.New(2.5,2.5,2.5),1,0)
+    amy18 = GS.BuildTank(Vector3.New(37.8,0.2,124.4),Vector3.New(0,90,0),Vector3.New(2.5,2.5,2.5),1,0)
+    amy19 = GS.BuildTank(Vector3.New(34.8,0.18,130.4),Vector3.New(0,90,0),Vector3.New(2.5,2.5,2.5),1,0)
+    amy20 = GS.BuildTank(Vector3.New(19.4,0.2,126.8),Vector3.New(0,90,0),Vector3.New(2,2,2),4,0)
+    amy21 = GS.BuildTank(Vector3.New(0.6,0.18,129),Vector3.New(0,90,0),Vector3.New(2.5,2.5,2.5),2,0)
+    amy22 = GS.BuildTank(Vector3.New(-6.2,0.2,124),Vector3.New(0,90,0),Vector3.New(2.5,2.5,2.5),2,0)
+    amy23 = GS.BuildTank(Vector3.New(-23.6,0.18,128.3),Vector3.New(0,90,0),Vector3.New(2.5,2.5,2.5),5,0)
+    amy24 = GS.BuildTank(Vector3.New(-40.2,0.2,123.7),Vector3.New(0,90,0),Vector3.New(2.5,2.5,2.5),5,0)
+    GS.MoveTo(amy17,Vector3.New(365.6,0.2,128),39)
+    GS.MoveTo(amy18,Vector3.New(357.3,0.2,124.4),39)
+    GS.MoveTo(amy19,Vector3.New(354.3,0.2,130.4),39)
+    GS.MoveTo(amy20,Vector3.New(338.9,0.2,126.8),39)
+    GS.MoveTo(amy21,Vector3.New(320,0.2,129),39)
+    GS.MoveTo(amy22,Vector3.New(313.3,0.2,124),39)
+    GS.MoveTo(amy23,Vector3.New(295.9,0.2,128.3),39)
+    GS.MoveTo(amy24,Vector3.New(279.3,0.2,123.7),39)
+    coroutine.wait(12)
+  end
+
+   if amy32 == nil then
+    amy25 = GS.BuildTank(Vector3.New(50,0.2,124.6),Vector3.New(0,90,0),Vector3.New(2.5,2.5,2.5),3,0)
+    amy26 = GS.BuildTank(Vector3.New(36.5,0.2,130.9),Vector3.New(0,90,0),Vector3.New(2.5,2.5,2.5),5,0)
+    amy27 = GS.BuildTank(Vector3.New(18.5,0.2,124),Vector3.New(0,90,0),Vector3.New(2.5,2.5,2.5),5,0)
+    amy28 = GS.BuildTank(Vector3.New(0.3,0.2,127.5),Vector3.New(0,90,0),Vector3.New(2.5,2.5,2.5),6,0)
+    amy29 = GS.BuildTank(Vector3.New(-11.6,0.2,121.6),Vector3.New(0,90,0),Vector3.New(2,2,2),6,0)
+    amy30 = GS.BuildTank(Vector3.New(10.6,12.8,126.8),Vector3.New(0,90,0),Vector3.New(2,2,2),15,0)
+    amy31 = GS.BuildTank(Vector3.New(-32.8,12.8,146.4),Vector3.New(0,90,0),Vector3.New(2,2,2),15,0)
+    amy32 = GS.BuildTank(Vector3.New(-31.5,0.2,122.8),Vector3.New(0,90,0),Vector3.New(2,2,2),3,0)
+    GS.MoveTo(amy25,Vector3.New(355.6,0.2,124.6),39)
+    GS.MoveTo(amy26,Vector3.New(341.6,0.2,130.9),39)
+    GS.MoveTo(amy27,Vector3.New(323.8,0.2,124),39)
+    GS.MoveTo(amy28,Vector3.New(305.4,0.2,127.5),39)
+    GS.MoveTo(amy29,Vector3.New(293.5,0.2,121.6),39)
+    GS.MoveTo(amy30,Vector3.New(315.7,12.8,126.8),39)
+    GS.MoveTo(amy31,Vector3.New(272.1,12.8,146.4),39)
+    GS.MoveTo(amy32,Vector3.New(273.6,0.2,122),39)
+    coroutine.wait(12)
+  end
+  
+  if tank16 ~= nil then
+    GS.Del(tank1)
+    tank1 = nil
+    GS.Del(tank2)
+    tank2 = nil
+    GS.Del(tank3)
+    tank3 = nil
+    GS.Del(tank4)
+    tank4 = nil  
+    GS.Del(tank5)
+    tank5 = nil
+    GS.Del(tank6)
+    tank6 = nil
+    GS.Del(tank7)
+    tank7 = nil
+    GS.Del(tank8)
+    tank8 = nil
+    GS.Del(tank9)
+    tank9 = nil 
+    --GS.Del(tank10)
+   -- tank10 = nil
+    --GS.Del(tank11)
+    --tank11 = nil
+    GS.Del(tank12)
+    tank12 = nil
+    GS.Del(tank13)
+    tank13 = nil
+    GS.Del(tank14)
+    tank14 = nil
+    GS.Del(tank15)
+    tank15 = nil
+    GS.Del(tank16)
+    tank16 = nil    
+  end
+end

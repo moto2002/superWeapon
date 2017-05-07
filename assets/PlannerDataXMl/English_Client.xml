@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="网络错误    " value="Network Error" />
+	<configure id="无网络" value="NO NETWORK" />
+	<configure id="请检查网络重试" value="Please check the network to retry" />
+	<configure id="退出游戏" value="Quit" />
+	<configure id="重新登录   " value="restart login" />
+	<configure id="加载中" value="Loading" />
+	<configure id="检查资源 " value="Check resources" />
+	<configure id="检查资源完成" value="Check resources done" />
+	<configure id="解包中" value="loading" />
+	<configure id="检查资源更新" value="Checking Resources" />
+	<configure id="开始解包" value="Unpacking" />
+	<configure id="解包完成" value="Unpack complete" />
+	<configure id="开检查资源更新" value="Checking Resources" />
+</configures>

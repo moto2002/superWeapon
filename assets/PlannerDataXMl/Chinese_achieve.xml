@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="大富翁" value="大富翁" />
+	<configure id="石油大亨" value="石油大亨" />
+	<configure id="钢铁大亨" value="钢铁大亨" />
+	<configure id="矿产大亨" value="矿产大亨" />
+	<configure id="就是任性" value="就是任性" />
+	<configure id="能源危机" value="能源危机" />
+	<configure id="钢铁危机" value="钢铁危机" />
+	<configure id="资源危机" value="资源危机" />
+	<configure id="大建筑师" value="大建筑师" />
+	<configure id="大部队集结" value="大部队集结" />
+	<configure id="征服者" value="征服者" />
+	<configure id="大冲锋" value="大冲锋" />
+	<configure id="宝藏的秘密" value="宝藏的秘密" />
+	<configure id="防守大师" value="防守大师" />
+	<configure id="收集金币总量" value="收集金币总量" />
+	<configure id="收集石油总量" value="收集石油总量" />
+	<configure id="收集钢铁总量" value="收集钢铁总量" />
+	<configure id="收集稀矿总量" value="收集稀矿总量" />
+	<configure id="消耗金币总量" value="消耗金币总量" />
+	<configure id="消耗石油总量" value="消耗石油总量" />
+	<configure id="消耗钢铁总量" value="消耗钢铁总量" />
+	<configure id="消耗稀矿总量" value="消耗稀矿总量" />
+	<configure id="升级建筑总次数" value="升级建筑总次数" />
+	<configure id="升级兵种总次数" value="升级兵种总次数" />
+	<configure id="击毁玩家基地总次数" value="击毁玩家基地总次数" />
+	<configure id="击毁NPC据点总次数" value="击毁NPC据点总次数" />
+	<configure id="攻占资源岛总次数" value="攻占资源岛总次数" />
+	<configure id="基地成功防御次数" value="基地成功防御次数" />
+	<configure id="奖励" value="奖励" />
+	<configure id="成就" value="成就" />
+	<configure id="领取奖励" value="领取奖励" />
+</configures>

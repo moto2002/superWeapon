@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" name="6元" type="7" priceType="1" price="6" diamonds="60" extDiamonds="" res="" titleIcon="title_4" icon="shop_4" desciption="充值   6元 即可获得 60钻石" isShow="1" />
+	<configure id="2" name="30元" type="7" priceType="1" price="30" diamonds="300" extDiamonds="30" res="" titleIcon="title_5" icon="shop_5" desciption="充值  30元 即可获得 330钻石" isShow="1" />
+	<configure id="3" name="68元" type="7" priceType="1" price="68" diamonds="680" extDiamonds="160" res="" titleIcon="title_6" icon="shop_6" desciption="充值  68元 即可获得 820钻石" isShow="1" />
+	<configure id="4" name="128元" type="7" priceType="1" price="128" diamonds="1280" extDiamonds="320" res="" titleIcon="title_7" icon="shop_7" desciption="充值 128元 即可获得 1670钻石" isShow="1" />
+	<configure id="5" name="328元" type="7" priceType="1" price="328" diamonds="3280" extDiamonds="680" res="" titleIcon="title_8" icon="shop_8" desciption="充值 328元 即可获得 4600钻石" isShow="1" />
+	<configure id="6" name="648元" type="7" priceType="1" price="648" diamonds="6480" extDiamonds="800" res="" titleIcon="title_9" icon="shop_9" desciption="充值 648元 即可获得 9720钻石" isShow="1" />
+	<configure id="7" name="普通月卡" type="" priceType="1" price="30" diamonds="300" extDiamonds="" res="" titleIcon="" icon="" desciption="充值30购买月卡" isShow="" />
+	<configure id="8" name="至尊月卡" type="" priceType="1" price="68" diamonds="680" extDiamonds="" res="" titleIcon="" icon="" desciption="充值68获取永久月卡" isShow="" />
+	<configure id="9" name="一元购" type="" priceType="1" price="1" diamonds="10" extDiamonds="" res="" titleIcon="" icon="" desciption="" isShow="" />
+	<configure id="10" name="基地3级礼包" type="7" priceType="1" price="30" diamonds="300" extDiamonds="" res="" titleIcon="" icon="" desciption="基地3级礼包" isShow="" />
+	<configure id="11" name="基地5级礼包" type="7" priceType="1" price="30" diamonds="300" extDiamonds="" res="" titleIcon="" icon="" desciption="基地5级礼包" isShow="" />
+	<configure id="12" name="基地6级礼包" type="7" priceType="1" price="68" diamonds="680" extDiamonds="" res="" titleIcon="" icon="" desciption="基地6级礼包" isShow="" />
+	<configure id="13" name="基地7级礼包" type="7" priceType="1" price="68" diamonds="680" extDiamonds="" res="" titleIcon="" icon="" desciption="基地7级礼包" isShow="" />
+	<configure id="14" name="基地8级礼包" type="7" priceType="1" price="128" diamonds="1280" extDiamonds="" res="" titleIcon="" icon="" desciption="基地8级礼包" isShow="" />
+	<configure id="15" name="基地9级礼包" type="7" priceType="1" price="128" diamonds="1280" extDiamonds="" res="" titleIcon="" icon="" desciption="基地9级礼包" isShow="" />
+	<configure id="16" name="基地10级礼包" type="7" priceType="1" price="128" diamonds="1280" extDiamonds="" res="" titleIcon="" icon="" desciption="基地10级礼包" isShow="" />
+	<configure id="17" name="基地11级礼包" type="7" priceType="1" price="128" diamonds="1280" extDiamonds="" res="" titleIcon="" icon="" desciption="基地11级礼包" isShow="" />
+	<configure id="18" name="基地12级礼包" type="7" priceType="1" price="128" diamonds="1280" extDiamonds="" res="" titleIcon="" icon="" desciption="基地12级礼包" isShow="" />
+	<configure id="19" name="基地13级礼包" type="7" priceType="1" price="128" diamonds="1280" extDiamonds="" res="" titleIcon="" icon="" desciption="基地13级礼包" isShow="" />
+	<configure id="20" name="基地14级礼包" type="7" priceType="1" price="128" diamonds="1280" extDiamonds="" res="" titleIcon="" icon="" desciption="基地14级礼包" isShow="" />
+	<configure id="21" name="基地15级礼包" type="7" priceType="1" price="128" diamonds="1280" extDiamonds="" res="" titleIcon="" icon="" desciption="基地15级礼包" isShow="" />
+	<configure id="22" name="基地16级礼包" type="7" priceType="1" price="128" diamonds="1280" extDiamonds="" res="" titleIcon="" icon="" desciption="基地16级礼包" isShow="" />
+	<configure id="23" name="基地17级礼包" type="7" priceType="1" price="128" diamonds="1280" extDiamonds="" res="" titleIcon="" icon="" desciption="基地17级礼包" isShow="" />
+	<configure id="24" name="基地18级礼包" type="7" priceType="1" price="128" diamonds="1280" extDiamonds="" res="" titleIcon="" icon="" desciption="基地18级礼包" isShow="" />
+	<configure id="25" name="基地19级礼包" type="7" priceType="1" price="128" diamonds="1280" extDiamonds="" res="" titleIcon="" icon="" desciption="基地19级礼包" isShow="" />
+	<configure id="26" name="基地20级礼包" type="7" priceType="1" price="128" diamonds="1280" extDiamonds="" res="" titleIcon="" icon="" desciption="基地20级礼包" isShow="" />
+	<configure id="27" name="金币礼包" type="" priceType="1" price="30" diamonds="" extDiamonds="" res="" titleIcon="" icon="" desciption="金币礼包" isShow="" />
+	<configure id="28" name="特种兵礼包" type="" priceType="1" price="30" diamonds="" extDiamonds="" res="" titleIcon="" icon="" desciption="特种兵礼包" isShow="" />
+	<configure id="29" name="兵种科技" type="" priceType="1" price="30" diamonds="" extDiamonds="" res="" titleIcon="" icon="" desciption="兵种科技" isShow="" />
+	<configure id="30" name="建筑科技" type="" priceType="1" price="30" diamonds="" extDiamonds="" res="" titleIcon="" icon="" desciption="建筑科技" isShow="" />
+	<configure id="31" name="技能礼包" type="" priceType="1" price="30" diamonds="" extDiamonds="" res="" titleIcon="" icon="" desciption="技能礼包" isShow="" />
+	<configure id="32" name="限购基地礼包" type="" priceType="1" price="30" diamonds="" extDiamonds="" res="" titleIcon="" icon="" desciption="限购基地礼包" isShow="" />
+</configures>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" name="" description="主基地金币产量＋3％" aideType="1" aideLevel="1" abilityType="1" value="3" />
+	<configure id="2" name="" description="主基地金币产量＋5％" aideType="1" aideLevel="2" abilityType="1" value="5" />
+	<configure id="3" name="" description="主基地金币产量＋9％" aideType="1" aideLevel="3" abilityType="1" value="9" />
+	<configure id="4" name="" description="主基地石油产量＋3％" aideType="1" aideLevel="1" abilityType="2" value="3" />
+	<configure id="5" name="" description="主基地石油产量＋5％" aideType="1" aideLevel="2" abilityType="2" value="5" />
+	<configure id="6" name="" description="主基地石油产量＋9％" aideType="1" aideLevel="3" abilityType="2" value="9" />
+	<configure id="7" name="" description="主基地钢铁产量＋3％" aideType="1" aideLevel="1" abilityType="3" value="3" />
+	<configure id="8" name="" description="主基地钢铁产量＋5％" aideType="1" aideLevel="2" abilityType="3" value="5" />
+	<configure id="9" name="" description="主基地钢铁产量＋9％" aideType="1" aideLevel="3" abilityType="3" value="9" />
+	<configure id="10" name="" description="主基地稀矿产量＋3％" aideType="1" aideLevel="1" abilityType="4" value="3" />
+	<configure id="11" name="" description="主基地稀矿产量＋5％" aideType="1" aideLevel="2" abilityType="4" value="5" />
+	<configure id="12" name="" description="主基地稀矿产量＋9％" aideType="1" aideLevel="3" abilityType="4" value="9" />
+	<configure id="13" name="" description="主基地所有资源产量＋1％" aideType="1" aideLevel="1" abilityType="5" value="1" />
+	<configure id="14" name="" description="主基地所有资源产量＋2％" aideType="1" aideLevel="2" abilityType="5" value="2" />
+	<configure id="15" name="" description="主基地所有资源产量＋3％" aideType="1" aideLevel="3" abilityType="5" value="3" />
+	<configure id="16" name="" description="作战图金币产量＋3％" aideType="2" aideLevel="1" abilityType="1" value="3" />
+	<configure id="17" name="" description="作战图金币产量＋5％" aideType="2" aideLevel="2" abilityType="1" value="5" />
+	<configure id="18" name="" description="作战图金币产量＋9％" aideType="2" aideLevel="3" abilityType="1" value="9" />
+	<configure id="19" name="" description="作战图石油产量＋3％" aideType="2" aideLevel="1" abilityType="2" value="3" />
+	<configure id="20" name="" description="作战图石油产量＋5％" aideType="2" aideLevel="2" abilityType="2" value="5" />
+	<configure id="21" name="" description="作战图石油产量＋9％" aideType="2" aideLevel="3" abilityType="2" value="9" />
+	<configure id="22" name="" description="作战图钢铁产量＋3％" aideType="2" aideLevel="1" abilityType="3" value="3" />
+	<configure id="23" name="" description="作战图钢铁产量＋5％" aideType="2" aideLevel="2" abilityType="3" value="5" />
+	<configure id="24" name="" description="作战图钢铁产量＋9％" aideType="2" aideLevel="3" abilityType="3" value="9" />
+	<configure id="25" name="" description="作战图稀矿产量＋3％" aideType="2" aideLevel="1" abilityType="4" value="3" />
+	<configure id="26" name="" description="作战图稀矿产量＋5％" aideType="2" aideLevel="2" abilityType="4" value="5" />
+	<configure id="27" name="" description="作战图稀矿产量＋9％" aideType="2" aideLevel="3" abilityType="4" value="9" />
+	<configure id="28" name="" description="作战图所有资源产量＋1％" aideType="2" aideLevel="1" abilityType="5" value="1" />
+	<configure id="29" name="" description="作战图所有资源产量＋2％" aideType="2" aideLevel="2" abilityType="5" value="2" />
+	<configure id="30" name="" description="作战图所有资源产量＋3％" aideType="2" aideLevel="3" abilityType="5" value="3" />
+	<configure id="31" name="" description="掠夺玩家资源增加＋3％" aideType="3" aideLevel="1" abilityType="6" value="3" />
+	<configure id="32" name="" description="掠夺玩家资源增加＋5％" aideType="3" aideLevel="2" abilityType="6" value="5" />
+	<configure id="33" name="" description="掠夺玩家资源增加＋9％" aideType="3" aideLevel="3" abilityType="6" value="9" />
+	<configure id="34" name="" description="资源保护加成＋5％" aideType="3" aideLevel="1" abilityType="7" value="5" />
+	<configure id="35" name="" description="资源保护加成＋10％" aideType="3" aideLevel="2" abilityType="7" value="10" />
+	<configure id="36" name="" description="资源保护加成＋15％" aideType="3" aideLevel="3" abilityType="7" value="15" />
+	<configure id="37" name="" description="弹药产量＋2％" aideType="3" aideLevel="1" abilityType="8" value="2" />
+	<configure id="38" name="" description="弹药产量＋6％" aideType="3" aideLevel="2" abilityType="8" value="6" />
+	<configure id="39" name="" description="弹药产量＋10％" aideType="3" aideLevel="3" abilityType="8" value="10" />
+</configures>

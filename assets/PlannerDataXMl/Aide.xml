@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" name="伊娃" description="提升基地资源产量" type="1" level="1" needItemId="35" needItemNumber="7" itemOfDecomposed="38" durationTime="3" mixNeedTime="10" UiTime="10秒" icon="aide1" headIcon="head_aide1" />
+	<configure id="2" name="伊娃" description="提升基地资源产量" type="1" level="2" needItemId="38" needItemNumber="7" itemOfDecomposed="41" durationTime="3" mixNeedTime="3600" UiTime="1小时" icon="aide1" headIcon="head_aide1" />
+	<configure id="3" name="伊娃" description="提升基地资源产量" type="1" level="3" needItemId="41" needItemNumber="7" itemOfDecomposed="101" durationTime="3" mixNeedTime="10800" UiTime="3小时" icon="aide1" headIcon="head_aide1" />
+	<configure id="4" name="莉塞特" description="提升作战图资源产量" type="2" level="1" needItemId="36" needItemNumber="7" itemOfDecomposed="39" durationTime="3" mixNeedTime="10" UiTime="10秒" icon="aide2" headIcon="head_aide2" />
+	<configure id="5" name="莉塞特" description="提升作战图资源产量" type="2" level="2" needItemId="39" needItemNumber="7" itemOfDecomposed="42" durationTime="3" mixNeedTime="3600" UiTime="1小时" icon="aide2" headIcon="head_aide2" />
+	<configure id="6" name="莉塞特" description="提升作战图资源产量" type="2" level="3" needItemId="42" needItemNumber="7" itemOfDecomposed="101" durationTime="3" mixNeedTime="10800" UiTime="3小时" icon="aide2" headIcon="head_aide2" />
+	<configure id="7" name="达夏" description="提升PVP资源掠夺与保护优势" type="3" level="1" needItemId="37" needItemNumber="7" itemOfDecomposed="40" durationTime="3" mixNeedTime="10" UiTime="10秒" icon="aide3" headIcon="head_aide3" />
+	<configure id="8" name="达夏" description="提升PVP资源掠夺与保护优势" type="3" level="2" needItemId="40" needItemNumber="7" itemOfDecomposed="43" durationTime="3" mixNeedTime="3600" UiTime="1小时" icon="aide3" headIcon="head_aide3" />
+	<configure id="9" name="达夏" description="提升PVP资源掠夺与保护优势" type="3" level="3" needItemId="43" needItemNumber="7" itemOfDecomposed="101" durationTime="3" mixNeedTime="10800" UiTime="3小时" icon="aide3" headIcon="head_aide3" />
+</configures>

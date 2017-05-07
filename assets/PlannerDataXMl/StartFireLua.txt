@@ -1,0 +1,209 @@
+module('StartFireLua', package.seeall)
+local army1 = 8
+local army2 = 5
+local army3 = 3
+local EmptyBox 
+local EmptyBox1
+
+function DoJob()
+	NewbieGuideWrap.Lock2D(1)
+    stepStart()
+end
+
+function stepStart()
+	NewbieGuideWrap.ShowPerson(175,0)
+	NewbieGuideWrap.NextNewbi('steptalk2')
+end
+
+function steptalk2()
+	NewbieGuideWrap.ShowPerson(176,0)
+	NewbieGuideWrap.NextNewbi('steptalk3')
+end
+
+function steptalk3()
+	NewbieGuideWrap.ShowPerson(177,0)
+	NewbieGuideWrap.NextNewbi('step100')
+end
+
+function step100()
+	EmptyBox = NewbieGuideWrap.CreateLandArmyGuid(Vector3.New(43,0,10))
+	EmptyBox1 = NewbieGuideWrap.CreateLandArmyGuid(Vector3.New(21,0,25))
+	NewbieGuideWrap.ShowButtonAllUI(2,90,Vector3.New(0,0,0),NewbieGuideWrap.GetCommandButtonFight())
+	NewbieGuideWrap.ShowForceGuide(NewbieGuideWrap.GetCommandButtonFight())
+	NewbieGuideWrap.NextNewbi('step100_1')
+end
+
+function step100_1()
+	if NewbieGuideWrap.GetCurTowerNum_CurMap() > 0 then
+		NewbieGuideWrap.ShowTowerAllUI(2,90,Vector3.New(0,0,0),EmptyBox)
+		NewbieGuideWrap.ShowForceGuide(EmptyBox)
+		NewbieGuideWrap.NextNewbi('step1')	
+	else
+		endGame()
+	end
+end
+
+function step1()
+	if NewbieGuideWrap.GetCurTowerNum_CurMap() > 0 then
+		NewbieGuideWrap.ShowButtonAllUI(2,90,Vector3.New(0,0,0), NewbieGuideWrap.GetSoliderButtonFightByIndex(3))
+		NewbieGuideWrap.ShowForceGuide(NewbieGuideWrap.GetSoliderButtonFightByIndex(3))
+		NewbieGuideWrap.NextNewbi('step2')	
+	else
+		endGame()
+	end
+end
+
+function step2()
+	print('2')
+	if NewbieGuideWrap.GetCurTowerNum_CurMap() > 0 then
+		NewbieGuideWrap.ShowTowerAllUI(2,90,Vector3.New(0,0,0),EmptyBox)   
+		NewbieGuideWrap.ShowForceGuide(EmptyBox)
+		NewbieGuideWrap.NextNewbi('step3')	
+	else
+		endGame()
+	end
+end
+
+function step3()
+	print('3')
+	if NewbieGuideWrap.GetSoliderNumFightByIndex(3) == 0 then
+		step3_1()
+	else
+		step2()
+	end
+end
+
+function step3_1()
+	if NewbieGuideWrap.GetCurTowerNum_CurMap() > 0 then
+		NewbieGuideWrap.ShowButtonAllUI(2,90,Vector3.New(0,0,0), NewbieGuideWrap.GetSoliderButtonFightByIndex(5))
+		NewbieGuideWrap.ShowForceGuide(NewbieGuideWrap.GetSoliderButtonFightByIndex(5))
+		NewbieGuideWrap.NextNewbi('step3_2')	
+	else
+		endGame()
+	end
+end
+
+function step3_2()
+	if NewbieGuideWrap.GetCurTowerNum_CurMap() > 0 then
+		NewbieGuideWrap.ShowTowerAllUI(2,90,Vector3.New(0,0,0),EmptyBox)
+		NewbieGuideWrap.ShowForceGuide(EmptyBox)
+		NewbieGuideWrap.NextNewbi('step4')	
+	else
+		endGame()
+	end
+end
+
+function step4()
+	if NewbieGuideWrap.GetSoliderNumFightByIndex(5) == 0 then
+		step4_1()
+	else
+		step3_2()
+	end
+end
+
+function step4_1()
+	if NewbieGuideWrap.GetCurTowerNum_CurMap() > 0 then
+		NewbieGuideWrap.ShowButtonAllUI(2,90,Vector3.New(0,0,0), NewbieGuideWrap.GetSoliderButtonFightByIndex(15))
+		NewbieGuideWrap.ShowForceGuide(NewbieGuideWrap.GetSoliderButtonFightByIndex(15))
+		NewbieGuideWrap.NextNewbi('step4_2')	
+	else
+		endGame()
+	end
+end
+
+function step4_2()
+	if NewbieGuideWrap.GetCurTowerNum_CurMap() > 0 then
+		NewbieGuideWrap.ShowTowerAllUI(2,90,Vector3.New(0,0,0),EmptyBox)
+		NewbieGuideWrap.ShowForceGuide(EmptyBox)
+		NewbieGuideWrap.NextNewbi('step5')	
+	else
+		endGame()
+	end
+end
+
+function step5()
+	if NewbieGuideWrap.GetSoliderNumFightByIndex(15) == 0 then
+		NewbieGuideWrap.TowerDieCallLua(1)
+		step6()
+	else
+		step4_2()
+	end
+end
+
+--[[
+function step5_1()
+	NewbieGuideWrap.ShowButtonAllUI(2,90,Vector3.New(0,0,0), NewbieGuideWrap.GetCommandButtonFight())
+	NewbieGuideWrap.ShowForceGuide(NewbieGuideWrap.GetCommandButtonFight(0))
+	NewbieGuideWrap.NextNewbi('step5_2')
+end
+
+function step5_2()
+	NewbieGuideWrap.ShowTowerAllUI(2,90,Vector3.New(0,0,0),EmptyBox)
+	NewbieGuideWrap.ShowForceGuide(EmptyBox)
+	NewbieGuideWrap.NextNewbi('step6')
+end
+]]
+
+
+function step6()
+
+     NewbieGuideWrap.CameraLookAt()
+ 	if NewbieGuideWrap.GetCurTowerNum_CurMap() > 0 then
+ 		local num =  NewbieGuideWrap.GetAllTank().Count
+ 		local curTowNum = NewbieGuideWrap.GetCurTowerNum_CurMap()
+ 		local maxTowerNum=NewbieGuideWrap.GetMaxTowerNum_CurMap()
+ 		print(num..' ....tankNum  curTowNum:'..curTowNum..'   maxTowerNum:'..maxTowerNum)
+
+		if NewbieGuideWrap.GetCurTowerNum_CurMap() <= NewbieGuideWrap.GetMaxTowerNum_CurMap()*0.75 or NewbieGuideWrap.GetAllTank().Count<=(10)*0.6 then --army1+army2+army3
+			NewbieGuideWrap.TowerDieCallLua(0)
+			NewbieGuideWrap.ShowPerson(178,0)
+			NewbieGuideWrap.NextNewbi('step6_0')
+		else
+			NewbieGuideWrap.NextNewbi('step6')
+		end	
+	else
+		endGame()
+	end
+end
+
+function step6_0()
+   if NewbieGuideWrap.GetCurTowerNum_CurMap() > 0 then
+		if NewbieGuideWrap.GetSkillButtonFightByIndex(0) == nil then
+		    NewbieGuideWrap.NextNewbi('endGame')
+		else
+			NewbieGuideWrap.TowerDieCallLua(0)
+			NewbieGuideWrap.ShowButtonAllUI(2,90,Vector3.New(0,0,0),NewbieGuideWrap.GetSkillButtonFightByIndex(0))
+			NewbieGuideWrap.ShowForceGuide(NewbieGuideWrap.GetSkillButtonFightByIndex(0))
+			NewbieGuideWrap.NextNewbi('step6_1')
+		end
+	else
+		endGame()
+	end
+end
+
+function step6_1()	
+ 	if NewbieGuideWrap.GetCurTowerNum_CurMap() > 0 then
+		NewbieGuideWrap.ShowTowerAllUI(2,90,Vector3.New(0,0,0),EmptyBox1)
+		NewbieGuideWrap.ShowForceGuide(EmptyBox1)
+		NewbieGuideWrap.NextNewbi('endGame')	
+	else
+		endGame()
+	end
+
+end
+
+function endGame( )
+    NewbieGuideWrap.ShowPerson(179,0)
+    NewbieGuideWrap.NextNewbi('endGame1')        
+end
+
+function endGame1()
+			    local  towerNum = NewbieGuideWrap.GetCurTowerNum_CurMap()
+			    print('towerNum:'..towerNum)
+				 if  towerNum==0 then
+				 	 	NewbieGuideWrap.Lock2D(0) 
+				        NewbieGuideWrap.GoHome()
+			        else
+			        	NewbieGuideWrap.NextNewbi('endGame')
+				 end
+end

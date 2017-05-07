@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" name="军令第一次" description="" type="12" times="1" money="100" />
+	<configure id="2" name="军令第二次" description="" type="12" times="2" money="200" />
+	<configure id="3" name="军令第三次" description="" type="12" times="3" money="500" />
+	<configure id="4" name="探索令第一次" description="" type="15" times="1" money="60" />
+	<configure id="5" name="探索令第二次" description="" type="15" times="2" money="120" />
+	<configure id="6" name="探索令第三次" description="" type="15" times="3" money="350" />
+</configures>

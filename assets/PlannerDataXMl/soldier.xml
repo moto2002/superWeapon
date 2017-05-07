@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" name="鲍里斯" isUI="1" bodyId="soldier_h" icon="baolisi" modelSize="1" maxRadius="5" minRadius="0" speed="3.5" star="0" skillId="1002" renju="5" renjuCd="1" Cd="0.1" unlockType="1" unLock="1" fightEffect="T_16_kaihuo" BodyEffect="T_16_guiji" DamageEffect="T_16_baozha" fightSound="" DamageSound="" bulletSpeed="30" hurtRadius="-1" description="" />
+	<configure id="2" name="谭娅" isUI="1" bodyId="comd_tanya" icon="tanya" modelSize="1.2" maxRadius="5" minRadius="0" speed="3" star="0" skillId="1001" renju="1" renjuCd="" Cd="1" unlockType="2" unLock="1888" fightEffect="T_16_kaihuo" BodyEffect="T_16_guiji" DamageEffect="T_16_baozha" fightSound="" DamageSound="" bulletSpeed="30" hurtRadius="-1" description="" />
+</configures>

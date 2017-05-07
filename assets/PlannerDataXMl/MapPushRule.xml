@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configures>
+	<configure id="1" name="三等兵" description="" playerNum="2" />
+	<configure id="2" name="二等兵" description="" playerNum="5" />
+	<configure id="3" name="一等兵" description="" playerNum="7" />
+	<configure id="4" name="上等兵" description="" playerNum="10" />
+	<configure id="5" name="下士" description="" playerNum="15" />
+	<configure id="6" name="中士" description="" playerNum="15" />
+	<configure id="7" name="上士" description="" playerNum="15" />
+	<configure id="8" name="少尉" description="" playerNum="20" />
+	<configure id="9" name="中尉" description="" playerNum="20" />
+	<configure id="10" name="上尉" description="" playerNum="20" />
+	<configure id="11" name="少校" description="" playerNum="25" />
+	<configure id="12" name="中校" description="" playerNum="25" />
+	<configure id="13" name="上校" description="" playerNum="25" />
+	<configure id="14" name="大校" description="" playerNum="25" />
+	<configure id="15" name="少将" description="" playerNum="25" />
+	<configure id="16" name="中将" description="" playerNum="25" />
+	<configure id="17" name="上将" description="" playerNum="25" />
+	<configure id="18" name="元帅" description="" playerNum="25" />
+</configures>
